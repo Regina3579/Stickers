@@ -1,0 +1,10 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+.DS_Store
+
+# Asset generator download cache
+Tools/.cache/
+__pycache__/
