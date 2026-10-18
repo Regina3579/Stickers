@@ -1,6 +1,6 @@
 # Third-party notices
 
-The 20 Love stickers (`Design/Love-sheet-1.png`, `Design/Love-sheet-2.png`), the 11 Friendship
+The 20 Love stickers (`Design/Love-sheet-1.png`, `Design/Love-sheet-2.png`), the 21 Friendship
 stickers (`Design/Friendship/`) and the
 landing page and icon artwork were supplied by the app owner.
 

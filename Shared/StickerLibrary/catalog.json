@@ -533,6 +533,157 @@
           ],
           "accessibilityText": "Sticker with text that reads \"Love You\" in English",
           "source": "Owner artwork (Friendship/11-love-you-girls.png)"
+        },
+        {
+          "id": "friendship-sweet-bestie",
+          "name": "Sweet Bestie",
+          "emojis": [
+            "💖",
+            "🎀"
+          ],
+          "keywords": [
+            "sweet",
+            "bestie",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet Bestie\" in English",
+          "source": "Owner artwork (Friendship/12-sweet-bestie.png)"
+        },
+        {
+          "id": "friendship-friendship-goals",
+          "name": "Friendship Goals",
+          "emojis": [
+            "👑",
+            "💕"
+          ],
+          "keywords": [
+            "friendship",
+            "goals",
+            "crown",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Friendship Goals\" in English",
+          "source": "Owner artwork (Friendship/13-friendship-goals.png)"
+        },
+        {
+          "id": "friendship-always-together",
+          "name": "Always Together",
+          "emojis": [
+            "💞",
+            "✨"
+          ],
+          "keywords": [
+            "always",
+            "together",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Always Together\" in English",
+          "source": "Owner artwork (Friendship/14-always-together.png)"
+        },
+        {
+          "id": "friendship-bestie-love",
+          "name": "Bestie Love",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "bestie",
+            "love",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie Love\" in English",
+          "source": "Owner artwork (Friendship/15-bestie-love.png)"
+        },
+        {
+          "id": "friendship-best-friend",
+          "name": "Best Friend",
+          "emojis": [
+            "💕",
+            "🌸"
+          ],
+          "keywords": [
+            "best",
+            "friend",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Friend\" in English",
+          "source": "Owner artwork (Friendship/16-best-friend.png)"
+        },
+        {
+          "id": "friendship-bff-forever",
+          "name": "BFF Forever",
+          "emojis": [
+            "💖",
+            "⭐"
+          ],
+          "keywords": [
+            "bff",
+            "forever",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BFF Forever\" in English",
+          "source": "Owner artwork (Friendship/17-bff-forever.png)"
+        },
+        {
+          "id": "friendship-soul-sisters-lettering",
+          "name": "Soul Sisters Lettering",
+          "emojis": [
+            "💜",
+            "🌼"
+          ],
+          "keywords": [
+            "soul",
+            "sisters",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Soul Sisters\" in English",
+          "source": "Owner artwork (Friendship/18-soul-sisters-lettering.png)"
+        },
+        {
+          "id": "friendship-bestie-vibes",
+          "name": "Bestie Vibes",
+          "emojis": [
+            "🎀",
+            "✨"
+          ],
+          "keywords": [
+            "bestie",
+            "vibes",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie Vibes\" in English",
+          "source": "Owner artwork (Friendship/19-bestie-vibes.png)"
+        },
+        {
+          "id": "friendship-forever-besties",
+          "name": "Forever Besties",
+          "emojis": [
+            "💕",
+            "🎀"
+          ],
+          "keywords": [
+            "forever",
+            "besties",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Forever Besties\" in English",
+          "source": "Owner artwork (Friendship/20-forever-besties.png)"
+        },
+        {
+          "id": "friendship-my-girl",
+          "name": "My Girl",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "my",
+            "girl",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Girl\" in English",
+          "source": "Owner artwork (Friendship/21-my-girl.png)"
         }
       ]
     },
