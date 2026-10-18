@@ -50,6 +50,7 @@ MAX_TRAY_BYTES = 50 * 1024     # WhatsApp tray icon limit.
 MAX_PNG_BYTES = 500 * 1024     # iMessage MSSticker limit.
 OUTLINE = 12                   # White die-cut border (WhatsApp recommends ~8 px).
 MARGIN = 22                    # Empty space around the outline.
+SHEET_MARGIN = 10              # Wide sheet stickers use less space, so they show bigger.
 
 # Crop boxes inside Design/LandingPage-reference.png (853 x 1844 px).
 HERO_BOX = (0, 0, 853, 460)
@@ -285,9 +286,9 @@ def fit(img: Image.Image, box: int) -> Image.Image:
                       Image.LANCZOS)
 
 
-def die_cut(content: Image.Image) -> Image.Image:
+def die_cut(content: Image.Image, margin: int = MARGIN) -> Image.Image:
     """Centers artwork on a 512 canvas with a white sticker border and a soft shadow."""
-    inner = STICKER_SIZE - 2 * (MARGIN + OUTLINE)
+    inner = STICKER_SIZE - 2 * (margin + OUTLINE)
     content = fit(content, inner)
     layer = Image.new("RGBA", (STICKER_SIZE, STICKER_SIZE), (0, 0, 0, 0))
     layer.paste(content, ((STICKER_SIZE - content.width) // 2, (STICKER_SIZE - content.height) // 2))
@@ -567,6 +568,7 @@ def main() -> None:
     for pack in PACKS:
         assert 3 <= len(pack["stickers"]) <= 30, "WhatsApp packs need 3...30 stickers"
         stickers = []
+        aspects = []
         for spec in pack["stickers"]:
             slug = spec["name"].lower().replace("!", "").replace("-", " ").replace("  ", " ").replace(" ", "-")
             sticker_id = f"{pack['id']}-{slug}"
@@ -580,12 +582,14 @@ def main() -> None:
                 img = text_sticker(spec, pack)
                 source = "Text sticker, Fredoka font (OFL)"
             elif spec["kind"] == "sheet":
-                img = die_cut(cut_sheet(spec["file"])[spec["index"]])
+                img = die_cut(cut_sheet(spec["file"])[spec["index"]], margin=SHEET_MARGIN)
                 source = f"Love sticker sheet ({spec['file']})"
             else:
                 img = art_sticker(spec, reference)
                 source = "Stickers landing page illustration"
 
+            box = img.getchannel("A").point(lambda v: 255 if v > 128 else 0).getbbox()
+            aspects.append((box[2] - box[0]) / (box[3] - box[1]))
             png_size = save_png(img, LIBRARY / "png" / f"{sticker_id}.png", MAX_PNG_BYTES)
             webp_size = save_webp(img, LIBRARY / "webp" / f"{sticker_id}.webp")
             label = spec["label"].replace("\n", " ") if spec.get("label") else None
@@ -612,6 +616,7 @@ def main() -> None:
             "subtitle": pack["subtitle"],
             "banner": f"Banner-{pack['id']}",
             "colors": {"tint": pack["tint"], "top": pack["top"], "bottom": pack["bottom"]},
+            "wideStickers": sum(aspects) / len(aspects) > 1.3,   # the app shows these 2 per row
             "stickers": stickers,
         })
 

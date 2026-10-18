@@ -1,16 +1,20 @@
 import SwiftUI
 import UIKit
 
-/// Grid of sticker tiles.
+/// Grid of sticker tiles. Wide stickers get wider tiles: 2 per row on iPhone instead of 3.
 struct StickerGrid: View {
     let stickers: [Sticker]
+    var wide = false
 
-    private let columns = [GridItem(.adaptive(minimum: 96, maximum: 150), spacing: 12)]
+    private var columns: [GridItem] {
+        [wide ? GridItem(.adaptive(minimum: 150, maximum: 260), spacing: 12)
+              : GridItem(.adaptive(minimum: 96, maximum: 150), spacing: 12)]
+    }
 
     var body: some View {
         LazyVGrid(columns: columns, spacing: 12) {
             ForEach(stickers) { sticker in
-                StickerTile(sticker: sticker)
+                StickerTile(sticker: sticker, wide: wide)
             }
         }
     }
@@ -20,14 +24,18 @@ struct StickerGrid: View {
 /// straight into WhatsApp, iMessage or any app that accepts images.
 struct StickerTile: View {
     let sticker: Sticker
+    var wide = false
 
     @EnvironmentObject private var toast: ToastCenter
     @State private var showingPreview = false
 
     var body: some View {
-        StickerImageView(sticker: sticker)
-            .padding(8)
-            .aspectRatio(1, contentMode: .fit)
+        // A wide sticker fills the full tile width; the empty space above and below it is cropped.
+        Color.clear
+            .aspectRatio(wide ? 4 / 3 : 1, contentMode: .fit)
+            .overlay(StickerImageView(sticker: sticker, maxPixel: wide ? 512 : 360, fill: wide))
+            .clipped()
+            .padding(wide ? 4 : 8)
             .frame(maxWidth: .infinity)
             .background(.white.opacity(0.75), in: RoundedRectangle(cornerRadius: 22, style: .continuous))
             .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(.white, lineWidth: 1.5))

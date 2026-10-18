@@ -12,7 +12,7 @@ struct PackDetailView: View {
             VStack(alignment: .leading, spacing: 18) {
                 header
                 tip
-                StickerGrid(stickers: pack.stickers)
+                StickerGrid(stickers: pack.stickers, wide: pack.wideStickers)
             }
             .padding(16)
         }

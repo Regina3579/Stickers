@@ -11,6 +11,7 @@
         "top": "#FFE1EE",
         "bottom": "#FFF4F9"
       },
+      "wideStickers": true,
       "stickers": [
         {
           "id": "love-love-you",
@@ -354,6 +355,7 @@
         "top": "#EEE2FF",
         "bottom": "#F8F3FF"
       },
+      "wideStickers": false,
       "stickers": [
         {
           "id": "friendship-besties-hug",
@@ -581,6 +583,7 @@
         "top": "#FFE7DA",
         "bottom": "#FFF5EE"
       },
+      "wideStickers": false,
       "stickers": [
         {
           "id": "sisters-sister-hug",
@@ -804,6 +807,7 @@
         "top": "#E0EEFF",
         "bottom": "#F2F8FF"
       },
+      "wideStickers": false,
       "stickers": [
         {
           "id": "family-family-hug",
@@ -1030,6 +1034,7 @@
         "top": "#E0F7EA",
         "bottom": "#F3FCF6"
       },
+      "wideStickers": false,
       "stickers": [
         {
           "id": "feelings-mood-bubbles",
@@ -1264,6 +1269,7 @@
         "top": "#FCE3F3",
         "bottom": "#FFF3FA"
       },
+      "wideStickers": false,
       "stickers": [
         {
           "id": "selfcare-peaceful-me",

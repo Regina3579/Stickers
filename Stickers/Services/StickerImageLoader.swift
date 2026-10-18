@@ -45,6 +45,8 @@ final class StickerImageLoader: @unchecked Sendable {
 struct StickerImageView: View {
     let sticker: Sticker
     var maxPixel = 360
+    /// Fills the frame instead of fitting in it; used for wide stickers in wide tiles.
+    var fill = false
 
     @State private var image: UIImage?
 
@@ -53,7 +55,7 @@ struct StickerImageView: View {
             if let image = image ?? StickerImageLoader.shared.cachedImage(for: sticker, maxPixel: maxPixel) {
                 Image(uiImage: image)
                     .resizable()
-                    .scaledToFit()
+                    .aspectRatio(contentMode: fill ? .fill : .fit)
             } else {
                 Color.clear
             }

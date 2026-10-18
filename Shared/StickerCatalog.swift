@@ -34,6 +34,8 @@ struct StickerPack: Decodable, Identifiable, Hashable, Sendable {
     let subtitle: String
     let banner: String
     let colors: Colors
+    /// True when the stickers are wide (text next to a character). The app shows them 2 per row.
+    let wideStickers: Bool
     let stickers: [Sticker]
 
     var trayURL: URL? { StickerCatalog.libraryURL(for: "tray/\(id).png") }
