@@ -84,14 +84,10 @@ final class MessagesViewController: MSMessagesAppViewController {
         config.baseBackgroundColor = selected ? UIColor(hex: pack.colors.tint) : .white
         config.baseForegroundColor = selected ? .white : UIColor(hex: "#4A2E3B")
         config.contentInsets = NSDirectionalEdgeInsets(top: 8, leading: 14, bottom: 8, trailing: 14)
-        config.title = pack.title
         let base = UIFont.systemFont(ofSize: 15, weight: .bold)
-        let font = base.fontDescriptor.withDesign(.rounded).map { UIFont(descriptor: $0, size: 15) } ?? base
-        config.titleTextAttributesTransformer = { incoming in
-            var outgoing = incoming
-            outgoing.font = font
-            return outgoing
-        }
+        var title = AttributedString(pack.title)
+        title.uiKit.font = base.fontDescriptor.withDesign(.rounded).map { UIFont(descriptor: $0, size: 15) } ?? base
+        config.attributedTitle = title
         return config
     }
 }

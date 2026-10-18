@@ -93,7 +93,8 @@ enum WhatsAppStickerService {
 /// Runs a WhatsApp import from a view and keeps its error for an alert.
 @MainActor
 final class WhatsAppImporter: ObservableObject {
-    @Published var errorMessage: String?
+    @Published var showingError = false
+    @Published private(set) var errorMessage = ""
     @Published private(set) var isWorking = false
 
     func add(_ pack: StickerPack) {
@@ -105,6 +106,7 @@ final class WhatsAppImporter: ObservableObject {
                 try await WhatsAppStickerService.add(pack, publisher: StickerCatalog.shared.publisher)
             } catch {
                 errorMessage = error.localizedDescription
+                showingError = true
             }
         }
     }

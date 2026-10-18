@@ -58,6 +58,7 @@ struct StickerTile: View {
             .accessibilityHint("Copies the sticker")
     }
 
+    @MainActor
     private func copy() {
         if sticker.copyToClipboard() {
             UINotificationFeedbackGenerator().notificationOccurred(.success)

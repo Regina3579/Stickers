@@ -126,14 +126,22 @@ struct PressableStyle: ButtonStyle {
     }
 }
 
-extension View {
-    func whatsAppErrorAlert(_ importer: WhatsAppImporter) -> some View {
-        alert("Couldn’t add to WhatsApp",
-              isPresented: Binding(get: { importer.errorMessage != nil },
-                                   set: { if !$0 { importer.errorMessage = nil } })) {
+/// Shows the error of a failed "Add to WhatsApp".
+private struct WhatsAppErrorAlert: ViewModifier {
+    @ObservedObject var importer: WhatsAppImporter
+
+    func body(content: Content) -> some View {
+        content.alert("Couldn’t add to WhatsApp", isPresented: $importer.showingError) {
             Button("OK", role: .cancel) {}
         } message: {
-            Text(importer.errorMessage ?? "")
+            Text(importer.errorMessage)
         }
+    }
+}
+
+extension View {
+    @MainActor
+    func whatsAppErrorAlert(_ importer: WhatsAppImporter) -> some View {
+        modifier(WhatsAppErrorAlert(importer: importer))
     }
 }
