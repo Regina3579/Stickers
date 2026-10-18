@@ -1,5 +1,8 @@
 # Third-party notices
 
+The 20 Love stickers (`Design/Love-sheet-1.png`, `Design/Love-sheet-2.png`) and the
+landing page and icon artwork were supplied by the app owner.
+
 ## Fluent Emoji (Microsoft)
 
 Most sticker artwork is based on the 3D style of Microsoft Fluent Emoji,

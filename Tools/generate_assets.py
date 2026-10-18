@@ -13,8 +13,9 @@ Sticker art:
   - Microsoft Fluent Emoji 3D (MIT license), pinned to one commit.
   - Text stickers drawn with the Fredoka font (SIL Open Font License).
   - Illustrations cut from Design/LandingPage-reference.png.
+  - Love stickers cut from Design/Love-sheet-1.png and Love-sheet-2.png.
 
-Usage:  python3 Tools/generate_assets.py      (needs Pillow with WebP support)
+Usage:  python3 Tools/generate_assets.py      (needs Pillow with WebP support, numpy, scipy)
 """
 from __future__ import annotations
 
@@ -26,7 +27,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
+from scipy import ndimage
 
 ROOT = Path(__file__).resolve().parent.parent
 DESIGN = ROOT / "Design"
@@ -78,28 +81,43 @@ def art(box, emojis, name, keywords=""):
     return {"kind": "art", "box": box, "emojis": emojis.split(), "name": name, "keywords": keywords}
 
 
+def sheet(file, index, emojis, name, keywords, label=None, description=None):
+    """Sticker number `index` (reading order, 0-based) cut out of a sticker sheet in Design/."""
+    return {"kind": "sheet", "file": file, "index": index, "emojis": emojis.split(), "name": name,
+            "keywords": keywords, "label": label, "description": description}
+
+
 PACKS = [
     {
         "id": "love", "title": "Love", "subtitle": "Hearts, hugs and sweet notes",
         "tint": "#F2559A", "top": "#FFE1EE", "bottom": "#FFF4F9", "ink": ["#FF6FAE", "#E0368A"],
         "tray": "Red heart",
         "stickers": [
-            emoji("Red heart", "❤️", "Red Heart", "love heart red"),
-            emoji("Heart with ribbon", "💝", "Heart Gift", "love gift present"),
-            emoji("Love letter", "💌", "Love Letter", "love letter mail note"),
-            emoji("Teddy bear", "🧸", "Teddy Bear", "love bear cute hug"),
-            text("Love\nYou", "❤️ 🥰", "Love You", "love you i love you", style="heart"),
-            emoji("Pink heart", "🩷", "Pink Heart", "love heart pink"),
-            emoji("Two hearts", "💕", "Two Hearts", "love hearts couple"),
-            emoji("Sparkling heart", "💖", "Sparkling Heart", "love heart sparkle"),
-            emoji("Revolving hearts", "💞", "Revolving Hearts", "love hearts"),
-            emoji("Heart with arrow", "💘", "Cupid Heart", "love cupid arrow crush"),
-            emoji("Smiling face with hearts", "🥰", "In Love", "love smile happy"),
-            emoji("Face blowing a kiss", "😘", "Blowing a Kiss", "kiss love"),
-            emoji("Kiss mark", "💋", "Kiss", "kiss lips"),
-            emoji("Rose", "🌹", "Rose", "flower rose romantic"),
-            text("XOXO", "😘 💋", "XOXO", "hugs kisses xoxo"),
-            art(HERO_CHARACTER_BOX, "😉 🐶", "Wink Cutie", "girl puppy wink cute"),
+            sheet("Love-sheet-1.png", 0, "❤️ 🧸", "Love You", "love you teddy bear heart", label="Love You"),
+            sheet("Love-sheet-1.png", 1, "💐 💕", "Lots of Love", "lots of love flowers tulips bouquet", label="Lots of Love"),
+            sheet("Love-sheet-1.png", 2, "🤗 🐰", "Sending Hugs", "sending hugs bunny heart", label="Sending Hugs"),
+            sheet("Love-sheet-1.png", 3, "🤗 🐱", "Big Hugs", "big hugs kittens cats scarf", label="Big Hugs"),
+            sheet("Love-sheet-1.png", 4, "💌 💕", "You Are Loved", "you are loved letter envelope hearts", label="You Are Loved"),
+            sheet("Love-sheet-1.png", 5, "😘 💕", "Hugs and Kisses", "hugs kisses hearts", label="Hugs & Kisses"),
+            sheet("Love-sheet-1.png", 6, "🎈 🐶", "Love Always", "love always puppy balloon", label="Love Always"),
+            sheet("Love-sheet-1.png", 7, "🎁 ❤️", "With Love", "with love gift present box", label="With Love"),
+            sheet("Love-sheet-1.png", 8, "😘 💋", "XOXO", "xoxo hugs kisses bow", label="XOXO"),
+            sheet("Love-sheet-1.png", 9, "☕ 💭", "Thinking of You", "thinking of you cocoa mug", label="Thinking of You"),
+            sheet("Love-sheet-2.png", 0, "❤️ 🧸", "Love You More", "love you more teddy bear", label="Love You More"),
+            sheet("Love-sheet-2.png", 1, "💕 🐱", "Together Forever", "together forever kittens cats couple", label="Together Forever"),
+            sheet("Love-sheet-2.png", 2, "❤️ 🐰", "I Love You", "i love you bunny heart", label="I Love You"),
+            sheet("Love-sheet-2.png", 3, "💖 🐶", "Sweetheart", "sweetheart puppy heart", label="Sweetheart"),
+            sheet("Love-sheet-2.png", 4, "💌 🧸", "Be Mine", "be mine teddy bear letter", label="Be Mine"),
+            sheet("Love-sheet-2.png", 5, "💕 😊", "Happy Hearts", "happy hearts smiling cute",
+                  description="Three smiling hearts in pink and purple with white flowers"),
+            sheet("Love-sheet-2.png", 6, "💘 😊", "Flying Heart", "flying heart wings happy",
+                  description="A happy pink heart with little wings flying among hearts and clouds"),
+            sheet("Love-sheet-2.png", 7, "😘 💕", "Blowing Kisses", "blowing kisses kiss heart",
+                  description="A pink heart blowing a kiss with small hearts floating away"),
+            sheet("Love-sheet-2.png", 8, "💐 💕", "Heart Bouquet", "heart bouquet flowers gift",
+                  description="A bouquet of pink, red and purple hearts wrapped with a pink bow"),
+            sheet("Love-sheet-2.png", 9, "🤗 ❤️", "Heart Hug", "heart hug hugging cute",
+                  description="A red heart hugging a pink heart, both smiling, with flowers"),
         ],
     },
     {
@@ -369,6 +387,69 @@ def art_sticker(spec, reference: Image.Image) -> Image.Image:
     return die_cut(rounded(crop, 60))
 
 
+_sheet_cache: dict[str, list[Image.Image]] = {}
+
+
+def cut_sheet(file: str) -> list[Image.Image]:
+    """Splits a sticker sheet (die-cut stickers on a near-white page) into its stickers,
+    in reading order. Each result is the artwork with a thin white base and no background."""
+    if file in _sheet_cache:
+        return _sheet_cache[file]
+    rgb = np.asarray(Image.open(DESIGN / file).convert("RGB")).astype(int)
+    low, high = rgb.min(2), rgb.max(2)
+    art = ~((low > 200) & (high - low < 16))                    # not paper white or its grey shadow
+    art = ndimage.binary_opening(art, iterations=1)
+
+    labels, count = ndimage.label(ndimage.binary_dilation(art, iterations=5))
+    sizes = ndimage.sum(art, labels, range(1, count + 1))
+    boxes = ndimage.find_objects(labels)
+
+    # Large pieces are sticker bodies; pieces whose boxes overlap belong to one sticker.
+    groups: list[dict] = []
+    for i in (i for i in range(count) if sizes[i] > 6000):
+        y, x = boxes[i]
+        box = [x.start, y.start, x.stop, y.stop]
+        for g in groups:
+            b = g["box"]
+            if box[0] < b[2] and b[0] < box[2] and box[1] < b[3] and b[1] < box[3]:
+                g["ids"].append(i + 1)
+                g["box"] = [min(b[0], box[0]), min(b[1], box[1]), max(b[2], box[2]), max(b[3], box[3])]
+                break
+        else:
+            groups.append({"ids": [i + 1], "box": box})
+    assert len(groups) == 10, f"{file}: found {len(groups)} stickers, expected 10"
+
+    # Small pieces (floating hearts, sparkles) join the nearest sticker body.
+    nearest = np.zeros(labels.shape, dtype=int)
+    distance = np.full(labels.shape, np.inf)
+    for n, g in enumerate(groups):
+        d = ndimage.distance_transform_edt(~np.isin(labels, g["ids"]))
+        closer = d < distance
+        nearest[closer], distance[closer] = n, d[closer]
+    piece_size = np.concatenate([[0], sizes])[labels]
+    keep = (labels > 0) & (piece_size >= 30) & (distance <= 20)    # drop specks and stray bits
+    owner = np.where(keep, nearest, -1)
+
+    # Reading order: top to bottom in rows of two, left to right.
+    order = sorted(range(10), key=lambda n: (groups[n]["box"][1] + groups[n]["box"][3]) / 2)
+    order = [n for row in range(5)
+             for n in sorted(order[2 * row:2 * row + 2], key=lambda n: groups[n]["box"][0])]
+
+    stickers = []
+    for n in order:
+        mine = art & (owner == n)
+        base = ndimage.binary_fill_holes(ndimage.distance_transform_edt(~mine) <= 6)
+        alpha = Image.fromarray((base * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1))
+        color = rgb.copy()
+        paper = (low > 238) & (high - low < 12) & ~ndimage.binary_dilation(mine, iterations=2)
+        color[paper] = 255                                      # clean white base, no page tint
+        out = Image.fromarray(color.astype(np.uint8)).convert("RGBA")
+        out.putalpha(alpha)
+        stickers.append(out.crop(alpha.getbbox()))
+    _sheet_cache[file] = stickers
+    return stickers
+
+
 def save_webp(img: Image.Image, path: Path) -> int:
     for quality in (90, 85, 80, 75, 70, 60, 50):
         buffer = io.BytesIO()
@@ -498,15 +579,18 @@ def main() -> None:
             elif spec["kind"] == "text":
                 img = text_sticker(spec, pack)
                 source = "Text sticker, Fredoka font (OFL)"
+            elif spec["kind"] == "sheet":
+                img = die_cut(cut_sheet(spec["file"])[spec["index"]])
+                source = f"Love sticker sheet ({spec['file']})"
             else:
                 img = art_sticker(spec, reference)
                 source = "Stickers landing page illustration"
 
             png_size = save_png(img, LIBRARY / "png" / f"{sticker_id}.png", MAX_PNG_BYTES)
             webp_size = save_webp(img, LIBRARY / "webp" / f"{sticker_id}.webp")
-            label = spec["label"].replace("\n", " ") if spec["kind"] == "text" else None
+            label = spec["label"].replace("\n", " ") if spec.get("label") else None
             accessibility = (f'Sticker with text that reads "{label}" in English' if label
-                             else f"{spec['name']} sticker")
+                             else spec.get("description") or f"{spec['name']} sticker")
             stickers.append({
                 "id": sticker_id,
                 "name": spec["name"],

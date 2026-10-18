@@ -13,203 +13,138 @@
       },
       "stickers": [
         {
-          "id": "love-red-heart",
-          "name": "Red Heart",
-          "emojis": [
-            "❤️"
-          ],
-          "keywords": [
-            "love",
-            "heart",
-            "red"
-          ],
-          "accessibilityText": "Red Heart sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-heart-gift",
-          "name": "Heart Gift",
-          "emojis": [
-            "💝"
-          ],
-          "keywords": [
-            "love",
-            "gift",
-            "present"
-          ],
-          "accessibilityText": "Heart Gift sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-love-letter",
-          "name": "Love Letter",
-          "emojis": [
-            "💌"
-          ],
-          "keywords": [
-            "love",
-            "letter",
-            "mail",
-            "note"
-          ],
-          "accessibilityText": "Love Letter sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-teddy-bear",
-          "name": "Teddy Bear",
-          "emojis": [
-            "🧸"
-          ],
-          "keywords": [
-            "love",
-            "bear",
-            "cute",
-            "hug"
-          ],
-          "accessibilityText": "Teddy Bear sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
           "id": "love-love-you",
           "name": "Love You",
           "emojis": [
             "❤️",
-            "🥰"
+            "🧸"
           ],
           "keywords": [
             "love",
             "you",
-            "i",
-            "love",
-            "you"
+            "teddy",
+            "bear",
+            "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Love You\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
-          "id": "love-pink-heart",
-          "name": "Pink Heart",
+          "id": "love-lots-of-love",
+          "name": "Lots of Love",
           "emojis": [
-            "🩷"
-          ],
-          "keywords": [
-            "love",
-            "heart",
-            "pink"
-          ],
-          "accessibilityText": "Pink Heart sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-two-hearts",
-          "name": "Two Hearts",
-          "emojis": [
+            "💐",
             "💕"
           ],
           "keywords": [
+            "lots",
+            "of",
             "love",
-            "hearts",
-            "couple"
+            "flowers",
+            "tulips",
+            "bouquet"
           ],
-          "accessibilityText": "Two Hearts sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Lots of Love\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
-          "id": "love-sparkling-heart",
-          "name": "Sparkling Heart",
+          "id": "love-sending-hugs",
+          "name": "Sending Hugs",
           "emojis": [
-            "💖"
+            "🤗",
+            "🐰"
           ],
           "keywords": [
-            "love",
-            "heart",
-            "sparkle"
+            "sending",
+            "hugs",
+            "bunny",
+            "heart"
           ],
-          "accessibilityText": "Sparkling Heart sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Sending Hugs\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
-          "id": "love-revolving-hearts",
-          "name": "Revolving Hearts",
+          "id": "love-big-hugs",
+          "name": "Big Hugs",
           "emojis": [
-            "💞"
+            "🤗",
+            "🐱"
           ],
           "keywords": [
-            "love",
+            "big",
+            "hugs",
+            "kittens",
+            "cats",
+            "scarf"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Big Hugs\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-you-are-loved",
+          "name": "You Are Loved",
+          "emojis": [
+            "💌",
+            "💕"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "loved",
+            "letter",
+            "envelope",
             "hearts"
           ],
-          "accessibilityText": "Revolving Hearts sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"You Are Loved\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
-          "id": "love-cupid-heart",
-          "name": "Cupid Heart",
+          "id": "love-hugs-and-kisses",
+          "name": "Hugs and Kisses",
           "emojis": [
-            "💘"
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "hugs",
+            "kisses",
+            "hearts"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-love-always",
+          "name": "Love Always",
+          "emojis": [
+            "🎈",
+            "🐶"
           ],
           "keywords": [
             "love",
-            "cupid",
-            "arrow",
-            "crush"
+            "always",
+            "puppy",
+            "balloon"
           ],
-          "accessibilityText": "Cupid Heart sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Love Always\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
-          "id": "love-in-love",
-          "name": "In Love",
+          "id": "love-with-love",
+          "name": "With Love",
           "emojis": [
-            "🥰"
+            "🎁",
+            "❤️"
           ],
           "keywords": [
+            "with",
             "love",
-            "smile",
-            "happy"
+            "gift",
+            "present",
+            "box"
           ],
-          "accessibilityText": "In Love sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-blowing-a-kiss",
-          "name": "Blowing a Kiss",
-          "emojis": [
-            "😘"
-          ],
-          "keywords": [
-            "kiss",
-            "love"
-          ],
-          "accessibilityText": "Blowing a Kiss sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-kiss",
-          "name": "Kiss",
-          "emojis": [
-            "💋"
-          ],
-          "keywords": [
-            "kiss",
-            "lips"
-          ],
-          "accessibilityText": "Kiss sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "love-rose",
-          "name": "Rose",
-          "emojis": [
-            "🌹"
-          ],
-          "keywords": [
-            "flower",
-            "rose",
-            "romantic"
-          ],
-          "accessibilityText": "Rose sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"With Love\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
           "id": "love-xoxo",
@@ -219,28 +154,193 @@
             "💋"
           ],
           "keywords": [
+            "xoxo",
             "hugs",
             "kisses",
-            "xoxo"
+            "bow"
           ],
           "accessibilityText": "Sticker with text that reads \"XOXO\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
-          "id": "love-wink-cutie",
-          "name": "Wink Cutie",
+          "id": "love-thinking-of-you",
+          "name": "Thinking of You",
           "emojis": [
-            "😉",
+            "☕",
+            "💭"
+          ],
+          "keywords": [
+            "thinking",
+            "of",
+            "you",
+            "cocoa",
+            "mug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-love-you-more",
+          "name": "Love You More",
+          "emojis": [
+            "❤️",
+            "🧸"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "more",
+            "teddy",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You More\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-together-forever",
+          "name": "Together Forever",
+          "emojis": [
+            "💕",
+            "🐱"
+          ],
+          "keywords": [
+            "together",
+            "forever",
+            "kittens",
+            "cats",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Together Forever\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "❤️",
+            "🐰"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "bunny",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-sweetheart",
+          "name": "Sweetheart",
+          "emojis": [
+            "💖",
             "🐶"
           ],
           "keywords": [
-            "girl",
+            "sweetheart",
             "puppy",
-            "wink",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweetheart\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-be-mine",
+          "name": "Be Mine",
+          "emojis": [
+            "💌",
+            "🧸"
+          ],
+          "keywords": [
+            "be",
+            "mine",
+            "teddy",
+            "bear",
+            "letter"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Mine\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-happy-hearts",
+          "name": "Happy Hearts",
+          "emojis": [
+            "💕",
+            "😊"
+          ],
+          "keywords": [
+            "happy",
+            "hearts",
+            "smiling",
             "cute"
           ],
-          "accessibilityText": "Wink Cutie sticker",
-          "source": "Stickers landing page illustration"
+          "accessibilityText": "Three smiling hearts in pink and purple with white flowers",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-flying-heart",
+          "name": "Flying Heart",
+          "emojis": [
+            "💘",
+            "😊"
+          ],
+          "keywords": [
+            "flying",
+            "heart",
+            "wings",
+            "happy"
+          ],
+          "accessibilityText": "A happy pink heart with little wings flying among hearts and clouds",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-blowing-kisses",
+          "name": "Blowing Kisses",
+          "emojis": [
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "blowing",
+            "kisses",
+            "kiss",
+            "heart"
+          ],
+          "accessibilityText": "A pink heart blowing a kiss with small hearts floating away",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-heart-bouquet",
+          "name": "Heart Bouquet",
+          "emojis": [
+            "💐",
+            "💕"
+          ],
+          "keywords": [
+            "heart",
+            "bouquet",
+            "flowers",
+            "gift"
+          ],
+          "accessibilityText": "A bouquet of pink, red and purple hearts wrapped with a pink bow",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-heart-hug",
+          "name": "Heart Hug",
+          "emojis": [
+            "🤗",
+            "❤️"
+          ],
+          "keywords": [
+            "heart",
+            "hug",
+            "hugging",
+            "cute"
+          ],
+          "accessibilityText": "A red heart hugging a pink heart, both smiling, with flowers",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
         }
       ]
     },
