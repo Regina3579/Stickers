@@ -23,9 +23,14 @@ and other chat apps. The project also includes an iMessage sticker app and an
 1. Open `Stickers.xcodeproj`.
 2. Select the **Stickers** project, then the **Signing & Capabilities** tab.
 3. Choose your **Team** for **both** targets: `Stickers` and `StickersMessages`.
-4. Change the bundle identifier from `com.example.stickers` to your own,
-   for example `com.yourname.stickers`. The extension ID must start with the
-   app ID: `com.yourname.stickers.MessagesExtension`.
+4. The bundle identifiers are already set:
+
+   | Target | Bundle identifier |
+   |---|---|
+   | `Stickers` (app) | `com.regina.stickers` |
+   | `StickersMessages` (iMessage extension) | `com.regina.stickers.MessagesExtension` |
+
+   The extension ID must always start with the app ID.
 5. Pick the **Stickers** scheme and a device, then press **Run** (⌘R).
 
 > To test WhatsApp, use a real iPhone with WhatsApp installed. WhatsApp is not
