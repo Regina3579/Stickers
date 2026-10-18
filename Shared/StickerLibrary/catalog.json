@@ -355,27 +355,11 @@
         "top": "#EEE2FF",
         "bottom": "#F8F3FF"
       },
-      "wideStickers": false,
+      "wideStickers": true,
       "stickers": [
         {
-          "id": "friendship-besties-hug",
-          "name": "Besties Hug",
-          "emojis": [
-            "🤗",
-            "👭"
-          ],
-          "keywords": [
-            "friends",
-            "hug",
-            "bff",
-            "girls"
-          ],
-          "accessibilityText": "Besties Hug sticker",
-          "source": "Stickers landing page illustration"
-        },
-        {
-          "id": "friendship-bff",
-          "name": "BFF",
+          "id": "friendship-bff-girls",
+          "name": "BFF Girls",
           "emojis": [
             "👭",
             "💖"
@@ -384,192 +368,171 @@
             "bff",
             "best",
             "friends",
-            "forever"
+            "girls",
+            "wink"
           ],
           "accessibilityText": "Sticker with text that reads \"BFF\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "source": "Owner artwork (Friendship/01-bff-girls.png)"
         },
         {
-          "id": "friendship-high-five",
-          "name": "High Five",
+          "id": "friendship-friends-forever",
+          "name": "Friends Forever",
           "emojis": [
-            "🙌"
+            "🤗",
+            "👭"
           ],
           "keywords": [
-            "high",
-            "five",
-            "yay",
-            "celebrate"
+            "friends",
+            "forever",
+            "hug",
+            "girls"
           ],
-          "accessibilityText": "High Five sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Friends Forever\" in English",
+          "source": "Owner artwork (Friendship/02-friends-forever.png)"
         },
         {
-          "id": "friendship-best-friends",
-          "name": "Best Friends",
+          "id": "friendship-soul-sisters",
+          "name": "Soul Sisters",
           "emojis": [
+            "👭",
+            "🌙"
+          ],
+          "keywords": [
+            "soul",
+            "sisters",
+            "moon",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Soul Sisters\" in English",
+          "source": "Owner artwork (Friendship/03-soul-sisters.png)"
+        },
+        {
+          "id": "friendship-besties",
+          "name": "Besties",
+          "emojis": [
+            "🤳",
             "👭"
+          ],
+          "keywords": [
+            "besties",
+            "selfie",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Besties\" in English",
+          "source": "Owner artwork (Friendship/04-besties.png)"
+        },
+        {
+          "id": "friendship-best-friends-puppies",
+          "name": "Best Friends Puppies",
+          "emojis": [
+            "🐶",
+            "💕"
           ],
           "keywords": [
             "best",
             "friends",
-            "bff"
+            "puppies",
+            "dogs"
           ],
           "accessibilityText": "Sticker with text that reads \"Best Friends\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "source": "Owner artwork (Friendship/05-best-friends-puppies.png)"
         },
         {
-          "id": "friendship-pink-bow",
-          "name": "Pink Bow",
+          "id": "friendship-bff-bear-and-bunny",
+          "name": "BFF Bear and Bunny",
           "emojis": [
-            "🎀"
+            "🧸",
+            "🐰"
           ],
           "keywords": [
-            "bow",
-            "ribbon",
-            "cute"
+            "bff",
+            "bear",
+            "bunny",
+            "crown"
           ],
-          "accessibilityText": "Pink Bow sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"BFF\" in English",
+          "source": "Owner artwork (Friendship/06-bff-bear-and-bunny.png)"
         },
         {
-          "id": "friendship-big-hug",
-          "name": "Big Hug",
+          "id": "friendship-happy-friendship-day",
+          "name": "Happy Friendship Day",
           "emojis": [
-            "🫂"
-          ],
-          "keywords": [
-            "hug",
-            "friends"
-          ],
-          "accessibilityText": "Big Hug sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-deal",
-          "name": "Deal",
-          "emojis": [
-            "🤝"
-          ],
-          "keywords": [
-            "handshake",
-            "deal",
-            "friends"
-          ],
-          "accessibilityText": "Deal sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-hugs",
-          "name": "Hugs",
-          "emojis": [
-            "🤗"
-          ],
-          "keywords": [
-            "hug",
-            "hugs"
-          ],
-          "accessibilityText": "Hugs sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-party-time",
-          "name": "Party Time",
-          "emojis": [
-            "🥳"
-          ],
-          "keywords": [
-            "party",
-            "celebrate",
-            "birthday"
-          ],
-          "accessibilityText": "Party Time sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-star-struck",
-          "name": "Star-Struck",
-          "emojis": [
-            "🤩"
-          ],
-          "keywords": [
-            "wow",
-            "amazing",
-            "star"
-          ],
-          "accessibilityText": "Star-Struck sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-boba-date",
-          "name": "Boba Date",
-          "emojis": [
-            "🧋"
-          ],
-          "keywords": [
-            "boba",
-            "bubble",
-            "tea",
-            "date"
-          ],
-          "accessibilityText": "Boba Date sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-balloon",
-          "name": "Balloon",
-          "emojis": [
-            "🎈"
-          ],
-          "keywords": [
-            "party",
-            "balloon"
-          ],
-          "accessibilityText": "Balloon sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-heart-hands",
-          "name": "Heart Hands",
-          "emojis": [
-            "🫶"
-          ],
-          "keywords": [
-            "love",
-            "heart",
-            "hands"
-          ],
-          "accessibilityText": "Heart Hands sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-clapping",
-          "name": "Clapping",
-          "emojis": [
-            "👏"
-          ],
-          "keywords": [
-            "clap",
-            "bravo",
-            "well",
-            "done"
-          ],
-          "accessibilityText": "Clapping sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "friendship-bestie",
-          "name": "Bestie",
-          "emojis": [
+            "🎉",
             "👭"
           ],
           "keywords": [
-            "bestie",
-            "best",
-            "friend"
+            "happy",
+            "friendship",
+            "day",
+            "party"
           ],
-          "accessibilityText": "Sticker with text that reads \"Bestie\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "accessibilityText": "Sticker with text that reads \"Happy Friendship Day\" in English",
+          "source": "Owner artwork (Friendship/07-happy-friendship-day.png)"
+        },
+        {
+          "id": "friendship-i-cherish-you",
+          "name": "I Cherish You",
+          "emojis": [
+            "💐",
+            "🤗"
+          ],
+          "keywords": [
+            "i",
+            "cherish",
+            "you",
+            "flowers",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Cherish You\" in English",
+          "source": "Owner artwork (Friendship/08-i-cherish-you.png)"
+        },
+        {
+          "id": "friendship-sweet-bunnies",
+          "name": "Sweet Bunnies",
+          "emojis": [
+            "🐰",
+            "🍦"
+          ],
+          "keywords": [
+            "sweet",
+            "bunnies",
+            "ice",
+            "cream"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet\" in English",
+          "source": "Owner artwork (Friendship/09-sweet-bunnies.png)"
+        },
+        {
+          "id": "friendship-bestie-squad",
+          "name": "Bestie Squad",
+          "emojis": [
+            "👯",
+            "✌️"
+          ],
+          "keywords": [
+            "bestie",
+            "squad",
+            "girls",
+            "group"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie Squad\" in English",
+          "source": "Owner artwork (Friendship/10-bestie-squad.png)"
+        },
+        {
+          "id": "friendship-love-you-bestie",
+          "name": "Love You Bestie",
+          "emojis": [
+            "💕",
+            "👭"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "bestie",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "source": "Owner artwork (Friendship/11-love-you-girls.png)"
         }
       ]
     },

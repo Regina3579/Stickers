@@ -14,6 +14,7 @@ Sticker art:
   - Text stickers drawn with the Fredoka font (SIL Open Font License).
   - Illustrations cut from Design/LandingPage-reference.png.
   - Love stickers cut from Design/Love-sheet-1.png and Love-sheet-2.png.
+  - Friendship stickers from the transparent PNGs in Design/Friendship/.
 
 Usage:  python3 Tools/generate_assets.py      (needs Pillow with WebP support, numpy, scipy)
 """
@@ -82,6 +83,12 @@ def art(box, emojis, name, keywords=""):
     return {"kind": "art", "box": box, "emojis": emojis.split(), "name": name, "keywords": keywords}
 
 
+def png(file, emojis, name, keywords, label=None, description=None):
+    """A single sticker drawn on a transparent background, stored in Design/."""
+    return {"kind": "png", "file": file, "emojis": emojis.split(), "name": name,
+            "keywords": keywords, "label": label, "description": description}
+
+
 def sheet(file, index, emojis, name, keywords, label=None, description=None):
     """Sticker number `index` (reading order, 0-based) cut out of a sticker sheet in Design/."""
     return {"kind": "sheet", "file": file, "index": index, "emojis": emojis.split(), "name": name,
@@ -126,21 +133,26 @@ PACKS = [
         "tint": "#A16AE8", "top": "#EEE2FF", "bottom": "#F8F3FF", "ink": ["#C084FC", "#8B3FD9"],
         "tray": "Hugging face",
         "stickers": [
-            art(BANNER_BOXES["friendship"], "🤗 👭", "Besties Hug", "friends hug bff girls"),
-            text("BFF", "👭 💖", "BFF", "bff best friends forever", style="heart"),
-            emoji("Raising hands", "🙌", "High Five", "high five yay celebrate", skin=True),
-            text("Best\nFriends", "👭", "Best Friends", "best friends bff"),
-            emoji("Ribbon", "🎀", "Pink Bow", "bow ribbon cute"),
-            emoji("People hugging", "🫂", "Big Hug", "hug friends"),
-            emoji("Handshake", "🤝", "Deal", "handshake deal friends"),
-            emoji("Hugging face", "🤗", "Hugs", "hug hugs"),
-            emoji("Partying face", "🥳", "Party Time", "party celebrate birthday"),
-            emoji("Star-struck", "🤩", "Star-Struck", "wow amazing star"),
-            emoji("Bubble tea", "🧋", "Boba Date", "boba bubble tea date"),
-            emoji("Balloon", "🎈", "Balloon", "party balloon"),
-            emoji("Heart hands", "🫶", "Heart Hands", "love heart hands", skin=True),
-            emoji("Clapping hands", "👏", "Clapping", "clap bravo well done", skin=True),
-            text("Bestie", "👭", "Bestie", "bestie best friend"),
+            png("Friendship/01-bff-girls.png", "👭 💖", "BFF Girls", "bff best friends girls wink", label="BFF"),
+            png("Friendship/02-friends-forever.png", "🤗 👭", "Friends Forever", "friends forever hug girls",
+                label="Friends Forever"),
+            png("Friendship/03-soul-sisters.png", "👭 🌙", "Soul Sisters", "soul sisters moon girls",
+                label="Soul Sisters"),
+            png("Friendship/04-besties.png", "🤳 👭", "Besties", "besties selfie girls", label="Besties"),
+            png("Friendship/05-best-friends-puppies.png", "🐶 💕", "Best Friends Puppies", "best friends puppies dogs",
+                label="Best Friends"),
+            png("Friendship/06-bff-bear-and-bunny.png", "🧸 🐰", "BFF Bear and Bunny", "bff bear bunny crown",
+                label="BFF"),
+            png("Friendship/07-happy-friendship-day.png", "🎉 👭", "Happy Friendship Day", "happy friendship day party",
+                label="Happy Friendship Day"),
+            png("Friendship/08-i-cherish-you.png", "💐 🤗", "I Cherish You", "i cherish you flowers hug",
+                label="I Cherish You"),
+            png("Friendship/09-sweet-bunnies.png", "🐰 🍦", "Sweet Bunnies", "sweet bunnies ice cream",
+                label="Sweet"),
+            png("Friendship/10-bestie-squad.png", "👯 ✌️", "Bestie Squad", "bestie squad girls group",
+                label="Bestie Squad"),
+            png("Friendship/11-love-you-girls.png", "💕 👭", "Love You Bestie", "love you bestie girls",
+                label="Love You"),
         ],
     },
     {
@@ -451,6 +463,21 @@ def cut_sheet(file: str) -> list[Image.Image]:
     return stickers
 
 
+def cut_png(file: str) -> Image.Image:
+    """Cleans a transparent sticker PNG: drops specks and the faint halo that background
+    removal leaves around the edge, then crops to the sticker."""
+    img = Image.open(DESIGN / file).convert("RGBA")
+    pixels = np.asarray(img).copy()
+    alpha = pixels[..., 3]
+    solid = alpha > 128
+    labels, count = ndimage.label(solid)
+    sizes = ndimage.sum(solid, labels, range(1, count + 1))
+    body = np.isin(labels, [i + 1 for i in range(count) if sizes[i] >= 0.002 * sizes.max()])
+    pixels[..., 3] = np.where(ndimage.binary_dilation(body, iterations=3), alpha, 0)
+    out = Image.fromarray(pixels)
+    return out.crop(out.getbbox())
+
+
 def save_webp(img: Image.Image, path: Path) -> int:
     for quality in (90, 85, 80, 75, 70, 60, 50):
         buffer = io.BytesIO()
@@ -581,6 +608,9 @@ def main() -> None:
             elif spec["kind"] == "text":
                 img = text_sticker(spec, pack)
                 source = "Text sticker, Fredoka font (OFL)"
+            elif spec["kind"] == "png":
+                img = die_cut(cut_png(spec["file"]), margin=SHEET_MARGIN)
+                source = f"Owner artwork ({spec['file']})"
             elif spec["kind"] == "sheet":
                 img = die_cut(cut_sheet(spec["file"])[spec["index"]], margin=SHEET_MARGIN)
                 source = f"Love sticker sheet ({spec['file']})"

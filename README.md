@@ -1,14 +1,14 @@
 # Stickers 💖
 
 **Express more with cute stickers.** An iOS app (SwiftUI) with 6 sticker categories and
-97 stickers. You can copy, paste, drag or share any sticker into WhatsApp, iMessage
+93 stickers. You can copy, paste, drag or share any sticker into WhatsApp, iMessage
 and other chat apps. The project also includes an iMessage sticker app and an
 "Add to WhatsApp" import for each category.
 
 | Category | Stickers |
 |---|---|
 | Love | 20 (from your two Love sticker sheets) |
-| Friendship | 15 |
+| Friendship | 11 (your own artwork) |
 | Sisters & Siblings | 15 |
 | Family Love | 15 |
 | Feelings & Emotions | 16 |
@@ -88,6 +88,8 @@ Edit the `PACKS` list at the top of `Tools/generate_assets.py`:
 - `emoji("Teddy bear", "🧸", "Teddy Bear", "bear hug cute")` uses a Fluent Emoji picture.
 - `text("Love\nYou", "❤️", "Love You", "love", style="heart")` draws a text sticker.
 - `art((x1, y1, x2, y2), "🤗", "Name")` cuts a picture out of `Design/LandingPage-reference.png`.
+- `png("Friendship/01-bff-girls.png", "👭", "BFF Girls", "bff", label="BFF")` uses one sticker
+  drawn on a transparent background (any size; it is cleaned, bordered and scaled to 512).
 - `sheet("Love-sheet-1.png", 0, "❤️", "Love You", "love", label="Love You")` cuts sticker
   number 0 (reading order, 10 per sheet) out of a sticker sheet in `Design/`.
 
@@ -121,4 +123,4 @@ WhatsApp warns that Xcode's PNG optimization can break its size limits.
   - Your bundle ID must not contain `WA.WAStickersThirdParty`.
 - **Artwork credits** are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md):
   Microsoft Fluent Emoji (MIT) and the Fredoka font (OFL). The character
-  pictures and the 20 Love stickers come from your own designs.
+  pictures, the 20 Love stickers and the 11 Friendship stickers come from your own designs.
