@@ -1,0 +1,1395 @@
+{
+  "publisher": "Stickers App",
+  "packs": [
+    {
+      "id": "love",
+      "title": "Love",
+      "subtitle": "Hearts, hugs and sweet notes",
+      "banner": "Banner-love",
+      "colors": {
+        "tint": "#F2559A",
+        "top": "#FFE1EE",
+        "bottom": "#FFF4F9"
+      },
+      "stickers": [
+        {
+          "id": "love-red-heart",
+          "name": "Red Heart",
+          "emojis": [
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "red"
+          ],
+          "accessibilityText": "Red Heart sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-heart-gift",
+          "name": "Heart Gift",
+          "emojis": [
+            "💝"
+          ],
+          "keywords": [
+            "love",
+            "gift",
+            "present"
+          ],
+          "accessibilityText": "Heart Gift sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-love-letter",
+          "name": "Love Letter",
+          "emojis": [
+            "💌"
+          ],
+          "keywords": [
+            "love",
+            "letter",
+            "mail",
+            "note"
+          ],
+          "accessibilityText": "Love Letter sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-teddy-bear",
+          "name": "Teddy Bear",
+          "emojis": [
+            "🧸"
+          ],
+          "keywords": [
+            "love",
+            "bear",
+            "cute",
+            "hug"
+          ],
+          "accessibilityText": "Teddy Bear sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-love-you",
+          "name": "Love You",
+          "emojis": [
+            "❤️",
+            "🥰"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "i",
+            "love",
+            "you"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "love-pink-heart",
+          "name": "Pink Heart",
+          "emojis": [
+            "🩷"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "pink"
+          ],
+          "accessibilityText": "Pink Heart sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-two-hearts",
+          "name": "Two Hearts",
+          "emojis": [
+            "💕"
+          ],
+          "keywords": [
+            "love",
+            "hearts",
+            "couple"
+          ],
+          "accessibilityText": "Two Hearts sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-sparkling-heart",
+          "name": "Sparkling Heart",
+          "emojis": [
+            "💖"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "sparkle"
+          ],
+          "accessibilityText": "Sparkling Heart sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-revolving-hearts",
+          "name": "Revolving Hearts",
+          "emojis": [
+            "💞"
+          ],
+          "keywords": [
+            "love",
+            "hearts"
+          ],
+          "accessibilityText": "Revolving Hearts sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-cupid-heart",
+          "name": "Cupid Heart",
+          "emojis": [
+            "💘"
+          ],
+          "keywords": [
+            "love",
+            "cupid",
+            "arrow",
+            "crush"
+          ],
+          "accessibilityText": "Cupid Heart sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-in-love",
+          "name": "In Love",
+          "emojis": [
+            "🥰"
+          ],
+          "keywords": [
+            "love",
+            "smile",
+            "happy"
+          ],
+          "accessibilityText": "In Love sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-blowing-a-kiss",
+          "name": "Blowing a Kiss",
+          "emojis": [
+            "😘"
+          ],
+          "keywords": [
+            "kiss",
+            "love"
+          ],
+          "accessibilityText": "Blowing a Kiss sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-kiss",
+          "name": "Kiss",
+          "emojis": [
+            "💋"
+          ],
+          "keywords": [
+            "kiss",
+            "lips"
+          ],
+          "accessibilityText": "Kiss sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-rose",
+          "name": "Rose",
+          "emojis": [
+            "🌹"
+          ],
+          "keywords": [
+            "flower",
+            "rose",
+            "romantic"
+          ],
+          "accessibilityText": "Rose sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "love-xoxo",
+          "name": "XOXO",
+          "emojis": [
+            "😘",
+            "💋"
+          ],
+          "keywords": [
+            "hugs",
+            "kisses",
+            "xoxo"
+          ],
+          "accessibilityText": "Sticker with text that reads \"XOXO\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "love-wink-cutie",
+          "name": "Wink Cutie",
+          "emojis": [
+            "😉",
+            "🐶"
+          ],
+          "keywords": [
+            "girl",
+            "puppy",
+            "wink",
+            "cute"
+          ],
+          "accessibilityText": "Wink Cutie sticker",
+          "source": "Stickers landing page illustration"
+        }
+      ]
+    },
+    {
+      "id": "friendship",
+      "title": "Friendship",
+      "subtitle": "For your besties",
+      "banner": "Banner-friendship",
+      "colors": {
+        "tint": "#A16AE8",
+        "top": "#EEE2FF",
+        "bottom": "#F8F3FF"
+      },
+      "stickers": [
+        {
+          "id": "friendship-besties-hug",
+          "name": "Besties Hug",
+          "emojis": [
+            "🤗",
+            "👭"
+          ],
+          "keywords": [
+            "friends",
+            "hug",
+            "bff",
+            "girls"
+          ],
+          "accessibilityText": "Besties Hug sticker",
+          "source": "Stickers landing page illustration"
+        },
+        {
+          "id": "friendship-bff",
+          "name": "BFF",
+          "emojis": [
+            "👭",
+            "💖"
+          ],
+          "keywords": [
+            "bff",
+            "best",
+            "friends",
+            "forever"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BFF\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "friendship-high-five",
+          "name": "High Five",
+          "emojis": [
+            "🙌"
+          ],
+          "keywords": [
+            "high",
+            "five",
+            "yay",
+            "celebrate"
+          ],
+          "accessibilityText": "High Five sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-best-friends",
+          "name": "Best Friends",
+          "emojis": [
+            "👭"
+          ],
+          "keywords": [
+            "best",
+            "friends",
+            "bff"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Friends\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "friendship-pink-bow",
+          "name": "Pink Bow",
+          "emojis": [
+            "🎀"
+          ],
+          "keywords": [
+            "bow",
+            "ribbon",
+            "cute"
+          ],
+          "accessibilityText": "Pink Bow sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-big-hug",
+          "name": "Big Hug",
+          "emojis": [
+            "🫂"
+          ],
+          "keywords": [
+            "hug",
+            "friends"
+          ],
+          "accessibilityText": "Big Hug sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-deal",
+          "name": "Deal",
+          "emojis": [
+            "🤝"
+          ],
+          "keywords": [
+            "handshake",
+            "deal",
+            "friends"
+          ],
+          "accessibilityText": "Deal sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-hugs",
+          "name": "Hugs",
+          "emojis": [
+            "🤗"
+          ],
+          "keywords": [
+            "hug",
+            "hugs"
+          ],
+          "accessibilityText": "Hugs sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-party-time",
+          "name": "Party Time",
+          "emojis": [
+            "🥳"
+          ],
+          "keywords": [
+            "party",
+            "celebrate",
+            "birthday"
+          ],
+          "accessibilityText": "Party Time sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-star-struck",
+          "name": "Star-Struck",
+          "emojis": [
+            "🤩"
+          ],
+          "keywords": [
+            "wow",
+            "amazing",
+            "star"
+          ],
+          "accessibilityText": "Star-Struck sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-boba-date",
+          "name": "Boba Date",
+          "emojis": [
+            "🧋"
+          ],
+          "keywords": [
+            "boba",
+            "bubble",
+            "tea",
+            "date"
+          ],
+          "accessibilityText": "Boba Date sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-balloon",
+          "name": "Balloon",
+          "emojis": [
+            "🎈"
+          ],
+          "keywords": [
+            "party",
+            "balloon"
+          ],
+          "accessibilityText": "Balloon sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-heart-hands",
+          "name": "Heart Hands",
+          "emojis": [
+            "🫶"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "hands"
+          ],
+          "accessibilityText": "Heart Hands sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-clapping",
+          "name": "Clapping",
+          "emojis": [
+            "👏"
+          ],
+          "keywords": [
+            "clap",
+            "bravo",
+            "well",
+            "done"
+          ],
+          "accessibilityText": "Clapping sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "friendship-bestie",
+          "name": "Bestie",
+          "emojis": [
+            "👭"
+          ],
+          "keywords": [
+            "bestie",
+            "best",
+            "friend"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        }
+      ]
+    },
+    {
+      "id": "sisters",
+      "title": "Sisters & Siblings",
+      "subtitle": "Sister love, forever",
+      "banner": "Banner-sisters",
+      "colors": {
+        "tint": "#F2805E",
+        "top": "#FFE7DA",
+        "bottom": "#FFF5EE"
+      },
+      "stickers": [
+        {
+          "id": "sisters-sister-hug",
+          "name": "Sister Hug",
+          "emojis": [
+            "🤗",
+            "👭"
+          ],
+          "keywords": [
+            "sister",
+            "sisters",
+            "hug",
+            "siblings"
+          ],
+          "accessibilityText": "Sister Hug sticker",
+          "source": "Stickers landing page illustration"
+        },
+        {
+          "id": "sisters-crown",
+          "name": "Crown",
+          "emojis": [
+            "👑"
+          ],
+          "keywords": [
+            "queen",
+            "princess",
+            "crown"
+          ],
+          "accessibilityText": "Crown sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-growing-heart",
+          "name": "Growing Heart",
+          "emojis": [
+            "💗"
+          ],
+          "keywords": [
+            "love",
+            "heart"
+          ],
+          "accessibilityText": "Growing Heart sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-gift",
+          "name": "Gift",
+          "emojis": [
+            "🎁"
+          ],
+          "keywords": [
+            "gift",
+            "present",
+            "birthday"
+          ],
+          "accessibilityText": "Gift sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-bunny",
+          "name": "Bunny",
+          "emojis": [
+            "🐰"
+          ],
+          "keywords": [
+            "bunny",
+            "rabbit",
+            "cute"
+          ],
+          "accessibilityText": "Bunny sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-sis",
+          "name": "Sis",
+          "emojis": [
+            "👭",
+            "💖"
+          ],
+          "keywords": [
+            "sis",
+            "sister"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sis\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "sisters-princess",
+          "name": "Princess",
+          "emojis": [
+            "👸"
+          ],
+          "keywords": [
+            "princess",
+            "sister",
+            "queen"
+          ],
+          "accessibilityText": "Princess sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-unicorn",
+          "name": "Unicorn",
+          "emojis": [
+            "🦄"
+          ],
+          "keywords": [
+            "unicorn",
+            "magic"
+          ],
+          "accessibilityText": "Unicorn sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-butterfly",
+          "name": "Butterfly",
+          "emojis": [
+            "🦋"
+          ],
+          "keywords": [
+            "butterfly",
+            "pretty"
+          ],
+          "accessibilityText": "Butterfly sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-cupcake",
+          "name": "Cupcake",
+          "emojis": [
+            "🧁"
+          ],
+          "keywords": [
+            "cupcake",
+            "sweet",
+            "treat"
+          ],
+          "accessibilityText": "Cupcake sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-lollipop",
+          "name": "Lollipop",
+          "emojis": [
+            "🍭"
+          ],
+          "keywords": [
+            "candy",
+            "sweet",
+            "lollipop"
+          ],
+          "accessibilityText": "Lollipop sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-cherry-blossom",
+          "name": "Cherry Blossom",
+          "emojis": [
+            "🌸"
+          ],
+          "keywords": [
+            "flower",
+            "blossom"
+          ],
+          "accessibilityText": "Cherry Blossom sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-cake-slice",
+          "name": "Cake Slice",
+          "emojis": [
+            "🍰"
+          ],
+          "keywords": [
+            "cake",
+            "dessert",
+            "sweet"
+          ],
+          "accessibilityText": "Cake Slice sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "sisters-sister-love",
+          "name": "Sister Love",
+          "emojis": [
+            "👭",
+            "❤️"
+          ],
+          "keywords": [
+            "sister",
+            "love",
+            "sis"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sister Love\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "sisters-sibling-goals",
+          "name": "Sibling Goals",
+          "emojis": [
+            "👫"
+          ],
+          "keywords": [
+            "siblings",
+            "brother",
+            "sister",
+            "goals"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sibling Goals\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family Love",
+      "subtitle": "Home is where the heart is",
+      "banner": "Banner-family",
+      "colors": {
+        "tint": "#4C97E8",
+        "top": "#E0EEFF",
+        "bottom": "#F2F8FF"
+      },
+      "stickers": [
+        {
+          "id": "family-family-hug",
+          "name": "Family Hug",
+          "emojis": [
+            "👨‍👩‍👧",
+            "🤗"
+          ],
+          "keywords": [
+            "family",
+            "hug",
+            "mom",
+            "dad"
+          ],
+          "accessibilityText": "Family Hug sticker",
+          "source": "Stickers landing page illustration"
+        },
+        {
+          "id": "family-home",
+          "name": "Home",
+          "emojis": [
+            "🏡"
+          ],
+          "keywords": [
+            "home",
+            "house",
+            "family"
+          ],
+          "accessibilityText": "Home sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-family",
+          "name": "Family",
+          "emojis": [
+            "👨‍👩‍👧",
+            "❤️"
+          ],
+          "keywords": [
+            "family",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "family-bouquet",
+          "name": "Bouquet",
+          "emojis": [
+            "💐"
+          ],
+          "keywords": [
+            "flowers",
+            "bouquet",
+            "mom"
+          ],
+          "accessibilityText": "Bouquet sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-blue-heart",
+          "name": "Blue Heart",
+          "emojis": [
+            "🩵"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "blue"
+          ],
+          "accessibilityText": "Blue Heart sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-sunflower",
+          "name": "Sunflower",
+          "emojis": [
+            "🌻"
+          ],
+          "keywords": [
+            "flower",
+            "sunshine"
+          ],
+          "accessibilityText": "Sunflower sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-birthday-cake",
+          "name": "Birthday Cake",
+          "emojis": [
+            "🎂"
+          ],
+          "keywords": [
+            "birthday",
+            "cake",
+            "party"
+          ],
+          "accessibilityText": "Birthday Cake sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-peace-dove",
+          "name": "Peace Dove",
+          "emojis": [
+            "🕊️"
+          ],
+          "keywords": [
+            "peace",
+            "dove",
+            "bird"
+          ],
+          "accessibilityText": "Peace Dove sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-blessed",
+          "name": "Blessed",
+          "emojis": [
+            "🙏"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "pray",
+            "blessed"
+          ],
+          "accessibilityText": "Blessed sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-little-angel",
+          "name": "Little Angel",
+          "emojis": [
+            "👼"
+          ],
+          "keywords": [
+            "baby",
+            "angel",
+            "cute"
+          ],
+          "accessibilityText": "Little Angel sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-tea-time",
+          "name": "Tea Time",
+          "emojis": [
+            "🫖"
+          ],
+          "keywords": [
+            "tea",
+            "family",
+            "time"
+          ],
+          "accessibilityText": "Tea Time sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-hibiscus",
+          "name": "Hibiscus",
+          "emojis": [
+            "🌺"
+          ],
+          "keywords": [
+            "flower"
+          ],
+          "accessibilityText": "Hibiscus sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "family-love-you-mom",
+          "name": "Love You Mom",
+          "emojis": [
+            "👩",
+            "❤️"
+          ],
+          "keywords": [
+            "mom",
+            "mother",
+            "mum",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You Mom\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "family-love-you-dad",
+          "name": "Love You Dad",
+          "emojis": [
+            "👨",
+            "❤️"
+          ],
+          "keywords": [
+            "dad",
+            "father",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You Dad\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "family-home-sweet-home",
+          "name": "Home Sweet Home",
+          "emojis": [
+            "🏡"
+          ],
+          "keywords": [
+            "home",
+            "sweet",
+            "home"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Home Sweet Home\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "Feelings & Emotions",
+      "subtitle": "Say how you feel",
+      "banner": "Banner-feelings",
+      "colors": {
+        "tint": "#34B57E",
+        "top": "#E0F7EA",
+        "bottom": "#F3FCF6"
+      },
+      "stickers": [
+        {
+          "id": "feelings-mood-bubbles",
+          "name": "Mood Bubbles",
+          "emojis": [
+            "😊",
+            "😢"
+          ],
+          "keywords": [
+            "mood",
+            "feelings",
+            "emotions"
+          ],
+          "accessibilityText": "Mood Bubbles sticker",
+          "source": "Stickers landing page illustration"
+        },
+        {
+          "id": "feelings-happy",
+          "name": "Happy",
+          "emojis": [
+            "😊"
+          ],
+          "keywords": [
+            "happy",
+            "smile"
+          ],
+          "accessibilityText": "Happy sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-heart-eyes",
+          "name": "Heart Eyes",
+          "emojis": [
+            "😍"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "eyes",
+            "crush"
+          ],
+          "accessibilityText": "Heart Eyes sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-lol",
+          "name": "LOL",
+          "emojis": [
+            "😂"
+          ],
+          "keywords": [
+            "lol",
+            "laugh",
+            "funny",
+            "haha"
+          ],
+          "accessibilityText": "LOL sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-sad",
+          "name": "Sad",
+          "emojis": [
+            "😢"
+          ],
+          "keywords": [
+            "sad",
+            "cry",
+            "tear"
+          ],
+          "accessibilityText": "Sad sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-sobbing",
+          "name": "Sobbing",
+          "emojis": [
+            "😭"
+          ],
+          "keywords": [
+            "cry",
+            "sob",
+            "sad"
+          ],
+          "accessibilityText": "Sobbing sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-pretty-please",
+          "name": "Pretty Please",
+          "emojis": [
+            "🥺"
+          ],
+          "keywords": [
+            "please",
+            "puppy",
+            "eyes"
+          ],
+          "accessibilityText": "Pretty Please sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-touched",
+          "name": "Touched",
+          "emojis": [
+            "🥹"
+          ],
+          "keywords": [
+            "touched",
+            "emotional"
+          ],
+          "accessibilityText": "Touched sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-wink",
+          "name": "Wink",
+          "emojis": [
+            "😉"
+          ],
+          "keywords": [
+            "wink",
+            "flirt"
+          ],
+          "accessibilityText": "Wink sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-so-funny",
+          "name": "So Funny",
+          "emojis": [
+            "😆"
+          ],
+          "keywords": [
+            "laugh",
+            "funny"
+          ],
+          "accessibilityText": "So Funny sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-relieved",
+          "name": "Relieved",
+          "emojis": [
+            "😌"
+          ],
+          "keywords": [
+            "calm",
+            "relieved",
+            "peaceful"
+          ],
+          "accessibilityText": "Relieved sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-angel",
+          "name": "Angel",
+          "emojis": [
+            "😇"
+          ],
+          "keywords": [
+            "angel",
+            "innocent"
+          ],
+          "accessibilityText": "Angel sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-cool",
+          "name": "Cool",
+          "emojis": [
+            "😎"
+          ],
+          "keywords": [
+            "cool",
+            "sunglasses"
+          ],
+          "accessibilityText": "Cool sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "feelings-thank-you",
+          "name": "Thank You",
+          "emojis": [
+            "🙏",
+            "😊"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "thanks"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thank You\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "feelings-sorry",
+          "name": "Sorry",
+          "emojis": [
+            "🥺"
+          ],
+          "keywords": [
+            "sorry",
+            "apology"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sorry\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "feelings-miss-you",
+          "name": "Miss You",
+          "emojis": [
+            "🥺",
+            "💖"
+          ],
+          "keywords": [
+            "miss",
+            "you"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Miss You\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        }
+      ]
+    },
+    {
+      "id": "selfcare",
+      "title": "Self-Love & Self-Care",
+      "subtitle": "Me time, every time",
+      "banner": "Banner-selfcare",
+      "colors": {
+        "tint": "#E5579E",
+        "top": "#FCE3F3",
+        "bottom": "#FFF3FA"
+      },
+      "stickers": [
+        {
+          "id": "selfcare-peaceful-me",
+          "name": "Peaceful Me",
+          "emojis": [
+            "😌",
+            "💆‍♀️"
+          ],
+          "keywords": [
+            "self",
+            "care",
+            "relax",
+            "calm",
+            "peaceful"
+          ],
+          "accessibilityText": "Peaceful Me sticker",
+          "source": "Stickers landing page illustration"
+        },
+        {
+          "id": "selfcare-lotus",
+          "name": "Lotus",
+          "emojis": [
+            "🪷"
+          ],
+          "keywords": [
+            "lotus",
+            "calm",
+            "zen"
+          ],
+          "accessibilityText": "Lotus sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-coffee-break",
+          "name": "Coffee Break",
+          "emojis": [
+            "☕"
+          ],
+          "keywords": [
+            "coffee",
+            "break",
+            "cozy"
+          ],
+          "accessibilityText": "Coffee Break sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-yoga",
+          "name": "Yoga",
+          "emojis": [
+            "🧘‍♀️"
+          ],
+          "keywords": [
+            "yoga",
+            "meditate",
+            "zen"
+          ],
+          "accessibilityText": "Yoga sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-candle",
+          "name": "Candle",
+          "emojis": [
+            "🕯️"
+          ],
+          "keywords": [
+            "candle",
+            "cozy",
+            "relax"
+          ],
+          "accessibilityText": "Candle sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-self-love",
+          "name": "Self Love",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "self",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Self Love\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "selfcare-bath-time",
+          "name": "Bath Time",
+          "emojis": [
+            "🛀"
+          ],
+          "keywords": [
+            "bath",
+            "relax",
+            "spa"
+          ],
+          "accessibilityText": "Bath Time sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-bubbles",
+          "name": "Bubbles",
+          "emojis": [
+            "🫧"
+          ],
+          "keywords": [
+            "bubbles",
+            "bath"
+          ],
+          "accessibilityText": "Bubbles sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-nails-done",
+          "name": "Nails Done",
+          "emojis": [
+            "💅"
+          ],
+          "keywords": [
+            "nails",
+            "manicure"
+          ],
+          "accessibilityText": "Nails Done sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-lipstick",
+          "name": "Lipstick",
+          "emojis": [
+            "💄"
+          ],
+          "keywords": [
+            "makeup",
+            "lipstick"
+          ],
+          "accessibilityText": "Lipstick sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-tulip",
+          "name": "Tulip",
+          "emojis": [
+            "🌷"
+          ],
+          "keywords": [
+            "flower",
+            "tulip"
+          ],
+          "accessibilityText": "Tulip sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-sparkles",
+          "name": "Sparkles",
+          "emojis": [
+            "✨"
+          ],
+          "keywords": [
+            "sparkle",
+            "glow",
+            "shine"
+          ],
+          "accessibilityText": "Sparkles sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-good-night",
+          "name": "Good Night",
+          "emojis": [
+            "🌙"
+          ],
+          "keywords": [
+            "night",
+            "sleep",
+            "moon"
+          ],
+          "accessibilityText": "Good Night sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-green-tea",
+          "name": "Green Tea",
+          "emojis": [
+            "🍵"
+          ],
+          "keywords": [
+            "tea",
+            "relax"
+          ],
+          "accessibilityText": "Green Tea sticker",
+          "source": "Microsoft Fluent Emoji (MIT)"
+        },
+        {
+          "id": "selfcare-me-time",
+          "name": "Me Time",
+          "emojis": [
+            "💆‍♀️"
+          ],
+          "keywords": [
+            "me",
+            "time",
+            "relax"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Me Time\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        },
+        {
+          "id": "selfcare-you-got-this",
+          "name": "You Got This",
+          "emojis": [
+            "💪",
+            "✨"
+          ],
+          "keywords": [
+            "motivation",
+            "you",
+            "got",
+            "this"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Got This!\" in English",
+          "source": "Text sticker, Fredoka font (OFL)"
+        }
+      ]
+    }
+  ]
+}
