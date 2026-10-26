@@ -6,7 +6,7 @@ landing page and icon artwork were supplied by the app owner.
 
 ## Fluent Emoji (Microsoft)
 
-Most sticker artwork is based on the 3D style of Microsoft Fluent Emoji,
+The small WhatsApp tray icons (one per category) use Microsoft Fluent Emoji,
 commit `1ffb34c752ecf5d402f04cfb4b392c77f57c54bc`.
 Source: https://github.com/microsoft/fluentui-emoji
 
@@ -36,7 +36,6 @@ SOFTWARE.
 
 ## Fredoka font
 
-Text stickers ("BFF", "Love You", ...) are drawn with Fredoka by Milena Brandão
-and Hafontia, licensed under the SIL Open Font License 1.1.
-Source: https://github.com/google/fonts/tree/main/ofl/fredoka
-The font itself is not shipped inside the app; only the rendered sticker images are.
+`Tools/generate_assets.py` can still draw text stickers with Fredoka by Milena Brandão
+and Hafontia (SIL Open Font License 1.1, https://github.com/google/fonts/tree/main/ofl/fredoka),
+but no sticker in the app uses it any more. The font is not shipped inside the app.
