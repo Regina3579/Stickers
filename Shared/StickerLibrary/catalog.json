@@ -1057,6 +1057,54 @@
       "wideStickers": false,
       "stickers": [
         {
+          "id": "family-love-you-mom",
+          "name": "Love You Mom",
+          "emojis": [
+            "👩",
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "mom",
+            "mother",
+            "mum"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you Mom\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-family",
+          "name": "Family",
+          "emojis": [
+            "👨‍👩‍👧",
+            "❤️"
+          ],
+          "keywords": [
+            "family",
+            "love",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-love-you-dad",
+          "name": "Love You Dad",
+          "emojis": [
+            "👨",
+            "💙"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "dad",
+            "father"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you Dad\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
           "id": "family-family-hug",
           "name": "Family Hug",
           "emojis": [
@@ -1069,8 +1117,24 @@
             "mom",
             "dad"
           ],
-          "accessibilityText": "Family Hug sticker",
-          "source": "Stickers landing page illustration"
+          "accessibilityText": "Mom, dad and their little girl hugging with smiles and hearts",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-home-sweet-home",
+          "name": "Home Sweet Home",
+          "emojis": [
+            "🏡",
+            "💕"
+          ],
+          "keywords": [
+            "home",
+            "sweet",
+            "home",
+            "house"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Home Sweet Home\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
           "id": "family-home",
@@ -1085,20 +1149,6 @@
           ],
           "accessibilityText": "Home sticker",
           "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "family-family",
-          "name": "Family",
-          "emojis": [
-            "👨‍👩‍👧",
-            "❤️"
-          ],
-          "keywords": [
-            "family",
-            "love"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Family\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
         },
         {
           "id": "family-bouquet",
@@ -1223,51 +1273,6 @@
           ],
           "accessibilityText": "Hibiscus sticker",
           "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "family-love-you-mom",
-          "name": "Love You Mom",
-          "emojis": [
-            "👩",
-            "❤️"
-          ],
-          "keywords": [
-            "mom",
-            "mother",
-            "mum",
-            "love"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Love You Mom\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
-          "id": "family-love-you-dad",
-          "name": "Love You Dad",
-          "emojis": [
-            "👨",
-            "❤️"
-          ],
-          "keywords": [
-            "dad",
-            "father",
-            "love"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Love You Dad\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
-          "id": "family-home-sweet-home",
-          "name": "Home Sweet Home",
-          "emojis": [
-            "🏡"
-          ],
-          "keywords": [
-            "home",
-            "sweet",
-            "home"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Home Sweet Home\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
         }
       ]
     },

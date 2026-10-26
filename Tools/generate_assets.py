@@ -89,9 +89,10 @@ def art(box, emojis, name, keywords=""):
     return {"kind": "art", "box": box, "emojis": emojis.split(), "name": name, "keywords": keywords}
 
 
-def png(file, emojis, name, keywords, label=None, description=None):
-    """A single sticker drawn on a transparent background, stored in Design/."""
-    return {"kind": "png", "file": file, "emojis": emojis.split(), "name": name,
+def png(file, emojis, name, keywords, label=None, description=None, index=None):
+    """A sticker drawn on a transparent background, stored in Design/. For a transparent
+    sheet holding several stickers, `index` picks one (reading order, 0-based)."""
+    return {"kind": "png", "file": file, "index": index, "emojis": emojis.split(), "name": name,
             "keywords": keywords, "label": label, "description": description}
 
 
@@ -227,9 +228,14 @@ PACKS = [
         "tint": "#4C97E8", "top": "#E0EEFF", "bottom": "#F2F8FF", "ink": ["#7CB8FF", "#3D7FE0"],
         "tray": "House with garden",
         "stickers": [
-            art(BANNER_BOXES["family"], "👨‍👩‍👧 🤗", "Family Hug", "family hug mom dad"),
+            png("Family/sheet-1.png", "👩 ❤️", "Love You Mom", "love you mom mother mum", label="Love you Mom", index=0),
+            png("Family/sheet-1.png", "👨‍👩‍👧 ❤️", "Family", "family love heart", label="Family", index=1),
+            png("Family/sheet-1.png", "👨 💙", "Love You Dad", "love you dad father", label="Love you Dad", index=2),
+            png("Family/sheet-1.png", "👨‍👩‍👧 🤗", "Family Hug", "family hug mom dad",
+                description="Mom, dad and their little girl hugging with smiles and hearts", index=3),
+            png("Family/sheet-1.png", "🏡 💕", "Home Sweet Home", "home sweet home house",
+                label="Home Sweet Home", index=4),
             emoji("House with garden", "🏡", "Home", "home house family"),
-            text("Family", "👨‍👩‍👧 ❤️", "Family", "family love", style="heart"),
             emoji("Bouquet", "💐", "Bouquet", "flowers bouquet mom"),
             emoji("Light blue heart", "🩵", "Blue Heart", "love heart blue"),
             emoji("Sunflower", "🌻", "Sunflower", "flower sunshine"),
@@ -239,9 +245,6 @@ PACKS = [
             emoji("Baby angel", "👼", "Little Angel", "baby angel cute", skin=True),
             emoji("Teapot", "🫖", "Tea Time", "tea family time"),
             emoji("Hibiscus", "🌺", "Hibiscus", "flower"),
-            text("Love You\nMom", "👩 ❤️", "Love You Mom", "mom mother mum love"),
-            text("Love You\nDad", "👨 ❤️", "Love You Dad", "dad father love"),
-            text("Home Sweet\nHome", "🏡", "Home Sweet Home", "home sweet home"),
         ],
     },
     {
@@ -521,9 +524,28 @@ def painted_checkerboard_alpha(rgb: np.ndarray) -> np.ndarray:
     return np.where(sticker, 255, 0).astype(np.uint8)
 
 
-def cut_png(file: str) -> Image.Image:
+def reading_order(boxes) -> list[int]:
+    """Indices of (left, top, right, bottom) boxes, top row first, left to right in a row."""
+    heights = sorted(b[3] - b[1] for b in boxes)
+    row_gap = heights[len(heights) // 2] / 2
+    by_y = sorted(range(len(boxes)), key=lambda i: (boxes[i][1] + boxes[i][3]) / 2)
+    rows, current, row_y = [], [], None
+    for i in by_y:
+        y = (boxes[i][1] + boxes[i][3]) / 2
+        if current and y - row_y > row_gap:
+            rows.append(current)
+            current = []
+        if not current:
+            row_y = y
+        current.append(i)
+    rows.append(current)
+    return [i for row in rows for i in sorted(row, key=lambda i: boxes[i][0])]
+
+
+def cut_png(file: str, index: int | None = None) -> Image.Image:
     """Cleans a transparent sticker PNG: drops specks and the faint halo that background
-    removal leaves around the edge, then crops to the sticker."""
+    removal leaves around the edge, then crops to the sticker. With `index`, the file is a
+    transparent sheet and only that sticker (reading order) is returned."""
     img = Image.open(DESIGN / file).convert("RGBA")
     pixels = np.asarray(img).copy()
     if pixels[..., 3].min() == 255:
@@ -532,7 +554,16 @@ def cut_png(file: str) -> Image.Image:
     solid = alpha > 128
     labels, count = ndimage.label(solid)
     sizes = ndimage.sum(solid, labels, range(1, count + 1))
-    body = np.isin(labels, [i + 1 for i in range(count) if sizes[i] >= 0.002 * sizes.max()])
+    keep = [i + 1 for i in range(count) if sizes[i] >= 0.002 * sizes.max()]
+    if index is not None:
+        bodies = [i for i in keep if sizes[i - 1] >= 0.05 * sizes.max()]
+        slices = ndimage.find_objects(labels)
+        boxes = [(slices[i - 1][1].start, slices[i - 1][0].start, slices[i - 1][1].stop, slices[i - 1][0].stop)
+                 for i in bodies]
+        target = bodies[reading_order(boxes)[index]]
+        near = ndimage.distance_transform_edt(labels != target) <= 20
+        keep = [i for i in keep if i == target or (i not in bodies and (near & (labels == i)).any())]
+    body = np.isin(labels, keep)
     pixels[..., 3] = np.where(ndimage.binary_dilation(body, iterations=3), alpha, 0)
     out = Image.fromarray(pixels)
     return out.crop(out.getbbox())
@@ -715,7 +746,7 @@ def main() -> None:
                 img = text_sticker(spec, pack)
                 source = "Text sticker, Fredoka font (OFL)"
             elif spec["kind"] == "png":
-                img = die_cut(cut_png(spec["file"]), margin=SHEET_MARGIN)
+                img = die_cut(cut_png(spec["file"], spec.get("index")), margin=SHEET_MARGIN)
                 source = f"Owner artwork ({spec['file']})"
             elif spec["kind"] == "grid":
                 img = die_cut(cut_grid(spec["file"], spec["rows"])[spec["index"]], margin=SHEET_MARGIN)

@@ -10,7 +10,7 @@ and other chat apps. The project also includes an iMessage sticker app and an
 | Love | 20 (from your two Love sticker sheets) |
 | Friendship | 21 (your own artwork) |
 | Sisters | 21 (your own artwork) |
-| Family Love | 15 |
+| Family Love | 15 (5 of them your own artwork) |
 | Feelings & Emotions | 16 |
 | Self-Love & Self-Care | 16 |
 
@@ -125,4 +125,4 @@ WhatsApp warns that Xcode's PNG optimization can break its size limits.
   - Your bundle ID must not contain `WA.WAStickersThirdParty`.
 - **Artwork credits** are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md):
   Microsoft Fluent Emoji (MIT) and the Fredoka font (OFL). The character
-  pictures, the 20 Love, 21 Friendship and 21 Sisters stickers come from your own designs.
+  pictures, the 20 Love, 21 Friendship, 21 Sisters and 5 Family stickers come from your own designs.
