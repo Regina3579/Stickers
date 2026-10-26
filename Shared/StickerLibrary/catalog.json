@@ -1137,6 +1137,223 @@
           "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
+          "id": "family-memories-with-family",
+          "name": "Memories With Family",
+          "emojis": [
+            "📸",
+            "💕"
+          ],
+          "keywords": [
+            "memories",
+            "family",
+            "quote"
+          ],
+          "accessibilityText": "Sticker with text that reads \"The best thing about memories is making them with family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-i-love-my-family",
+          "name": "I Love My Family",
+          "emojis": [
+            "❤️",
+            "👨‍👩‍👧"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "my",
+            "family"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I love my Family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-one-big-happy-family",
+          "name": "One Big Happy Family",
+          "emojis": [
+            "😊",
+            "👨‍👩‍👧‍👦"
+          ],
+          "keywords": [
+            "one",
+            "big",
+            "happy",
+            "family"
+          ],
+          "accessibilityText": "Sticker with text that reads \"One Big happy Family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-we-are-family",
+          "name": "We Are Family",
+          "emojis": [
+            "💞",
+            "👨‍👩‍👧"
+          ],
+          "keywords": [
+            "we",
+            "are",
+            "family"
+          ],
+          "accessibilityText": "Sticker with text that reads \"We are Family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-say-cheese",
+          "name": "Say Cheese",
+          "emojis": [
+            "📸",
+            "😁"
+          ],
+          "keywords": [
+            "say",
+            "cheese",
+            "photo",
+            "camera"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Say Cheese!\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-camera",
+          "name": "Camera",
+          "emojis": [
+            "📷",
+            "🌼"
+          ],
+          "keywords": [
+            "camera",
+            "photo",
+            "flowers"
+          ],
+          "accessibilityText": "A light blue camera surrounded by white daisies and a pink heart",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-family-is-everything",
+          "name": "Family Is Everything",
+          "emojis": [
+            "💖",
+            "👨‍👩‍👧"
+          ],
+          "keywords": [
+            "family",
+            "is",
+            "everything"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family is Everything\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-every-family-is-beautiful",
+          "name": "Every Family Is Beautiful",
+          "emojis": [
+            "🌸",
+            "💕"
+          ],
+          "keywords": [
+            "every",
+            "family",
+            "is",
+            "beautiful",
+            "favorite",
+            "quote"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Every family is beautiful but ours is my favorite\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-no-place-like-home",
+          "name": "No Place Like Home",
+          "emojis": [
+            "🏡",
+            "💕"
+          ],
+          "keywords": [
+            "there",
+            "is",
+            "no",
+            "place",
+            "like",
+            "home",
+            "house"
+          ],
+          "accessibilityText": "Sticker with text that reads \"There is no place like home\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-family-is-forever",
+          "name": "Family Is Forever",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "family",
+            "is",
+            "forever",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family is Forever\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-plays-together-stays-together",
+          "name": "Plays Together Stays Together",
+          "emojis": [
+            "☀️",
+            "🎈"
+          ],
+          "keywords": [
+            "family",
+            "plays",
+            "together",
+            "stays",
+            "together"
+          ],
+          "accessibilityText": "Sticker with text that reads \"A Family that plays together stays together\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-work-of-the-heart",
+          "name": "Work of the Heart",
+          "emojis": [
+            "🧵",
+            "💗"
+          ],
+          "keywords": [
+            "families",
+            "are",
+            "a",
+            "work",
+            "of",
+            "the",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Families are a work of the Heart\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-starts-and-ends-with-family",
+          "name": "Starts and Ends With Family",
+          "emojis": [
+            "🌳",
+            "💕"
+          ],
+          "keywords": [
+            "it",
+            "all",
+            "starts",
+            "and",
+            "ends",
+            "with",
+            "family",
+            "tree"
+          ],
+          "accessibilityText": "Sticker with text that reads \"It all starts and ends with Family\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
           "id": "family-home",
           "name": "Home",
           "emojis": [

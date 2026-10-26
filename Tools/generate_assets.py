@@ -89,11 +89,12 @@ def art(box, emojis, name, keywords=""):
     return {"kind": "art", "box": box, "emojis": emojis.split(), "name": name, "keywords": keywords}
 
 
-def png(file, emojis, name, keywords, label=None, description=None, index=None):
+def png(file, emojis, name, keywords, label=None, description=None, index=None, count=None):
     """A sticker drawn on a transparent background, stored in Design/. For a transparent
-    sheet holding several stickers, `index` picks one (reading order, 0-based)."""
-    return {"kind": "png", "file": file, "index": index, "emojis": emojis.split(), "name": name,
-            "keywords": keywords, "label": label, "description": description}
+    sheet holding several stickers, `index` picks one (reading order, 0-based) and `count`
+    says how many stickers the sheet holds, so stickers that touch can be told apart."""
+    return {"kind": "png", "file": file, "index": index, "count": count, "emojis": emojis.split(),
+            "name": name, "keywords": keywords, "label": label, "description": description}
 
 
 def grid(file, rows, index, emojis, name, keywords, label=None, description=None):
@@ -235,6 +236,32 @@ PACKS = [
                 description="Mom, dad and their little girl hugging with smiles and hearts", index=3),
             png("Family/sheet-1.png", "🏡 💕", "Home Sweet Home", "home sweet home house",
                 label="Home Sweet Home", index=4),
+            png("Family/sheet-2.png", "📸 💕", "Memories With Family", "memories family quote", count=8, index=0,
+                label="The best thing about memories is making them with family"),
+            png("Family/sheet-2.png", "❤️ 👨‍👩‍👧", "I Love My Family", "i love my family", count=8, index=1,
+                label="I love my Family"),
+            png("Family/sheet-2.png", "😊 👨‍👩‍👧‍👦", "One Big Happy Family", "one big happy family", count=8, index=2,
+                label="One Big happy Family"),
+            png("Family/sheet-2.png", "💞 👨‍👩‍👧", "We Are Family", "we are family", count=8, index=3,
+                label="We are Family"),
+            png("Family/sheet-2.png", "📸 😁", "Say Cheese", "say cheese photo camera", count=8, index=4,
+                label="Say Cheese!"),
+            png("Family/sheet-2.png", "📷 🌼", "Camera", "camera photo flowers", count=8, index=5,
+                description="A light blue camera surrounded by white daisies and a pink heart"),
+            png("Family/sheet-2.png", "💖 👨‍👩‍👧", "Family Is Everything", "family is everything", count=8, index=6,
+                label="Family is Everything"),
+            png("Family/sheet-2.png", "🌸 💕", "Every Family Is Beautiful", "every family is beautiful favorite quote",
+                count=8, index=7, label="Every family is beautiful but ours is my favorite"),
+            png("Family/sheet-3.png", "🏡 💕", "No Place Like Home", "there is no place like home house",
+                count=5, index=0, label="There is no place like home"),
+            png("Family/sheet-3.png", "💗 🎀", "Family Is Forever", "family is forever heart", count=5, index=1,
+                label="Family is Forever"),
+            png("Family/sheet-3.png", "☀️ 🎈", "Plays Together Stays Together", "family plays together stays together",
+                count=5, index=2, label="A Family that plays together stays together"),
+            png("Family/sheet-3.png", "🧵 💗", "Work of the Heart", "families are a work of the heart",
+                count=5, index=3, label="Families are a work of the Heart"),
+            png("Family/sheet-3.png", "🌳 💕", "Starts and Ends With Family", "it all starts and ends with family tree",
+                count=5, index=4, label="It all starts and ends with Family"),
             emoji("House with garden", "🏡", "Home", "home house family"),
             emoji("Bouquet", "💐", "Bouquet", "flowers bouquet mom"),
             emoji("Light blue heart", "🩵", "Blue Heart", "love heart blue"),
@@ -542,7 +569,7 @@ def reading_order(boxes) -> list[int]:
     return [i for row in rows for i in sorted(row, key=lambda i: boxes[i][0])]
 
 
-def cut_png(file: str, index: int | None = None) -> Image.Image:
+def cut_png(file: str, index: int | None = None, count: int | None = None) -> Image.Image:
     """Cleans a transparent sticker PNG: drops specks and the faint halo that background
     removal leaves around the edge, then crops to the sticker. With `index`, the file is a
     transparent sheet and only that sticker (reading order) is returned."""
@@ -552,18 +579,34 @@ def cut_png(file: str, index: int | None = None) -> Image.Image:
         pixels[..., 3] = painted_checkerboard_alpha(pixels[..., :3])
     alpha = pixels[..., 3]
     solid = alpha > 128
-    labels, count = ndimage.label(solid)
-    sizes = ndimage.sum(solid, labels, range(1, count + 1))
-    keep = [i + 1 for i in range(count) if sizes[i] >= 0.002 * sizes.max()]
+    labels, pieces = ndimage.label(solid)
+    sizes = ndimage.sum(solid, labels, range(1, pieces + 1))
+    keep = [i + 1 for i in range(pieces) if sizes[i] >= 0.002 * sizes.max()]
+    body = np.isin(labels, keep)
     if index is not None:
-        bodies = [i for i in keep if sizes[i - 1] >= 0.05 * sizes.max()]
-        slices = ndimage.find_objects(labels)
+        # Shrink the stickers until there are `count` separate bodies (stickers whose
+        # borders touch split apart), then give every pixel to the nearest body.
+        shrink, seeds = 0, body
+        while True:
+            seed_labels, seed_count = ndimage.label(seeds)
+            seed_sizes = ndimage.sum(seeds, seed_labels, range(1, seed_count + 1))
+            bodies = [i + 1 for i in range(seed_count) if seed_sizes[i] >= 0.05 * seed_sizes.max()]
+            if count is None or len(bodies) >= count or shrink >= 60:
+                break
+            shrink += 2
+            seeds = ndimage.binary_erosion(body, iterations=shrink)
+        assert count is None or len(bodies) == count, f"{file}: found {len(bodies)} stickers, expected {count}"
+        slices = ndimage.find_objects(seed_labels)
         boxes = [(slices[i - 1][1].start, slices[i - 1][0].start, slices[i - 1][1].stop, slices[i - 1][0].stop)
                  for i in bodies]
         target = bodies[reading_order(boxes)[index]]
-        near = ndimage.distance_transform_edt(labels != target) <= 20
-        keep = [i for i in keep if i == target or (i not in bodies and (near & (labels == i)).any())]
-    body = np.isin(labels, keep)
+        _, (iy, ix) = ndimage.distance_transform_edt(~np.isin(seed_labels, bodies), return_indices=True)
+        mine = body & (seed_labels[iy, ix] == target)
+        parts, part_count = ndimage.label(mine)
+        part_sizes = ndimage.sum(mine, parts, range(1, part_count + 1))
+        main = parts == int(np.argmax(part_sizes)) + 1
+        near = ndimage.distance_transform_edt(~main) <= 20
+        body = np.isin(parts, np.unique(parts[near & mine]))
     pixels[..., 3] = np.where(ndimage.binary_dilation(body, iterations=3), alpha, 0)
     out = Image.fromarray(pixels)
     return out.crop(out.getbbox())
@@ -746,7 +789,7 @@ def main() -> None:
                 img = text_sticker(spec, pack)
                 source = "Text sticker, Fredoka font (OFL)"
             elif spec["kind"] == "png":
-                img = die_cut(cut_png(spec["file"], spec.get("index")), margin=SHEET_MARGIN)
+                img = die_cut(cut_png(spec["file"], spec.get("index"), spec.get("count")), margin=SHEET_MARGIN)
                 source = f"Owner artwork ({spec['file']})"
             elif spec["kind"] == "grid":
                 img = die_cut(cut_grid(spec["file"], spec["rows"])[spec["index"]], margin=SHEET_MARGIN)
