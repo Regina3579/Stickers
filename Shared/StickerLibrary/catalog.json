@@ -689,7 +689,7 @@
     },
     {
       "id": "sisters",
-      "title": "Sisters & Siblings",
+      "title": "Sisters",
       "subtitle": "Sister love, forever",
       "banner": "Banner-sisters",
       "colors": {
@@ -700,214 +700,295 @@
       "wideStickers": false,
       "stickers": [
         {
-          "id": "sisters-sister-hug",
-          "name": "Sister Hug",
+          "id": "sisters-i-love-you-sis",
+          "name": "I Love You Sis",
+          "emojis": [
+            "💖",
+            "👭"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "sis",
+            "sister",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You Sis\" in English",
+          "source": "Owner artwork (Sisters/01-i-love-you-sis.png)"
+        },
+        {
+          "id": "sisters-love-you-sis-cuddle",
+          "name": "Love You Sis Cuddle",
+          "emojis": [
+            "💕",
+            "🤗"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "sis",
+            "sister",
+            "cuddle",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-my-best-sis-heart",
+          "name": "My Best Sis Heart",
+          "emojis": [
+            "💗",
+            "👭"
+          ],
+          "keywords": [
+            "my",
+            "best",
+            "sis",
+            "sister",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Best Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-just-sisters-kiss",
+          "name": "Just Sisters Kiss",
+          "emojis": [
+            "😘",
+            "👭"
+          ],
+          "keywords": [
+            "just",
+            "sisters",
+            "kiss"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Just Sisters\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-sisters-forever",
+          "name": "Sisters Forever",
+          "emojis": [
+            "💞",
+            "👭"
+          ],
+          "keywords": [
+            "sisters",
+            "forever"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters Forever\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-sisterhood-forever",
+          "name": "Sisterhood Forever",
+          "emojis": [
+            "🎀",
+            "👭"
+          ],
+          "keywords": [
+            "sisterhood",
+            "forever",
+            "sisters"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisterhood forever\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-youre-my-sis",
+          "name": "You're My Sis",
+          "emojis": [
+            "🥳",
+            "👭"
+          ],
+          "keywords": [
+            "you're",
+            "my",
+            "sis",
+            "sister",
+            "happy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You're My Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-besties-sisters",
+          "name": "Besties Sisters",
+          "emojis": [
+            "🤳",
+            "👭"
+          ],
+          "keywords": [
+            "besties",
+            "sisters",
+            "selfie"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Besties Sisters\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-sister-love-heart",
+          "name": "Sister Love Heart",
+          "emojis": [
+            "👑",
+            "💖"
+          ],
+          "keywords": [
+            "sister",
+            "love",
+            "heart",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sister Love\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-always-together-sis",
+          "name": "Always Together Sis",
+          "emojis": [
+            "🐰",
+            "🤗"
+          ],
+          "keywords": [
+            "always",
+            "together",
+            "sisters",
+            "bunny"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Always Together\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-my-best-sis",
+          "name": "My Best Sis",
+          "emojis": [
+            "💕",
+            "👭"
+          ],
+          "keywords": [
+            "my",
+            "best",
+            "sis",
+            "sister"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Best Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-best-sis-in-the-world",
+          "name": "Best Sis in the World",
+          "emojis": [
+            "👑",
+            "💜"
+          ],
+          "keywords": [
+            "best",
+            "sis",
+            "in",
+            "the",
+            "world",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Sis in the World\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-just-sisters",
+          "name": "Just Sisters",
           "emojis": [
             "🤗",
             "👭"
           ],
           "keywords": [
-            "sister",
+            "just",
             "sisters",
-            "hug",
-            "siblings"
+            "hug"
           ],
-          "accessibilityText": "Sister Hug sticker",
-          "source": "Stickers landing page illustration"
+          "accessibilityText": "Sticker with text that reads \"Just Sisters\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
-          "id": "sisters-crown",
-          "name": "Crown",
+          "id": "sisters-sisters-forever-kiss",
+          "name": "Sisters Forever Kiss",
           "emojis": [
-            "👑"
+            "😘",
+            "💕"
           ],
           "keywords": [
-            "queen",
-            "princess",
-            "crown"
+            "sisters",
+            "forever",
+            "kiss"
           ],
-          "accessibilityText": "Crown sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Sisters Forever\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
-          "id": "sisters-growing-heart",
-          "name": "Growing Heart",
+          "id": "sisters-sisters-by-heart",
+          "name": "Sisters by Heart",
           "emojis": [
-            "💗"
+            "😎",
+            "✌️"
           ],
           "keywords": [
-            "love",
-            "heart"
+            "sisters",
+            "by",
+            "heart",
+            "sunglasses"
           ],
-          "accessibilityText": "Growing Heart sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Sisters by heart\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
-          "id": "sisters-gift",
-          "name": "Gift",
+          "id": "sisters-better-together",
+          "name": "Better Together",
           "emojis": [
-            "🎁"
+            "☕",
+            "👭"
           ],
           "keywords": [
-            "gift",
-            "present",
-            "birthday"
+            "better",
+            "together",
+            "sisters",
+            "cocoa"
           ],
-          "accessibilityText": "Gift sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Better Together\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
-          "id": "sisters-bunny",
-          "name": "Bunny",
+          "id": "sisters-youre-my-sister",
+          "name": "You're My Sister",
           "emojis": [
-            "🐰"
-          ],
-          "keywords": [
-            "bunny",
-            "rabbit",
-            "cute"
-          ],
-          "accessibilityText": "Bunny sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-sis",
-          "name": "Sis",
-          "emojis": [
-            "👭",
+            "👑",
             "💖"
           ],
           "keywords": [
-            "sis",
-            "sister"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Sis\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
-          "id": "sisters-princess",
-          "name": "Princess",
-          "emojis": [
-            "👸"
-          ],
-          "keywords": [
-            "princess",
+            "you're",
+            "my",
             "sister",
-            "queen"
+            "heart",
+            "crown"
           ],
-          "accessibilityText": "Princess sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"You're My Sister\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
-          "id": "sisters-unicorn",
-          "name": "Unicorn",
+          "id": "sisters-sisters-make-life-sweeter",
+          "name": "Sisters Make Life Sweeter",
           "emojis": [
-            "🦄"
+            "🐰",
+            "💕"
           ],
           "keywords": [
-            "unicorn",
-            "magic"
+            "sisters",
+            "make",
+            "life",
+            "sweeter",
+            "bunny"
           ],
-          "accessibilityText": "Unicorn sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-butterfly",
-          "name": "Butterfly",
-          "emojis": [
-            "🦋"
-          ],
-          "keywords": [
-            "butterfly",
-            "pretty"
-          ],
-          "accessibilityText": "Butterfly sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-cupcake",
-          "name": "Cupcake",
-          "emojis": [
-            "🧁"
-          ],
-          "keywords": [
-            "cupcake",
-            "sweet",
-            "treat"
-          ],
-          "accessibilityText": "Cupcake sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-lollipop",
-          "name": "Lollipop",
-          "emojis": [
-            "🍭"
-          ],
-          "keywords": [
-            "candy",
-            "sweet",
-            "lollipop"
-          ],
-          "accessibilityText": "Lollipop sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-cherry-blossom",
-          "name": "Cherry Blossom",
-          "emojis": [
-            "🌸"
-          ],
-          "keywords": [
-            "flower",
-            "blossom"
-          ],
-          "accessibilityText": "Cherry Blossom sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-cake-slice",
-          "name": "Cake Slice",
-          "emojis": [
-            "🍰"
-          ],
-          "keywords": [
-            "cake",
-            "dessert",
-            "sweet"
-          ],
-          "accessibilityText": "Cake Slice sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "sisters-sister-love",
-          "name": "Sister Love",
-          "emojis": [
-            "👭",
-            "❤️"
-          ],
-          "keywords": [
-            "sister",
-            "love",
-            "sis"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Sister Love\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
-          "id": "sisters-sibling-goals",
-          "name": "Sibling Goals",
-          "emojis": [
-            "👫"
-          ],
-          "keywords": [
-            "siblings",
-            "brother",
-            "sister",
-            "goals"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Sibling Goals\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "accessibilityText": "Sticker with text that reads \"Sisters Make Life Sweeter\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         }
       ]
     },

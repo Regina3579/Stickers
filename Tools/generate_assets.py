@@ -15,6 +15,7 @@ Sticker art:
   - Illustrations cut from Design/LandingPage-reference.png.
   - Love stickers cut from Design/Love-sheet-1.png and Love-sheet-2.png.
   - Friendship stickers from the transparent PNGs in Design/Friendship/.
+  - Sisters stickers from Design/Sisters/ (one PNG and two sticker sheets).
 
 Usage:  python3 Tools/generate_assets.py      (needs Pillow with WebP support, numpy, scipy)
 """
@@ -67,6 +68,11 @@ BANNER_BOXES = {
 }
 
 
+# Sisters sticker sheets (Design/Sisters/): row bands and how many stickers each row holds.
+SIS_A, SIS_A_ROWS = "Sisters/sheet-1.jpg", [(0, 512, 5), (512, 1024, 5)]
+SIS_B, SIS_B_ROWS = "Sisters/sheet-2.jpg", [(0, 395, 4), (395, 750, 4), (750, 1100, 2)]
+
+
 # --------------------------------------------------------------------------- sticker specs
 
 def emoji(folder, emojis, name, keywords="", skin=False):
@@ -87,6 +93,13 @@ def png(file, emojis, name, keywords, label=None, description=None):
     """A single sticker drawn on a transparent background, stored in Design/."""
     return {"kind": "png", "file": file, "emojis": emojis.split(), "name": name,
             "keywords": keywords, "label": label, "description": description}
+
+
+def grid(file, rows, index, emojis, name, keywords, label=None, description=None):
+    """Sticker number `index` (reading order) from a sticker sheet laid out in rows.
+    `rows` lists (top, bottom, columns) in sheet pixels; each row is split into equal columns."""
+    return {"kind": "grid", "file": file, "rows": rows, "index": index, "emojis": emojis.split(),
+            "name": name, "keywords": keywords, "label": label, "description": description}
 
 
 def sheet(file, index, emojis, name, keywords, label=None, description=None):
@@ -170,25 +183,37 @@ PACKS = [
         ],
     },
     {
-        "id": "sisters", "title": "Sisters & Siblings", "subtitle": "Sister love, forever",
+        "id": "sisters", "title": "Sisters", "subtitle": "Sister love, forever",
         "tint": "#F2805E", "top": "#FFE7DA", "bottom": "#FFF5EE", "ink": ["#FFA07A", "#EE5D7A"],
         "tray": "Crown",
         "stickers": [
-            art(BANNER_BOXES["sisters"], "🤗 👭", "Sister Hug", "sister sisters hug siblings"),
-            emoji("Crown", "👑", "Crown", "queen princess crown"),
-            emoji("Growing heart", "💗", "Growing Heart", "love heart"),
-            emoji("Wrapped gift", "🎁", "Gift", "gift present birthday"),
-            emoji("Rabbit face", "🐰", "Bunny", "bunny rabbit cute"),
-            text("Sis", "👭 💖", "Sis", "sis sister", style="heart"),
-            emoji("Princess", "👸", "Princess", "princess sister queen", skin=True),
-            emoji("Unicorn", "🦄", "Unicorn", "unicorn magic"),
-            emoji("Butterfly", "🦋", "Butterfly", "butterfly pretty"),
-            emoji("Cupcake", "🧁", "Cupcake", "cupcake sweet treat"),
-            emoji("Lollipop", "🍭", "Lollipop", "candy sweet lollipop"),
-            emoji("Cherry blossom", "🌸", "Cherry Blossom", "flower blossom"),
-            emoji("Shortcake", "🍰", "Cake Slice", "cake dessert sweet"),
-            text("Sister\nLove", "👭 ❤️", "Sister Love", "sister love sis"),
-            text("Sibling\nGoals", "👫", "Sibling Goals", "siblings brother sister goals"),
+            png("Sisters/01-i-love-you-sis.png", "💖 👭", "I Love You Sis", "i love you sis sister hug",
+                label="I Love You Sis"),
+            grid(SIS_A, SIS_A_ROWS, 0, "💕 🤗", "Love You Sis Cuddle", "love you sis sister cuddle hug",
+                 label="I Love You Sis"),
+            grid(SIS_A, SIS_A_ROWS, 1, "💗 👭", "My Best Sis Heart", "my best sis sister heart", label="My Best Sis"),
+            grid(SIS_A, SIS_A_ROWS, 3, "😘 👭", "Just Sisters Kiss", "just sisters kiss", label="Just Sisters"),
+            grid(SIS_A, SIS_A_ROWS, 4, "💞 👭", "Sisters Forever", "sisters forever", label="Sisters Forever"),
+            grid(SIS_A, SIS_A_ROWS, 5, "🎀 👭", "Sisterhood Forever", "sisterhood forever sisters",
+                 label="Sisterhood forever"),
+            grid(SIS_A, SIS_A_ROWS, 6, "🥳 👭", "You're My Sis", "you're my sis sister happy", label="You're My Sis"),
+            grid(SIS_A, SIS_A_ROWS, 7, "🤳 👭", "Besties Sisters", "besties sisters selfie", label="Besties Sisters"),
+            grid(SIS_A, SIS_A_ROWS, 8, "👑 💖", "Sister Love Heart", "sister love heart crown", label="Sister Love"),
+            grid(SIS_A, SIS_A_ROWS, 9, "🐰 🤗", "Always Together Sis", "always together sisters bunny",
+                 label="Always Together"),
+            grid(SIS_B, SIS_B_ROWS, 1, "💕 👭", "My Best Sis", "my best sis sister", label="My Best Sis"),
+            grid(SIS_B, SIS_B_ROWS, 2, "👑 💜", "Best Sis in the World", "best sis in the world crown",
+                 label="Best Sis in the World"),
+            grid(SIS_B, SIS_B_ROWS, 3, "🤗 👭", "Just Sisters", "just sisters hug", label="Just Sisters"),
+            grid(SIS_B, SIS_B_ROWS, 4, "😘 💕", "Sisters Forever Kiss", "sisters forever kiss", label="Sisters Forever"),
+            grid(SIS_B, SIS_B_ROWS, 5, "😎 ✌️", "Sisters by Heart", "sisters by heart sunglasses",
+                 label="Sisters by heart"),
+            grid(SIS_B, SIS_B_ROWS, 7, "☕ 👭", "Better Together", "better together sisters cocoa",
+                 label="Better Together"),
+            grid(SIS_B, SIS_B_ROWS, 8, "👑 💖", "You're My Sister", "you're my sister heart crown",
+                 label="You're My Sister"),
+            grid(SIS_B, SIS_B_ROWS, 9, "🐰 💕", "Sisters Make Life Sweeter", "sisters make life sweeter bunny",
+                 label="Sisters Make Life Sweeter"),
         ],
     },
     {
@@ -492,6 +517,52 @@ def cut_png(file: str) -> Image.Image:
     return out.crop(out.getbbox())
 
 
+_grid_cache: dict[str, list[Image.Image]] = {}
+
+
+def cut_grid(file: str, rows) -> list[Image.Image]:
+    """Splits a tightly packed sticker sheet using its known row/column layout.
+    Every piece of artwork belongs to the grid cell that holds its centre; specks far
+    from a sticker's main body are dropped. Returns the stickers in reading order."""
+    if file in _grid_cache:
+        return _grid_cache[file]
+    rgb = np.asarray(Image.open(DESIGN / file).convert("RGB")).astype(int)
+    height, width = rgb.shape[:2]
+    low, high = rgb.min(2), rgb.max(2)
+    art = ~((low > 200) & (high - low < 16))                    # not paper white or its grey shadow
+    art = ndimage.binary_opening(art, iterations=1)
+    labels, count = ndimage.label(ndimage.binary_dilation(art, iterations=2))
+    ids = range(1, count + 1)
+    sizes = ndimage.sum(art, labels, ids)
+    centres = ndimage.center_of_mass(art, labels, ids)
+
+    cells = [(top, bottom, width * c / cols, width * (c + 1) / cols)
+             for top, bottom, cols in rows for c in range(cols)]
+
+    def cell_of(centre):
+        y, x = centre
+        return next((n for n, (t, b, l, r) in enumerate(cells) if t <= y < b and l <= x < r), None)
+
+    stickers = []
+    for n in range(len(cells)):
+        pieces = [i + 1 for i in range(count) if sizes[i] >= 30 and cell_of(centres[i]) == n]
+        body = np.isin(labels, [i for i in pieces if sizes[i - 1] > 6000])
+        assert body.any(), f"{file}: no sticker found in cell {n}"
+        near = ndimage.distance_transform_edt(~body) <= 20
+        keep = [i for i in pieces if (near & (labels == i)).any()]
+        mine = art & np.isin(labels, keep)
+        base = ndimage.binary_fill_holes(ndimage.distance_transform_edt(~mine) <= 6)
+        alpha = Image.fromarray((base * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1))
+        color = rgb.copy()
+        paper = (low > 238) & (high - low < 12) & ~ndimage.binary_dilation(mine, iterations=2)
+        color[paper] = 255
+        out = Image.fromarray(color.astype(np.uint8)).convert("RGBA")
+        out.putalpha(alpha)
+        stickers.append(out.crop(alpha.getbbox()))
+    _grid_cache[file] = stickers
+    return stickers
+
+
 def save_webp(img: Image.Image, path: Path) -> int:
     for quality in (90, 85, 80, 75, 70, 60, 50):
         buffer = io.BytesIO()
@@ -611,7 +682,7 @@ def main() -> None:
         stickers = []
         aspects = []
         for spec in pack["stickers"]:
-            slug = spec["name"].lower().replace("!", "").replace("-", " ").replace("  ", " ").replace(" ", "-")
+            slug = spec["name"].lower().replace("!", "").replace("'", "").replace("-", " ").replace("  ", " ").replace(" ", "-")
             sticker_id = f"{pack['id']}-{slug}"
             assert sticker_id not in seen, sticker_id
             seen.add(sticker_id)
@@ -625,6 +696,9 @@ def main() -> None:
             elif spec["kind"] == "png":
                 img = die_cut(cut_png(spec["file"]), margin=SHEET_MARGIN)
                 source = f"Owner artwork ({spec['file']})"
+            elif spec["kind"] == "grid":
+                img = die_cut(cut_grid(spec["file"], spec["rows"])[spec["index"]], margin=SHEET_MARGIN)
+                source = f"Owner sticker sheet ({spec['file']})"
             elif spec["kind"] == "sheet":
                 img = die_cut(cut_sheet(spec["file"])[spec["index"]], margin=SHEET_MARGIN)
                 source = f"Love sticker sheet ({spec['file']})"

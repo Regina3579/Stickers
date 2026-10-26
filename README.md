@@ -1,7 +1,7 @@
 # Stickers 💖
 
 **Express more with cute stickers.** An iOS app (SwiftUI) with 6 sticker categories and
-103 stickers. You can copy, paste, drag or share any sticker into WhatsApp, iMessage
+106 stickers. You can copy, paste, drag or share any sticker into WhatsApp, iMessage
 and other chat apps. The project also includes an iMessage sticker app and an
 "Add to WhatsApp" import for each category.
 
@@ -9,7 +9,7 @@ and other chat apps. The project also includes an iMessage sticker app and an
 |---|---|
 | Love | 20 (from your two Love sticker sheets) |
 | Friendship | 21 (your own artwork) |
-| Sisters & Siblings | 15 |
+| Sisters | 18 (your own artwork) |
 | Family Love | 15 |
 | Feelings & Emotions | 16 |
 | Self-Love & Self-Care | 16 |
@@ -90,6 +90,8 @@ Edit the `PACKS` list at the top of `Tools/generate_assets.py`:
 - `art((x1, y1, x2, y2), "🤗", "Name")` cuts a picture out of `Design/LandingPage-reference.png`.
 - `png("Friendship/01-bff-girls.png", "👭", "BFF Girls", "bff", label="BFF")` uses one sticker
   drawn on a transparent background (any size; it is cleaned, bordered and scaled to 512).
+- `grid("Sisters/sheet-1.jpg", [(0, 512, 5), (512, 1024, 5)], 0, "💕", "Name", "words")` cuts
+  sticker number 0 from a tightly packed sheet, using its rows (top, bottom, stickers per row).
 - `sheet("Love-sheet-1.png", 0, "❤️", "Love You", "love", label="Love You")` cuts sticker
   number 0 (reading order, 10 per sheet) out of a sticker sheet in `Design/`.
 
@@ -123,4 +125,4 @@ WhatsApp warns that Xcode's PNG optimization can break its size limits.
   - Your bundle ID must not contain `WA.WAStickersThirdParty`.
 - **Artwork credits** are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md):
   Microsoft Fluent Emoji (MIT) and the Fredoka font (OFL). The character
-  pictures, the 20 Love stickers and the 21 Friendship stickers come from your own designs.
+  pictures, the 20 Love, 21 Friendship and 18 Sisters stickers come from your own designs.
