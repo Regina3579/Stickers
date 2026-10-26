@@ -700,22 +700,23 @@
       "wideStickers": false,
       "stickers": [
         {
-          "id": "sisters-i-love-you-sis",
-          "name": "I Love You Sis",
+          "id": "sisters-love-you-my-sisi",
+          "name": "Love You My Sisi",
           "emojis": [
             "💖",
             "👭"
           ],
           "keywords": [
-            "i",
             "love",
             "you",
+            "my",
+            "sisi",
             "sis",
             "sister",
             "hug"
           ],
-          "accessibilityText": "Sticker with text that reads \"I Love You Sis\" in English",
-          "source": "Owner artwork (Sisters/01-i-love-you-sis.png)"
+          "accessibilityText": "Sticker with text that reads \"Love you my Sisi\" in English",
+          "source": "Owner artwork (Sisters/01-love-you-my-sisi.png)"
         },
         {
           "id": "sisters-love-you-sis-cuddle",

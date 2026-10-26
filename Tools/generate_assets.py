@@ -187,8 +187,8 @@ PACKS = [
         "tint": "#F2805E", "top": "#FFE7DA", "bottom": "#FFF5EE", "ink": ["#FFA07A", "#EE5D7A"],
         "tray": "Crown",
         "stickers": [
-            png("Sisters/01-i-love-you-sis.png", "💖 👭", "I Love You Sis", "i love you sis sister hug",
-                label="I Love You Sis"),
+            png("Sisters/01-love-you-my-sisi.png", "💖 👭", "Love You My Sisi", "love you my sisi sis sister hug",
+                label="Love you my Sisi"),
             grid(SIS_A, SIS_A_ROWS, 0, "💕 🤗", "Love You Sis Cuddle", "love you sis sister cuddle hug",
                  label="I Love You Sis"),
             grid(SIS_A, SIS_A_ROWS, 1, "💗 👭", "My Best Sis Heart", "my best sis sister heart", label="My Best Sis"),
@@ -502,11 +502,26 @@ def cut_sheet(file: str) -> list[Image.Image]:
     return stickers
 
 
+def painted_checkerboard_alpha(rgb: np.ndarray) -> np.ndarray:
+    """Some exports paint the grey "transparency" checkerboard into the picture. Grey pixels
+    connected to the image edge are that background; the sticker's white border stops it."""
+    rgb = rgb.astype(int)
+    low, high = rgb.min(2), rgb.max(2)
+    grey = (high - low < 14) & (high < 243)
+    labels, _ = ndimage.label(grey)
+    edge = np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))
+    background = np.isin(labels, edge[edge > 0])
+    sticker = ndimage.binary_fill_holes(~background)
+    return np.where(sticker, 255, 0).astype(np.uint8)
+
+
 def cut_png(file: str) -> Image.Image:
     """Cleans a transparent sticker PNG: drops specks and the faint halo that background
     removal leaves around the edge, then crops to the sticker."""
     img = Image.open(DESIGN / file).convert("RGBA")
     pixels = np.asarray(img).copy()
+    if pixels[..., 3].min() == 255:
+        pixels[..., 3] = painted_checkerboard_alpha(pixels[..., :3])
     alpha = pixels[..., 3]
     solid = alpha > 128
     labels, count = ndimage.label(solid)
