@@ -10,7 +10,7 @@ struct CategoryCard: View {
     @StateObject private var importer = WhatsAppImporter()
     @State private var showingIMessageHelp = false
 
-    /// "Sisters & Siblings" -> "Sisters &" / "Siblings", "Family Love" -> "Family" / "Love":
+    /// "Self-Love & Self-Care" -> "Self-Love &" / "Self-Care", "Two Words" -> "Two" / "Words":
     /// short lines leave more room for the sticker previews.
     private var shortLinesTitle: String {
         pack.title.contains(" & ")

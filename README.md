@@ -10,7 +10,7 @@ and other chat apps. The project also includes an iMessage sticker app and an
 | Love | 20 (from your two Love sticker sheets) |
 | Friendship | 21 (your own artwork) |
 | Sisters | 21 (your own artwork) |
-| Family Love | 28 (18 of them your own artwork) |
+| Family | 28 (18 of them your own artwork) |
 | Feelings & Emotions | 16 |
 | Self-Love & Self-Care | 16 |
 

@@ -225,7 +225,7 @@ PACKS = [
         ],
     },
     {
-        "id": "family", "title": "Family Love", "subtitle": "Home is where the heart is",
+        "id": "family", "title": "Family", "subtitle": "Home is where the heart is",
         "tint": "#4C97E8", "top": "#E0EEFF", "bottom": "#F2F8FF", "ink": ["#7CB8FF", "#3D7FE0"],
         "tray": "House with garden",
         "stickers": [
