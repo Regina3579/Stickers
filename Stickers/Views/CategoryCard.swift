@@ -1,39 +1,47 @@
 import SwiftUI
 
 /// One category row on the landing page: picture, title, sticker preview and "+" button.
+/// The picture and the sticker previews share one height, so they read as one row.
 struct CategoryCard: View {
     let pack: StickerPack
+
+    static let tileHeight: CGFloat = 56
 
     @StateObject private var importer = WhatsAppImporter()
     @State private var showingIMessageHelp = false
 
+    /// "Sisters & Siblings" -> "Sisters &" / "Siblings", "Family Love" -> "Family" / "Love":
+    /// short lines leave more room for the sticker previews.
+    private var shortLinesTitle: String {
+        pack.title.contains(" & ")
+            ? pack.title.replacingOccurrences(of: " & ", with: " &\n")
+            : pack.title.replacingOccurrences(of: " ", with: "\n")
+    }
+
     var body: some View {
         ZStack(alignment: .trailing) {
             NavigationLink(value: pack) {
-                HStack(spacing: 10) {
+                HStack(spacing: 8) {
                     Image(pack.banner)
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 92, height: 66)
-                        .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+                        .frame(width: Self.tileHeight, height: Self.tileHeight)
+                        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                         .accessibilityHidden(true)
 
-                    Text(pack.title)
-                        .font(Theme.rounded(.headline))
+                    Text(shortLinesTitle)
+                        .font(Theme.rounded(.subheadline))
                         .foregroundStyle(Theme.ink)
                         .multilineTextAlignment(.leading)
-                        .lineLimit(2)
-                        .minimumScaleFactor(0.85)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .layoutPriority(1)
+                        .fixedSize()
 
                     Capsule()
                         .fill(pack.tint.opacity(0.25))
-                        .frame(width: 1.5, height: 48)
+                        .frame(width: 1.5, height: Self.tileHeight - 8)
 
-                    PreviewStrip(stickers: pack.stickers)
+                    PreviewStrip(stickers: pack.stickers, wide: pack.wideStickers, height: Self.tileHeight)
 
-                    Spacer(minLength: 54)   // room for the "+" button
+                    Spacer(minLength: 36)   // room for the "+" button
                 }
                 .padding(10)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -62,7 +70,7 @@ struct CategoryCard: View {
             } label: {
                 PlusBadge(tint: pack.tint, isWorking: importer.isWorking)
             }
-            .padding(.trailing, 14)
+            .padding(.trailing, 12)
             .accessibilityLabel("Add \(pack.title) stickers")
         }
         .padding(.horizontal, 16)
@@ -71,13 +79,15 @@ struct CategoryCard: View {
     }
 }
 
-/// Small overlapping sticker thumbnails. Shows as many as fit the width.
+/// Sticker previews as tall as the category picture. Shows as many as fit the width.
+/// Wide stickers get wide tiles; the empty space above and below them is cropped.
 private struct PreviewStrip: View {
     let stickers: [Sticker]
+    let wide: Bool
+    let height: CGFloat
 
     var body: some View {
         ViewThatFits(in: .horizontal) {
-            strip(4)
             strip(3)
             strip(2)
             strip(1)
@@ -86,10 +96,12 @@ private struct PreviewStrip: View {
     }
 
     private func strip(_ count: Int) -> some View {
-        HStack(spacing: -4) {
+        HStack(spacing: 6) {
             ForEach(stickers.prefix(count)) { sticker in
-                StickerImageView(sticker: sticker, maxPixel: 150)
-                    .frame(width: 42, height: 42)
+                Color.clear
+                    .frame(width: wide ? height * 1.4 : height, height: height)
+                    .overlay(StickerImageView(sticker: sticker, maxPixel: 300, fill: wide))
+                    .clipped()
             }
         }
     }
@@ -110,11 +122,11 @@ struct PlusBadge: View {
                 ProgressView().tint(.white)
             } else {
                 Image(systemName: "plus")
-                    .font(.system(size: 22, weight: .bold))
+                    .font(.system(size: 19, weight: .bold))
                     .foregroundStyle(.white)
             }
         }
-        .frame(width: 46, height: 46)
+        .frame(width: 40, height: 40)
     }
 }
 
