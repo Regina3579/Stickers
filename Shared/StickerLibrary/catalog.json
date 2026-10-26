@@ -2338,6 +2338,88 @@
           ],
           "accessibilityText": "Sticker with text that reads \"Sweet Dreams\" in English",
           "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-be-proud",
+          "name": "Be Proud",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "be",
+            "proud",
+            "of",
+            "how",
+            "far",
+            "you've",
+            "come"
+          ],
+          "accessibilityText": "Sticker with text that reads \"be proud of how far you've come\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-just-breathe",
+          "name": "Just Breathe",
+          "emojis": [
+            "🕯️",
+            "😌"
+          ],
+          "keywords": [
+            "just",
+            "breathe",
+            "calm",
+            "candle"
+          ],
+          "accessibilityText": "Sticker with text that reads \"just breathe\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-you-are-enough",
+          "name": "You Are Enough",
+          "emojis": [
+            "💜",
+            "🎀"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "enough"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you are enough\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-rest-reset-refresh",
+          "name": "Rest Reset Refresh",
+          "emojis": [
+            "💗",
+            "😴"
+          ],
+          "keywords": [
+            "rest",
+            "reset",
+            "refresh"
+          ],
+          "accessibilityText": "Sticker with text that reads \"rest reset refresh\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-slow-down",
+          "name": "Slow Down",
+          "emojis": [
+            "💬",
+            "💕"
+          ],
+          "keywords": [
+            "slow",
+            "down",
+            "you're",
+            "doing",
+            "great"
+          ],
+          "accessibilityText": "Sticker with text that reads \"slow down you're doing great\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
         }
       ]
     }
