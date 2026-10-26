@@ -214,6 +214,12 @@ PACKS = [
                  label="You're My Sister"),
             grid(SIS_B, SIS_B_ROWS, 9, "🐰 💕", "Sisters Make Life Sweeter", "sisters make life sweeter bunny",
                  label="Sisters Make Life Sweeter"),
+            png("Sisters/02-partners-in-crime.png", "😎 💕", "Partners in Crime", "partners in crime sisters fun",
+                label="Partners in Crime"),
+            png("Sisters/03-love-you-forever-and-ever.png", "💖 💜", "Love You Forever and Ever",
+                "love you forever and ever sister", label="Love you Forever and Ever"),
+            png("Sisters/04-sisters-are-forever-friends.png", "👭 💕", "Sisters Are Forever Friends",
+                "sisters are forever friends", label="Sisters are Forever Friends"),
         ],
     },
     {

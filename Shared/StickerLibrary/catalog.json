@@ -990,6 +990,57 @@
           ],
           "accessibilityText": "Sticker with text that reads \"Sisters Make Life Sweeter\" in English",
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-partners-in-crime",
+          "name": "Partners in Crime",
+          "emojis": [
+            "😎",
+            "💕"
+          ],
+          "keywords": [
+            "partners",
+            "in",
+            "crime",
+            "sisters",
+            "fun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Partners in Crime\" in English",
+          "source": "Owner artwork (Sisters/02-partners-in-crime.png)"
+        },
+        {
+          "id": "sisters-love-you-forever-and-ever",
+          "name": "Love You Forever and Ever",
+          "emojis": [
+            "💖",
+            "💜"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "forever",
+            "and",
+            "ever",
+            "sister"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you Forever and Ever\" in English",
+          "source": "Owner artwork (Sisters/03-love-you-forever-and-ever.png)"
+        },
+        {
+          "id": "sisters-sisters-are-forever-friends",
+          "name": "Sisters Are Forever Friends",
+          "emojis": [
+            "👭",
+            "💕"
+          ],
+          "keywords": [
+            "sisters",
+            "are",
+            "forever",
+            "friends"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters are Forever Friends\" in English",
+          "source": "Owner artwork (Sisters/04-sisters-are-forever-friends.png)"
         }
       ]
     },
