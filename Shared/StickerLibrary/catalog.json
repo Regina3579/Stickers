@@ -1495,7 +1495,7 @@
     },
     {
       "id": "feelings",
-      "title": "Feelings & Emotions",
+      "title": "Emotions",
       "subtitle": "Say how you feel",
       "banner": "Banner-feelings",
       "colors": {
@@ -1506,19 +1506,263 @@
       "wideStickers": false,
       "stickers": [
         {
-          "id": "feelings-mood-bubbles",
-          "name": "Mood Bubbles",
+          "id": "feelings-winking-star",
+          "name": "Winking Star",
+          "emojis": [
+            "😉",
+            "💕"
+          ],
+          "keywords": [
+            "wink",
+            "happy",
+            "star",
+            "cute"
+          ],
+          "accessibilityText": "A pink star with a bow winking happily among hearts",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-happy-star",
+          "name": "Happy Star",
           "emojis": [
             "😊",
+            "⭐"
+          ],
+          "keywords": [
+            "happy",
+            "smile",
+            "joy",
+            "star"
+          ],
+          "accessibilityText": "A yellow star smiling with closed happy eyes",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-crying-star",
+          "name": "Crying Star",
+          "emojis": [
+            "😢",
+            "💧"
+          ],
+          "keywords": [
+            "sad",
+            "cry",
+            "tears",
+            "star"
+          ],
+          "accessibilityText": "A blue star crying with big teary eyes",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-angry-star",
+          "name": "Angry Star",
+          "emojis": [
+            "😠",
+            "💢"
+          ],
+          "keywords": [
+            "angry",
+            "mad",
+            "grumpy",
+            "star"
+          ],
+          "accessibilityText": "A purple star frowning with an angry mark",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-sleepy-star",
+          "name": "Sleepy Star",
+          "emojis": [
+            "😴",
+            "💤"
+          ],
+          "keywords": [
+            "sleepy",
+            "sleep",
+            "tired",
+            "night",
+            "star"
+          ],
+          "accessibilityText": "A green star asleep in a striped night cap",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-playful-star",
+          "name": "Playful Star",
+          "emojis": [
+            "😜",
+            "✨"
+          ],
+          "keywords": [
+            "playful",
+            "wink",
+            "fun",
+            "star"
+          ],
+          "accessibilityText": "An orange star winking playfully with little stars",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-love-struck-star",
+          "name": "Love Struck Star",
+          "emojis": [
+            "😍",
+            "💕"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "eyes",
+            "crush",
+            "star"
+          ],
+          "accessibilityText": "A pink star with heart eyes surrounded by hearts",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-surprised-star",
+          "name": "Surprised Star",
+          "emojis": [
+            "😮",
+            "⭐"
+          ],
+          "keywords": [
+            "surprised",
+            "shocked",
+            "wow",
+            "star"
+          ],
+          "accessibilityText": "A purple star with wide surprised eyes",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-laughing-star",
+          "name": "Laughing Star",
+          "emojis": [
+            "😂",
+            "💦"
+          ],
+          "keywords": [
+            "laughing",
+            "lol",
+            "haha",
+            "funny",
+            "star"
+          ],
+          "accessibilityText": "A blue star laughing so hard it cries",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-heartbroken-star",
+          "name": "Heartbroken Star",
+          "emojis": [
+            "💔",
             "😢"
           ],
           "keywords": [
-            "mood",
-            "feelings",
-            "emotions"
+            "heartbroken",
+            "sad",
+            "broken",
+            "heart",
+            "star"
           ],
-          "accessibilityText": "Mood Bubbles sticker",
-          "source": "Stickers landing page illustration"
+          "accessibilityText": "A yellow star crying next to a broken heart",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "❤️",
+            "😊"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-i-miss-you",
+          "name": "I Miss You",
+          "emojis": [
+            "🥺",
+            "💭"
+          ],
+          "keywords": [
+            "i",
+            "miss",
+            "you",
+            "miss"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Miss You\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-thank-you",
+          "name": "Thank You",
+          "emojis": [
+            "🙏",
+            "💐"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "thanks"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thank You\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-good-morning",
+          "name": "Good Morning",
+          "emojis": [
+            "☀️",
+            "😊"
+          ],
+          "keywords": [
+            "good",
+            "morning",
+            "morning",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Morning\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-good-night",
+          "name": "Good Night",
+          "emojis": [
+            "🌙",
+            "😴"
+          ],
+          "keywords": [
+            "good",
+            "night",
+            "night",
+            "sleep",
+            "moon"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Night\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-be-happy",
+          "name": "Be Happy",
+          "emojis": [
+            "😄",
+            "✌️"
+          ],
+          "keywords": [
+            "be",
+            "happy",
+            "smile"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Happy\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
           "id": "feelings-happy",
@@ -1685,21 +1929,6 @@
           "source": "Microsoft Fluent Emoji (MIT)"
         },
         {
-          "id": "feelings-thank-you",
-          "name": "Thank You",
-          "emojis": [
-            "🙏",
-            "😊"
-          ],
-          "keywords": [
-            "thank",
-            "you",
-            "thanks"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Thank You\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
           "id": "feelings-sorry",
           "name": "Sorry",
           "emojis": [
@@ -1710,20 +1939,6 @@
             "apology"
           ],
           "accessibilityText": "Sticker with text that reads \"Sorry\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
-          "id": "feelings-miss-you",
-          "name": "Miss You",
-          "emojis": [
-            "🥺",
-            "💖"
-          ],
-          "keywords": [
-            "miss",
-            "you"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Miss You\" in English",
           "source": "Text sticker, Fredoka font (OFL)"
         }
       ]
