@@ -1765,75 +1765,165 @@
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
-          "id": "feelings-happy",
-          "name": "Happy",
+          "id": "feelings-happy-heart",
+          "name": "Happy Heart",
           "emojis": [
-            "😊"
+            "😊",
+            "💕"
           ],
           "keywords": [
             "happy",
-            "smile"
+            "smile",
+            "heart",
+            "joy"
           ],
-          "accessibilityText": "Happy sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "A pink heart smiling happily among little hearts",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
-          "id": "feelings-heart-eyes",
-          "name": "Heart Eyes",
+          "id": "feelings-cool-heart",
+          "name": "Cool Heart",
           "emojis": [
-            "😍"
+            "😎",
+            "✨"
           ],
           "keywords": [
-            "love",
+            "cool",
+            "sunglasses",
+            "heart"
+          ],
+          "accessibilityText": "A purple heart wearing sunglasses",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-kissing-heart",
+          "name": "Kissing Heart",
+          "emojis": [
+            "😘",
+            "❤️"
+          ],
+          "keywords": [
+            "kiss",
+            "kissing",
+            "heart",
+            "love"
+          ],
+          "accessibilityText": "A yellow heart winking and blowing a kiss",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-laughing-heart",
+          "name": "Laughing Heart",
+          "emojis": [
+            "😂",
+            "💦"
+          ],
+          "keywords": [
+            "laughing",
+            "lol",
+            "haha",
+            "heart"
+          ],
+          "accessibilityText": "A blue heart laughing so hard it cries",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-calm-heart",
+          "name": "Calm Heart",
+          "emojis": [
+            "😌",
+            "💕"
+          ],
+          "keywords": [
+            "calm",
+            "relieved",
+            "peaceful",
+            "heart"
+          ],
+          "accessibilityText": "A green heart smiling calmly with closed eyes",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-silly-heart",
+          "name": "Silly Heart",
+          "emojis": [
+            "😜",
+            "⭐"
+          ],
+          "keywords": [
+            "silly",
+            "tongue",
+            "wink",
+            "playful",
+            "heart"
+          ],
+          "accessibilityText": "An orange heart winking with its tongue out",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-heart-eyes-heart",
+          "name": "Heart Eyes Heart",
+          "emojis": [
+            "😍",
+            "💕"
+          ],
+          "keywords": [
             "heart",
             "eyes",
-            "crush"
+            "love",
+            "crush",
+            "heart"
           ],
-          "accessibilityText": "Heart Eyes sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "A pink heart with heart eyes",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
-          "id": "feelings-lol",
-          "name": "LOL",
+          "id": "feelings-sleepy-heart",
+          "name": "Sleepy Heart",
           "emojis": [
-            "😂"
+            "😴",
+            "☁️"
           ],
           "keywords": [
-            "lol",
-            "laugh",
-            "funny",
-            "haha"
+            "sleepy",
+            "sleep",
+            "cloud",
+            "heart"
           ],
-          "accessibilityText": "LOL sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "A blue heart sleeping on a cloud",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
-          "id": "feelings-sad",
-          "name": "Sad",
+          "id": "feelings-teary-heart",
+          "name": "Teary Heart",
           "emojis": [
-            "😢"
+            "🥺",
+            "💧"
           ],
           "keywords": [
+            "teary",
             "sad",
-            "cry",
-            "tear"
+            "please",
+            "heart"
           ],
-          "accessibilityText": "Sad sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "A purple heart with teary pleading eyes",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
-          "id": "feelings-sobbing",
-          "name": "Sobbing",
+          "id": "feelings-music-heart",
+          "name": "Music Heart",
           "emojis": [
-            "😭"
+            "🎧",
+            "🎵"
           ],
           "keywords": [
-            "cry",
-            "sob",
-            "sad"
+            "music",
+            "headphones",
+            "chill",
+            "heart"
           ],
-          "accessibilityText": "Sobbing sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "A pink heart listening to music with headphones",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
           "id": "feelings-pretty-please",
@@ -1863,46 +1953,6 @@
           "source": "Microsoft Fluent Emoji (MIT)"
         },
         {
-          "id": "feelings-wink",
-          "name": "Wink",
-          "emojis": [
-            "😉"
-          ],
-          "keywords": [
-            "wink",
-            "flirt"
-          ],
-          "accessibilityText": "Wink sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "feelings-so-funny",
-          "name": "So Funny",
-          "emojis": [
-            "😆"
-          ],
-          "keywords": [
-            "laugh",
-            "funny"
-          ],
-          "accessibilityText": "So Funny sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "feelings-relieved",
-          "name": "Relieved",
-          "emojis": [
-            "😌"
-          ],
-          "keywords": [
-            "calm",
-            "relieved",
-            "peaceful"
-          ],
-          "accessibilityText": "Relieved sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
           "id": "feelings-angel",
           "name": "Angel",
           "emojis": [
@@ -1913,19 +1963,6 @@
             "innocent"
           ],
           "accessibilityText": "Angel sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "feelings-cool",
-          "name": "Cool",
-          "emojis": [
-            "😎"
-          ],
-          "keywords": [
-            "cool",
-            "sunglasses"
-          ],
-          "accessibilityText": "Cool sticker",
           "source": "Microsoft Fluent Emoji (MIT)"
         },
         {

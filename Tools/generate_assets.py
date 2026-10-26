@@ -307,18 +307,29 @@ PACKS = [
             png("Emotions/sheet-2.png", "🌙 😴", "Good Night", "good night night sleep moon", count=6, index=4,
                 label="Good Night"),
             png("Emotions/sheet-2.png", "😄 ✌️", "Be Happy", "be happy smile", count=6, index=5, label="Be Happy"),
-            emoji("Smiling face with smiling eyes", "😊", "Happy", "happy smile"),
-            emoji("Smiling face with heart-eyes", "😍", "Heart Eyes", "love heart eyes crush"),
-            emoji("Face with tears of joy", "😂", "LOL", "lol laugh funny haha"),
-            emoji("Crying face", "😢", "Sad", "sad cry tear"),
-            emoji("Loudly crying face", "😭", "Sobbing", "cry sob sad"),
+            png("Emotions/sheet-3.png", "😊 💕", "Happy Heart", "happy smile heart joy", count=10, index=0,
+                description="A pink heart smiling happily among little hearts"),
+            png("Emotions/sheet-3.png", "😎 ✨", "Cool Heart", "cool sunglasses heart", count=10, index=1,
+                description="A purple heart wearing sunglasses"),
+            png("Emotions/sheet-3.png", "😘 ❤️", "Kissing Heart", "kiss kissing heart love", count=10, index=2,
+                description="A yellow heart winking and blowing a kiss"),
+            png("Emotions/sheet-3.png", "😂 💦", "Laughing Heart", "laughing lol haha heart", count=10, index=3,
+                description="A blue heart laughing so hard it cries"),
+            png("Emotions/sheet-3.png", "😌 💕", "Calm Heart", "calm relieved peaceful heart", count=10, index=4,
+                description="A green heart smiling calmly with closed eyes"),
+            png("Emotions/sheet-3.png", "😜 ⭐", "Silly Heart", "silly tongue wink playful heart", count=10, index=5,
+                description="An orange heart winking with its tongue out"),
+            png("Emotions/sheet-3.png", "😍 💕", "Heart Eyes Heart", "heart eyes love crush heart", count=10, index=6,
+                description="A pink heart with heart eyes"),
+            png("Emotions/sheet-3.png", "😴 ☁️", "Sleepy Heart", "sleepy sleep cloud heart", count=10, index=7,
+                description="A blue heart sleeping on a cloud"),
+            png("Emotions/sheet-3.png", "🥺 💧", "Teary Heart", "teary sad please heart", count=10, index=8,
+                description="A purple heart with teary pleading eyes"),
+            png("Emotions/sheet-3.png", "🎧 🎵", "Music Heart", "music headphones chill heart", count=10, index=9,
+                description="A pink heart listening to music with headphones"),
             emoji("Pleading face", "🥺", "Pretty Please", "please puppy eyes"),
             emoji("Face holding back tears", "🥹", "Touched", "touched emotional"),
-            emoji("Winking face", "😉", "Wink", "wink flirt"),
-            emoji("Grinning squinting face", "😆", "So Funny", "laugh funny"),
-            emoji("Relieved face", "😌", "Relieved", "calm relieved peaceful"),
             emoji("Smiling face with halo", "😇", "Angel", "angel innocent"),
-            emoji("Smiling face with sunglasses", "😎", "Cool", "cool sunglasses"),
             text("Sorry", "🥺", "Sorry", "sorry apology"),
         ],
     },
@@ -564,15 +575,25 @@ def cut_sheet(file: str) -> list[Image.Image]:
 
 
 def painted_checkerboard_alpha(rgb: np.ndarray) -> np.ndarray:
-    """Some exports paint the grey "transparency" checkerboard into the picture. Grey pixels
-    connected to the image edge are that background; the sticker's white border stops it."""
+    """Some exports paint the grey "transparency" checkerboard into the picture. Its grey
+    squares, and the light squares between them, form a background connected to the image
+    edge; the sticker's colours stop it. The sticker's own white border is rebuilt by die_cut."""
     rgb = rgb.astype(int)
     low, high = rgb.min(2), rgb.max(2)
-    grey = (high - low < 14) & (high < 243)
-    labels, _ = ndimage.label(grey)
+    neutral = high - low < 14
+    grey = neutral & (high >= 190) & (high < 243)               # checker grey, not black ink
+    # Checker square size: typical run length of grey/light along the top rows.
+    runs = []
+    for row in grey[:8]:
+        edges = np.flatnonzero(np.diff(row.astype(int))) + 1
+        runs += list(np.diff(edges))
+    square = int(np.median(runs)) if runs else 8
+    light = neutral & ~grey & ndimage.binary_dilation(grey, iterations=max(2, square))
+    labels, _ = ndimage.label(grey | light)
     edge = np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))
     background = np.isin(labels, edge[edge > 0])
     sticker = ndimage.binary_fill_holes(~background)
+    sticker = ndimage.binary_opening(sticker, iterations=2)     # drop leftover checker crumbs
     return np.where(sticker, 255, 0).astype(np.uint8)
 
 
