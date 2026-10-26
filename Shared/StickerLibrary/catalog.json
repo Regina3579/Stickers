@@ -3041,6 +3041,360 @@
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         }
       ]
+    },
+    {
+      "id": "wishes",
+      "title": "Wishes",
+      "subtitle": "For every special day",
+      "banner": "Banner-wishes",
+      "colors": {
+        "tint": "#D9485F",
+        "top": "#FDE3E7",
+        "bottom": "#FFF4F5"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "wishes-happy-mothers-day",
+          "name": "Happy Mother's Day",
+          "emojis": [
+            "👩",
+            "💐"
+          ],
+          "keywords": [
+            "happy",
+            "mother's",
+            "day",
+            "mom",
+            "mothers",
+            "day"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Mother's Day\" in English",
+          "source": "Owner artwork (Wishes/sheet-1.png)"
+        },
+        {
+          "id": "wishes-happy-fathers-day",
+          "name": "Happy Father's Day",
+          "emojis": [
+            "👨",
+            "👑"
+          ],
+          "keywords": [
+            "happy",
+            "father's",
+            "day",
+            "dad",
+            "fathers",
+            "day"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Father's Day\" in English",
+          "source": "Owner artwork (Wishes/sheet-1.png)"
+        },
+        {
+          "id": "wishes-mothers-day-hug",
+          "name": "Mother's Day Hug",
+          "emojis": [
+            "👩‍👧",
+            "💐"
+          ],
+          "keywords": [
+            "happy",
+            "mother's",
+            "day",
+            "mom",
+            "daughter",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Mother's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-fathers-day-hug",
+          "name": "Father's Day Hug",
+          "emojis": [
+            "👨‍👦",
+            "👑"
+          ],
+          "keywords": [
+            "happy",
+            "father's",
+            "day",
+            "dad",
+            "son",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Father's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-valentines-day",
+          "name": "Happy Valentine's Day",
+          "emojis": [
+            "💝",
+            "🌹"
+          ],
+          "keywords": [
+            "happy",
+            "valentine's",
+            "day",
+            "valentine",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Valentine's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-teachers-day",
+          "name": "Happy Teacher's Day",
+          "emojis": [
+            "🍎",
+            "📚"
+          ],
+          "keywords": [
+            "happy",
+            "teacher's",
+            "day",
+            "teacher"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Teacher's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-womens-day",
+          "name": "Happy Women's Day",
+          "emojis": [
+            "👩",
+            "🌸"
+          ],
+          "keywords": [
+            "happy",
+            "women's",
+            "day",
+            "women"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Women's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-childrens-day",
+          "name": "Happy Children's Day",
+          "emojis": [
+            "🧒",
+            "🎈"
+          ],
+          "keywords": [
+            "happy",
+            "children's",
+            "day",
+            "kids"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Children's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-new-year",
+          "name": "Happy New Year",
+          "emojis": [
+            "🎆",
+            "✨"
+          ],
+          "keywords": [
+            "happy",
+            "new",
+            "year",
+            "fireworks"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy New Year!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-merry-christmas",
+          "name": "Merry Christmas",
+          "emojis": [
+            "🎄",
+            "🎅"
+          ],
+          "keywords": [
+            "merry",
+            "christmas",
+            "santa",
+            "xmas"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Merry Christmas!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-easter",
+          "name": "Happy Easter",
+          "emojis": [
+            "🐰",
+            "🥚"
+          ],
+          "keywords": [
+            "happy",
+            "easter",
+            "bunny",
+            "eggs"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Easter!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-diwali",
+          "name": "Happy Diwali",
+          "emojis": [
+            "🪔",
+            "✨"
+          ],
+          "keywords": [
+            "happy",
+            "diwali",
+            "deepavali",
+            "diya"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Diwali!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-pongal",
+          "name": "Happy Pongal",
+          "emojis": [
+            "🍚",
+            "🌾"
+          ],
+          "keywords": [
+            "happy",
+            "pongal",
+            "harvest"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Pongal!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-eid-mubarak",
+          "name": "Eid Mubarak",
+          "emojis": [
+            "🌙",
+            "🕌"
+          ],
+          "keywords": [
+            "eid",
+            "mubarak",
+            "eid"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Eid Mubarak!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-onam",
+          "name": "Happy Onam",
+          "emojis": [
+            "🌴",
+            "🌼"
+          ],
+          "keywords": [
+            "happy",
+            "onam",
+            "kerala"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Onam!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-birthday-girl",
+          "name": "Happy Birthday Girl",
+          "emojis": [
+            "🎂",
+            "🐱"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "cake",
+            "girl"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-anniversary",
+          "name": "Happy Anniversary",
+          "emojis": [
+            "💕",
+            "🎀"
+          ],
+          "keywords": [
+            "happy",
+            "anniversary",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Anniversary!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-wedding-day",
+          "name": "Happy Wedding Day",
+          "emojis": [
+            "💍",
+            "🕊️"
+          ],
+          "keywords": [
+            "happy",
+            "wedding",
+            "day",
+            "rings",
+            "marriage"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Wedding Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-engagement",
+          "name": "Happy Engagement",
+          "emojis": [
+            "💍",
+            "💜"
+          ],
+          "keywords": [
+            "happy",
+            "engagement",
+            "ring"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Engagement!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-graduation",
+          "name": "Happy Graduation",
+          "emojis": [
+            "🎓",
+            "🌻"
+          ],
+          "keywords": [
+            "happy",
+            "graduation",
+            "graduate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Graduation!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-friendship-day",
+          "name": "Happy Friendship Day",
+          "emojis": [
+            "👭",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "friendship",
+            "day",
+            "friends"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Friendship Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        }
+      ]
     }
   ]
 }

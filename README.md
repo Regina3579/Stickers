@@ -1,7 +1,7 @@
 # Stickers 💖
 
-**Express more with cute stickers.** An iOS app (SwiftUI) with 8 sticker categories and
-182 stickers. You can copy, paste, drag or share any sticker into WhatsApp, iMessage
+**Express more with cute stickers.** An iOS app (SwiftUI) with 9 sticker categories and
+203 stickers. You can copy, paste, drag or share any sticker into WhatsApp, iMessage
 and other chat apps. The project also includes an iMessage sticker app and an
 "Add to WhatsApp" import for each category.
 
@@ -15,6 +15,7 @@ and other chat apps. The project also includes an iMessage sticker app and an
 | Self-Love & Self-Care | 28 (your own artwork) |
 | Birthday | 21 (your own artwork) |
 | Encouragement | 24 (your own artwork) |
+| Wishes | 21 (your own artwork) |
 
 ---
 
@@ -126,6 +127,6 @@ WhatsApp warns that Xcode's PNG optimization can break its size limits.
   - Add the keyword `WAStickers` in App Store Connect, so WhatsApp can list your app.
   - Your bundle ID must not contain `WA.WAStickersThirdParty`.
 - **Artwork credits** are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md):
-  every sticker (20 Love, 21 Friendship, 21 Sisters, 21 Family, 26 Emotions, 28 Self-Care, 21 Birthday and 24 Encouragement),
+  every sticker (20 Love, 21 Friendship, 21 Sisters, 21 Family, 26 Emotions, 28 Self-Care, 21 Birthday, 24 Encouragement and 21 Wishes),
   the landing page pictures and the app icon come from your own designs. Only the small WhatsApp
   tray icons use Microsoft Fluent Emoji (MIT).
