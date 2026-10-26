@@ -350,8 +350,6 @@ PACKS = [
                 label="Self Care"),
             png("SelfCare/sheet-1.png", "📒 ✏️", "Daily Planner", "daily planner plan", count=17, index=5,
                 label="Daily Planner"),
-            png("SelfCare/sheet-1.png", "🍵 🌼", "Herbal Tea", "herbal tea relax", count=17, index=6,
-                label="Herbal Tea"),
             png("SelfCare/sheet-1.png", "🏋️‍♀️ 💪", "Workout", "workout gym exercise", count=17, index=7,
                 label="Workout"),
             png("SelfCare/sheet-1.png", "🪷 😌", "Relax", "relax calm lotus", count=17, index=8,
@@ -366,8 +364,6 @@ PACKS = [
                 label="Good Sleep"),
             png("SelfCare/sheet-1.png", "👟 🌸", "Go for a Walk", "go for a walk walking", count=17, index=13,
                 label="Go for a Walk"),
-            png("SelfCare/sheet-1.png", "🥑 🌰", "Healthy Snack", "healthy snack avocado almonds", count=17, index=14,
-                description="An avocado and almonds with hearts, a healthy snack"),
             png("SelfCare/sheet-1.png", "📵 💻", "Digital Detox", "digital detox phone break", count=17, index=15,
                 label="Digital Detox"),
             png("SelfCare/sheet-1.png", "📖 ☕", "Read and Journal", "read journal book", count=17, index=16,
@@ -649,21 +645,27 @@ def reading_order(boxes) -> list[int]:
     return [i for row in rows for i in sorted(row, key=lambda i: boxes[i][0])]
 
 
-def cut_png(file: str, index: int | None = None, count: int | None = None) -> Image.Image:
-    """Cleans a transparent sticker PNG: drops specks and the faint halo that background
-    removal leaves around the edge, then crops to the sticker. With `index`, the file is a
-    transparent sheet and only that sticker (reading order) is returned."""
+_png_cache: dict[tuple, tuple] = {}
+
+
+def _png_sheet(file: str, count: int | None, sheet: bool) -> tuple:
+    """Loads a transparent PNG once and, for a sheet, works out which sticker owns each
+    pixel. Returns (pixels, alpha, body, owner, ordered sticker ids)."""
+    key = (file, count, sheet)
+    if key in _png_cache:
+        return _png_cache[key]
     img = Image.open(DESIGN / file).convert("RGBA")
     pixels = np.asarray(img).copy()
     if pixels[..., 3].min() == 255:
         pixels[..., 3] = painted_checkerboard_alpha(pixels[..., :3])
-    alpha = pixels[..., 3]
+    alpha = pixels[..., 3].copy()
     solid = alpha > 128
     labels, pieces = ndimage.label(solid)
     sizes = ndimage.sum(solid, labels, range(1, pieces + 1))
     keep = [i + 1 for i in range(pieces) if sizes[i] >= 0.002 * sizes.max()]
     body = np.isin(labels, keep)
-    if index is not None:
+    owner, ordered = None, []
+    if sheet:
         # Shrink the stickers until there are `count` separate bodies (stickers whose
         # borders touch split apart), then give every pixel to the nearest body.
         shrink, seeds = 0, body
@@ -679,9 +681,21 @@ def cut_png(file: str, index: int | None = None, count: int | None = None) -> Im
         slices = ndimage.find_objects(seed_labels)
         boxes = [(slices[i - 1][1].start, slices[i - 1][0].start, slices[i - 1][1].stop, slices[i - 1][0].stop)
                  for i in bodies]
-        target = bodies[reading_order(boxes)[index]]
+        ordered = [bodies[k] for k in reading_order(boxes)]
         _, (iy, ix) = ndimage.distance_transform_edt(~np.isin(seed_labels, bodies), return_indices=True)
-        mine = body & (seed_labels[iy, ix] == target)
+        owner = seed_labels[iy, ix]
+    _png_cache[key] = (pixels, alpha, body, owner, ordered)
+    return _png_cache[key]
+
+
+def cut_png(file: str, index: int | None = None, count: int | None = None) -> Image.Image:
+    """Cleans a transparent sticker PNG: drops specks and the faint halo that background
+    removal leaves around the edge, then crops to the sticker. With `index`, the file is a
+    transparent sheet and only that sticker (reading order) is returned."""
+    pixels, alpha, body, owner, ordered = _png_sheet(file, count, index is not None)
+    pixels = pixels.copy()
+    if index is not None:
+        mine = body & (owner == ordered[index])
         parts, part_count = ndimage.label(mine)
         part_sizes = ndimage.sum(mine, parts, range(1, part_count + 1))
         main = parts == int(np.argmax(part_sizes)) + 1

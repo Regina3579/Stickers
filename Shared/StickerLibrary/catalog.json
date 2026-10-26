@@ -2082,21 +2082,6 @@
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
-          "id": "selfcare-herbal-tea",
-          "name": "Herbal Tea",
-          "emojis": [
-            "🍵",
-            "🌼"
-          ],
-          "keywords": [
-            "herbal",
-            "tea",
-            "relax"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Herbal Tea\" in English",
-          "source": "Owner artwork (SelfCare/sheet-1.png)"
-        },
-        {
           "id": "selfcare-workout",
           "name": "Workout",
           "emojis": [
@@ -2204,22 +2189,6 @@
             "walking"
           ],
           "accessibilityText": "Sticker with text that reads \"Go for a Walk\" in English",
-          "source": "Owner artwork (SelfCare/sheet-1.png)"
-        },
-        {
-          "id": "selfcare-healthy-snack",
-          "name": "Healthy Snack",
-          "emojis": [
-            "🥑",
-            "🌰"
-          ],
-          "keywords": [
-            "healthy",
-            "snack",
-            "avocado",
-            "almonds"
-          ],
-          "accessibilityText": "An avocado and almonds with hearts, a healthy snack",
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
