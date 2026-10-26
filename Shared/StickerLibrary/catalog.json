@@ -2657,6 +2657,390 @@
           "source": "Owner artwork (Birthday/sheet-2.png)"
         }
       ]
+    },
+    {
+      "id": "encouragement",
+      "title": "Encouragement",
+      "subtitle": "Cheer someone on",
+      "banner": "Banner-encouragement",
+      "colors": {
+        "tint": "#1FA59A",
+        "top": "#DDF6F2",
+        "bottom": "#F1FBF9"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "encouragement-you-did-it",
+          "name": "You Did It",
+          "emojis": [
+            "🎉",
+            "🐻"
+          ],
+          "keywords": [
+            "you",
+            "did",
+            "it",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"YOU DID IT!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-great",
+          "name": "Great",
+          "emojis": [
+            "⭐",
+            "🐰"
+          ],
+          "keywords": [
+            "great",
+            "star",
+            "bunny"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-keep-going",
+          "name": "Keep Going",
+          "emojis": [
+            "☀️",
+            "💪"
+          ],
+          "keywords": [
+            "keep",
+            "going",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"KEEP Going!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-you-are-amazing",
+          "name": "You Are Amazing",
+          "emojis": [
+            "🐧",
+            "💖"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "amazing",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"YOU ARE Amazing!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-awesome",
+          "name": "Awesome",
+          "emojis": [
+            "🐱",
+            "🤩"
+          ],
+          "keywords": [
+            "awesome",
+            "cat"
+          ],
+          "accessibilityText": "Sticker with text that reads \"AWESOME!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-good-job",
+          "name": "Good Job",
+          "emojis": [
+            "🐼",
+            "👍"
+          ],
+          "keywords": [
+            "good",
+            "job",
+            "panda"
+          ],
+          "accessibilityText": "Sticker with text that reads \"GOOD JOB!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-well-done",
+          "name": "Well Done",
+          "emojis": [
+            "🐶",
+            "👍"
+          ],
+          "keywords": [
+            "well",
+            "done",
+            "puppy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"WELL DONE!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-so-proud-of-you",
+          "name": "So Proud of You",
+          "emojis": [
+            "🐱",
+            "💗"
+          ],
+          "keywords": [
+            "so",
+            "proud",
+            "of",
+            "you",
+            "kitten"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Proud of You!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-fantastic",
+          "name": "Fantastic",
+          "emojis": [
+            "🐢",
+            "⭐"
+          ],
+          "keywords": [
+            "fantastic",
+            "turtle"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Fantastic!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-you-are-special",
+          "name": "You Are Special",
+          "emojis": [
+            "🧸",
+            "💖"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "special",
+            "teddy",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Are Special!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-believe-in-yourself",
+          "name": "Believe in Yourself",
+          "emojis": [
+            "🌈",
+            "🐧"
+          ],
+          "keywords": [
+            "believe",
+            "in",
+            "yourself",
+            "penguin",
+            "rainbow"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Believe in Yourself!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-you-make-a-difference",
+          "name": "You Make a Difference",
+          "emojis": [
+            "🦊",
+            "⭐"
+          ],
+          "keywords": [
+            "you",
+            "make",
+            "a",
+            "difference",
+            "fox"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Make a Difference!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-super-smart",
+          "name": "Super Smart",
+          "emojis": [
+            "🏆",
+            "🐱"
+          ],
+          "keywords": [
+            "super",
+            "smart",
+            "cat",
+            "trophy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Super Smart!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-great-work",
+          "name": "Great Work",
+          "emojis": [
+            "📚",
+            "🐶"
+          ],
+          "keywords": [
+            "great",
+            "work",
+            "puppy",
+            "books"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great Work!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-nailed-it",
+          "name": "Nailed It",
+          "emojis": [
+            "✏️",
+            "🐰"
+          ],
+          "keywords": [
+            "nailed",
+            "it",
+            "bunny",
+            "pencil"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Nailed It!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-keep-shining",
+          "name": "Keep Shining",
+          "emojis": [
+            "✨",
+            "🐧"
+          ],
+          "keywords": [
+            "keep",
+            "shining",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Keep Shining!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-brilliant",
+          "name": "Brilliant",
+          "emojis": [
+            "🐼",
+            "🌟"
+          ],
+          "keywords": [
+            "brilliant",
+            "panda"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Brilliant!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-youre-amazing",
+          "name": "You're Amazing",
+          "emojis": [
+            "🦉",
+            "💖"
+          ],
+          "keywords": [
+            "you're",
+            "amazing",
+            "owl"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You're Amazing!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-great-effort",
+          "name": "Great Effort",
+          "emojis": [
+            "🐘",
+            "👑"
+          ],
+          "keywords": [
+            "great",
+            "effort",
+            "elephant"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great Effort!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-hooray",
+          "name": "Hooray",
+          "emojis": [
+            "🦊",
+            "❤️"
+          ],
+          "keywords": [
+            "hooray",
+            "fox",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hooray!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-so-clever",
+          "name": "So Clever",
+          "emojis": [
+            "🧸",
+            "👍"
+          ],
+          "keywords": [
+            "so",
+            "clever",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Clever!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-impressive",
+          "name": "Impressive",
+          "emojis": [
+            "🐑",
+            "🌸"
+          ],
+          "keywords": [
+            "impressive",
+            "lamb",
+            "flowers"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Impressive!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-keep-growing",
+          "name": "Keep Growing",
+          "emojis": [
+            "🐢",
+            "🌱"
+          ],
+          "keywords": [
+            "keep",
+            "growing",
+            "turtle"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Keep Growing!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-outstanding",
+          "name": "Outstanding",
+          "emojis": [
+            "🦊",
+            "⭐"
+          ],
+          "keywords": [
+            "outstanding",
+            "fox",
+            "star"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Outstanding!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        }
+      ]
     }
   ]
 }
