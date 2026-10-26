@@ -1352,6 +1352,63 @@
           ],
           "accessibilityText": "Sticker with text that reads \"It all starts and ends with Family\" in English",
           "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-family-hug-with-son",
+          "name": "Family Hug With Son",
+          "emojis": [
+            "👨‍👩‍👦",
+            "🤗"
+          ],
+          "keywords": [
+            "family",
+            "hug",
+            "mom",
+            "dad",
+            "son",
+            "baby",
+            "boy"
+          ],
+          "accessibilityText": "Mom and dad hugging their little son, all smiling, with pink hearts",
+          "source": "Owner artwork (Family/sheet-4.png)"
+        },
+        {
+          "id": "family-mom-and-dad",
+          "name": "Mom and Dad",
+          "emojis": [
+            "💑",
+            "💕"
+          ],
+          "keywords": [
+            "mom",
+            "dad",
+            "couple",
+            "parents",
+            "hug",
+            "love"
+          ],
+          "accessibilityText": "Mom and dad hugging and smiling with pink hearts and sparkles",
+          "source": "Owner artwork (Family/sheet-4.png)"
+        },
+        {
+          "id": "family-family-of-four",
+          "name": "Family of Four",
+          "emojis": [
+            "👨‍👩‍👧‍👦",
+            "💕"
+          ],
+          "keywords": [
+            "family",
+            "of",
+            "four",
+            "hug",
+            "mom",
+            "dad",
+            "son",
+            "daughter"
+          ],
+          "accessibilityText": "Mom and dad hugging their son and daughter, everyone laughing, with hearts",
+          "source": "Owner artwork (Family/sheet-4.png)"
         }
       ]
     },

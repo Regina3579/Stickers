@@ -262,6 +262,12 @@ PACKS = [
                 count=5, index=3, label="Families are a work of the Heart"),
             png("Family/sheet-3.png", "🌳 💕", "Starts and Ends With Family", "it all starts and ends with family tree",
                 count=5, index=4, label="It all starts and ends with Family"),
+            png("Family/sheet-4.png", "👨‍👩‍👦 🤗", "Family Hug With Son", "family hug mom dad son baby boy", count=3, index=0,
+                description="Mom and dad hugging their little son, all smiling, with pink hearts"),
+            png("Family/sheet-4.png", "💑 💕", "Mom and Dad", "mom dad couple parents hug love", count=3, index=1,
+                description="Mom and dad hugging and smiling with pink hearts and sparkles"),
+            png("Family/sheet-4.png", "👨‍👩‍👧‍👦 💕", "Family of Four", "family of four hug mom dad son daughter", count=3, index=2,
+                description="Mom and dad hugging their son and daughter, everyone laughing, with hearts"),
         ],
     },
     {
