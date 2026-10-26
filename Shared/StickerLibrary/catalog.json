@@ -2231,6 +2231,375 @@
           "source": "Owner artwork (SelfCare/sheet-3.png)"
         }
       ]
+    },
+    {
+      "id": "birthday",
+      "title": "Birthday",
+      "subtitle": "Make every birthday sparkle",
+      "banner": "Banner-birthday",
+      "colors": {
+        "tint": "#F08A24",
+        "top": "#FFF0D9",
+        "bottom": "#FFF8EE"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "birthday-happy-birthday",
+          "name": "Happy Birthday",
+          "emojis": [
+            "🎂",
+            "🎉"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "hbd"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-its-your-day",
+          "name": "It's Your Day",
+          "emojis": [
+            "🎈",
+            "🎉"
+          ],
+          "keywords": [
+            "it's",
+            "your",
+            "day",
+            "birthday",
+            "balloons"
+          ],
+          "accessibilityText": "Sticker with text that reads \"It's your DAY!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-make-a-wish",
+          "name": "Make a Wish",
+          "emojis": [
+            "🎂",
+            "🕯️"
+          ],
+          "keywords": [
+            "make",
+            "a",
+            "wish",
+            "cake",
+            "candles",
+            "birthday"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Make a wish\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-birthday-vibes",
+          "name": "Birthday Vibes",
+          "emojis": [
+            "👑",
+            "🎉"
+          ],
+          "keywords": [
+            "birthday",
+            "vibes",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Birthday VIBES\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-another-year-of-awesome",
+          "name": "Another Year of Awesome",
+          "emojis": [
+            "🥳",
+            "✨"
+          ],
+          "keywords": [
+            "another",
+            "year",
+            "of",
+            "awesome",
+            "birthday"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Another year of Awesome!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-cheers-to-you",
+          "name": "Cheers to You",
+          "emojis": [
+            "🥂",
+            "💖"
+          ],
+          "keywords": [
+            "cheers",
+            "to",
+            "you",
+            "champagne",
+            "celebrate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Cheers to you!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-happy-birthday-to-you",
+          "name": "Happy Birthday to You",
+          "emojis": [
+            "🎁",
+            "🎉"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "to",
+            "you",
+            "gift",
+            "present"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday to YOU!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-birthday-love",
+          "name": "Birthday Love",
+          "emojis": [
+            "💖",
+            "🎂"
+          ],
+          "keywords": [
+            "birthday",
+            "love",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Birthday Love\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-lets-celebrate",
+          "name": "Let's Celebrate",
+          "emojis": [
+            "🥳",
+            "🎊"
+          ],
+          "keywords": [
+            "let's",
+            "celebrate",
+            "party",
+            "hat"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Let's Celebrate!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-happy-birthday-crown",
+          "name": "Happy Birthday Crown",
+          "emojis": [
+            "👑",
+            "🎂"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "crown",
+            "hbd"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-birthday-wishes",
+          "name": "Birthday Wishes",
+          "emojis": [
+            "🎈",
+            "💌"
+          ],
+          "keywords": [
+            "birthday",
+            "wishes",
+            "balloons"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Birthday Wishes\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-thinking-of-you",
+          "name": "Thinking of You",
+          "emojis": [
+            "💭",
+            "🌸"
+          ],
+          "keywords": [
+            "thinking",
+            "of",
+            "you",
+            "flowers"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-have-a-lovely-day",
+          "name": "Have a Lovely Day",
+          "emojis": [
+            "🌈",
+            "☀️"
+          ],
+          "keywords": [
+            "have",
+            "a",
+            "lovely",
+            "day",
+            "rainbow",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Have a Lovely Day!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-wonderful-birthday",
+          "name": "Wonderful Birthday",
+          "emojis": [
+            "🎂",
+            "🌸"
+          ],
+          "keywords": [
+            "wishing",
+            "you",
+            "a",
+            "wonderful",
+            "birthday",
+            "cake"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Wishing You a Wonderful Birthday!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-just-for-you",
+          "name": "Just for You",
+          "emojis": [
+            "🎁",
+            "💜"
+          ],
+          "keywords": [
+            "just",
+            "for",
+            "you",
+            "gifts",
+            "presents"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Just for You\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-take-care",
+          "name": "Take Care",
+          "emojis": [
+            "🌷",
+            "🎀"
+          ],
+          "keywords": [
+            "take",
+            "care",
+            "and",
+            "enjoy",
+            "your",
+            "special",
+            "day"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Take Care and Enjoy Your Special Day!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-sending-warm-wishes",
+          "name": "Sending Warm Wishes",
+          "emojis": [
+            "🧸",
+            "💌"
+          ],
+          "keywords": [
+            "sending",
+            "warm",
+            "wishes",
+            "teddy",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sending Warm Wishes\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-you-are-very-special",
+          "name": "You Are Very Special",
+          "emojis": [
+            "💖",
+            "🎀"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "very",
+            "special"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You are Very Special\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-beautiful-moments",
+          "name": "Beautiful Moments",
+          "emojis": [
+            "😊",
+            "🌸"
+          ],
+          "keywords": [
+            "may",
+            "your",
+            "birthday",
+            "be",
+            "filled",
+            "with",
+            "smiles",
+            "comfort",
+            "beautiful",
+            "moments"
+          ],
+          "accessibilityText": "Sticker with text that reads \"May your Birthday be filled with Smiles, Comfort & Beautiful Moments\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-enjoy-the-little-things",
+          "name": "Enjoy the Little Things",
+          "emojis": [
+            "💜",
+            "🌿"
+          ],
+          "keywords": [
+            "enjoy",
+            "the",
+            "little",
+            "things",
+            "lavender"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Enjoy the little Things\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-celebrating-you-today",
+          "name": "Celebrating You Today",
+          "emojis": [
+            "🎉",
+            "🥳"
+          ],
+          "keywords": [
+            "celebrating",
+            "you",
+            "today",
+            "party"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Celebrating YOU Today!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        }
+      ]
     }
   ]
 }

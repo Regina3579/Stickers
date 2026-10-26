@@ -382,6 +382,55 @@ PACKS = [
                 label="slow down you're doing great"),
         ],
     },
+    {
+        "id": "birthday", "title": "Birthday", "subtitle": "Make every birthday sparkle",
+        "tint": "#F08A24", "top": "#FFF0D9", "bottom": "#FFF8EE", "ink": ["#FFB45C", "#E8781A"],
+        "tray": "Birthday cake", "banner_sticker": 2,
+        "stickers": [
+            png("Birthday/sheet-1.png", "🎂 🎉", "Happy Birthday", "happy birthday hbd", count=9, index=0,
+                label="Happy Birthday!"),
+            png("Birthday/sheet-1.png", "🎈 🎉", "It's Your Day", "it's your day birthday balloons", count=9, index=1,
+                label="It's your DAY!"),
+            png("Birthday/sheet-1.png", "🎂 🕯️", "Make a Wish", "make a wish cake candles birthday", count=9, index=2,
+                label="Make a wish"),
+            png("Birthday/sheet-1.png", "👑 🎉", "Birthday Vibes", "birthday vibes crown", count=9, index=3,
+                label="Birthday VIBES"),
+            png("Birthday/sheet-1.png", "🥳 ✨", "Another Year of Awesome", "another year of awesome birthday", count=9, index=4,
+                label="Another year of Awesome!"),
+            png("Birthday/sheet-1.png", "🥂 💖", "Cheers to You", "cheers to you champagne celebrate", count=9, index=5,
+                label="Cheers to you!"),
+            png("Birthday/sheet-1.png", "🎁 🎉", "Happy Birthday to You", "happy birthday to you gift present", count=9, index=6,
+                label="Happy Birthday to YOU!"),
+            png("Birthday/sheet-1.png", "💖 🎂", "Birthday Love", "birthday love heart", count=9, index=7,
+                label="Birthday Love"),
+            png("Birthday/sheet-1.png", "🥳 🎊", "Let's Celebrate", "let's celebrate party hat", count=9, index=8,
+                label="Let's Celebrate!"),
+            png("Birthday/sheet-2.png", "👑 🎂", "Happy Birthday Crown", "happy birthday crown hbd", count=12, index=0,
+                label="Happy Birthday!"),
+            png("Birthday/sheet-2.png", "🎈 💌", "Birthday Wishes", "birthday wishes balloons", count=12, index=1,
+                label="Birthday Wishes"),
+            png("Birthday/sheet-2.png", "💭 🌸", "Thinking of You", "thinking of you flowers", count=12, index=2,
+                label="Thinking of You"),
+            png("Birthday/sheet-2.png", "🌈 ☀️", "Have a Lovely Day", "have a lovely day rainbow sun", count=12, index=3,
+                label="Have a Lovely Day!"),
+            png("Birthday/sheet-2.png", "🎂 🌸", "Wonderful Birthday", "wishing you a wonderful birthday cake", count=12, index=4,
+                label="Wishing You a Wonderful Birthday!"),
+            png("Birthday/sheet-2.png", "🎁 💜", "Just for You", "just for you gifts presents", count=12, index=5,
+                label="Just for You"),
+            png("Birthday/sheet-2.png", "🌷 🎀", "Take Care", "take care and enjoy your special day", count=12, index=6,
+                label="Take Care and Enjoy Your Special Day!"),
+            png("Birthday/sheet-2.png", "🧸 💌", "Sending Warm Wishes", "sending warm wishes teddy bear", count=12, index=7,
+                label="Sending Warm Wishes"),
+            png("Birthday/sheet-2.png", "💖 🎀", "You Are Very Special", "you are very special", count=12, index=8,
+                label="You are Very Special"),
+            png("Birthday/sheet-2.png", "😊 🌸", "Beautiful Moments", "may your birthday be filled with smiles comfort beautiful moments", count=12, index=9,
+                label="May your Birthday be filled with Smiles, Comfort & Beautiful Moments"),
+            png("Birthday/sheet-2.png", "💜 🌿", "Enjoy the Little Things", "enjoy the little things lavender", count=12, index=10,
+                label="Enjoy the little Things"),
+            png("Birthday/sheet-2.png", "🎉 🥳", "Celebrating You Today", "celebrating you today party", count=12, index=11,
+                label="Celebrating YOU Today!"),
+        ],
+    },
 ]
 
 
@@ -748,6 +797,16 @@ def cut_grid(file: str, rows) -> list[Image.Image]:
     return stickers
 
 
+def sticker_banner(sticker: Image.Image, pack) -> Image.Image:
+    """Card picture for a category that has no landing-page illustration: one of its
+    stickers on the category's soft gradient. The card shows the centre as a square."""
+    size = (464, 328)
+    banner = vertical_gradient(size, hex_rgb(pack["top"]), hex_rgb(pack["bottom"])).convert("RGBA")
+    art = fit(sticker, 300)
+    banner.alpha_composite(art, ((size[0] - art.width) // 2, (size[1] - art.height) // 2))
+    return banner.convert("RGB")
+
+
 def save_webp(img: Image.Image, path: Path) -> int:
     for quality in (90, 85, 80, 75, 70, 60, 50):
         buffer = io.BytesIO()
@@ -865,6 +924,7 @@ def main() -> None:
     for pack in PACKS:
         assert 3 <= len(pack["stickers"]) <= 30, "WhatsApp packs need 3...30 stickers"
         stickers = []
+        images = []
         aspects = []
         for spec in pack["stickers"]:
             slug = spec["name"].lower().replace("!", "").replace("'", "").replace("-", " ").replace("  ", " ").replace(" ", "-")
@@ -891,6 +951,7 @@ def main() -> None:
                 img = art_sticker(spec, reference)
                 source = "Stickers landing page illustration"
 
+            images.append(img)
             box = img.getchannel("A").point(lambda v: 255 if v > 128 else 0).getbbox()
             aspects.append((box[2] - box[0]) / (box[3] - box[1]))
             png_size = save_png(img, LIBRARY / "png" / f"{sticker_id}.png", MAX_PNG_BYTES)
@@ -923,7 +984,10 @@ def main() -> None:
             "stickers": stickers,
         })
 
-        image_set(f"Banner-{pack['id']}", reference.crop(BANNER_BOXES[pack["id"]]))
+        if pack["id"] in BANNER_BOXES:
+            image_set(f"Banner-{pack['id']}", reference.crop(BANNER_BOXES[pack["id"]]))
+        else:
+            image_set(f"Banner-{pack['id']}", sticker_banner(images[pack["banner_sticker"]], pack))
 
     write_json(LIBRARY / "catalog.json", catalog)
 
