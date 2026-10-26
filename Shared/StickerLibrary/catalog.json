@@ -1990,80 +1990,296 @@
         "top": "#FCE3F3",
         "bottom": "#FFF3FA"
       },
-      "wideStickers": false,
+      "wideStickers": true,
       "stickers": [
         {
-          "id": "selfcare-peaceful-me",
-          "name": "Peaceful Me",
+          "id": "selfcare-yoga-time",
+          "name": "Yoga Time",
           "emojis": [
-            "😌",
-            "💆‍♀️"
-          ],
-          "keywords": [
-            "self",
-            "care",
-            "relax",
-            "calm",
-            "peaceful"
-          ],
-          "accessibilityText": "Peaceful Me sticker",
-          "source": "Stickers landing page illustration"
-        },
-        {
-          "id": "selfcare-lotus",
-          "name": "Lotus",
-          "emojis": [
-            "🪷"
-          ],
-          "keywords": [
-            "lotus",
-            "calm",
-            "zen"
-          ],
-          "accessibilityText": "Lotus sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "selfcare-coffee-break",
-          "name": "Coffee Break",
-          "emojis": [
-            "☕"
-          ],
-          "keywords": [
-            "coffee",
-            "break",
-            "cozy"
-          ],
-          "accessibilityText": "Coffee Break sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "selfcare-yoga",
-          "name": "Yoga",
-          "emojis": [
-            "🧘‍♀️"
+            "🧘‍♀️",
+            "💕"
           ],
           "keywords": [
             "yoga",
-            "meditate",
-            "zen"
+            "time",
+            "exercise"
           ],
-          "accessibilityText": "Yoga sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Yoga Time\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
-          "id": "selfcare-candle",
-          "name": "Candle",
+          "id": "selfcare-meditation",
+          "name": "Meditation",
           "emojis": [
-            "🕯️"
+            "🧘‍♀️",
+            "🌿"
           ],
           "keywords": [
-            "candle",
-            "cozy",
+            "meditation",
+            "calm",
+            "zen"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Meditation\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-healthy-food",
+          "name": "Healthy Food",
+          "emojis": [
+            "🥗",
+            "💚"
+          ],
+          "keywords": [
+            "healthy",
+            "food",
+            "salad"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Healthy Food\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-drink-water",
+          "name": "Drink Water",
+          "emojis": [
+            "💧",
+            "🍋"
+          ],
+          "keywords": [
+            "drink",
+            "water",
+            "hydrate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Drink Water\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-self-care",
+          "name": "Self Care",
+          "emojis": [
+            "💖",
+            "🌼"
+          ],
+          "keywords": [
+            "self",
+            "care"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Self Care\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-daily-planner",
+          "name": "Daily Planner",
+          "emojis": [
+            "📒",
+            "✏️"
+          ],
+          "keywords": [
+            "daily",
+            "planner",
+            "plan"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Daily Planner\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-herbal-tea",
+          "name": "Herbal Tea",
+          "emojis": [
+            "🍵",
+            "🌼"
+          ],
+          "keywords": [
+            "herbal",
+            "tea",
             "relax"
           ],
-          "accessibilityText": "Candle sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Herbal Tea\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-workout",
+          "name": "Workout",
+          "emojis": [
+            "🏋️‍♀️",
+            "💪"
+          ],
+          "keywords": [
+            "workout",
+            "gym",
+            "exercise"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Workout\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-relax",
+          "name": "Relax",
+          "emojis": [
+            "🪷",
+            "😌"
+          ],
+          "keywords": [
+            "relax",
+            "calm",
+            "lotus"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Relax\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-me-time",
+          "name": "Me Time",
+          "emojis": [
+            "🕯️",
+            "📖"
+          ],
+          "keywords": [
+            "me",
+            "time",
+            "candle",
+            "book"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Me Time\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-beauty-time",
+          "name": "Beauty Time",
+          "emojis": [
+            "💄",
+            "🎀"
+          ],
+          "keywords": [
+            "beauty",
+            "time",
+            "skincare"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Beauty Time\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-spa-day",
+          "name": "Spa Day",
+          "emojis": [
+            "🛁",
+            "🫧"
+          ],
+          "keywords": [
+            "spa",
+            "day",
+            "bath",
+            "bubbles"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Spa Day\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-good-sleep",
+          "name": "Good Sleep",
+          "emojis": [
+            "😴",
+            "🌙"
+          ],
+          "keywords": [
+            "good",
+            "sleep",
+            "night",
+            "rest"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Sleep\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-go-for-a-walk",
+          "name": "Go for a Walk",
+          "emojis": [
+            "👟",
+            "🌸"
+          ],
+          "keywords": [
+            "go",
+            "for",
+            "a",
+            "walk",
+            "walking"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Go for a Walk\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-healthy-snack",
+          "name": "Healthy Snack",
+          "emojis": [
+            "🥑",
+            "🌰"
+          ],
+          "keywords": [
+            "healthy",
+            "snack",
+            "avocado",
+            "almonds"
+          ],
+          "accessibilityText": "An avocado and almonds with hearts, a healthy snack",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-digital-detox",
+          "name": "Digital Detox",
+          "emojis": [
+            "📵",
+            "💻"
+          ],
+          "keywords": [
+            "digital",
+            "detox",
+            "phone",
+            "break"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Digital Detox\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-read-and-journal",
+          "name": "Read and Journal",
+          "emojis": [
+            "📖",
+            "☕"
+          ],
+          "keywords": [
+            "read",
+            "journal",
+            "book"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Read & Journal\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-dream-big",
+          "name": "Dream Big",
+          "emojis": [
+            "✨",
+            "🌙"
+          ],
+          "keywords": [
+            "dream",
+            "big"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Dream Big\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-good-vibes",
+          "name": "Good Vibes",
+          "emojis": [
+            "🌸",
+            "💕"
+          ],
+          "keywords": [
+            "good",
+            "vibes"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Vibes\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
           "id": "selfcare-self-love",
@@ -2077,144 +2293,82 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"Self Love\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
-          "id": "selfcare-bath-time",
-          "name": "Bath Time",
+          "id": "selfcare-chill",
+          "name": "Chill",
           "emojis": [
-            "🛀"
+            "🌴",
+            "🌊"
           ],
           "keywords": [
-            "bath",
+            "chill",
             "relax",
-            "spa"
+            "beach"
           ],
-          "accessibilityText": "Bath Time sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Chill\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
-          "id": "selfcare-bubbles",
-          "name": "Bubbles",
+          "id": "selfcare-stay-positive",
+          "name": "Stay Positive",
           "emojis": [
-            "🫧"
+            "☀️",
+            "😊"
           ],
           "keywords": [
-            "bubbles",
-            "bath"
+            "stay",
+            "positive"
           ],
-          "accessibilityText": "Bubbles sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Stay Positive\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
-          "id": "selfcare-nails-done",
-          "name": "Nails Done",
+          "id": "selfcare-be-happy",
+          "name": "Be Happy",
           "emojis": [
-            "💅"
+            "😊",
+            "🌼"
           ],
           "keywords": [
-            "nails",
-            "manicure"
+            "be",
+            "happy",
+            "smile"
           ],
-          "accessibilityText": "Nails Done sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Be Happy\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
-          "id": "selfcare-lipstick",
-          "name": "Lipstick",
+          "id": "selfcare-focus-on-yourself",
+          "name": "Focus on Yourself",
           "emojis": [
-            "💄"
+            "👑",
+            "🎀"
           ],
           "keywords": [
-            "makeup",
-            "lipstick"
+            "focus",
+            "on",
+            "yourself"
           ],
-          "accessibilityText": "Lipstick sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
+          "accessibilityText": "Sticker with text that reads \"Focus on Yourself\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
-          "id": "selfcare-tulip",
-          "name": "Tulip",
+          "id": "selfcare-sweet-dreams",
+          "name": "Sweet Dreams",
           "emojis": [
-            "🌷"
+            "🌙",
+            "⭐"
           ],
           "keywords": [
-            "flower",
-            "tulip"
-          ],
-          "accessibilityText": "Tulip sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "selfcare-sparkles",
-          "name": "Sparkles",
-          "emojis": [
-            "✨"
-          ],
-          "keywords": [
-            "sparkle",
-            "glow",
-            "shine"
-          ],
-          "accessibilityText": "Sparkles sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "selfcare-good-night",
-          "name": "Good Night",
-          "emojis": [
-            "🌙"
-          ],
-          "keywords": [
+            "sweet",
+            "dreams",
             "night",
-            "sleep",
-            "moon"
+            "sleep"
           ],
-          "accessibilityText": "Good Night sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "selfcare-green-tea",
-          "name": "Green Tea",
-          "emojis": [
-            "🍵"
-          ],
-          "keywords": [
-            "tea",
-            "relax"
-          ],
-          "accessibilityText": "Green Tea sticker",
-          "source": "Microsoft Fluent Emoji (MIT)"
-        },
-        {
-          "id": "selfcare-me-time",
-          "name": "Me Time",
-          "emojis": [
-            "💆‍♀️"
-          ],
-          "keywords": [
-            "me",
-            "time",
-            "relax"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Me Time\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
-        },
-        {
-          "id": "selfcare-you-got-this",
-          "name": "You Got This",
-          "emojis": [
-            "💪",
-            "✨"
-          ],
-          "keywords": [
-            "motivation",
-            "you",
-            "got",
-            "this"
-          ],
-          "accessibilityText": "Sticker with text that reads \"You Got This!\" in English",
-          "source": "Text sticker, Fredoka font (OFL)"
+          "accessibilityText": "Sticker with text that reads \"Sweet Dreams\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
         }
       ]
     }
