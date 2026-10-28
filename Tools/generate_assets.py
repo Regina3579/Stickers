@@ -493,7 +493,7 @@ PACKS = [
         ],
     },
     {
-        "id": "wishes", "title": "Wishes", "subtitle": "For every special day",
+        "id": "wishes", "title": "Celebrations", "subtitle": "For every special day",
         "tint": "#D9485F", "top": "#FDE3E7", "bottom": "#FFF4F5", "ink": ["#F27A8C", "#C2364D"],
         "tray": "Wrapped gift", "banner_sticker": 8,
         "stickers": [

@@ -1,7 +1,7 @@
 # Third-party notices
 
 The 20 Love stickers (`Design/Love-sheet-1.png`, `Design/Love-sheet-2.png`), the 21 Friendship
-stickers (`Design/Friendship/`), the 21 Sisters stickers (`Design/Sisters/`), the 21 Family stickers (`Design/Family/`), the 26 Emotions stickers (`Design/Emotions/`), the 28 Self-Care stickers (`Design/SelfCare/`), the 21 Birthday stickers (`Design/Birthday/`), the 24 Encouragement stickers (`Design/Encouragement/`), the 21 Wishes stickers (`Design/Wishes/`) and the
+stickers (`Design/Friendship/`), the 21 Sisters stickers (`Design/Sisters/`), the 21 Family stickers (`Design/Family/`), the 26 Emotions stickers (`Design/Emotions/`), the 28 Self-Care stickers (`Design/SelfCare/`), the 21 Birthday stickers (`Design/Birthday/`), the 24 Encouragement stickers (`Design/Encouragement/`), the 21 Celebrations stickers (`Design/Wishes/`) and the
 landing page and icon artwork were supplied by the app owner.
 
 ## Fluent Emoji (Microsoft)
