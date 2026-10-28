@@ -1878,15 +1878,17 @@
           "name": "Meditation",
           "emojis": [
             "🧘‍♀️",
-            "🌿"
+            "🪷"
           ],
           "keywords": [
             "meditation",
             "calm",
-            "zen"
+            "zen",
+            "yoga",
+            "lotus"
           ],
           "accessibilityText": "Sticker with text that reads \"Meditation\" in English",
-          "source": "Owner artwork (SelfCare/sheet-1.png)"
+          "source": "Owner artwork (SelfCare/02-meditation.png)"
         },
         {
           "id": "selfcare-healthy-food",

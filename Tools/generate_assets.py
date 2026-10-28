@@ -332,7 +332,7 @@ PACKS = [
         "stickers": [
             png("SelfCare/sheet-1.png", "🧘‍♀️ 💕", "Yoga Time", "yoga time exercise", count=17, index=0,
                 label="Yoga Time"),
-            png("SelfCare/sheet-1.png", "🧘‍♀️ 🌿", "Meditation", "meditation calm zen", count=17, index=1,
+            png("SelfCare/02-meditation.png", "🧘‍♀️ 🪷", "Meditation", "meditation calm zen yoga lotus",
                 label="Meditation"),
             png("SelfCare/sheet-1.png", "🥗 💚", "Healthy Food", "healthy food salad", count=17, index=2,
                 label="Healthy Food"),
