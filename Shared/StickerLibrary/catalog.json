@@ -4072,6 +4072,119 @@
           ],
           "accessibilityText": "Sticker with text that reads \"all of me loves all of you\" in English",
           "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-love-you",
+          "name": "Love You",
+          "emojis": [
+            "🥰",
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "couple",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "couples-hugs-and-kisses",
+          "name": "Hugs & Kisses",
+          "emojis": [
+            "😘",
+            "🤗"
+          ],
+          "keywords": [
+            "hugs",
+            "and",
+            "kisses",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "couples-together",
+          "name": "Together",
+          "emojis": [
+            "☕",
+            "💕"
+          ],
+          "keywords": [
+            "together",
+            "couple",
+            "blanket",
+            "coffee"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Together\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "couples-my-favorite",
+          "name": "My Favorite",
+          "emojis": [
+            "🧸",
+            "💗"
+          ],
+          "keywords": [
+            "my",
+            "favorite",
+            "teddy",
+            "bear",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Favorite\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "couples-my-heart",
+          "name": "My Heart",
+          "emojis": [
+            "💗",
+            "🤗"
+          ],
+          "keywords": [
+            "my",
+            "heart",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Heart\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "couples-memories",
+          "name": "Memories",
+          "emojis": [
+            "🤳",
+            "💕"
+          ],
+          "keywords": [
+            "memories",
+            "selfie",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Memories\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "couples-we-are-a-team",
+          "name": "We Are a Team",
+          "emojis": [
+            "🥤",
+            "💑"
+          ],
+          "keywords": [
+            "we",
+            "are",
+            "a",
+            "team",
+            "milkshake",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"We Are a Team\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
         }
       ]
     },
@@ -4087,22 +4200,6 @@
       },
       "wideStickers": false,
       "stickers": [
-        {
-          "id": "lovers-love-you",
-          "name": "Love You",
-          "emojis": [
-            "🥰",
-            "❤️"
-          ],
-          "keywords": [
-            "love",
-            "you",
-            "couple",
-            "hug"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
         {
           "id": "lovers-we-match",
           "name": "We Match",
@@ -4136,39 +4233,6 @@
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
-          "id": "lovers-hugs-and-kisses",
-          "name": "Hugs & Kisses",
-          "emojis": [
-            "😘",
-            "🤗"
-          ],
-          "keywords": [
-            "hugs",
-            "and",
-            "kisses",
-            "couple"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
-        {
-          "id": "lovers-my-favorite",
-          "name": "My Favorite",
-          "emojis": [
-            "🧸",
-            "💗"
-          ],
-          "keywords": [
-            "my",
-            "favorite",
-            "teddy",
-            "bear",
-            "hug"
-          ],
-          "accessibilityText": "Sticker with text that reads \"My Favorite\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
-        {
           "id": "lovers-locked",
           "name": "Locked",
           "emojis": [
@@ -4182,22 +4246,6 @@
             "key"
           ],
           "accessibilityText": "Sticker with text that reads \"Locked\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
-        {
-          "id": "lovers-together",
-          "name": "Together",
-          "emojis": [
-            "☕",
-            "💕"
-          ],
-          "keywords": [
-            "together",
-            "couple",
-            "blanket",
-            "coffee"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Together\" in English",
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4232,36 +4280,6 @@
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
-          "id": "lovers-my-heart",
-          "name": "My Heart",
-          "emojis": [
-            "💗",
-            "🤗"
-          ],
-          "keywords": [
-            "my",
-            "heart",
-            "hug"
-          ],
-          "accessibilityText": "Sticker with text that reads \"My Heart\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
-        {
-          "id": "lovers-memories",
-          "name": "Memories",
-          "emojis": [
-            "🤳",
-            "💕"
-          ],
-          "keywords": [
-            "memories",
-            "selfie",
-            "couple"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Memories\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
-        {
           "id": "lovers-sweethearts",
           "name": "Sweethearts",
           "emojis": [
@@ -4288,24 +4306,6 @@
             "birds"
           ],
           "accessibilityText": "Sticker with text that reads \"True Love\" in English",
-          "source": "Owner artwork (Lovers/sheet-1.png)"
-        },
-        {
-          "id": "lovers-we-are-a-team",
-          "name": "We Are a Team",
-          "emojis": [
-            "🥤",
-            "💑"
-          ],
-          "keywords": [
-            "we",
-            "are",
-            "a",
-            "team",
-            "milkshake",
-            "couple"
-          ],
-          "accessibilityText": "Sticker with text that reads \"We Are a Team\" in English",
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
