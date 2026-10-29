@@ -664,6 +664,24 @@ PACKS = [
                 label="True Love"),
             png("Lovers/sheet-1.png", "🥤 💑", "We Are a Team", "we are a team milkshake couple", count=15, index=13,
                 label="We Are a Team"),
+            png("Lovers/sheet-2.png", "😉 🤗", "Wink Hug", "wink hug cuddle couple", count=9, index=0,
+                description="A couple cuddling cheek to cheek and winking, with hearts"),
+            png("Lovers/sheet-2.png", "😘 💕", "Cheek Kiss", "cheek kiss couple", count=9, index=1,
+                description="A boy kissing a happy girl on the cheek"),
+            png("Lovers/sheet-2.png", "🫶 💗", "Heart Hands", "heart hands couple love", count=9, index=2,
+                description="A couple making a heart with their hands"),
+            png("Lovers/sheet-2.png", "🥰 💕", "Head Pat", "head pat cute couple", count=9, index=3,
+                description="A boy patting a smiling girl on the head"),
+            png("Lovers/sheet-2.png", "😎 ✌️", "Cool Couple", "cool couple sunglasses peace", count=9, index=4,
+                description="A couple in sunglasses, pointing and making a peace sign"),
+            png("Lovers/sheet-2.png", "😴 💤", "Sleepy Cuddle", "sleepy cuddle sleep good night", count=9, index=5,
+                description="A couple sleeping together under a pink blanket"),
+            png("Lovers/sheet-2.png", "😮 ❗", "Surprised Together", "surprised wow omg couple", count=9, index=6,
+                description="A surprised couple holding their faces"),
+            png("Lovers/sheet-2.png", "🌹 💐", "Roses for You", "roses for you bouquet proposal flowers", count=9, index=7,
+                description="A boy on one knee giving a girl a bouquet of red roses"),
+            png("Lovers/sheet-2.png", "💞 🫶", "Heart Above Us", "heart arms couple together", count=9, index=8,
+                description="A couple seen from behind, making a heart with their arms"),
         ],
     },
 ]
@@ -947,7 +965,9 @@ def _png_sheet(file: str, count: int | None, sheet: bool) -> tuple:
     owner, ordered = None, []
     if sheet:
         # Shrink the stickers until there are `count` separate bodies (stickers whose
-        # borders touch split apart), then give every pixel to the nearest body.
+        # borders touch split apart), then grow each body back through its own artwork,
+        # thick parts first (a watershed). Touching stickers split at their thinnest
+        # point, and a thin part (like "zzz") stays with its sticker even when another is closer.
         shrink, seeds = 0, body
         while True:
             seed_labels, seed_count = ndimage.label(seeds)
@@ -962,8 +982,19 @@ def _png_sheet(file: str, count: int | None, sheet: bool) -> tuple:
         boxes = [(slices[i - 1][1].start, slices[i - 1][0].start, slices[i - 1][1].stop, slices[i - 1][0].stop)
                  for i in bodies]
         ordered = [bodies[k] for k in reading_order(boxes)]
-        _, (iy, ix) = ndimage.distance_transform_edt(~np.isin(seed_labels, bodies), return_indices=True)
-        owner = seed_labels[iy, ix]
+        owner = np.where(np.isin(seed_labels, bodies), seed_labels, 0)
+        depth = ndimage.distance_transform_edt(body)
+        for level in range(shrink, -1, -1):
+            allowed = depth > level
+            while True:
+                grown = ndimage.grey_dilation(owner, size=3)
+                new = (owner == 0) & allowed & (grown > 0)
+                if not new.any():
+                    break
+                owner[new] = grown[new]
+        # Pixels outside the artwork (soft edges, specks) go to the nearest sticker.
+        _, (iy, ix) = ndimage.distance_transform_edt(owner == 0, return_indices=True)
+        owner = owner[iy, ix]
     _png_cache[key] = (pixels, alpha, body, owner, ordered)
     return _png_cache[key]
 
@@ -974,14 +1005,18 @@ def cut_png(file: str, index: int | None = None, count: int | None = None) -> Im
     transparent sheet and only that sticker (reading order) is returned."""
     pixels, alpha, body, owner, ordered = _png_sheet(file, count, index is not None)
     pixels = pixels.copy()
+    edge = ndimage.binary_dilation(body, iterations=3)
     if index is not None:
-        mine = body & (owner == ordered[index])
+        own = owner == ordered[index]
+        mine = body & own
         parts, part_count = ndimage.label(mine)
         part_sizes = ndimage.sum(mine, parts, range(1, part_count + 1))
         main = parts == int(np.argmax(part_sizes)) + 1
         near = ndimage.distance_transform_edt(~main) <= 20
         body = np.isin(parts, np.unique(parts[near & mine]))
-    pixels[..., 3] = np.where(ndimage.binary_dilation(body, iterations=3), alpha, 0)
+        # The soft edge must not reach into a neighbour that sits only a few pixels away.
+        edge = ndimage.binary_dilation(body, iterations=3) & own
+    pixels[..., 3] = np.where(edge, alpha, 0)
     out = Image.fromarray(pixels)
     return out.crop(out.getbbox())
 

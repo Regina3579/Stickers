@@ -4307,6 +4307,152 @@
           ],
           "accessibilityText": "Sticker with text that reads \"We Are a Team\" in English",
           "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-wink-hug",
+          "name": "Wink Hug",
+          "emojis": [
+            "😉",
+            "🤗"
+          ],
+          "keywords": [
+            "wink",
+            "hug",
+            "cuddle",
+            "couple"
+          ],
+          "accessibilityText": "A couple cuddling cheek to cheek and winking, with hearts",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-cheek-kiss",
+          "name": "Cheek Kiss",
+          "emojis": [
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "cheek",
+            "kiss",
+            "couple"
+          ],
+          "accessibilityText": "A boy kissing a happy girl on the cheek",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-heart-hands",
+          "name": "Heart Hands",
+          "emojis": [
+            "🫶",
+            "💗"
+          ],
+          "keywords": [
+            "heart",
+            "hands",
+            "couple",
+            "love"
+          ],
+          "accessibilityText": "A couple making a heart with their hands",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-head-pat",
+          "name": "Head Pat",
+          "emojis": [
+            "🥰",
+            "💕"
+          ],
+          "keywords": [
+            "head",
+            "pat",
+            "cute",
+            "couple"
+          ],
+          "accessibilityText": "A boy patting a smiling girl on the head",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-cool-couple",
+          "name": "Cool Couple",
+          "emojis": [
+            "😎",
+            "✌️"
+          ],
+          "keywords": [
+            "cool",
+            "couple",
+            "sunglasses",
+            "peace"
+          ],
+          "accessibilityText": "A couple in sunglasses, pointing and making a peace sign",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-sleepy-cuddle",
+          "name": "Sleepy Cuddle",
+          "emojis": [
+            "😴",
+            "💤"
+          ],
+          "keywords": [
+            "sleepy",
+            "cuddle",
+            "sleep",
+            "good",
+            "night"
+          ],
+          "accessibilityText": "A couple sleeping together under a pink blanket",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-surprised-together",
+          "name": "Surprised Together",
+          "emojis": [
+            "😮",
+            "❗"
+          ],
+          "keywords": [
+            "surprised",
+            "wow",
+            "omg",
+            "couple"
+          ],
+          "accessibilityText": "A surprised couple holding their faces",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-roses-for-you",
+          "name": "Roses for You",
+          "emojis": [
+            "🌹",
+            "💐"
+          ],
+          "keywords": [
+            "roses",
+            "for",
+            "you",
+            "bouquet",
+            "proposal",
+            "flowers"
+          ],
+          "accessibilityText": "A boy on one knee giving a girl a bouquet of red roses",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-heart-above-us",
+          "name": "Heart Above Us",
+          "emojis": [
+            "💞",
+            "🫶"
+          ],
+          "keywords": [
+            "heart",
+            "arms",
+            "couple",
+            "together"
+          ],
+          "accessibilityText": "A couple seen from behind, making a heart with their arms",
+          "source": "Owner artwork (Lovers/sheet-2.png)"
         }
       ]
     }
