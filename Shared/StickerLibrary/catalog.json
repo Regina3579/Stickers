@@ -1,0 +1,4079 @@
+{
+  "publisher": "Stickers App",
+  "packs": [
+    {
+      "id": "love",
+      "title": "Love",
+      "subtitle": "Hearts, hugs and sweet notes",
+      "banner": "Banner-love",
+      "colors": {
+        "tint": "#F2559A",
+        "top": "#FFE1EE",
+        "bottom": "#FFF4F9"
+      },
+      "wideStickers": true,
+      "stickers": [
+        {
+          "id": "love-love-you",
+          "name": "Love You",
+          "emojis": [
+            "❤️",
+            "🧸"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "teddy",
+            "bear",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-lots-of-love",
+          "name": "Lots of Love",
+          "emojis": [
+            "💐",
+            "💕"
+          ],
+          "keywords": [
+            "lots",
+            "of",
+            "love",
+            "flowers",
+            "tulips",
+            "bouquet"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Lots of Love\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-sending-hugs",
+          "name": "Sending Hugs",
+          "emojis": [
+            "🤗",
+            "🐰"
+          ],
+          "keywords": [
+            "sending",
+            "hugs",
+            "bunny",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sending Hugs\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-big-hugs",
+          "name": "Big Hugs",
+          "emojis": [
+            "🤗",
+            "🐱"
+          ],
+          "keywords": [
+            "big",
+            "hugs",
+            "kittens",
+            "cats",
+            "scarf"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Big Hugs\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-you-are-loved",
+          "name": "You Are Loved",
+          "emojis": [
+            "💌",
+            "💕"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "loved",
+            "letter",
+            "envelope",
+            "hearts"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Are Loved\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-hugs-and-kisses",
+          "name": "Hugs and Kisses",
+          "emojis": [
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "hugs",
+            "kisses",
+            "hearts"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-love-always",
+          "name": "Love Always",
+          "emojis": [
+            "🎈",
+            "🐶"
+          ],
+          "keywords": [
+            "love",
+            "always",
+            "puppy",
+            "balloon"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love Always\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-with-love",
+          "name": "With Love",
+          "emojis": [
+            "🎁",
+            "❤️"
+          ],
+          "keywords": [
+            "with",
+            "love",
+            "gift",
+            "present",
+            "box"
+          ],
+          "accessibilityText": "Sticker with text that reads \"With Love\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-xoxo",
+          "name": "XOXO",
+          "emojis": [
+            "😘",
+            "💋"
+          ],
+          "keywords": [
+            "xoxo",
+            "hugs",
+            "kisses",
+            "bow"
+          ],
+          "accessibilityText": "Sticker with text that reads \"XOXO\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-thinking-of-you",
+          "name": "Thinking of You",
+          "emojis": [
+            "☕",
+            "💭"
+          ],
+          "keywords": [
+            "thinking",
+            "of",
+            "you",
+            "cocoa",
+            "mug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "source": "Love sticker sheet (Love-sheet-1.png)"
+        },
+        {
+          "id": "love-love-you-more",
+          "name": "Love You More",
+          "emojis": [
+            "❤️",
+            "🧸"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "more",
+            "teddy",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You More\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-together-forever",
+          "name": "Together Forever",
+          "emojis": [
+            "💕",
+            "🐱"
+          ],
+          "keywords": [
+            "together",
+            "forever",
+            "kittens",
+            "cats",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Together Forever\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "❤️",
+            "🐰"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "bunny",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-sweetheart",
+          "name": "Sweetheart",
+          "emojis": [
+            "💖",
+            "🐶"
+          ],
+          "keywords": [
+            "sweetheart",
+            "puppy",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweetheart\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-be-mine",
+          "name": "Be Mine",
+          "emojis": [
+            "💌",
+            "🧸"
+          ],
+          "keywords": [
+            "be",
+            "mine",
+            "teddy",
+            "bear",
+            "letter"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Mine\" in English",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-happy-hearts",
+          "name": "Happy Hearts",
+          "emojis": [
+            "💕",
+            "😊"
+          ],
+          "keywords": [
+            "happy",
+            "hearts",
+            "smiling",
+            "cute"
+          ],
+          "accessibilityText": "Three smiling hearts in pink and purple with white flowers",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-flying-heart",
+          "name": "Flying Heart",
+          "emojis": [
+            "💘",
+            "😊"
+          ],
+          "keywords": [
+            "flying",
+            "heart",
+            "wings",
+            "happy"
+          ],
+          "accessibilityText": "A happy pink heart with little wings flying among hearts and clouds",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-blowing-kisses",
+          "name": "Blowing Kisses",
+          "emojis": [
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "blowing",
+            "kisses",
+            "kiss",
+            "heart"
+          ],
+          "accessibilityText": "A pink heart blowing a kiss with small hearts floating away",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-heart-bouquet",
+          "name": "Heart Bouquet",
+          "emojis": [
+            "💐",
+            "💕"
+          ],
+          "keywords": [
+            "heart",
+            "bouquet",
+            "flowers",
+            "gift"
+          ],
+          "accessibilityText": "A bouquet of pink, red and purple hearts wrapped with a pink bow",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        },
+        {
+          "id": "love-heart-hug",
+          "name": "Heart Hug",
+          "emojis": [
+            "🤗",
+            "❤️"
+          ],
+          "keywords": [
+            "heart",
+            "hug",
+            "hugging",
+            "cute"
+          ],
+          "accessibilityText": "A red heart hugging a pink heart, both smiling, with flowers",
+          "source": "Love sticker sheet (Love-sheet-2.png)"
+        }
+      ]
+    },
+    {
+      "id": "friendship",
+      "title": "Friendship",
+      "subtitle": "For your besties",
+      "banner": "Banner-friendship",
+      "colors": {
+        "tint": "#A16AE8",
+        "top": "#EEE2FF",
+        "bottom": "#F8F3FF"
+      },
+      "wideStickers": true,
+      "stickers": [
+        {
+          "id": "friendship-bff-girls",
+          "name": "BFF Girls",
+          "emojis": [
+            "👭",
+            "💖"
+          ],
+          "keywords": [
+            "bff",
+            "best",
+            "friends",
+            "girls",
+            "wink"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BFF\" in English",
+          "source": "Owner artwork (Friendship/01-bff-girls.png)"
+        },
+        {
+          "id": "friendship-friends-forever",
+          "name": "Friends Forever",
+          "emojis": [
+            "🤗",
+            "👭"
+          ],
+          "keywords": [
+            "friends",
+            "forever",
+            "hug",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Friends Forever\" in English",
+          "source": "Owner artwork (Friendship/02-friends-forever.png)"
+        },
+        {
+          "id": "friendship-soul-sisters",
+          "name": "Soul Sisters",
+          "emojis": [
+            "👭",
+            "🌙"
+          ],
+          "keywords": [
+            "soul",
+            "sisters",
+            "moon",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Soul Sisters\" in English",
+          "source": "Owner artwork (Friendship/03-soul-sisters.png)"
+        },
+        {
+          "id": "friendship-besties",
+          "name": "Besties",
+          "emojis": [
+            "🤳",
+            "👭"
+          ],
+          "keywords": [
+            "besties",
+            "selfie",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Besties\" in English",
+          "source": "Owner artwork (Friendship/04-besties.png)"
+        },
+        {
+          "id": "friendship-best-friends-puppies",
+          "name": "Best Friends Puppies",
+          "emojis": [
+            "🐶",
+            "💕"
+          ],
+          "keywords": [
+            "best",
+            "friends",
+            "puppies",
+            "dogs"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Friends\" in English",
+          "source": "Owner artwork (Friendship/05-best-friends-puppies.png)"
+        },
+        {
+          "id": "friendship-bff-bear-and-bunny",
+          "name": "BFF Bear and Bunny",
+          "emojis": [
+            "🧸",
+            "🐰"
+          ],
+          "keywords": [
+            "bff",
+            "bear",
+            "bunny",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BFF\" in English",
+          "source": "Owner artwork (Friendship/06-bff-bear-and-bunny.png)"
+        },
+        {
+          "id": "friendship-happy-friendship-day",
+          "name": "Happy Friendship Day",
+          "emojis": [
+            "🎉",
+            "👭"
+          ],
+          "keywords": [
+            "happy",
+            "friendship",
+            "day",
+            "party"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Friendship Day\" in English",
+          "source": "Owner artwork (Friendship/07-happy-friendship-day.png)"
+        },
+        {
+          "id": "friendship-i-cherish-you",
+          "name": "I Cherish You",
+          "emojis": [
+            "💐",
+            "🤗"
+          ],
+          "keywords": [
+            "i",
+            "cherish",
+            "you",
+            "flowers",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Cherish You\" in English",
+          "source": "Owner artwork (Friendship/08-i-cherish-you.png)"
+        },
+        {
+          "id": "friendship-sweet-bunnies",
+          "name": "Sweet Bunnies",
+          "emojis": [
+            "🐰",
+            "🍦"
+          ],
+          "keywords": [
+            "sweet",
+            "bunnies",
+            "ice",
+            "cream"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet\" in English",
+          "source": "Owner artwork (Friendship/09-sweet-bunnies.png)"
+        },
+        {
+          "id": "friendship-bestie-squad",
+          "name": "Bestie Squad",
+          "emojis": [
+            "👯",
+            "✌️"
+          ],
+          "keywords": [
+            "bestie",
+            "squad",
+            "girls",
+            "group"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie Squad\" in English",
+          "source": "Owner artwork (Friendship/10-bestie-squad.png)"
+        },
+        {
+          "id": "friendship-love-you-bestie",
+          "name": "Love You Bestie",
+          "emojis": [
+            "💕",
+            "👭"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "bestie",
+            "girls"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "source": "Owner artwork (Friendship/11-love-you-girls.png)"
+        },
+        {
+          "id": "friendship-sweet-bestie",
+          "name": "Sweet Bestie",
+          "emojis": [
+            "💖",
+            "🎀"
+          ],
+          "keywords": [
+            "sweet",
+            "bestie",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet Bestie\" in English",
+          "source": "Owner artwork (Friendship/12-sweet-bestie.png)"
+        },
+        {
+          "id": "friendship-friendship-goals",
+          "name": "Friendship Goals",
+          "emojis": [
+            "👑",
+            "💕"
+          ],
+          "keywords": [
+            "friendship",
+            "goals",
+            "crown",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Friendship Goals\" in English",
+          "source": "Owner artwork (Friendship/13-friendship-goals.png)"
+        },
+        {
+          "id": "friendship-always-together",
+          "name": "Always Together",
+          "emojis": [
+            "💞",
+            "✨"
+          ],
+          "keywords": [
+            "always",
+            "together",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Always Together\" in English",
+          "source": "Owner artwork (Friendship/14-always-together.png)"
+        },
+        {
+          "id": "friendship-bestie-love",
+          "name": "Bestie Love",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "bestie",
+            "love",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie Love\" in English",
+          "source": "Owner artwork (Friendship/15-bestie-love.png)"
+        },
+        {
+          "id": "friendship-best-friend",
+          "name": "Best Friend",
+          "emojis": [
+            "💕",
+            "🌸"
+          ],
+          "keywords": [
+            "best",
+            "friend",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Friend\" in English",
+          "source": "Owner artwork (Friendship/16-best-friend.png)"
+        },
+        {
+          "id": "friendship-bff-forever",
+          "name": "BFF Forever",
+          "emojis": [
+            "💖",
+            "⭐"
+          ],
+          "keywords": [
+            "bff",
+            "forever",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BFF Forever\" in English",
+          "source": "Owner artwork (Friendship/17-bff-forever.png)"
+        },
+        {
+          "id": "friendship-soul-sisters-lettering",
+          "name": "Soul Sisters Lettering",
+          "emojis": [
+            "💜",
+            "🌼"
+          ],
+          "keywords": [
+            "soul",
+            "sisters",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Soul Sisters\" in English",
+          "source": "Owner artwork (Friendship/18-soul-sisters-lettering.png)"
+        },
+        {
+          "id": "friendship-bestie-vibes",
+          "name": "Bestie Vibes",
+          "emojis": [
+            "🎀",
+            "✨"
+          ],
+          "keywords": [
+            "bestie",
+            "vibes",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bestie Vibes\" in English",
+          "source": "Owner artwork (Friendship/19-bestie-vibes.png)"
+        },
+        {
+          "id": "friendship-forever-besties",
+          "name": "Forever Besties",
+          "emojis": [
+            "💕",
+            "🎀"
+          ],
+          "keywords": [
+            "forever",
+            "besties",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Forever Besties\" in English",
+          "source": "Owner artwork (Friendship/20-forever-besties.png)"
+        },
+        {
+          "id": "friendship-my-girl",
+          "name": "My Girl",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "my",
+            "girl",
+            "text"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Girl\" in English",
+          "source": "Owner artwork (Friendship/21-my-girl.png)"
+        }
+      ]
+    },
+    {
+      "id": "sisters",
+      "title": "Sisters",
+      "subtitle": "Sister love, forever",
+      "banner": "Banner-sisters",
+      "colors": {
+        "tint": "#F2805E",
+        "top": "#FFE7DA",
+        "bottom": "#FFF5EE"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "sisters-love-you-my-sisi",
+          "name": "Love You My Sisi",
+          "emojis": [
+            "💖",
+            "👭"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "my",
+            "sisi",
+            "sis",
+            "sister",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you my Sisi\" in English",
+          "source": "Owner artwork (Sisters/01-love-you-my-sisi.png)"
+        },
+        {
+          "id": "sisters-love-you-sis-cuddle",
+          "name": "Love You Sis Cuddle",
+          "emojis": [
+            "💕",
+            "🤗"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "sis",
+            "sister",
+            "cuddle",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-my-best-sis-heart",
+          "name": "My Best Sis Heart",
+          "emojis": [
+            "💗",
+            "👭"
+          ],
+          "keywords": [
+            "my",
+            "best",
+            "sis",
+            "sister",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Best Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-just-sisters-kiss",
+          "name": "Just Sisters Kiss",
+          "emojis": [
+            "😘",
+            "👭"
+          ],
+          "keywords": [
+            "just",
+            "sisters",
+            "kiss"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Just Sisters\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-sisters-forever",
+          "name": "Sisters Forever",
+          "emojis": [
+            "💞",
+            "👭"
+          ],
+          "keywords": [
+            "sisters",
+            "forever"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters Forever\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-sisterhood-forever",
+          "name": "Sisterhood Forever",
+          "emojis": [
+            "🎀",
+            "👭"
+          ],
+          "keywords": [
+            "sisterhood",
+            "forever",
+            "sisters"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisterhood forever\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-youre-my-sis",
+          "name": "You're My Sis",
+          "emojis": [
+            "🥳",
+            "👭"
+          ],
+          "keywords": [
+            "you're",
+            "my",
+            "sis",
+            "sister",
+            "happy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You're My Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-besties-sisters",
+          "name": "Besties Sisters",
+          "emojis": [
+            "🤳",
+            "👭"
+          ],
+          "keywords": [
+            "besties",
+            "sisters",
+            "selfie"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Besties Sisters\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-sister-love-heart",
+          "name": "Sister Love Heart",
+          "emojis": [
+            "👑",
+            "💖"
+          ],
+          "keywords": [
+            "sister",
+            "love",
+            "heart",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sister Love\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-always-together-sis",
+          "name": "Always Together Sis",
+          "emojis": [
+            "🐰",
+            "🤗"
+          ],
+          "keywords": [
+            "always",
+            "together",
+            "sisters",
+            "bunny"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Always Together\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
+        },
+        {
+          "id": "sisters-my-best-sis",
+          "name": "My Best Sis",
+          "emojis": [
+            "💕",
+            "👭"
+          ],
+          "keywords": [
+            "my",
+            "best",
+            "sis",
+            "sister"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Best Sis\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-best-sis-in-the-world",
+          "name": "Best Sis in the World",
+          "emojis": [
+            "👑",
+            "💜"
+          ],
+          "keywords": [
+            "best",
+            "sis",
+            "in",
+            "the",
+            "world",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Sis in the World\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-just-sisters",
+          "name": "Just Sisters",
+          "emojis": [
+            "🤗",
+            "👭"
+          ],
+          "keywords": [
+            "just",
+            "sisters",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Just Sisters\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-sisters-forever-kiss",
+          "name": "Sisters Forever Kiss",
+          "emojis": [
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "sisters",
+            "forever",
+            "kiss"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters Forever\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-sisters-by-heart",
+          "name": "Sisters by Heart",
+          "emojis": [
+            "😎",
+            "✌️"
+          ],
+          "keywords": [
+            "sisters",
+            "by",
+            "heart",
+            "sunglasses"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters by heart\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-better-together",
+          "name": "Better Together",
+          "emojis": [
+            "☕",
+            "👭"
+          ],
+          "keywords": [
+            "better",
+            "together",
+            "sisters",
+            "cocoa"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Better Together\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-youre-my-sister",
+          "name": "You're My Sister",
+          "emojis": [
+            "👑",
+            "💖"
+          ],
+          "keywords": [
+            "you're",
+            "my",
+            "sister",
+            "heart",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You're My Sister\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-sisters-make-life-sweeter",
+          "name": "Sisters Make Life Sweeter",
+          "emojis": [
+            "🐰",
+            "💕"
+          ],
+          "keywords": [
+            "sisters",
+            "make",
+            "life",
+            "sweeter",
+            "bunny"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters Make Life Sweeter\" in English",
+          "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
+        },
+        {
+          "id": "sisters-partners-in-crime",
+          "name": "Partners in Crime",
+          "emojis": [
+            "😎",
+            "💕"
+          ],
+          "keywords": [
+            "partners",
+            "in",
+            "crime",
+            "sisters",
+            "fun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Partners in Crime\" in English",
+          "source": "Owner artwork (Sisters/02-partners-in-crime.png)"
+        },
+        {
+          "id": "sisters-love-you-forever-and-ever",
+          "name": "Love You Forever and Ever",
+          "emojis": [
+            "💖",
+            "💜"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "forever",
+            "and",
+            "ever",
+            "sister"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you Forever and Ever\" in English",
+          "source": "Owner artwork (Sisters/03-love-you-forever-and-ever.png)"
+        },
+        {
+          "id": "sisters-sisters-are-forever-friends",
+          "name": "Sisters Are Forever Friends",
+          "emojis": [
+            "👭",
+            "💕"
+          ],
+          "keywords": [
+            "sisters",
+            "are",
+            "forever",
+            "friends"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sisters are Forever Friends\" in English",
+          "source": "Owner artwork (Sisters/04-sisters-are-forever-friends.png)"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "subtitle": "Home is where the heart is",
+      "banner": "Banner-family",
+      "colors": {
+        "tint": "#4C97E8",
+        "top": "#E0EEFF",
+        "bottom": "#F2F8FF"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "family-love-you-mom",
+          "name": "Love You Mom",
+          "emojis": [
+            "👩",
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "mom",
+            "mother",
+            "mum"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you Mom\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-family",
+          "name": "Family",
+          "emojis": [
+            "👨‍👩‍👧",
+            "❤️"
+          ],
+          "keywords": [
+            "family",
+            "love",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-love-you-dad",
+          "name": "Love You Dad",
+          "emojis": [
+            "👨",
+            "💙"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "dad",
+            "father"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love you Dad\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-family-hug",
+          "name": "Family Hug",
+          "emojis": [
+            "👨‍👩‍👧",
+            "🤗"
+          ],
+          "keywords": [
+            "family",
+            "hug",
+            "mom",
+            "dad"
+          ],
+          "accessibilityText": "Mom, dad and their little girl hugging with smiles and hearts",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-home-sweet-home",
+          "name": "Home Sweet Home",
+          "emojis": [
+            "🏡",
+            "💕"
+          ],
+          "keywords": [
+            "home",
+            "sweet",
+            "home",
+            "house"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Home Sweet Home\" in English",
+          "source": "Owner artwork (Family/sheet-1.png)"
+        },
+        {
+          "id": "family-memories-with-family",
+          "name": "Memories With Family",
+          "emojis": [
+            "📸",
+            "💕"
+          ],
+          "keywords": [
+            "memories",
+            "family",
+            "quote"
+          ],
+          "accessibilityText": "Sticker with text that reads \"The best thing about memories is making them with family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-i-love-my-family",
+          "name": "I Love My Family",
+          "emojis": [
+            "❤️",
+            "👨‍👩‍👧"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "my",
+            "family"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I love my Family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-one-big-happy-family",
+          "name": "One Big Happy Family",
+          "emojis": [
+            "😊",
+            "👨‍👩‍👧‍👦"
+          ],
+          "keywords": [
+            "one",
+            "big",
+            "happy",
+            "family"
+          ],
+          "accessibilityText": "Sticker with text that reads \"One Big happy Family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-we-are-family",
+          "name": "We Are Family",
+          "emojis": [
+            "💞",
+            "👨‍👩‍👧"
+          ],
+          "keywords": [
+            "we",
+            "are",
+            "family"
+          ],
+          "accessibilityText": "Sticker with text that reads \"We are Family\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-say-cheese",
+          "name": "Say Cheese",
+          "emojis": [
+            "📸",
+            "😁"
+          ],
+          "keywords": [
+            "say",
+            "cheese",
+            "photo",
+            "camera"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Say Cheese!\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-camera",
+          "name": "Camera",
+          "emojis": [
+            "📷",
+            "🌼"
+          ],
+          "keywords": [
+            "camera",
+            "photo",
+            "flowers"
+          ],
+          "accessibilityText": "A light blue camera surrounded by white daisies and a pink heart",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-family-is-everything",
+          "name": "Family Is Everything",
+          "emojis": [
+            "💖",
+            "👨‍👩‍👧"
+          ],
+          "keywords": [
+            "family",
+            "is",
+            "everything"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family is Everything\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-every-family-is-beautiful",
+          "name": "Every Family Is Beautiful",
+          "emojis": [
+            "🌸",
+            "💕"
+          ],
+          "keywords": [
+            "every",
+            "family",
+            "is",
+            "beautiful",
+            "favorite",
+            "quote"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Every family is beautiful but ours is my favorite\" in English",
+          "source": "Owner artwork (Family/sheet-2.png)"
+        },
+        {
+          "id": "family-no-place-like-home",
+          "name": "No Place Like Home",
+          "emojis": [
+            "🏡",
+            "💕"
+          ],
+          "keywords": [
+            "there",
+            "is",
+            "no",
+            "place",
+            "like",
+            "home",
+            "house"
+          ],
+          "accessibilityText": "Sticker with text that reads \"There is no place like home\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-family-is-forever",
+          "name": "Family Is Forever",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "family",
+            "is",
+            "forever",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Family is Forever\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-plays-together-stays-together",
+          "name": "Plays Together Stays Together",
+          "emojis": [
+            "☀️",
+            "🎈"
+          ],
+          "keywords": [
+            "family",
+            "plays",
+            "together",
+            "stays",
+            "together"
+          ],
+          "accessibilityText": "Sticker with text that reads \"A Family that plays together stays together\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-work-of-the-heart",
+          "name": "Work of the Heart",
+          "emojis": [
+            "🧵",
+            "💗"
+          ],
+          "keywords": [
+            "families",
+            "are",
+            "a",
+            "work",
+            "of",
+            "the",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Families are a work of the Heart\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-starts-and-ends-with-family",
+          "name": "Starts and Ends With Family",
+          "emojis": [
+            "🌳",
+            "💕"
+          ],
+          "keywords": [
+            "it",
+            "all",
+            "starts",
+            "and",
+            "ends",
+            "with",
+            "family",
+            "tree"
+          ],
+          "accessibilityText": "Sticker with text that reads \"It all starts and ends with Family\" in English",
+          "source": "Owner artwork (Family/sheet-3.png)"
+        },
+        {
+          "id": "family-family-hug-with-son",
+          "name": "Family Hug With Son",
+          "emojis": [
+            "👨‍👩‍👦",
+            "🤗"
+          ],
+          "keywords": [
+            "family",
+            "hug",
+            "mom",
+            "dad",
+            "son",
+            "baby",
+            "boy"
+          ],
+          "accessibilityText": "Mom and dad hugging their little son, all smiling, with pink hearts",
+          "source": "Owner artwork (Family/sheet-4.png)"
+        },
+        {
+          "id": "family-mom-and-dad",
+          "name": "Mom and Dad",
+          "emojis": [
+            "💑",
+            "💕"
+          ],
+          "keywords": [
+            "mom",
+            "dad",
+            "couple",
+            "parents",
+            "hug",
+            "love"
+          ],
+          "accessibilityText": "Mom and dad hugging and smiling with pink hearts and sparkles",
+          "source": "Owner artwork (Family/sheet-4.png)"
+        },
+        {
+          "id": "family-family-of-four",
+          "name": "Family of Four",
+          "emojis": [
+            "👨‍👩‍👧‍👦",
+            "💕"
+          ],
+          "keywords": [
+            "family",
+            "of",
+            "four",
+            "hug",
+            "mom",
+            "dad",
+            "son",
+            "daughter"
+          ],
+          "accessibilityText": "Mom and dad hugging their son and daughter, everyone laughing, with hearts",
+          "source": "Owner artwork (Family/sheet-4.png)"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "Emotions",
+      "subtitle": "Say how you feel",
+      "banner": "Banner-feelings",
+      "colors": {
+        "tint": "#34B57E",
+        "top": "#E0F7EA",
+        "bottom": "#F3FCF6"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "feelings-winking-star",
+          "name": "Winking Star",
+          "emojis": [
+            "😉",
+            "💕"
+          ],
+          "keywords": [
+            "wink",
+            "happy",
+            "star",
+            "cute"
+          ],
+          "accessibilityText": "A pink star with a bow winking happily among hearts",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-happy-star",
+          "name": "Happy Star",
+          "emojis": [
+            "😊",
+            "⭐"
+          ],
+          "keywords": [
+            "happy",
+            "smile",
+            "joy",
+            "star"
+          ],
+          "accessibilityText": "A yellow star smiling with closed happy eyes",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-crying-star",
+          "name": "Crying Star",
+          "emojis": [
+            "😢",
+            "💧"
+          ],
+          "keywords": [
+            "sad",
+            "cry",
+            "tears",
+            "star"
+          ],
+          "accessibilityText": "A blue star crying with big teary eyes",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-angry-star",
+          "name": "Angry Star",
+          "emojis": [
+            "😠",
+            "💢"
+          ],
+          "keywords": [
+            "angry",
+            "mad",
+            "grumpy",
+            "star"
+          ],
+          "accessibilityText": "A purple star frowning with an angry mark",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-sleepy-star",
+          "name": "Sleepy Star",
+          "emojis": [
+            "😴",
+            "💤"
+          ],
+          "keywords": [
+            "sleepy",
+            "sleep",
+            "tired",
+            "night",
+            "star"
+          ],
+          "accessibilityText": "A green star asleep in a striped night cap",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-playful-star",
+          "name": "Playful Star",
+          "emojis": [
+            "😜",
+            "✨"
+          ],
+          "keywords": [
+            "playful",
+            "wink",
+            "fun",
+            "star"
+          ],
+          "accessibilityText": "An orange star winking playfully with little stars",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-love-struck-star",
+          "name": "Love Struck Star",
+          "emojis": [
+            "😍",
+            "💕"
+          ],
+          "keywords": [
+            "love",
+            "heart",
+            "eyes",
+            "crush",
+            "star"
+          ],
+          "accessibilityText": "A pink star with heart eyes surrounded by hearts",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-surprised-star",
+          "name": "Surprised Star",
+          "emojis": [
+            "😮",
+            "⭐"
+          ],
+          "keywords": [
+            "surprised",
+            "shocked",
+            "wow",
+            "star"
+          ],
+          "accessibilityText": "A purple star with wide surprised eyes",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-laughing-star",
+          "name": "Laughing Star",
+          "emojis": [
+            "😂",
+            "💦"
+          ],
+          "keywords": [
+            "laughing",
+            "lol",
+            "haha",
+            "funny",
+            "star"
+          ],
+          "accessibilityText": "A blue star laughing so hard it cries",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-heartbroken-star",
+          "name": "Heartbroken Star",
+          "emojis": [
+            "💔",
+            "😢"
+          ],
+          "keywords": [
+            "heartbroken",
+            "sad",
+            "broken",
+            "heart",
+            "star"
+          ],
+          "accessibilityText": "A yellow star crying next to a broken heart",
+          "source": "Owner artwork (Emotions/sheet-1.png)"
+        },
+        {
+          "id": "feelings-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "❤️",
+            "😊"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-i-miss-you",
+          "name": "I Miss You",
+          "emojis": [
+            "🥺",
+            "💭"
+          ],
+          "keywords": [
+            "i",
+            "miss",
+            "you",
+            "miss"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Miss You\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-thank-you",
+          "name": "Thank You",
+          "emojis": [
+            "🙏",
+            "💐"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "thanks"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thank You\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-good-morning",
+          "name": "Good Morning",
+          "emojis": [
+            "☀️",
+            "😊"
+          ],
+          "keywords": [
+            "good",
+            "morning",
+            "morning",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Morning\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-good-night",
+          "name": "Good Night",
+          "emojis": [
+            "🌙",
+            "😴"
+          ],
+          "keywords": [
+            "good",
+            "night",
+            "night",
+            "sleep",
+            "moon"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Night\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-be-happy",
+          "name": "Be Happy",
+          "emojis": [
+            "😄",
+            "✌️"
+          ],
+          "keywords": [
+            "be",
+            "happy",
+            "smile"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Happy\" in English",
+          "source": "Owner artwork (Emotions/sheet-2.png)"
+        },
+        {
+          "id": "feelings-happy-heart",
+          "name": "Happy Heart",
+          "emojis": [
+            "😊",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "smile",
+            "heart",
+            "joy"
+          ],
+          "accessibilityText": "A pink heart smiling happily among little hearts",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-cool-heart",
+          "name": "Cool Heart",
+          "emojis": [
+            "😎",
+            "✨"
+          ],
+          "keywords": [
+            "cool",
+            "sunglasses",
+            "heart"
+          ],
+          "accessibilityText": "A purple heart wearing sunglasses",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-kissing-heart",
+          "name": "Kissing Heart",
+          "emojis": [
+            "😘",
+            "❤️"
+          ],
+          "keywords": [
+            "kiss",
+            "kissing",
+            "heart",
+            "love"
+          ],
+          "accessibilityText": "A yellow heart winking and blowing a kiss",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-laughing-heart",
+          "name": "Laughing Heart",
+          "emojis": [
+            "😂",
+            "💦"
+          ],
+          "keywords": [
+            "laughing",
+            "lol",
+            "haha",
+            "heart"
+          ],
+          "accessibilityText": "A blue heart laughing so hard it cries",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-calm-heart",
+          "name": "Calm Heart",
+          "emojis": [
+            "😌",
+            "💕"
+          ],
+          "keywords": [
+            "calm",
+            "relieved",
+            "peaceful",
+            "heart"
+          ],
+          "accessibilityText": "A green heart smiling calmly with closed eyes",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-silly-heart",
+          "name": "Silly Heart",
+          "emojis": [
+            "😜",
+            "⭐"
+          ],
+          "keywords": [
+            "silly",
+            "tongue",
+            "wink",
+            "playful",
+            "heart"
+          ],
+          "accessibilityText": "An orange heart winking with its tongue out",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-heart-eyes-heart",
+          "name": "Heart Eyes Heart",
+          "emojis": [
+            "😍",
+            "💕"
+          ],
+          "keywords": [
+            "heart",
+            "eyes",
+            "love",
+            "crush",
+            "heart"
+          ],
+          "accessibilityText": "A pink heart with heart eyes",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-sleepy-heart",
+          "name": "Sleepy Heart",
+          "emojis": [
+            "😴",
+            "☁️"
+          ],
+          "keywords": [
+            "sleepy",
+            "sleep",
+            "cloud",
+            "heart"
+          ],
+          "accessibilityText": "A blue heart sleeping on a cloud",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-teary-heart",
+          "name": "Teary Heart",
+          "emojis": [
+            "🥺",
+            "💧"
+          ],
+          "keywords": [
+            "teary",
+            "sad",
+            "please",
+            "heart"
+          ],
+          "accessibilityText": "A purple heart with teary pleading eyes",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        },
+        {
+          "id": "feelings-music-heart",
+          "name": "Music Heart",
+          "emojis": [
+            "🎧",
+            "🎵"
+          ],
+          "keywords": [
+            "music",
+            "headphones",
+            "chill",
+            "heart"
+          ],
+          "accessibilityText": "A pink heart listening to music with headphones",
+          "source": "Owner artwork (Emotions/sheet-3.png)"
+        }
+      ]
+    },
+    {
+      "id": "selfcare",
+      "title": "Self-Love & Self-Care",
+      "subtitle": "Me time, every time",
+      "banner": "Banner-selfcare",
+      "colors": {
+        "tint": "#E5579E",
+        "top": "#FCE3F3",
+        "bottom": "#FFF3FA"
+      },
+      "wideStickers": true,
+      "stickers": [
+        {
+          "id": "selfcare-yoga-time",
+          "name": "Yoga Time",
+          "emojis": [
+            "🧘‍♀️",
+            "💕"
+          ],
+          "keywords": [
+            "yoga",
+            "time",
+            "exercise"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Yoga Time\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-meditation",
+          "name": "Meditation",
+          "emojis": [
+            "🧘‍♀️",
+            "🪷"
+          ],
+          "keywords": [
+            "meditation",
+            "calm",
+            "zen",
+            "yoga",
+            "lotus"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Meditation\" in English",
+          "source": "Owner artwork (SelfCare/02-meditation.png)"
+        },
+        {
+          "id": "selfcare-healthy-food",
+          "name": "Healthy Food",
+          "emojis": [
+            "🥗",
+            "💚"
+          ],
+          "keywords": [
+            "healthy",
+            "food",
+            "salad"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Healthy Food\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-drink-water",
+          "name": "Drink Water",
+          "emojis": [
+            "💧",
+            "🍋"
+          ],
+          "keywords": [
+            "drink",
+            "water",
+            "hydrate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Drink Water\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-self-care",
+          "name": "Self Care",
+          "emojis": [
+            "💖",
+            "🌼"
+          ],
+          "keywords": [
+            "self",
+            "care"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Self Care\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-daily-planner",
+          "name": "Daily Planner",
+          "emojis": [
+            "📒",
+            "✏️"
+          ],
+          "keywords": [
+            "daily",
+            "planner",
+            "plan"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Daily Planner\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-workout",
+          "name": "Workout",
+          "emojis": [
+            "🏋️‍♀️",
+            "💪"
+          ],
+          "keywords": [
+            "workout",
+            "gym",
+            "exercise"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Workout\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-relax",
+          "name": "Relax",
+          "emojis": [
+            "🪷",
+            "😌"
+          ],
+          "keywords": [
+            "relax",
+            "calm",
+            "lotus"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Relax\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-me-time",
+          "name": "Me Time",
+          "emojis": [
+            "🕯️",
+            "📖"
+          ],
+          "keywords": [
+            "me",
+            "time",
+            "candle",
+            "book"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Me Time\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-beauty-time",
+          "name": "Beauty Time",
+          "emojis": [
+            "💄",
+            "🎀"
+          ],
+          "keywords": [
+            "beauty",
+            "time",
+            "skincare"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Beauty Time\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-spa-day",
+          "name": "Spa Day",
+          "emojis": [
+            "🛁",
+            "🫧"
+          ],
+          "keywords": [
+            "spa",
+            "day",
+            "bath",
+            "bubbles"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Spa Day\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-good-sleep",
+          "name": "Good Sleep",
+          "emojis": [
+            "😴",
+            "🌙"
+          ],
+          "keywords": [
+            "good",
+            "sleep",
+            "night",
+            "rest"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Sleep\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-go-for-a-walk",
+          "name": "Go for a Walk",
+          "emojis": [
+            "👟",
+            "🌸"
+          ],
+          "keywords": [
+            "go",
+            "for",
+            "a",
+            "walk",
+            "walking"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Go for a Walk\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-digital-detox",
+          "name": "Digital Detox",
+          "emojis": [
+            "📵",
+            "💻"
+          ],
+          "keywords": [
+            "digital",
+            "detox",
+            "phone",
+            "break"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Digital Detox\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-read-and-journal",
+          "name": "Read and Journal",
+          "emojis": [
+            "📖",
+            "☕"
+          ],
+          "keywords": [
+            "read",
+            "journal",
+            "book"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Read & Journal\" in English",
+          "source": "Owner artwork (SelfCare/sheet-1.png)"
+        },
+        {
+          "id": "selfcare-dream-big",
+          "name": "Dream Big",
+          "emojis": [
+            "✨",
+            "🌙"
+          ],
+          "keywords": [
+            "dream",
+            "big"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Dream Big\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-good-vibes",
+          "name": "Good Vibes",
+          "emojis": [
+            "🌸",
+            "💕"
+          ],
+          "keywords": [
+            "good",
+            "vibes"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Vibes\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-self-love",
+          "name": "Self Love",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "self",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Self Love\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-chill",
+          "name": "Chill",
+          "emojis": [
+            "🌴",
+            "🌊"
+          ],
+          "keywords": [
+            "chill",
+            "relax",
+            "beach"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Chill\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-stay-positive",
+          "name": "Stay Positive",
+          "emojis": [
+            "☀️",
+            "😊"
+          ],
+          "keywords": [
+            "stay",
+            "positive"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Stay Positive\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-be-happy",
+          "name": "Be Happy",
+          "emojis": [
+            "😊",
+            "🌼"
+          ],
+          "keywords": [
+            "be",
+            "happy",
+            "smile"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Happy\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-focus-on-yourself",
+          "name": "Focus on Yourself",
+          "emojis": [
+            "👑",
+            "🎀"
+          ],
+          "keywords": [
+            "focus",
+            "on",
+            "yourself"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Focus on Yourself\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-sweet-dreams",
+          "name": "Sweet Dreams",
+          "emojis": [
+            "🌙",
+            "⭐"
+          ],
+          "keywords": [
+            "sweet",
+            "dreams",
+            "night",
+            "sleep"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet Dreams\" in English",
+          "source": "Owner artwork (SelfCare/sheet-2.png)"
+        },
+        {
+          "id": "selfcare-be-proud",
+          "name": "Be Proud",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "be",
+            "proud",
+            "of",
+            "how",
+            "far",
+            "you've",
+            "come"
+          ],
+          "accessibilityText": "Sticker with text that reads \"be proud of how far you've come\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-just-breathe",
+          "name": "Just Breathe",
+          "emojis": [
+            "🕯️",
+            "😌"
+          ],
+          "keywords": [
+            "just",
+            "breathe",
+            "calm",
+            "candle"
+          ],
+          "accessibilityText": "Sticker with text that reads \"just breathe\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-you-are-enough",
+          "name": "You Are Enough",
+          "emojis": [
+            "💜",
+            "🎀"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "enough"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you are enough\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-rest-reset-refresh",
+          "name": "Rest Reset Refresh",
+          "emojis": [
+            "💗",
+            "😴"
+          ],
+          "keywords": [
+            "rest",
+            "reset",
+            "refresh"
+          ],
+          "accessibilityText": "Sticker with text that reads \"rest reset refresh\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        },
+        {
+          "id": "selfcare-slow-down",
+          "name": "Slow Down",
+          "emojis": [
+            "💬",
+            "💕"
+          ],
+          "keywords": [
+            "slow",
+            "down",
+            "you're",
+            "doing",
+            "great"
+          ],
+          "accessibilityText": "Sticker with text that reads \"slow down you're doing great\" in English",
+          "source": "Owner artwork (SelfCare/sheet-3.png)"
+        }
+      ]
+    },
+    {
+      "id": "birthday",
+      "title": "Birthday",
+      "subtitle": "Make every birthday sparkle",
+      "banner": "Banner-birthday",
+      "colors": {
+        "tint": "#F08A24",
+        "top": "#FFF0D9",
+        "bottom": "#FFF8EE"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "birthday-happy-birthday",
+          "name": "Happy Birthday",
+          "emojis": [
+            "🎂",
+            "🎉"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "hbd"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-its-your-day",
+          "name": "It's Your Day",
+          "emojis": [
+            "🎈",
+            "🎉"
+          ],
+          "keywords": [
+            "it's",
+            "your",
+            "day",
+            "birthday",
+            "balloons"
+          ],
+          "accessibilityText": "Sticker with text that reads \"It's your DAY!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-make-a-wish",
+          "name": "Make a Wish",
+          "emojis": [
+            "🎂",
+            "🕯️"
+          ],
+          "keywords": [
+            "make",
+            "a",
+            "wish",
+            "cake",
+            "candles",
+            "birthday"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Make a wish\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-birthday-vibes",
+          "name": "Birthday Vibes",
+          "emojis": [
+            "👑",
+            "🎉"
+          ],
+          "keywords": [
+            "birthday",
+            "vibes",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Birthday VIBES\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-another-year-of-awesome",
+          "name": "Another Year of Awesome",
+          "emojis": [
+            "🥳",
+            "✨"
+          ],
+          "keywords": [
+            "another",
+            "year",
+            "of",
+            "awesome",
+            "birthday"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Another year of Awesome!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-cheers-to-you",
+          "name": "Cheers to You",
+          "emojis": [
+            "🥂",
+            "💖"
+          ],
+          "keywords": [
+            "cheers",
+            "to",
+            "you",
+            "champagne",
+            "celebrate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Cheers to you!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-happy-birthday-to-you",
+          "name": "Happy Birthday to You",
+          "emojis": [
+            "🎁",
+            "🎉"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "to",
+            "you",
+            "gift",
+            "present"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday to YOU!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-birthday-love",
+          "name": "Birthday Love",
+          "emojis": [
+            "💖",
+            "🎂"
+          ],
+          "keywords": [
+            "birthday",
+            "love",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Birthday Love\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-lets-celebrate",
+          "name": "Let's Celebrate",
+          "emojis": [
+            "🥳",
+            "🎊"
+          ],
+          "keywords": [
+            "let's",
+            "celebrate",
+            "party",
+            "hat"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Let's Celebrate!\" in English",
+          "source": "Owner artwork (Birthday/sheet-1.png)"
+        },
+        {
+          "id": "birthday-happy-birthday-crown",
+          "name": "Happy Birthday Crown",
+          "emojis": [
+            "👑",
+            "🎂"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "crown",
+            "hbd"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-birthday-wishes",
+          "name": "Birthday Wishes",
+          "emojis": [
+            "🎈",
+            "💌"
+          ],
+          "keywords": [
+            "birthday",
+            "wishes",
+            "balloons"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Birthday Wishes\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-thinking-of-you",
+          "name": "Thinking of You",
+          "emojis": [
+            "💭",
+            "🌸"
+          ],
+          "keywords": [
+            "thinking",
+            "of",
+            "you",
+            "flowers"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-have-a-lovely-day",
+          "name": "Have a Lovely Day",
+          "emojis": [
+            "🌈",
+            "☀️"
+          ],
+          "keywords": [
+            "have",
+            "a",
+            "lovely",
+            "day",
+            "rainbow",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Have a Lovely Day!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-wonderful-birthday",
+          "name": "Wonderful Birthday",
+          "emojis": [
+            "🎂",
+            "🌸"
+          ],
+          "keywords": [
+            "wishing",
+            "you",
+            "a",
+            "wonderful",
+            "birthday",
+            "cake"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Wishing You a Wonderful Birthday!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-just-for-you",
+          "name": "Just for You",
+          "emojis": [
+            "🎁",
+            "💜"
+          ],
+          "keywords": [
+            "just",
+            "for",
+            "you",
+            "gifts",
+            "presents"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Just for You\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-take-care",
+          "name": "Take Care",
+          "emojis": [
+            "🌷",
+            "🎀"
+          ],
+          "keywords": [
+            "take",
+            "care",
+            "and",
+            "enjoy",
+            "your",
+            "special",
+            "day"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Take Care and Enjoy Your Special Day!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-sending-warm-wishes",
+          "name": "Sending Warm Wishes",
+          "emojis": [
+            "🧸",
+            "💌"
+          ],
+          "keywords": [
+            "sending",
+            "warm",
+            "wishes",
+            "teddy",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sending Warm Wishes\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-you-are-very-special",
+          "name": "You Are Very Special",
+          "emojis": [
+            "💖",
+            "🎀"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "very",
+            "special"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You are Very Special\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-beautiful-moments",
+          "name": "Beautiful Moments",
+          "emojis": [
+            "😊",
+            "🌸"
+          ],
+          "keywords": [
+            "may",
+            "your",
+            "birthday",
+            "be",
+            "filled",
+            "with",
+            "smiles",
+            "comfort",
+            "beautiful",
+            "moments"
+          ],
+          "accessibilityText": "Sticker with text that reads \"May your Birthday be filled with Smiles, Comfort & Beautiful Moments\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-enjoy-the-little-things",
+          "name": "Enjoy the Little Things",
+          "emojis": [
+            "💜",
+            "🌿"
+          ],
+          "keywords": [
+            "enjoy",
+            "the",
+            "little",
+            "things",
+            "lavender"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Enjoy the little Things\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        },
+        {
+          "id": "birthday-celebrating-you-today",
+          "name": "Celebrating You Today",
+          "emojis": [
+            "🎉",
+            "🥳"
+          ],
+          "keywords": [
+            "celebrating",
+            "you",
+            "today",
+            "party"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Celebrating YOU Today!\" in English",
+          "source": "Owner artwork (Birthday/sheet-2.png)"
+        }
+      ]
+    },
+    {
+      "id": "encouragement",
+      "title": "Encouragement",
+      "subtitle": "Cheer someone on",
+      "banner": "Banner-encouragement",
+      "colors": {
+        "tint": "#1FA59A",
+        "top": "#DDF6F2",
+        "bottom": "#F1FBF9"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "encouragement-you-did-it",
+          "name": "You Did It",
+          "emojis": [
+            "🎉",
+            "🐻"
+          ],
+          "keywords": [
+            "you",
+            "did",
+            "it",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"YOU DID IT!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-great",
+          "name": "Great",
+          "emojis": [
+            "⭐",
+            "🐰"
+          ],
+          "keywords": [
+            "great",
+            "star",
+            "bunny"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-keep-going",
+          "name": "Keep Going",
+          "emojis": [
+            "☀️",
+            "💪"
+          ],
+          "keywords": [
+            "keep",
+            "going",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"KEEP Going!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-you-are-amazing",
+          "name": "You Are Amazing",
+          "emojis": [
+            "🐧",
+            "💖"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "amazing",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"YOU ARE Amazing!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-awesome",
+          "name": "Awesome",
+          "emojis": [
+            "🐱",
+            "🤩"
+          ],
+          "keywords": [
+            "awesome",
+            "cat"
+          ],
+          "accessibilityText": "Sticker with text that reads \"AWESOME!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-good-job",
+          "name": "Good Job",
+          "emojis": [
+            "🐼",
+            "👍"
+          ],
+          "keywords": [
+            "good",
+            "job",
+            "panda"
+          ],
+          "accessibilityText": "Sticker with text that reads \"GOOD JOB!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-well-done",
+          "name": "Well Done",
+          "emojis": [
+            "🐶",
+            "👍"
+          ],
+          "keywords": [
+            "well",
+            "done",
+            "puppy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"WELL DONE!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-so-proud-of-you",
+          "name": "So Proud of You",
+          "emojis": [
+            "🐱",
+            "💗"
+          ],
+          "keywords": [
+            "so",
+            "proud",
+            "of",
+            "you",
+            "kitten"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Proud of You!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-fantastic",
+          "name": "Fantastic",
+          "emojis": [
+            "🐢",
+            "⭐"
+          ],
+          "keywords": [
+            "fantastic",
+            "turtle"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Fantastic!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-you-are-special",
+          "name": "You Are Special",
+          "emojis": [
+            "🧸",
+            "💖"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "special",
+            "teddy",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Are Special!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-believe-in-yourself",
+          "name": "Believe in Yourself",
+          "emojis": [
+            "🌈",
+            "🐧"
+          ],
+          "keywords": [
+            "believe",
+            "in",
+            "yourself",
+            "penguin",
+            "rainbow"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Believe in Yourself!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-you-make-a-difference",
+          "name": "You Make a Difference",
+          "emojis": [
+            "🦊",
+            "⭐"
+          ],
+          "keywords": [
+            "you",
+            "make",
+            "a",
+            "difference",
+            "fox"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Make a Difference!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-1.png)"
+        },
+        {
+          "id": "encouragement-super-smart",
+          "name": "Super Smart",
+          "emojis": [
+            "🏆",
+            "🐱"
+          ],
+          "keywords": [
+            "super",
+            "smart",
+            "cat",
+            "trophy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Super Smart!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-great-work",
+          "name": "Great Work",
+          "emojis": [
+            "📚",
+            "🐶"
+          ],
+          "keywords": [
+            "great",
+            "work",
+            "puppy",
+            "books"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great Work!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-nailed-it",
+          "name": "Nailed It",
+          "emojis": [
+            "✏️",
+            "🐰"
+          ],
+          "keywords": [
+            "nailed",
+            "it",
+            "bunny",
+            "pencil"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Nailed It!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-keep-shining",
+          "name": "Keep Shining",
+          "emojis": [
+            "✨",
+            "🐧"
+          ],
+          "keywords": [
+            "keep",
+            "shining",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Keep Shining!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-brilliant",
+          "name": "Brilliant",
+          "emojis": [
+            "🐼",
+            "🌟"
+          ],
+          "keywords": [
+            "brilliant",
+            "panda"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Brilliant!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-youre-amazing",
+          "name": "You're Amazing",
+          "emojis": [
+            "🦉",
+            "💖"
+          ],
+          "keywords": [
+            "you're",
+            "amazing",
+            "owl"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You're Amazing!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-great-effort",
+          "name": "Great Effort",
+          "emojis": [
+            "🐘",
+            "👑"
+          ],
+          "keywords": [
+            "great",
+            "effort",
+            "elephant"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great Effort!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-hooray",
+          "name": "Hooray",
+          "emojis": [
+            "🦊",
+            "❤️"
+          ],
+          "keywords": [
+            "hooray",
+            "fox",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hooray!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-so-clever",
+          "name": "So Clever",
+          "emojis": [
+            "🧸",
+            "👍"
+          ],
+          "keywords": [
+            "so",
+            "clever",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Clever!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-impressive",
+          "name": "Impressive",
+          "emojis": [
+            "🐑",
+            "🌸"
+          ],
+          "keywords": [
+            "impressive",
+            "lamb",
+            "flowers"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Impressive!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-keep-growing",
+          "name": "Keep Growing",
+          "emojis": [
+            "🐢",
+            "🌱"
+          ],
+          "keywords": [
+            "keep",
+            "growing",
+            "turtle"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Keep Growing!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        },
+        {
+          "id": "encouragement-outstanding",
+          "name": "Outstanding",
+          "emojis": [
+            "🦊",
+            "⭐"
+          ],
+          "keywords": [
+            "outstanding",
+            "fox",
+            "star"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Outstanding!\" in English",
+          "source": "Owner artwork (Encouragement/sheet-2.png)"
+        }
+      ]
+    },
+    {
+      "id": "wishes",
+      "title": "Celebrations",
+      "subtitle": "For every special day",
+      "banner": "Banner-wishes",
+      "colors": {
+        "tint": "#D9485F",
+        "top": "#FDE3E7",
+        "bottom": "#FFF4F5"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "wishes-happy-mothers-day",
+          "name": "Happy Mother's Day",
+          "emojis": [
+            "👩",
+            "💐"
+          ],
+          "keywords": [
+            "happy",
+            "mother's",
+            "day",
+            "mom",
+            "mothers",
+            "day"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Mother's Day\" in English",
+          "source": "Owner artwork (Wishes/sheet-1.png)"
+        },
+        {
+          "id": "wishes-happy-fathers-day",
+          "name": "Happy Father's Day",
+          "emojis": [
+            "👨",
+            "👑"
+          ],
+          "keywords": [
+            "happy",
+            "father's",
+            "day",
+            "dad",
+            "fathers",
+            "day"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Father's Day\" in English",
+          "source": "Owner artwork (Wishes/sheet-1.png)"
+        },
+        {
+          "id": "wishes-mothers-day-hug",
+          "name": "Mother's Day Hug",
+          "emojis": [
+            "👩‍👧",
+            "💐"
+          ],
+          "keywords": [
+            "happy",
+            "mother's",
+            "day",
+            "mom",
+            "daughter",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Mother's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-fathers-day-hug",
+          "name": "Father's Day Hug",
+          "emojis": [
+            "👨‍👦",
+            "👑"
+          ],
+          "keywords": [
+            "happy",
+            "father's",
+            "day",
+            "dad",
+            "son",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Father's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-valentines-day",
+          "name": "Happy Valentine's Day",
+          "emojis": [
+            "💝",
+            "🌹"
+          ],
+          "keywords": [
+            "happy",
+            "valentine's",
+            "day",
+            "valentine",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Valentine's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-teachers-day",
+          "name": "Happy Teacher's Day",
+          "emojis": [
+            "🍎",
+            "📚"
+          ],
+          "keywords": [
+            "happy",
+            "teacher's",
+            "day",
+            "teacher"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Teacher's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-womens-day",
+          "name": "Happy Women's Day",
+          "emojis": [
+            "👩",
+            "🌸"
+          ],
+          "keywords": [
+            "happy",
+            "women's",
+            "day",
+            "women"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Women's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-childrens-day",
+          "name": "Happy Children's Day",
+          "emojis": [
+            "🧒",
+            "🎈"
+          ],
+          "keywords": [
+            "happy",
+            "children's",
+            "day",
+            "kids"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Children's Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-new-year",
+          "name": "Happy New Year",
+          "emojis": [
+            "🎆",
+            "✨"
+          ],
+          "keywords": [
+            "happy",
+            "new",
+            "year",
+            "fireworks"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy New Year!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-merry-christmas",
+          "name": "Merry Christmas",
+          "emojis": [
+            "🎄",
+            "🎅"
+          ],
+          "keywords": [
+            "merry",
+            "christmas",
+            "santa",
+            "xmas"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Merry Christmas!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-easter",
+          "name": "Happy Easter",
+          "emojis": [
+            "🐰",
+            "🥚"
+          ],
+          "keywords": [
+            "happy",
+            "easter",
+            "bunny",
+            "eggs"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Easter!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-diwali",
+          "name": "Happy Diwali",
+          "emojis": [
+            "🪔",
+            "✨"
+          ],
+          "keywords": [
+            "happy",
+            "diwali",
+            "deepavali",
+            "diya"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Diwali!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-pongal",
+          "name": "Happy Pongal",
+          "emojis": [
+            "🍚",
+            "🌾"
+          ],
+          "keywords": [
+            "happy",
+            "pongal",
+            "harvest"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Pongal!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-eid-mubarak",
+          "name": "Eid Mubarak",
+          "emojis": [
+            "🌙",
+            "🕌"
+          ],
+          "keywords": [
+            "eid",
+            "mubarak",
+            "eid"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Eid Mubarak!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-onam",
+          "name": "Happy Onam",
+          "emojis": [
+            "🌴",
+            "🌼"
+          ],
+          "keywords": [
+            "happy",
+            "onam",
+            "kerala"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Onam!\" in English",
+          "source": "Owner artwork (Wishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-birthday-girl",
+          "name": "Happy Birthday Girl",
+          "emojis": [
+            "🎂",
+            "🐱"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "cake",
+            "girl"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-anniversary",
+          "name": "Happy Anniversary",
+          "emojis": [
+            "💕",
+            "🎀"
+          ],
+          "keywords": [
+            "happy",
+            "anniversary",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Anniversary!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-wedding-day",
+          "name": "Happy Wedding Day",
+          "emojis": [
+            "💍",
+            "🕊️"
+          ],
+          "keywords": [
+            "happy",
+            "wedding",
+            "day",
+            "rings",
+            "marriage"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Wedding Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-engagement",
+          "name": "Happy Engagement",
+          "emojis": [
+            "💍",
+            "💜"
+          ],
+          "keywords": [
+            "happy",
+            "engagement",
+            "ring"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Engagement!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-friendship-day",
+          "name": "Happy Friendship Day",
+          "emojis": [
+            "👭",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "friendship",
+            "day",
+            "friends"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Friendship Day!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        },
+        {
+          "id": "wishes-happy-christmas",
+          "name": "Happy Christmas",
+          "emojis": [
+            "🎄",
+            "🔔"
+          ],
+          "keywords": [
+            "happy",
+            "christmas",
+            "merry",
+            "xmas"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Christmas!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-birthday-balloons",
+          "name": "Happy Birthday Balloons",
+          "emojis": [
+            "🎂",
+            "🎈"
+          ],
+          "keywords": [
+            "happy",
+            "birthday",
+            "balloons",
+            "cake"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-2.png)"
+        },
+        {
+          "id": "wishes-happy-friendship-day-wish",
+          "name": "Happy Friendship Day Wish",
+          "emojis": [
+            "👭",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "friendship",
+            "day",
+            "friends"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Friendship Day!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-1.png)"
+        },
+        {
+          "id": "wishes-happy-thanksgiving",
+          "name": "Happy Thanksgiving",
+          "emojis": [
+            "🦃",
+            "🍂"
+          ],
+          "keywords": [
+            "happy",
+            "thanksgiving",
+            "pumpkin",
+            "autumn"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Thanksgiving!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-1.png)"
+        },
+        {
+          "id": "wishes-happy-graduation",
+          "name": "Happy Graduation",
+          "emojis": [
+            "🎓",
+            "🌻"
+          ],
+          "keywords": [
+            "happy",
+            "graduation",
+            "graduate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Graduation!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        }
+      ]
+    },
+    {
+      "id": "goodwishes",
+      "title": "Wishes",
+      "subtitle": "Kind words for every moment",
+      "banner": "Banner-goodwishes",
+      "colors": {
+        "tint": "#6C7BE0",
+        "top": "#E6E9FD",
+        "bottom": "#F5F6FF"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "goodwishes-congratulations",
+          "name": "Congratulations",
+          "emojis": [
+            "🎉",
+            "⭐"
+          ],
+          "keywords": [
+            "congratulations",
+            "congrats",
+            "well",
+            "done"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Congratulations!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-1.png)"
+        },
+        {
+          "id": "goodwishes-thank-you-so-much",
+          "name": "Thank You So Much",
+          "emojis": [
+            "🙏",
+            "💐"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "so",
+            "much",
+            "thanks"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thank You So Much!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-1.png)"
+        },
+        {
+          "id": "goodwishes-get-well-soon",
+          "name": "Get Well Soon",
+          "emojis": [
+            "🤒",
+            "🧸"
+          ],
+          "keywords": [
+            "get",
+            "well",
+            "soon",
+            "sick",
+            "feel",
+            "better"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Get Well Soon!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-1.png)"
+        },
+        {
+          "id": "goodwishes-we-will-miss-you",
+          "name": "We Will Miss You",
+          "emojis": [
+            "💌",
+            "🥺"
+          ],
+          "keywords": [
+            "we",
+            "will",
+            "miss",
+            "you",
+            "farewell",
+            "goodbye"
+          ],
+          "accessibilityText": "Sticker with text that reads \"We Will Miss You!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-1.png)"
+        },
+        {
+          "id": "goodwishes-congratulations-star",
+          "name": "Congratulations Star",
+          "emojis": [
+            "🎉",
+            "⭐"
+          ],
+          "keywords": [
+            "congratulations",
+            "congrats",
+            "star"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Congratulations!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-2.png)"
+        },
+        {
+          "id": "goodwishes-congrats",
+          "name": "Congrats",
+          "emojis": [
+            "👑",
+            "🎉"
+          ],
+          "keywords": [
+            "congrats",
+            "congratulations",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Congrats!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-2.png)"
+        },
+        {
+          "id": "goodwishes-all-the-best",
+          "name": "All the Best",
+          "emojis": [
+            "⭐",
+            "🌈"
+          ],
+          "keywords": [
+            "all",
+            "the",
+            "best",
+            "good",
+            "luck"
+          ],
+          "accessibilityText": "Sticker with text that reads \"All the Best!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-you-did-it-trophy",
+          "name": "You Did It Trophy",
+          "emojis": [
+            "🏆",
+            "🎉"
+          ],
+          "keywords": [
+            "you",
+            "did",
+            "it",
+            "trophy",
+            "win"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Did It!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-best-wishes",
+          "name": "Best Wishes",
+          "emojis": [
+            "💐",
+            "🎀"
+          ],
+          "keywords": [
+            "best",
+            "wishes"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Wishes!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-way-to-go",
+          "name": "Way to Go",
+          "emojis": [
+            "⭐",
+            "🎉"
+          ],
+          "keywords": [
+            "way",
+            "to",
+            "go",
+            "well",
+            "done"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Way to Go!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-bravo",
+          "name": "Bravo",
+          "emojis": [
+            "👑",
+            "👏"
+          ],
+          "keywords": [
+            "bravo",
+            "well",
+            "done",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bravo!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-so-proud-of-you",
+          "name": "So Proud of You",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "so",
+            "proud",
+            "of",
+            "you",
+            "proud"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Proud of You!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        }
+      ]
+    },
+    {
+      "id": "couples",
+      "title": "Couples",
+      "subtitle": "Just the two of us",
+      "banner": "Banner-couples",
+      "colors": {
+        "tint": "#B5527A",
+        "top": "#F8E1EA",
+        "bottom": "#FDF3F6"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "couples-couple-hug",
+          "name": "Couple Hug",
+          "emojis": [
+            "💑",
+            "💕"
+          ],
+          "keywords": [
+            "couple",
+            "hug",
+            "love",
+            "together"
+          ],
+          "accessibilityText": "A couple sitting close, seen from behind, with hearts around them",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-happy-anniversary-to-us",
+          "name": "Happy Anniversary to Us",
+          "emojis": [
+            "💍",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "anniversary",
+            "to",
+            "us",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"happy Anniversary to us\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-tulips-for-you",
+          "name": "Tulips for You",
+          "emojis": [
+            "🌷",
+            "💝"
+          ],
+          "keywords": [
+            "tulips",
+            "flowers",
+            "for",
+            "you",
+            "bouquet",
+            "gift"
+          ],
+          "accessibilityText": "A bouquet of pink tulips wrapped in paper with a bow and a for you tag",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-forever-and-always",
+          "name": "Forever and Always",
+          "emojis": [
+            "💞",
+            "♾️"
+          ],
+          "keywords": [
+            "forever",
+            "and",
+            "always",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"forever and always\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-love-you-more-everyday",
+          "name": "Love You More Everyday",
+          "emojis": [
+            "💌",
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "more",
+            "everyday",
+            "letter",
+            "stamp"
+          ],
+          "accessibilityText": "Sticker with text that reads \"LOVE YOU MORE EVERYDAY\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-365-days-endless-love",
+          "name": "365 Days Endless Love",
+          "emojis": [
+            "📅",
+            "💕"
+          ],
+          "keywords": [
+            "365",
+            "days",
+            "countless",
+            "memories",
+            "endless",
+            "love",
+            "anniversary"
+          ],
+          "accessibilityText": "Sticker with text that reads \"365 days countless memories endless love\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-thank-you-for-being-my-person",
+          "name": "Thank You for Being My Person",
+          "emojis": [
+            "🥰",
+            "💗"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "for",
+            "being",
+            "my",
+            "person",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"thank you for being my person\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-you-and-me-photo",
+          "name": "You + Me Photo",
+          "emojis": [
+            "💏",
+            "📸"
+          ],
+          "keywords": [
+            "you",
+            "and",
+            "me",
+            "photo",
+            "polaroid",
+            "kiss",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you + me\" in English",
+          "source": "Owner artwork (Couples/sheet-2.png)"
+        },
+        {
+          "id": "couples-better-together-mugs",
+          "name": "Better Together Mugs",
+          "emojis": [
+            "☕",
+            "💕"
+          ],
+          "keywords": [
+            "better",
+            "together",
+            "always",
+            "us",
+            "coffee",
+            "mugs"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Better Together, Always Us\" in English",
+          "source": "Owner artwork (Couples/sheet-2.png)"
+        },
+        {
+          "id": "couples-every-day-with-you-is-special",
+          "name": "Every Day with You Is Special",
+          "emojis": [
+            "📅",
+            "💕"
+          ],
+          "keywords": [
+            "every",
+            "day",
+            "with",
+            "you",
+            "is",
+            "special"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Every day with you is special\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-couple-kiss",
+          "name": "Couple Kiss",
+          "emojis": [
+            "💏",
+            "💕"
+          ],
+          "keywords": [
+            "couple",
+            "kiss",
+            "kissing",
+            "love"
+          ],
+          "accessibilityText": "A couple kissing, with hearts and a bow",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-better-together-heart",
+          "name": "Better Together Heart",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "better",
+            "together",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"better together\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-us-against-the-world",
+          "name": "Us Against the World",
+          "emojis": [
+            "🌍",
+            "💕"
+          ],
+          "keywords": [
+            "its",
+            "us",
+            "against",
+            "the",
+            "world"
+          ],
+          "accessibilityText": "Sticker with text that reads \"It's us against the world\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-so-grateful-for-you",
+          "name": "So Grateful for You",
+          "emojis": [
+            "🙏",
+            "💗"
+          ],
+          "keywords": [
+            "so",
+            "grateful",
+            "for",
+            "you",
+            "thankful"
+          ],
+          "accessibilityText": "Sticker with text that reads \"so grateful for you\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-together-is-my-favorite-place",
+          "name": "Together Is My Favorite Place",
+          "emojis": [
+            "🏡",
+            "💕"
+          ],
+          "keywords": [
+            "together",
+            "is",
+            "my",
+            "favorite",
+            "place",
+            "to",
+            "be"
+          ],
+          "accessibilityText": "Sticker with text that reads \"together is my favorite place to be\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-pinky-promise",
+          "name": "Pinky Promise",
+          "emojis": [
+            "🤞",
+            "💗"
+          ],
+          "keywords": [
+            "pinky",
+            "promise",
+            "hands"
+          ],
+          "accessibilityText": "Two hands holding a pinky promise, with hearts",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-today-tomorrow-always-forever",
+          "name": "Today Tomorrow Always Forever",
+          "emojis": [
+            "💞",
+            "♾️"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "my",
+            "today",
+            "tomorrow",
+            "always",
+            "forever"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you are my: today, tomorrow, always, forever\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-some-love-stories-never-end",
+          "name": "Some Love Stories Never End",
+          "emojis": [
+            "📖",
+            "💕"
+          ],
+          "keywords": [
+            "some",
+            "love",
+            "stories",
+            "never",
+            "end"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Some love stories never end\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-you-and-me-photos",
+          "name": "You + Me Photos",
+          "emojis": [
+            "🖼️",
+            "💕"
+          ],
+          "keywords": [
+            "you",
+            "and",
+            "me",
+            "photos",
+            "string",
+            "hearts"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you + me\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-teddy-i-love-you",
+          "name": "Teddy I Love You",
+          "emojis": [
+            "🧸",
+            "❤️"
+          ],
+          "keywords": [
+            "teddy",
+            "bear",
+            "i",
+            "love",
+            "you"
+          ],
+          "accessibilityText": "Sticker with text that reads \"i love you\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-love-you-to-the-moon-and-back",
+          "name": "Love You to the Moon and Back",
+          "emojis": [
+            "🌙",
+            "💗"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "to",
+            "the",
+            "moon",
+            "and",
+            "back"
+          ],
+          "accessibilityText": "Sticker with text that reads \"love you to the moon and back\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-all-of-me-loves-all-of-you",
+          "name": "All of Me Loves All of You",
+          "emojis": [
+            "🫙",
+            "💕"
+          ],
+          "keywords": [
+            "all",
+            "of",
+            "me",
+            "loves",
+            "all",
+            "of",
+            "you",
+            "jar",
+            "lights"
+          ],
+          "accessibilityText": "Sticker with text that reads \"all of me loves all of you\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        }
+      ]
+    }
+  ]
+}
