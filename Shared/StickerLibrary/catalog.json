@@ -4074,6 +4074,241 @@
           "source": "Owner artwork (Couples/sheet-3.png)"
         }
       ]
+    },
+    {
+      "id": "lovers",
+      "title": "Lovers",
+      "subtitle": "Cute love for two",
+      "banner": "Banner-lovers",
+      "colors": {
+        "tint": "#C94F6D",
+        "top": "#FDE4E7",
+        "bottom": "#FFF5F6"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "lovers-love-you",
+          "name": "Love You",
+          "emojis": [
+            "🥰",
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "couple",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-we-match",
+          "name": "We Match",
+          "emojis": [
+            "🧋",
+            "💕"
+          ],
+          "keywords": [
+            "we",
+            "match",
+            "bubble",
+            "tea",
+            "boba"
+          ],
+          "accessibilityText": "Sticker with text that reads \"We Match\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-forever",
+          "name": "Forever",
+          "emojis": [
+            "🐱",
+            "♾️"
+          ],
+          "keywords": [
+            "forever",
+            "cats",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Forever\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-hugs-and-kisses",
+          "name": "Hugs & Kisses",
+          "emojis": [
+            "😘",
+            "🤗"
+          ],
+          "keywords": [
+            "hugs",
+            "and",
+            "kisses",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-my-favorite",
+          "name": "My Favorite",
+          "emojis": [
+            "🧸",
+            "💗"
+          ],
+          "keywords": [
+            "my",
+            "favorite",
+            "teddy",
+            "bear",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Favorite\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-locked",
+          "name": "Locked",
+          "emojis": [
+            "🔐",
+            "💘"
+          ],
+          "keywords": [
+            "locked",
+            "heart",
+            "lock",
+            "key"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Locked\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-together",
+          "name": "Together",
+          "emojis": [
+            "☕",
+            "💕"
+          ],
+          "keywords": [
+            "together",
+            "couple",
+            "blanket",
+            "coffee"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Together\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-so-happy",
+          "name": "So Happy",
+          "emojis": [
+            "🐧",
+            "😊"
+          ],
+          "keywords": [
+            "so",
+            "happy",
+            "penguins"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Happy\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-dream-team",
+          "name": "Dream Team",
+          "emojis": [
+            "🌈",
+            "☁️"
+          ],
+          "keywords": [
+            "dream",
+            "team",
+            "rainbow",
+            "clouds"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Dream Team\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-my-heart",
+          "name": "My Heart",
+          "emojis": [
+            "💗",
+            "🤗"
+          ],
+          "keywords": [
+            "my",
+            "heart",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Heart\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-memories",
+          "name": "Memories",
+          "emojis": [
+            "🤳",
+            "💕"
+          ],
+          "keywords": [
+            "memories",
+            "selfie",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Memories\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-sweethearts",
+          "name": "Sweethearts",
+          "emojis": [
+            "🐱",
+            "💞"
+          ],
+          "keywords": [
+            "sweethearts",
+            "cats"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweethearts\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-true-love",
+          "name": "True Love",
+          "emojis": [
+            "🐦",
+            "💕"
+          ],
+          "keywords": [
+            "true",
+            "love",
+            "birds"
+          ],
+          "accessibilityText": "Sticker with text that reads \"True Love\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        },
+        {
+          "id": "lovers-we-are-a-team",
+          "name": "We Are a Team",
+          "emojis": [
+            "🥤",
+            "💑"
+          ],
+          "keywords": [
+            "we",
+            "are",
+            "a",
+            "team",
+            "milkshake",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"We Are a Team\" in English",
+          "source": "Owner artwork (Lovers/sheet-1.png)"
+        }
+      ]
     }
   ]
 }

@@ -631,6 +631,41 @@ PACKS = [
                 label="all of me loves all of you"),
         ],
     },
+    {
+        "id": "lovers", "title": "Lovers", "subtitle": "Cute love for two",
+        "tint": "#C94F6D", "top": "#FDE4E7", "bottom": "#FFF5F6", "ink": ["#E57C93", "#A8364F"],
+        "tray": "Revolving hearts", "banner_sticker": 0,
+        "stickers": [
+            png("Lovers/sheet-1.png", "🥰 ❤️", "Love You", "love you couple hug", count=15, index=0,
+                label="Love You"),
+            png("Lovers/sheet-1.png", "🧋 💕", "We Match", "we match bubble tea boba", count=15, index=1,
+                label="We Match"),
+            png("Lovers/sheet-1.png", "🐱 ♾️", "Forever", "forever cats hug", count=15, index=2,
+                label="Forever"),
+            png("Lovers/sheet-1.png", "😘 🤗", "Hugs & Kisses", "hugs and kisses couple", count=15, index=3,
+                label="Hugs & Kisses"),
+            png("Lovers/sheet-1.png", "🧸 💗", "My Favorite", "my favorite teddy bear hug", count=15, index=4,
+                label="My Favorite"),
+            png("Lovers/sheet-1.png", "🔐 💘", "Locked", "locked heart lock key", count=15, index=5,
+                label="Locked"),
+            png("Lovers/sheet-1.png", "☕ 💕", "Together", "together couple blanket coffee", count=15, index=6,
+                label="Together"),
+            png("Lovers/sheet-1.png", "🐧 😊", "So Happy", "so happy penguins", count=15, index=7,
+                label="So Happy"),
+            png("Lovers/sheet-1.png", "🌈 ☁️", "Dream Team", "dream team rainbow clouds", count=15, index=8,
+                label="Dream Team"),
+            png("Lovers/sheet-1.png", "💗 🤗", "My Heart", "my heart hug", count=15, index=9,
+                label="My Heart"),
+            png("Lovers/sheet-1.png", "🤳 💕", "Memories", "memories selfie couple", count=15, index=10,
+                label="Memories"),
+            png("Lovers/sheet-1.png", "🐱 💞", "Sweethearts", "sweethearts cats", count=15, index=11,
+                label="Sweethearts"),
+            png("Lovers/sheet-1.png", "🐦 💕", "True Love", "true love birds", count=15, index=12,
+                label="True Love"),
+            png("Lovers/sheet-1.png", "🥤 💑", "We Are a Team", "we are a team milkshake couple", count=15, index=13,
+                label="We Are a Team"),
+        ],
+    },
 ]
 
 
@@ -1127,7 +1162,7 @@ def main() -> None:
         images = []
         aspects = []
         for spec in pack["stickers"]:
-            slug = spec["name"].lower().replace("!", "").replace("'", "").replace("+", "and").replace("-", " ").replace("  ", " ").replace(" ", "-")
+            slug = spec["name"].lower().replace("!", "").replace("'", "").replace("+", "and").replace("&", "and").replace("-", " ").replace("  ", " ").replace(" ", "-")
             sticker_id = f"{pack['id']}-{slug}"
             # The id is a file name and part of a URL, so keep it to a-z, 0-9 and "-".
             assert all(ch.isascii() and (ch.isalnum() or ch == "-") for ch in sticker_id), sticker_id
