@@ -580,6 +580,57 @@ PACKS = [
                 label="So Proud of You!"),
         ],
     },
+    {
+        "id": "couples", "title": "Couples", "subtitle": "Just the two of us",
+        "tint": "#B5527A", "top": "#F8E1EA", "bottom": "#FDF3F6", "ink": ["#D67C9F", "#9E3E65"],
+        "tray": "Two hearts", "banner_sticker": 0,
+        "stickers": [
+            png("Couples/sheet-1.png", "💑 💕", "Couple Hug", "couple hug love together", count=8, index=0,
+                description="A couple sitting close, seen from behind, with hearts around them"),
+            png("Couples/sheet-1.png", "💍 💕", "Happy Anniversary to Us", "happy anniversary to us couple", count=8, index=1,
+                label="happy Anniversary to us"),
+            png("Couples/sheet-1.png", "🌷 💝", "Tulips for You", "tulips flowers for you bouquet gift", count=8, index=2,
+                description="A bouquet of pink tulips wrapped in paper with a bow and a for you tag"),
+            png("Couples/sheet-1.png", "💞 ♾️", "Forever and Always", "forever and always love", count=8, index=3,
+                label="forever and always"),
+            png("Couples/sheet-1.png", "💌 ❤️", "Love You More Everyday", "love you more everyday letter stamp", count=8, index=5,
+                label="LOVE YOU MORE EVERYDAY"),
+            png("Couples/sheet-1.png", "📅 💕", "365 Days Endless Love", "365 days countless memories endless love anniversary", count=8, index=6,
+                label="365 days countless memories endless love"),
+            png("Couples/sheet-1.png", "🥰 💗", "Thank You for Being My Person", "thank you for being my person love", count=8, index=7,
+                label="thank you for being my person"),
+            png("Couples/sheet-2.png", "💏 📸", "You + Me Photo", "you and me photo polaroid kiss couple", count=4, index=0,
+                label="you + me"),
+            png("Couples/sheet-2.png", "☕ 💕", "Better Together Mugs", "better together always us coffee mugs", count=4, index=1,
+                label="Better Together, Always Us"),
+            png("Couples/sheet-3.png", "📅 💕", "Every Day with You Is Special", "every day with you is special", count=13, index=0,
+                label="Every day with you is special"),
+            png("Couples/sheet-3.png", "💏 💕", "Couple Kiss", "couple kiss kissing love", count=13, index=1,
+                description="A couple kissing, with hearts and a bow"),
+            png("Couples/sheet-3.png", "💗 🎀", "Better Together Heart", "better together heart", count=13, index=2,
+                label="better together"),
+            png("Couples/sheet-3.png", "🌍 💕", "Us Against the World", "its us against the world", count=13, index=3,
+                label="It's us against the world"),
+            png("Couples/sheet-3.png", "🙏 💗", "So Grateful for You", "so grateful for you thankful", count=13, index=4,
+                label="so grateful for you"),
+            png("Couples/sheet-3.png", "🏡 💕", "Together Is My Favorite Place", "together is my favorite place to be", count=13, index=5,
+                label="together is my favorite place to be"),
+            png("Couples/sheet-3.png", "🤞 💗", "Pinky Promise", "pinky promise hands", count=13, index=6,
+                description="Two hands holding a pinky promise, with hearts"),
+            png("Couples/sheet-3.png", "💞 ♾️", "Today Tomorrow Always Forever", "you are my today tomorrow always forever", count=13, index=7,
+                label="you are my: today, tomorrow, always, forever"),
+            png("Couples/sheet-3.png", "📖 💕", "Some Love Stories Never End", "some love stories never end", count=13, index=8,
+                label="Some love stories never end"),
+            png("Couples/sheet-3.png", "🖼️ 💕", "You + Me Photos", "you and me photos string hearts", count=13, index=9,
+                label="you + me"),
+            png("Couples/sheet-3.png", "🧸 ❤️", "Teddy I Love You", "teddy bear i love you", count=13, index=10,
+                label="i love you"),
+            png("Couples/sheet-3.png", "🌙 💗", "Love You to the Moon and Back", "love you to the moon and back", count=13, index=11,
+                label="love you to the moon and back"),
+            png("Couples/sheet-3.png", "🫙 💕", "All of Me Loves All of You", "all of me loves all of you jar lights", count=13, index=12,
+                label="all of me loves all of you"),
+        ],
+    },
 ]
 
 
@@ -1076,8 +1127,10 @@ def main() -> None:
         images = []
         aspects = []
         for spec in pack["stickers"]:
-            slug = spec["name"].lower().replace("!", "").replace("'", "").replace("-", " ").replace("  ", " ").replace(" ", "-")
+            slug = spec["name"].lower().replace("!", "").replace("'", "").replace("+", "and").replace("-", " ").replace("  ", " ").replace(" ", "-")
             sticker_id = f"{pack['id']}-{slug}"
+            # The id is a file name and part of a URL, so keep it to a-z, 0-9 and "-".
+            assert all(ch.isascii() and (ch.isalnum() or ch == "-") for ch in sticker_id), sticker_id
             assert sticker_id not in seen, sticker_id
             seen.add(sticker_id)
 

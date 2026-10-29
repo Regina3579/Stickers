@@ -3672,6 +3672,408 @@
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         }
       ]
+    },
+    {
+      "id": "couples",
+      "title": "Couples",
+      "subtitle": "Just the two of us",
+      "banner": "Banner-couples",
+      "colors": {
+        "tint": "#B5527A",
+        "top": "#F8E1EA",
+        "bottom": "#FDF3F6"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "couples-couple-hug",
+          "name": "Couple Hug",
+          "emojis": [
+            "💑",
+            "💕"
+          ],
+          "keywords": [
+            "couple",
+            "hug",
+            "love",
+            "together"
+          ],
+          "accessibilityText": "A couple sitting close, seen from behind, with hearts around them",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-happy-anniversary-to-us",
+          "name": "Happy Anniversary to Us",
+          "emojis": [
+            "💍",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "anniversary",
+            "to",
+            "us",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"happy Anniversary to us\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-tulips-for-you",
+          "name": "Tulips for You",
+          "emojis": [
+            "🌷",
+            "💝"
+          ],
+          "keywords": [
+            "tulips",
+            "flowers",
+            "for",
+            "you",
+            "bouquet",
+            "gift"
+          ],
+          "accessibilityText": "A bouquet of pink tulips wrapped in paper with a bow and a for you tag",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-forever-and-always",
+          "name": "Forever and Always",
+          "emojis": [
+            "💞",
+            "♾️"
+          ],
+          "keywords": [
+            "forever",
+            "and",
+            "always",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"forever and always\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-love-you-more-everyday",
+          "name": "Love You More Everyday",
+          "emojis": [
+            "💌",
+            "❤️"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "more",
+            "everyday",
+            "letter",
+            "stamp"
+          ],
+          "accessibilityText": "Sticker with text that reads \"LOVE YOU MORE EVERYDAY\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-365-days-endless-love",
+          "name": "365 Days Endless Love",
+          "emojis": [
+            "📅",
+            "💕"
+          ],
+          "keywords": [
+            "365",
+            "days",
+            "countless",
+            "memories",
+            "endless",
+            "love",
+            "anniversary"
+          ],
+          "accessibilityText": "Sticker with text that reads \"365 days countless memories endless love\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-thank-you-for-being-my-person",
+          "name": "Thank You for Being My Person",
+          "emojis": [
+            "🥰",
+            "💗"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "for",
+            "being",
+            "my",
+            "person",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"thank you for being my person\" in English",
+          "source": "Owner artwork (Couples/sheet-1.png)"
+        },
+        {
+          "id": "couples-you-and-me-photo",
+          "name": "You + Me Photo",
+          "emojis": [
+            "💏",
+            "📸"
+          ],
+          "keywords": [
+            "you",
+            "and",
+            "me",
+            "photo",
+            "polaroid",
+            "kiss",
+            "couple"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you + me\" in English",
+          "source": "Owner artwork (Couples/sheet-2.png)"
+        },
+        {
+          "id": "couples-better-together-mugs",
+          "name": "Better Together Mugs",
+          "emojis": [
+            "☕",
+            "💕"
+          ],
+          "keywords": [
+            "better",
+            "together",
+            "always",
+            "us",
+            "coffee",
+            "mugs"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Better Together, Always Us\" in English",
+          "source": "Owner artwork (Couples/sheet-2.png)"
+        },
+        {
+          "id": "couples-every-day-with-you-is-special",
+          "name": "Every Day with You Is Special",
+          "emojis": [
+            "📅",
+            "💕"
+          ],
+          "keywords": [
+            "every",
+            "day",
+            "with",
+            "you",
+            "is",
+            "special"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Every day with you is special\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-couple-kiss",
+          "name": "Couple Kiss",
+          "emojis": [
+            "💏",
+            "💕"
+          ],
+          "keywords": [
+            "couple",
+            "kiss",
+            "kissing",
+            "love"
+          ],
+          "accessibilityText": "A couple kissing, with hearts and a bow",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-better-together-heart",
+          "name": "Better Together Heart",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "better",
+            "together",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"better together\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-us-against-the-world",
+          "name": "Us Against the World",
+          "emojis": [
+            "🌍",
+            "💕"
+          ],
+          "keywords": [
+            "its",
+            "us",
+            "against",
+            "the",
+            "world"
+          ],
+          "accessibilityText": "Sticker with text that reads \"It's us against the world\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-so-grateful-for-you",
+          "name": "So Grateful for You",
+          "emojis": [
+            "🙏",
+            "💗"
+          ],
+          "keywords": [
+            "so",
+            "grateful",
+            "for",
+            "you",
+            "thankful"
+          ],
+          "accessibilityText": "Sticker with text that reads \"so grateful for you\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-together-is-my-favorite-place",
+          "name": "Together Is My Favorite Place",
+          "emojis": [
+            "🏡",
+            "💕"
+          ],
+          "keywords": [
+            "together",
+            "is",
+            "my",
+            "favorite",
+            "place",
+            "to",
+            "be"
+          ],
+          "accessibilityText": "Sticker with text that reads \"together is my favorite place to be\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-pinky-promise",
+          "name": "Pinky Promise",
+          "emojis": [
+            "🤞",
+            "💗"
+          ],
+          "keywords": [
+            "pinky",
+            "promise",
+            "hands"
+          ],
+          "accessibilityText": "Two hands holding a pinky promise, with hearts",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-today-tomorrow-always-forever",
+          "name": "Today Tomorrow Always Forever",
+          "emojis": [
+            "💞",
+            "♾️"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "my",
+            "today",
+            "tomorrow",
+            "always",
+            "forever"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you are my: today, tomorrow, always, forever\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-some-love-stories-never-end",
+          "name": "Some Love Stories Never End",
+          "emojis": [
+            "📖",
+            "💕"
+          ],
+          "keywords": [
+            "some",
+            "love",
+            "stories",
+            "never",
+            "end"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Some love stories never end\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-you-and-me-photos",
+          "name": "You + Me Photos",
+          "emojis": [
+            "🖼️",
+            "💕"
+          ],
+          "keywords": [
+            "you",
+            "and",
+            "me",
+            "photos",
+            "string",
+            "hearts"
+          ],
+          "accessibilityText": "Sticker with text that reads \"you + me\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-teddy-i-love-you",
+          "name": "Teddy I Love You",
+          "emojis": [
+            "🧸",
+            "❤️"
+          ],
+          "keywords": [
+            "teddy",
+            "bear",
+            "i",
+            "love",
+            "you"
+          ],
+          "accessibilityText": "Sticker with text that reads \"i love you\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-love-you-to-the-moon-and-back",
+          "name": "Love You to the Moon and Back",
+          "emojis": [
+            "🌙",
+            "💗"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "to",
+            "the",
+            "moon",
+            "and",
+            "back"
+          ],
+          "accessibilityText": "Sticker with text that reads \"love you to the moon and back\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        },
+        {
+          "id": "couples-all-of-me-loves-all-of-you",
+          "name": "All of Me Loves All of You",
+          "emojis": [
+            "🫙",
+            "💕"
+          ],
+          "keywords": [
+            "all",
+            "of",
+            "me",
+            "loves",
+            "all",
+            "of",
+            "you",
+            "jar",
+            "lights"
+          ],
+          "accessibilityText": "Sticker with text that reads \"all of me loves all of you\" in English",
+          "source": "Owner artwork (Couples/sheet-3.png)"
+        }
+      ]
     }
   ]
 }
