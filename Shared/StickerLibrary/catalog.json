@@ -3412,23 +3412,9 @@
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
           "source": "Owner artwork (GoodWishes/sheet-2.png)"
-        }
-      ]
-    },
-    {
-      "id": "goodwishes",
-      "title": "Wishes",
-      "subtitle": "Kind words for every moment",
-      "banner": "Banner-goodwishes",
-      "colors": {
-        "tint": "#6C7BE0",
-        "top": "#E6E9FD",
-        "bottom": "#F5F6FF"
-      },
-      "wideStickers": false,
-      "stickers": [
+        },
         {
-          "id": "goodwishes-happy-friendship-day-wish",
+          "id": "wishes-happy-friendship-day-wish",
           "name": "Happy Friendship Day Wish",
           "emojis": [
             "👭",
@@ -3444,7 +3430,7 @@
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
-          "id": "goodwishes-happy-thanksgiving",
+          "id": "wishes-happy-thanksgiving",
           "name": "Happy Thanksgiving",
           "emojis": [
             "🦃",
@@ -3459,6 +3445,35 @@
           "accessibilityText": "Sticker with text that reads \"Happy Thanksgiving!\" in English",
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
+        {
+          "id": "wishes-happy-graduation",
+          "name": "Happy Graduation",
+          "emojis": [
+            "🎓",
+            "🌻"
+          ],
+          "keywords": [
+            "happy",
+            "graduation",
+            "graduate"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy Graduation!\" in English",
+          "source": "Owner artwork (Wishes/sheet-3.png)"
+        }
+      ]
+    },
+    {
+      "id": "goodwishes",
+      "title": "Wishes",
+      "subtitle": "Kind words for every moment",
+      "banner": "Banner-goodwishes",
+      "colors": {
+        "tint": "#6C7BE0",
+        "top": "#E6E9FD",
+        "bottom": "#F5F6FF"
+      },
+      "wideStickers": false,
+      "stickers": [
         {
           "id": "goodwishes-congratulations",
           "name": "Congratulations",
@@ -3529,21 +3544,6 @@
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
-          "id": "goodwishes-happy-graduation",
-          "name": "Happy Graduation",
-          "emojis": [
-            "🎓",
-            "🌻"
-          ],
-          "keywords": [
-            "happy",
-            "graduation",
-            "graduate"
-          ],
-          "accessibilityText": "Sticker with text that reads \"Happy Graduation!\" in English",
-          "source": "Owner artwork (Wishes/sheet-3.png)"
-        },
-        {
           "id": "goodwishes-congratulations-star",
           "name": "Congratulations Star",
           "emojis": [
@@ -3572,6 +3572,104 @@
           ],
           "accessibilityText": "Sticker with text that reads \"Congrats!\" in English",
           "source": "Owner artwork (GoodWishes/sheet-2.png)"
+        },
+        {
+          "id": "goodwishes-all-the-best",
+          "name": "All the Best",
+          "emojis": [
+            "⭐",
+            "🌈"
+          ],
+          "keywords": [
+            "all",
+            "the",
+            "best",
+            "good",
+            "luck"
+          ],
+          "accessibilityText": "Sticker with text that reads \"All the Best!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-you-did-it-trophy",
+          "name": "You Did It Trophy",
+          "emojis": [
+            "🏆",
+            "🎉"
+          ],
+          "keywords": [
+            "you",
+            "did",
+            "it",
+            "trophy",
+            "win"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Did It!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-best-wishes",
+          "name": "Best Wishes",
+          "emojis": [
+            "💐",
+            "🎀"
+          ],
+          "keywords": [
+            "best",
+            "wishes"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Best Wishes!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-way-to-go",
+          "name": "Way to Go",
+          "emojis": [
+            "⭐",
+            "🎉"
+          ],
+          "keywords": [
+            "way",
+            "to",
+            "go",
+            "well",
+            "done"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Way to Go!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-bravo",
+          "name": "Bravo",
+          "emojis": [
+            "👑",
+            "👏"
+          ],
+          "keywords": [
+            "bravo",
+            "well",
+            "done",
+            "crown"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bravo!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
+        },
+        {
+          "id": "goodwishes-so-proud-of-you",
+          "name": "So Proud of You",
+          "emojis": [
+            "💖",
+            "🌸"
+          ],
+          "keywords": [
+            "so",
+            "proud",
+            "of",
+            "you",
+            "proud"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Proud of You!\" in English",
+          "source": "Owner artwork (GoodWishes/sheet-3.png)"
         }
       ]
     }
