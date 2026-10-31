@@ -4453,6 +4453,161 @@
           ],
           "accessibilityText": "A couple seen from behind, making a heart with their arms",
           "source": "Owner artwork (Lovers/sheet-2.png)"
+        },
+        {
+          "id": "lovers-bunny-and-bear-love",
+          "name": "Bunny and Bear Love",
+          "emojis": [
+            "🐰",
+            "🧸"
+          ],
+          "keywords": [
+            "bunny",
+            "bear",
+            "love",
+            "heart",
+            "hug"
+          ],
+          "accessibilityText": "A bunny and a bear hugging a pink heart",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-you-me-and-forever",
+          "name": "You Me & Forever",
+          "emojis": [
+            "💗",
+            "♾️"
+          ],
+          "keywords": [
+            "you",
+            "me",
+            "and",
+            "forever",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Me & Forever\" in English",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-together-always",
+          "name": "Together Always",
+          "emojis": [
+            "☕",
+            "💕"
+          ],
+          "keywords": [
+            "together",
+            "always",
+            "bear",
+            "bunny",
+            "tea"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Together Always\" in English",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-sleepy-snuggle",
+          "name": "Sleepy Snuggle",
+          "emojis": [
+            "😴",
+            "🐰"
+          ],
+          "keywords": [
+            "sleepy",
+            "snuggle",
+            "sleep",
+            "good",
+            "night",
+            "bunny",
+            "bear"
+          ],
+          "accessibilityText": "A bunny and a bear sleeping under a pink blanket",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-kiss-kiss",
+          "name": "Kiss Kiss",
+          "emojis": [
+            "😘",
+            "💋"
+          ],
+          "keywords": [
+            "kiss",
+            "kiss",
+            "bear",
+            "bunny"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Kiss Kiss\" in English",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-you-make-my-heart-smile",
+          "name": "You Make My Heart Smile",
+          "emojis": [
+            "😊",
+            "💗"
+          ],
+          "keywords": [
+            "you",
+            "make",
+            "my",
+            "heart",
+            "smile"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You make my heart smile\" in English",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-my-person",
+          "name": "My Person",
+          "emojis": [
+            "🫖",
+            "💕"
+          ],
+          "keywords": [
+            "my",
+            "person",
+            "bear",
+            "bunny",
+            "cup"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Person\" in English",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "🐰",
+            "❤️"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "bunny",
+            "bear",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
+        },
+        {
+          "id": "lovers-hold-my-heart",
+          "name": "Hold My Heart",
+          "emojis": [
+            "🧸",
+            "💖"
+          ],
+          "keywords": [
+            "hold",
+            "my",
+            "heart",
+            "bear",
+            "bunny"
+          ],
+          "accessibilityText": "A bear and a bunny holding a big pink heart together",
+          "source": "Owner artwork (Lovers/sheet-3.png)"
         }
       ]
     }
