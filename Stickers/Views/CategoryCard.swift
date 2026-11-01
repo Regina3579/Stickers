@@ -80,7 +80,7 @@ struct CategoryCard: View {
 }
 
 /// Sticker previews as tall as the category picture. Shows as many as fit the width.
-/// Wide stickers get wide tiles; the empty space above and below them is cropped.
+/// Wide stickers get wide tiles, zoomed to the artwork.
 private struct PreviewStrip: View {
     let stickers: [Sticker]
     let wide: Bool
@@ -100,7 +100,7 @@ private struct PreviewStrip: View {
             ForEach(stickers.prefix(count)) { sticker in
                 Color.clear
                     .frame(width: wide ? height * 1.4 : height, height: height)
-                    .overlay(StickerImageView(sticker: sticker, maxPixel: 300, fill: wide))
+                    .overlay(StickerImageView(sticker: sticker, maxPixel: 300, zoomToArt: wide))
                     .clipped()
             }
         }

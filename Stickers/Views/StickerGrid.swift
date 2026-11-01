@@ -30,10 +30,11 @@ struct StickerTile: View {
     @State private var showingPreview = false
 
     var body: some View {
-        // A wide sticker fills the full tile width; the empty space above and below it is cropped.
+        // A wide tile zooms to the artwork, so the empty space around a wide sticker is cropped
+        // but a taller sticker is never cut.
         Color.clear
             .aspectRatio(wide ? 4 / 3 : 1, contentMode: .fit)
-            .overlay(StickerImageView(sticker: sticker, maxPixel: wide ? 512 : 360, fill: wide))
+            .overlay(StickerImageView(sticker: sticker, maxPixel: wide ? 512 : 360, zoomToArt: wide))
             .clipped()
             .padding(wide ? 4 : 8)
             .frame(maxWidth: .infinity)

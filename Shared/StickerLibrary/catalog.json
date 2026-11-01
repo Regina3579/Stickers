@@ -28,6 +28,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "artBox": [
+            0.002,
+            0.1621,
+            0.9961,
+            0.6758
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -46,6 +52,12 @@
             "bouquet"
           ],
           "accessibilityText": "Sticker with text that reads \"Lots of Love\" in English",
+          "artBox": [
+            0.002,
+            0.1484,
+            0.9961,
+            0.7012
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -62,6 +74,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Sending Hugs\" in English",
+          "artBox": [
+            0.002,
+            0.2188,
+            0.9961,
+            0.5605
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -79,6 +97,12 @@
             "scarf"
           ],
           "accessibilityText": "Sticker with text that reads \"Big Hugs\" in English",
+          "artBox": [
+            0.002,
+            0.2148,
+            0.9961,
+            0.5684
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -97,6 +121,12 @@
             "hearts"
           ],
           "accessibilityText": "Sticker with text that reads \"You Are Loved\" in English",
+          "artBox": [
+            0.002,
+            0.2109,
+            0.9961,
+            0.5762
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -112,6 +142,12 @@
             "hearts"
           ],
           "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
+          "artBox": [
+            0.002,
+            0.2324,
+            0.9961,
+            0.5352
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -128,6 +164,12 @@
             "balloon"
           ],
           "accessibilityText": "Sticker with text that reads \"Love Always\" in English",
+          "artBox": [
+            0.002,
+            0.1758,
+            0.9961,
+            0.6484
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -145,6 +187,12 @@
             "box"
           ],
           "accessibilityText": "Sticker with text that reads \"With Love\" in English",
+          "artBox": [
+            0.002,
+            0.1699,
+            0.9961,
+            0.6582
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -161,6 +209,12 @@
             "bow"
           ],
           "accessibilityText": "Sticker with text that reads \"XOXO\" in English",
+          "artBox": [
+            0.002,
+            0.1641,
+            0.9961,
+            0.6699
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -178,6 +232,12 @@
             "mug"
           ],
           "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "artBox": [
+            0.002,
+            0.1816,
+            0.9961,
+            0.6348
+          ],
           "source": "Love sticker sheet (Love-sheet-1.png)"
         },
         {
@@ -195,6 +255,12 @@
             "bear"
           ],
           "accessibilityText": "Sticker with text that reads \"Love You More\" in English",
+          "artBox": [
+            0.002,
+            0.1934,
+            0.9961,
+            0.6113
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -212,6 +278,12 @@
             "couple"
           ],
           "accessibilityText": "Sticker with text that reads \"Together Forever\" in English",
+          "artBox": [
+            0.002,
+            0.207,
+            0.9961,
+            0.584
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -229,6 +301,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "artBox": [
+            0.002,
+            0.2031,
+            0.9961,
+            0.5957
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -244,6 +322,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Sweetheart\" in English",
+          "artBox": [
+            0.002,
+            0.2285,
+            0.9961,
+            0.543
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -261,6 +345,12 @@
             "letter"
           ],
           "accessibilityText": "Sticker with text that reads \"Be Mine\" in English",
+          "artBox": [
+            0.002,
+            0.2207,
+            0.9961,
+            0.5566
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -277,6 +367,12 @@
             "cute"
           ],
           "accessibilityText": "Three smiling hearts in pink and purple with white flowers",
+          "artBox": [
+            0.002,
+            0.1914,
+            0.9961,
+            0.6172
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -293,6 +389,12 @@
             "happy"
           ],
           "accessibilityText": "A happy pink heart with little wings flying among hearts and clouds",
+          "artBox": [
+            0.002,
+            0.2617,
+            0.9961,
+            0.4766
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -309,6 +411,12 @@
             "heart"
           ],
           "accessibilityText": "A pink heart blowing a kiss with small hearts floating away",
+          "artBox": [
+            0.002,
+            0.2324,
+            0.9961,
+            0.5352
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -325,6 +433,12 @@
             "gift"
           ],
           "accessibilityText": "A bouquet of pink, red and purple hearts wrapped with a pink bow",
+          "artBox": [
+            0.002,
+            0.125,
+            0.9961,
+            0.748
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         },
         {
@@ -341,6 +455,12 @@
             "cute"
           ],
           "accessibilityText": "A red heart hugging a pink heart, both smiling, with flowers",
+          "artBox": [
+            0.002,
+            0.2168,
+            0.9961,
+            0.5645
+          ],
           "source": "Love sticker sheet (Love-sheet-2.png)"
         }
       ]
@@ -372,6 +492,12 @@
             "wink"
           ],
           "accessibilityText": "Sticker with text that reads \"BFF\" in English",
+          "artBox": [
+            0.0,
+            0.1855,
+            1.0,
+            0.6289
+          ],
           "source": "Owner artwork (Friendship/01-bff-girls.png)"
         },
         {
@@ -388,6 +514,12 @@
             "girls"
           ],
           "accessibilityText": "Sticker with text that reads \"Friends Forever\" in English",
+          "artBox": [
+            0.0,
+            0.2012,
+            1.0,
+            0.5957
+          ],
           "source": "Owner artwork (Friendship/02-friends-forever.png)"
         },
         {
@@ -404,6 +536,12 @@
             "girls"
           ],
           "accessibilityText": "Sticker with text that reads \"Soul Sisters\" in English",
+          "artBox": [
+            0.0,
+            0.166,
+            1.0,
+            0.668
+          ],
           "source": "Owner artwork (Friendship/03-soul-sisters.png)"
         },
         {
@@ -419,6 +557,12 @@
             "girls"
           ],
           "accessibilityText": "Sticker with text that reads \"Besties\" in English",
+          "artBox": [
+            0.0,
+            0.1973,
+            1.0,
+            0.6035
+          ],
           "source": "Owner artwork (Friendship/04-besties.png)"
         },
         {
@@ -435,6 +579,12 @@
             "dogs"
           ],
           "accessibilityText": "Sticker with text that reads \"Best Friends\" in English",
+          "artBox": [
+            0.0,
+            0.2188,
+            1.0,
+            0.5625
+          ],
           "source": "Owner artwork (Friendship/05-best-friends-puppies.png)"
         },
         {
@@ -451,6 +601,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"BFF\" in English",
+          "artBox": [
+            0.0,
+            0.209,
+            1.0,
+            0.582
+          ],
           "source": "Owner artwork (Friendship/06-bff-bear-and-bunny.png)"
         },
         {
@@ -467,6 +623,12 @@
             "party"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Friendship Day\" in English",
+          "artBox": [
+            0.0,
+            0.1426,
+            1.0,
+            0.7129
+          ],
           "source": "Owner artwork (Friendship/07-happy-friendship-day.png)"
         },
         {
@@ -484,6 +646,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"I Cherish You\" in English",
+          "artBox": [
+            0.0,
+            0.2168,
+            1.0,
+            0.5645
+          ],
           "source": "Owner artwork (Friendship/08-i-cherish-you.png)"
         },
         {
@@ -500,6 +668,12 @@
             "cream"
           ],
           "accessibilityText": "Sticker with text that reads \"Sweet\" in English",
+          "artBox": [
+            0.0,
+            0.2344,
+            1.0,
+            0.5293
+          ],
           "source": "Owner artwork (Friendship/09-sweet-bunnies.png)"
         },
         {
@@ -516,6 +690,12 @@
             "group"
           ],
           "accessibilityText": "Sticker with text that reads \"Bestie Squad\" in English",
+          "artBox": [
+            0.0,
+            0.1582,
+            1.0,
+            0.6836
+          ],
           "source": "Owner artwork (Friendship/10-bestie-squad.png)"
         },
         {
@@ -532,6 +712,12 @@
             "girls"
           ],
           "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "artBox": [
+            0.0,
+            0.1914,
+            1.0,
+            0.6172
+          ],
           "source": "Owner artwork (Friendship/11-love-you-girls.png)"
         },
         {
@@ -547,6 +733,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Sweet Bestie\" in English",
+          "artBox": [
+            0.0,
+            0.1562,
+            1.0,
+            0.6855
+          ],
           "source": "Owner artwork (Friendship/12-sweet-bestie.png)"
         },
         {
@@ -563,6 +755,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Friendship Goals\" in English",
+          "artBox": [
+            0.0,
+            0.1523,
+            1.0,
+            0.6953
+          ],
           "source": "Owner artwork (Friendship/13-friendship-goals.png)"
         },
         {
@@ -578,6 +776,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Always Together\" in English",
+          "artBox": [
+            0.0,
+            0.168,
+            1.0,
+            0.6621
+          ],
           "source": "Owner artwork (Friendship/14-always-together.png)"
         },
         {
@@ -593,6 +797,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Bestie Love\" in English",
+          "artBox": [
+            0.0,
+            0.1523,
+            1.0,
+            0.6973
+          ],
           "source": "Owner artwork (Friendship/15-bestie-love.png)"
         },
         {
@@ -608,6 +818,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Best Friend\" in English",
+          "artBox": [
+            0.0,
+            0.1602,
+            1.0,
+            0.6816
+          ],
           "source": "Owner artwork (Friendship/16-best-friend.png)"
         },
         {
@@ -623,6 +839,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"BFF Forever\" in English",
+          "artBox": [
+            0.0,
+            0.1484,
+            1.0,
+            0.7051
+          ],
           "source": "Owner artwork (Friendship/17-bff-forever.png)"
         },
         {
@@ -638,6 +860,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Soul Sisters\" in English",
+          "artBox": [
+            0.0,
+            0.1348,
+            1.0,
+            0.7285
+          ],
           "source": "Owner artwork (Friendship/18-soul-sisters-lettering.png)"
         },
         {
@@ -653,6 +881,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Bestie Vibes\" in English",
+          "artBox": [
+            0.0,
+            0.1602,
+            1.0,
+            0.6777
+          ],
           "source": "Owner artwork (Friendship/19-bestie-vibes.png)"
         },
         {
@@ -668,6 +902,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"Forever Besties\" in English",
+          "artBox": [
+            0.0,
+            0.1758,
+            1.0,
+            0.6504
+          ],
           "source": "Owner artwork (Friendship/20-forever-besties.png)"
         },
         {
@@ -683,6 +923,12 @@
             "text"
           ],
           "accessibilityText": "Sticker with text that reads \"My Girl\" in English",
+          "artBox": [
+            0.0,
+            0.1855,
+            1.0,
+            0.6289
+          ],
           "source": "Owner artwork (Friendship/21-my-girl.png)"
         }
       ]
@@ -716,6 +962,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"Love you my Sisi\" in English",
+          "artBox": [
+            0.0,
+            0.1074,
+            1.0,
+            0.7832
+          ],
           "source": "Owner artwork (Sisters/01-love-you-my-sisi.png)"
         },
         {
@@ -734,6 +986,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"I Love You Sis\" in English",
+          "artBox": [
+            0.0879,
+            0.002,
+            0.8203,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -751,6 +1009,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"My Best Sis\" in English",
+          "artBox": [
+            0.0938,
+            0.002,
+            0.8105,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -766,6 +1030,12 @@
             "kiss"
           ],
           "accessibilityText": "Sticker with text that reads \"Just Sisters\" in English",
+          "artBox": [
+            0.0645,
+            0.002,
+            0.8711,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -780,6 +1050,12 @@
             "forever"
           ],
           "accessibilityText": "Sticker with text that reads \"Sisters Forever\" in English",
+          "artBox": [
+            0.1426,
+            0.002,
+            0.7129,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -795,6 +1071,12 @@
             "sisters"
           ],
           "accessibilityText": "Sticker with text that reads \"Sisterhood forever\" in English",
+          "artBox": [
+            0.0566,
+            0.002,
+            0.8867,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -812,6 +1094,12 @@
             "happy"
           ],
           "accessibilityText": "Sticker with text that reads \"You're My Sis\" in English",
+          "artBox": [
+            0.123,
+            0.002,
+            0.752,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -827,6 +1115,12 @@
             "selfie"
           ],
           "accessibilityText": "Sticker with text that reads \"Besties Sisters\" in English",
+          "artBox": [
+            0.0586,
+            0.002,
+            0.8789,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -843,6 +1137,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"Sister Love\" in English",
+          "artBox": [
+            0.0879,
+            0.002,
+            0.8242,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -859,6 +1159,12 @@
             "bunny"
           ],
           "accessibilityText": "Sticker with text that reads \"Always Together\" in English",
+          "artBox": [
+            0.0938,
+            0.002,
+            0.8164,
+            0.998
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-1.jpg)"
         },
         {
@@ -875,6 +1181,12 @@
             "sister"
           ],
           "accessibilityText": "Sticker with text that reads \"My Best Sis\" in English",
+          "artBox": [
+            0.0312,
+            0.002,
+            0.9375,
+            0.9961
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -893,6 +1205,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"Best Sis in the World\" in English",
+          "artBox": [
+            0.0352,
+            0.0039,
+            0.9277,
+            0.9922
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -908,6 +1226,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"Just Sisters\" in English",
+          "artBox": [
+            0.002,
+            0.043,
+            0.9961,
+            0.9141
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -923,6 +1247,12 @@
             "kiss"
           ],
           "accessibilityText": "Sticker with text that reads \"Sisters Forever\" in English",
+          "artBox": [
+            0.0,
+            0.0898,
+            0.998,
+            0.8203
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -939,6 +1269,12 @@
             "sunglasses"
           ],
           "accessibilityText": "Sticker with text that reads \"Sisters by heart\" in English",
+          "artBox": [
+            0.002,
+            0.0059,
+            0.9941,
+            0.9883
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -955,6 +1291,12 @@
             "cocoa"
           ],
           "accessibilityText": "Sticker with text that reads \"Better Together\" in English",
+          "artBox": [
+            0.0039,
+            0.0293,
+            0.9941,
+            0.9395
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -972,6 +1314,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"You're My Sister\" in English",
+          "artBox": [
+            0.0039,
+            0.0664,
+            0.9941,
+            0.8691
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -989,6 +1337,12 @@
             "bunny"
           ],
           "accessibilityText": "Sticker with text that reads \"Sisters Make Life Sweeter\" in English",
+          "artBox": [
+            0.0,
+            0.207,
+            0.998,
+            0.584
+          ],
           "source": "Owner sticker sheet (Sisters/sheet-2.jpg)"
         },
         {
@@ -1006,6 +1360,12 @@
             "fun"
           ],
           "accessibilityText": "Sticker with text that reads \"Partners in Crime\" in English",
+          "artBox": [
+            0.0,
+            0.3535,
+            1.0,
+            0.291
+          ],
           "source": "Owner artwork (Sisters/02-partners-in-crime.png)"
         },
         {
@@ -1024,6 +1384,12 @@
             "sister"
           ],
           "accessibilityText": "Sticker with text that reads \"Love you Forever and Ever\" in English",
+          "artBox": [
+            0.0,
+            0.166,
+            1.0,
+            0.6699
+          ],
           "source": "Owner artwork (Sisters/03-love-you-forever-and-ever.png)"
         },
         {
@@ -1040,6 +1406,12 @@
             "friends"
           ],
           "accessibilityText": "Sticker with text that reads \"Sisters are Forever Friends\" in English",
+          "artBox": [
+            0.0,
+            0.1113,
+            1.0,
+            0.7773
+          ],
           "source": "Owner artwork (Sisters/04-sisters-are-forever-friends.png)"
         }
       ]
@@ -1071,6 +1443,12 @@
             "mum"
           ],
           "accessibilityText": "Sticker with text that reads \"Love you Mom\" in English",
+          "artBox": [
+            0.002,
+            0.084,
+            0.998,
+            0.832
+          ],
           "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
@@ -1086,6 +1464,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Family\" in English",
+          "artBox": [
+            0.002,
+            0.0332,
+            0.998,
+            0.9355
+          ],
           "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
@@ -1102,6 +1486,12 @@
             "father"
           ],
           "accessibilityText": "Sticker with text that reads \"Love you Dad\" in English",
+          "artBox": [
+            0.002,
+            0.0371,
+            0.9961,
+            0.9238
+          ],
           "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
@@ -1118,6 +1508,12 @@
             "dad"
           ],
           "accessibilityText": "Mom, dad and their little girl hugging with smiles and hearts",
+          "artBox": [
+            0.0,
+            0.0625,
+            1.0,
+            0.875
+          ],
           "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
@@ -1134,6 +1530,12 @@
             "house"
           ],
           "accessibilityText": "Sticker with text that reads \"Home Sweet Home\" in English",
+          "artBox": [
+            0.0,
+            0.0879,
+            1.0,
+            0.8242
+          ],
           "source": "Owner artwork (Family/sheet-1.png)"
         },
         {
@@ -1149,6 +1551,12 @@
             "quote"
           ],
           "accessibilityText": "Sticker with text that reads \"The best thing about memories is making them with family\" in English",
+          "artBox": [
+            0.002,
+            0.1211,
+            0.9961,
+            0.7559
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1165,6 +1573,12 @@
             "family"
           ],
           "accessibilityText": "Sticker with text that reads \"I love my Family\" in English",
+          "artBox": [
+            0.0,
+            0.1523,
+            0.998,
+            0.6934
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1181,6 +1595,12 @@
             "family"
           ],
           "accessibilityText": "Sticker with text that reads \"One Big happy Family\" in English",
+          "artBox": [
+            0.002,
+            0.0332,
+            0.9941,
+            0.9316
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1196,6 +1616,12 @@
             "family"
           ],
           "accessibilityText": "Sticker with text that reads \"We are Family\" in English",
+          "artBox": [
+            0.0,
+            0.0801,
+            0.998,
+            0.8379
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1212,6 +1638,12 @@
             "camera"
           ],
           "accessibilityText": "Sticker with text that reads \"Say Cheese!\" in English",
+          "artBox": [
+            0.002,
+            0.2402,
+            0.9961,
+            0.5176
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1227,6 +1659,12 @@
             "flowers"
           ],
           "accessibilityText": "A light blue camera surrounded by white daisies and a pink heart",
+          "artBox": [
+            0.002,
+            0.0742,
+            0.9941,
+            0.8477
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1242,6 +1680,12 @@
             "everything"
           ],
           "accessibilityText": "Sticker with text that reads \"Family is Everything\" in English",
+          "artBox": [
+            0.002,
+            0.2344,
+            0.9961,
+            0.5312
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1260,6 +1704,12 @@
             "quote"
           ],
           "accessibilityText": "Sticker with text that reads \"Every family is beautiful but ours is my favorite\" in English",
+          "artBox": [
+            0.002,
+            0.084,
+            0.998,
+            0.8281
+          ],
           "source": "Owner artwork (Family/sheet-2.png)"
         },
         {
@@ -1279,6 +1729,12 @@
             "house"
           ],
           "accessibilityText": "Sticker with text that reads \"There is no place like home\" in English",
+          "artBox": [
+            0.0078,
+            0.002,
+            0.9824,
+            0.998
+          ],
           "source": "Owner artwork (Family/sheet-3.png)"
         },
         {
@@ -1295,6 +1751,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Family is Forever\" in English",
+          "artBox": [
+            0.002,
+            0.0078,
+            0.9961,
+            0.9824
+          ],
           "source": "Owner artwork (Family/sheet-3.png)"
         },
         {
@@ -1312,6 +1774,12 @@
             "together"
           ],
           "accessibilityText": "Sticker with text that reads \"A Family that plays together stays together\" in English",
+          "artBox": [
+            0.0625,
+            0.002,
+            0.873,
+            0.998
+          ],
           "source": "Owner artwork (Family/sheet-3.png)"
         },
         {
@@ -1331,6 +1799,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Families are a work of the Heart\" in English",
+          "artBox": [
+            0.0,
+            0.1055,
+            1.0,
+            0.7891
+          ],
           "source": "Owner artwork (Family/sheet-3.png)"
         },
         {
@@ -1351,6 +1825,12 @@
             "tree"
           ],
           "accessibilityText": "Sticker with text that reads \"It all starts and ends with Family\" in English",
+          "artBox": [
+            0.0,
+            0.0898,
+            1.0,
+            0.8184
+          ],
           "source": "Owner artwork (Family/sheet-3.png)"
         },
         {
@@ -1370,6 +1850,12 @@
             "boy"
           ],
           "accessibilityText": "Mom and dad hugging their little son, all smiling, with pink hearts",
+          "artBox": [
+            0.0,
+            0.0137,
+            1.0,
+            0.9727
+          ],
           "source": "Owner artwork (Family/sheet-4.png)"
         },
         {
@@ -1388,6 +1874,12 @@
             "love"
           ],
           "accessibilityText": "Mom and dad hugging and smiling with pink hearts and sparkles",
+          "artBox": [
+            0.0,
+            0.0117,
+            1.0,
+            0.9746
+          ],
           "source": "Owner artwork (Family/sheet-4.png)"
         },
         {
@@ -1408,6 +1900,12 @@
             "daughter"
           ],
           "accessibilityText": "Mom and dad hugging their son and daughter, everyone laughing, with hearts",
+          "artBox": [
+            0.0,
+            0.0137,
+            1.0,
+            0.9727
+          ],
           "source": "Owner artwork (Family/sheet-4.png)"
         }
       ]
@@ -1438,6 +1936,12 @@
             "cute"
           ],
           "accessibilityText": "A pink star with a bow winking happily among hearts",
+          "artBox": [
+            0.002,
+            0.0508,
+            0.9961,
+            0.8984
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1454,6 +1958,12 @@
             "star"
           ],
           "accessibilityText": "A yellow star smiling with closed happy eyes",
+          "artBox": [
+            0.0039,
+            0.0371,
+            0.9922,
+            0.9297
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1470,6 +1980,12 @@
             "star"
           ],
           "accessibilityText": "A blue star crying with big teary eyes",
+          "artBox": [
+            0.0,
+            0.0371,
+            0.9961,
+            0.9258
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1486,6 +2002,12 @@
             "star"
           ],
           "accessibilityText": "A purple star frowning with an angry mark",
+          "artBox": [
+            0.002,
+            0.0469,
+            0.9941,
+            0.9023
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1503,6 +2025,12 @@
             "star"
           ],
           "accessibilityText": "A green star asleep in a striped night cap",
+          "artBox": [
+            0.0,
+            0.0918,
+            1.0,
+            0.8164
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1519,6 +2047,12 @@
             "star"
           ],
           "accessibilityText": "An orange star winking playfully with little stars",
+          "artBox": [
+            0.002,
+            0.0664,
+            0.998,
+            0.8672
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1536,6 +2070,12 @@
             "star"
           ],
           "accessibilityText": "A pink star with heart eyes surrounded by hearts",
+          "artBox": [
+            0.0,
+            0.1074,
+            1.0,
+            0.7852
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1552,6 +2092,12 @@
             "star"
           ],
           "accessibilityText": "A purple star with wide surprised eyes",
+          "artBox": [
+            0.002,
+            0.0625,
+            0.9961,
+            0.875
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1569,6 +2115,12 @@
             "star"
           ],
           "accessibilityText": "A blue star laughing so hard it cries",
+          "artBox": [
+            0.0,
+            0.0879,
+            1.0,
+            0.8203
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1586,6 +2138,12 @@
             "star"
           ],
           "accessibilityText": "A yellow star crying next to a broken heart",
+          "artBox": [
+            0.002,
+            0.0898,
+            0.9961,
+            0.8203
+          ],
           "source": "Owner artwork (Emotions/sheet-1.png)"
         },
         {
@@ -1602,6 +2160,12 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "artBox": [
+            0.002,
+            0.0078,
+            0.9961,
+            0.9844
+          ],
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
@@ -1618,6 +2182,12 @@
             "miss"
           ],
           "accessibilityText": "Sticker with text that reads \"I Miss You\" in English",
+          "artBox": [
+            0.0254,
+            0.002,
+            0.9492,
+            0.9961
+          ],
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
@@ -1633,6 +2203,12 @@
             "thanks"
           ],
           "accessibilityText": "Sticker with text that reads \"Thank You\" in English",
+          "artBox": [
+            0.0273,
+            0.002,
+            0.9453,
+            0.9961
+          ],
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
@@ -1649,6 +2225,12 @@
             "sun"
           ],
           "accessibilityText": "Sticker with text that reads \"Good Morning\" in English",
+          "artBox": [
+            0.002,
+            0.0254,
+            0.9961,
+            0.9473
+          ],
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
@@ -1666,6 +2248,12 @@
             "moon"
           ],
           "accessibilityText": "Sticker with text that reads \"Good Night\" in English",
+          "artBox": [
+            0.002,
+            0.0273,
+            0.9961,
+            0.9453
+          ],
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
@@ -1681,6 +2269,12 @@
             "smile"
           ],
           "accessibilityText": "Sticker with text that reads \"Be Happy\" in English",
+          "artBox": [
+            0.002,
+            0.0078,
+            0.9961,
+            0.9824
+          ],
           "source": "Owner artwork (Emotions/sheet-2.png)"
         },
         {
@@ -1697,6 +2291,12 @@
             "joy"
           ],
           "accessibilityText": "A pink heart smiling happily among little hearts",
+          "artBox": [
+            0.0,
+            0.125,
+            1.0,
+            0.748
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1712,6 +2312,12 @@
             "heart"
           ],
           "accessibilityText": "A purple heart wearing sunglasses",
+          "artBox": [
+            0.0,
+            0.123,
+            1.0,
+            0.7539
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1728,6 +2334,12 @@
             "love"
           ],
           "accessibilityText": "A yellow heart winking and blowing a kiss",
+          "artBox": [
+            0.0,
+            0.1602,
+            1.0,
+            0.6777
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1744,6 +2356,12 @@
             "heart"
           ],
           "accessibilityText": "A blue heart laughing so hard it cries",
+          "artBox": [
+            0.0,
+            0.1445,
+            1.0,
+            0.709
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1760,6 +2378,12 @@
             "heart"
           ],
           "accessibilityText": "A green heart smiling calmly with closed eyes",
+          "artBox": [
+            0.0,
+            0.168,
+            1.0,
+            0.6641
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1777,6 +2401,12 @@
             "heart"
           ],
           "accessibilityText": "An orange heart winking with its tongue out",
+          "artBox": [
+            0.0,
+            0.1309,
+            1.0,
+            0.7383
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1794,6 +2424,12 @@
             "heart"
           ],
           "accessibilityText": "A pink heart with heart eyes",
+          "artBox": [
+            0.0,
+            0.084,
+            1.0,
+            0.8301
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1810,6 +2446,12 @@
             "heart"
           ],
           "accessibilityText": "A blue heart sleeping on a cloud",
+          "artBox": [
+            0.0,
+            0.0762,
+            1.0,
+            0.8477
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1826,6 +2468,12 @@
             "heart"
           ],
           "accessibilityText": "A purple heart with teary pleading eyes",
+          "artBox": [
+            0.0,
+            0.082,
+            1.0,
+            0.834
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         },
         {
@@ -1842,6 +2490,12 @@
             "heart"
           ],
           "accessibilityText": "A pink heart listening to music with headphones",
+          "artBox": [
+            0.0,
+            0.0664,
+            1.0,
+            0.8652
+          ],
           "source": "Owner artwork (Emotions/sheet-3.png)"
         }
       ]
@@ -1871,6 +2525,12 @@
             "exercise"
           ],
           "accessibilityText": "Sticker with text that reads \"Yoga Time\" in English",
+          "artBox": [
+            0.0039,
+            0.1328,
+            0.9922,
+            0.7344
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1888,6 +2548,12 @@
             "lotus"
           ],
           "accessibilityText": "Sticker with text that reads \"Meditation\" in English",
+          "artBox": [
+            0.043,
+            0.0,
+            0.9141,
+            1.0
+          ],
           "source": "Owner artwork (SelfCare/02-meditation.png)"
         },
         {
@@ -1903,6 +2569,12 @@
             "salad"
           ],
           "accessibilityText": "Sticker with text that reads \"Healthy Food\" in English",
+          "artBox": [
+            0.0039,
+            0.1406,
+            0.9941,
+            0.7207
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1918,6 +2590,12 @@
             "hydrate"
           ],
           "accessibilityText": "Sticker with text that reads \"Drink Water\" in English",
+          "artBox": [
+            0.0039,
+            0.127,
+            0.9941,
+            0.7461
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1932,6 +2610,12 @@
             "care"
           ],
           "accessibilityText": "Sticker with text that reads \"Self Care\" in English",
+          "artBox": [
+            0.0039,
+            0.1758,
+            0.9922,
+            0.6465
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1947,6 +2631,12 @@
             "plan"
           ],
           "accessibilityText": "Sticker with text that reads \"Daily Planner\" in English",
+          "artBox": [
+            0.0039,
+            0.1484,
+            0.9922,
+            0.7031
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1962,6 +2652,12 @@
             "exercise"
           ],
           "accessibilityText": "Sticker with text that reads \"Workout\" in English",
+          "artBox": [
+            0.0039,
+            0.0859,
+            0.9922,
+            0.8242
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1977,6 +2673,12 @@
             "lotus"
           ],
           "accessibilityText": "Sticker with text that reads \"Relax\" in English",
+          "artBox": [
+            0.0039,
+            0.0684,
+            0.9902,
+            0.8633
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -1993,6 +2695,12 @@
             "book"
           ],
           "accessibilityText": "Sticker with text that reads \"Me Time\" in English",
+          "artBox": [
+            0.0039,
+            0.1328,
+            0.9922,
+            0.7363
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2008,6 +2716,12 @@
             "skincare"
           ],
           "accessibilityText": "Sticker with text that reads \"Beauty Time\" in English",
+          "artBox": [
+            0.002,
+            0.1719,
+            0.9941,
+            0.6562
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2024,6 +2738,12 @@
             "bubbles"
           ],
           "accessibilityText": "Sticker with text that reads \"Spa Day\" in English",
+          "artBox": [
+            0.002,
+            0.1406,
+            0.9941,
+            0.7148
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2040,6 +2760,12 @@
             "rest"
           ],
           "accessibilityText": "Sticker with text that reads \"Good Sleep\" in English",
+          "artBox": [
+            0.0039,
+            0.1348,
+            0.9941,
+            0.7285
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2057,6 +2783,12 @@
             "walking"
           ],
           "accessibilityText": "Sticker with text that reads \"Go for a Walk\" in English",
+          "artBox": [
+            0.002,
+            0.1777,
+            0.9961,
+            0.6406
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2073,6 +2805,12 @@
             "break"
           ],
           "accessibilityText": "Sticker with text that reads \"Digital Detox\" in English",
+          "artBox": [
+            0.002,
+            0.1738,
+            0.9941,
+            0.6484
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2088,6 +2826,12 @@
             "book"
           ],
           "accessibilityText": "Sticker with text that reads \"Read & Journal\" in English",
+          "artBox": [
+            0.0,
+            0.2461,
+            0.998,
+            0.5117
+          ],
           "source": "Owner artwork (SelfCare/sheet-1.png)"
         },
         {
@@ -2102,6 +2846,12 @@
             "big"
           ],
           "accessibilityText": "Sticker with text that reads \"Dream Big\" in English",
+          "artBox": [
+            0.0,
+            0.125,
+            0.998,
+            0.748
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2116,6 +2866,12 @@
             "vibes"
           ],
           "accessibilityText": "Sticker with text that reads \"Good Vibes\" in English",
+          "artBox": [
+            0.002,
+            0.1074,
+            0.9961,
+            0.7832
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2130,6 +2886,12 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"Self Love\" in English",
+          "artBox": [
+            0.0,
+            0.1309,
+            0.998,
+            0.7324
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2145,6 +2907,12 @@
             "beach"
           ],
           "accessibilityText": "Sticker with text that reads \"Chill\" in English",
+          "artBox": [
+            0.002,
+            0.1699,
+            0.9961,
+            0.6582
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2159,6 +2927,12 @@
             "positive"
           ],
           "accessibilityText": "Sticker with text that reads \"Stay Positive\" in English",
+          "artBox": [
+            0.002,
+            0.1777,
+            0.9961,
+            0.6426
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2174,6 +2948,12 @@
             "smile"
           ],
           "accessibilityText": "Sticker with text that reads \"Be Happy\" in English",
+          "artBox": [
+            0.002,
+            0.084,
+            0.998,
+            0.834
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2189,6 +2969,12 @@
             "yourself"
           ],
           "accessibilityText": "Sticker with text that reads \"Focus on Yourself\" in English",
+          "artBox": [
+            0.002,
+            0.1895,
+            0.9961,
+            0.6191
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2205,6 +2991,12 @@
             "sleep"
           ],
           "accessibilityText": "Sticker with text that reads \"Sweet Dreams\" in English",
+          "artBox": [
+            0.0,
+            0.2324,
+            0.998,
+            0.5332
+          ],
           "source": "Owner artwork (SelfCare/sheet-2.png)"
         },
         {
@@ -2224,6 +3016,12 @@
             "come"
           ],
           "accessibilityText": "Sticker with text that reads \"be proud of how far you've come\" in English",
+          "artBox": [
+            0.0,
+            0.0527,
+            1.0,
+            0.8945
+          ],
           "source": "Owner artwork (SelfCare/sheet-3.png)"
         },
         {
@@ -2240,6 +3038,12 @@
             "candle"
           ],
           "accessibilityText": "Sticker with text that reads \"just breathe\" in English",
+          "artBox": [
+            0.0293,
+            0.0,
+            0.9395,
+            1.0
+          ],
           "source": "Owner artwork (SelfCare/sheet-3.png)"
         },
         {
@@ -2255,6 +3059,12 @@
             "enough"
           ],
           "accessibilityText": "Sticker with text that reads \"you are enough\" in English",
+          "artBox": [
+            0.0,
+            0.0254,
+            1.0,
+            0.9492
+          ],
           "source": "Owner artwork (SelfCare/sheet-3.png)"
         },
         {
@@ -2270,6 +3080,12 @@
             "refresh"
           ],
           "accessibilityText": "Sticker with text that reads \"rest reset refresh\" in English",
+          "artBox": [
+            0.0,
+            0.1035,
+            1.0,
+            0.791
+          ],
           "source": "Owner artwork (SelfCare/sheet-3.png)"
         },
         {
@@ -2287,6 +3103,12 @@
             "great"
           ],
           "accessibilityText": "Sticker with text that reads \"slow down you're doing great\" in English",
+          "artBox": [
+            0.0,
+            0.1367,
+            1.0,
+            0.7246
+          ],
           "source": "Owner artwork (SelfCare/sheet-3.png)"
         }
       ]
@@ -2316,6 +3138,12 @@
             "hbd"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "artBox": [
+            0.002,
+            0.0977,
+            0.998,
+            0.8027
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2333,6 +3161,12 @@
             "balloons"
           ],
           "accessibilityText": "Sticker with text that reads \"It's your DAY!\" in English",
+          "artBox": [
+            0.0,
+            0.0801,
+            1.0,
+            0.8379
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2351,6 +3185,12 @@
             "birthday"
           ],
           "accessibilityText": "Sticker with text that reads \"Make a wish\" in English",
+          "artBox": [
+            0.0,
+            0.1035,
+            0.998,
+            0.793
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2366,6 +3206,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"Birthday VIBES\" in English",
+          "artBox": [
+            0.002,
+            0.1426,
+            0.998,
+            0.7148
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2383,6 +3229,12 @@
             "birthday"
           ],
           "accessibilityText": "Sticker with text that reads \"Another year of Awesome!\" in English",
+          "artBox": [
+            0.0,
+            0.1426,
+            0.998,
+            0.7129
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2400,6 +3252,12 @@
             "celebrate"
           ],
           "accessibilityText": "Sticker with text that reads \"Cheers to you!\" in English",
+          "artBox": [
+            0.0,
+            0.1641,
+            1.0,
+            0.6699
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2418,6 +3276,12 @@
             "present"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Birthday to YOU!\" in English",
+          "artBox": [
+            0.002,
+            0.1758,
+            0.9961,
+            0.6504
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2433,6 +3297,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Birthday Love\" in English",
+          "artBox": [
+            0.002,
+            0.125,
+            0.998,
+            0.748
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2449,6 +3319,12 @@
             "hat"
           ],
           "accessibilityText": "Sticker with text that reads \"Let's Celebrate!\" in English",
+          "artBox": [
+            0.0,
+            0.1543,
+            1.0,
+            0.6875
+          ],
           "source": "Owner artwork (Birthday/sheet-1.png)"
         },
         {
@@ -2465,6 +3341,12 @@
             "hbd"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "artBox": [
+            0.0039,
+            0.0391,
+            0.9941,
+            0.9199
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2480,6 +3362,12 @@
             "balloons"
           ],
           "accessibilityText": "Sticker with text that reads \"Birthday Wishes\" in English",
+          "artBox": [
+            0.0273,
+            0.0,
+            0.9434,
+            0.998
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2496,6 +3384,12 @@
             "flowers"
           ],
           "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "artBox": [
+            0.0117,
+            0.002,
+            0.9727,
+            0.9941
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2514,6 +3408,12 @@
             "sun"
           ],
           "accessibilityText": "Sticker with text that reads \"Have a Lovely Day!\" in English",
+          "artBox": [
+            0.002,
+            0.0039,
+            0.9941,
+            0.9922
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2532,6 +3432,12 @@
             "cake"
           ],
           "accessibilityText": "Sticker with text that reads \"Wishing You a Wonderful Birthday!\" in English",
+          "artBox": [
+            0.0039,
+            0.0527,
+            0.9941,
+            0.8965
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2549,6 +3455,12 @@
             "presents"
           ],
           "accessibilityText": "Sticker with text that reads \"Just for You\" in English",
+          "artBox": [
+            0.0039,
+            0.0352,
+            0.9941,
+            0.9297
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2568,6 +3480,12 @@
             "day"
           ],
           "accessibilityText": "Sticker with text that reads \"Take Care and Enjoy Your Special Day!\" in English",
+          "artBox": [
+            0.0098,
+            0.0039,
+            0.9805,
+            0.9941
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2585,6 +3503,12 @@
             "bear"
           ],
           "accessibilityText": "Sticker with text that reads \"Sending Warm Wishes\" in English",
+          "artBox": [
+            0.002,
+            0.0645,
+            0.998,
+            0.8691
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2601,6 +3525,12 @@
             "special"
           ],
           "accessibilityText": "Sticker with text that reads \"You are Very Special\" in English",
+          "artBox": [
+            0.0039,
+            0.1465,
+            0.9941,
+            0.707
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2623,6 +3553,12 @@
             "moments"
           ],
           "accessibilityText": "Sticker with text that reads \"May your Birthday be filled with Smiles, Comfort & Beautiful Moments\" in English",
+          "artBox": [
+            0.002,
+            0.1641,
+            0.9941,
+            0.6699
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2640,6 +3576,12 @@
             "lavender"
           ],
           "accessibilityText": "Sticker with text that reads \"Enjoy the little Things\" in English",
+          "artBox": [
+            0.0039,
+            0.127,
+            0.9941,
+            0.7441
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         },
         {
@@ -2656,6 +3598,12 @@
             "party"
           ],
           "accessibilityText": "Sticker with text that reads \"Celebrating YOU Today!\" in English",
+          "artBox": [
+            0.0039,
+            0.1172,
+            0.9922,
+            0.7637
+          ],
           "source": "Owner artwork (Birthday/sheet-2.png)"
         }
       ]
@@ -2686,6 +3634,12 @@
             "bear"
           ],
           "accessibilityText": "Sticker with text that reads \"YOU DID IT!\" in English",
+          "artBox": [
+            0.0039,
+            0.0527,
+            0.9941,
+            0.8945
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2701,6 +3655,12 @@
             "bunny"
           ],
           "accessibilityText": "Sticker with text that reads \"Great!\" in English",
+          "artBox": [
+            0.0117,
+            0.002,
+            0.9766,
+            0.9961
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2716,6 +3676,12 @@
             "sun"
           ],
           "accessibilityText": "Sticker with text that reads \"KEEP Going!\" in English",
+          "artBox": [
+            0.0039,
+            0.0039,
+            0.9902,
+            0.9922
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2732,6 +3698,12 @@
             "penguin"
           ],
           "accessibilityText": "Sticker with text that reads \"YOU ARE Amazing!\" in English",
+          "artBox": [
+            0.0039,
+            0.0059,
+            0.9902,
+            0.9883
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2746,6 +3718,12 @@
             "cat"
           ],
           "accessibilityText": "Sticker with text that reads \"AWESOME!\" in English",
+          "artBox": [
+            0.0039,
+            0.0859,
+            0.9922,
+            0.8223
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2761,6 +3739,12 @@
             "panda"
           ],
           "accessibilityText": "Sticker with text that reads \"GOOD JOB!\" in English",
+          "artBox": [
+            0.0039,
+            0.0586,
+            0.9922,
+            0.8809
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2776,6 +3760,12 @@
             "puppy"
           ],
           "accessibilityText": "Sticker with text that reads \"WELL DONE!\" in English",
+          "artBox": [
+            0.0039,
+            0.0352,
+            0.9922,
+            0.9336
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2793,6 +3783,12 @@
             "kitten"
           ],
           "accessibilityText": "Sticker with text that reads \"So Proud of You!\" in English",
+          "artBox": [
+            0.0039,
+            0.0508,
+            0.9922,
+            0.8926
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2807,6 +3803,12 @@
             "turtle"
           ],
           "accessibilityText": "Sticker with text that reads \"Fantastic!\" in English",
+          "artBox": [
+            0.002,
+            0.0547,
+            0.9941,
+            0.8867
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2824,6 +3826,12 @@
             "bear"
           ],
           "accessibilityText": "Sticker with text that reads \"You Are Special!\" in English",
+          "artBox": [
+            0.002,
+            0.0898,
+            0.998,
+            0.8184
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2841,6 +3849,12 @@
             "rainbow"
           ],
           "accessibilityText": "Sticker with text that reads \"Believe in Yourself!\" in English",
+          "artBox": [
+            0.0039,
+            0.0566,
+            0.9922,
+            0.8828
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2858,6 +3872,12 @@
             "fox"
           ],
           "accessibilityText": "Sticker with text that reads \"You Make a Difference!\" in English",
+          "artBox": [
+            0.0039,
+            0.0742,
+            0.9922,
+            0.8516
+          ],
           "source": "Owner artwork (Encouragement/sheet-1.png)"
         },
         {
@@ -2874,6 +3894,12 @@
             "trophy"
           ],
           "accessibilityText": "Sticker with text that reads \"Super Smart!\" in English",
+          "artBox": [
+            0.0,
+            0.0391,
+            1.0,
+            0.9199
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2890,6 +3916,12 @@
             "books"
           ],
           "accessibilityText": "Sticker with text that reads \"Great Work!\" in English",
+          "artBox": [
+            0.0,
+            0.002,
+            1.0,
+            0.9961
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2906,6 +3938,12 @@
             "pencil"
           ],
           "accessibilityText": "Sticker with text that reads \"Nailed It!\" in English",
+          "artBox": [
+            0.002,
+            0.0,
+            0.9961,
+            1.0
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2921,6 +3959,12 @@
             "penguin"
           ],
           "accessibilityText": "Sticker with text that reads \"Keep Shining!\" in English",
+          "artBox": [
+            0.0,
+            0.0137,
+            1.0,
+            0.9707
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2935,6 +3979,12 @@
             "panda"
           ],
           "accessibilityText": "Sticker with text that reads \"Brilliant!\" in English",
+          "artBox": [
+            0.0,
+            0.043,
+            1.0,
+            0.9121
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2950,6 +4000,12 @@
             "owl"
           ],
           "accessibilityText": "Sticker with text that reads \"You're Amazing!\" in English",
+          "artBox": [
+            0.0,
+            0.0156,
+            1.0,
+            0.9668
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2965,6 +4021,12 @@
             "elephant"
           ],
           "accessibilityText": "Sticker with text that reads \"Great Effort!\" in English",
+          "artBox": [
+            0.0,
+            0.002,
+            1.0,
+            0.9961
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2980,6 +4042,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"Hooray!\" in English",
+          "artBox": [
+            0.0,
+            0.0156,
+            1.0,
+            0.9688
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -2995,6 +4063,12 @@
             "bear"
           ],
           "accessibilityText": "Sticker with text that reads \"So Clever!\" in English",
+          "artBox": [
+            0.0,
+            0.0332,
+            1.0,
+            0.9316
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -3010,6 +4084,12 @@
             "flowers"
           ],
           "accessibilityText": "Sticker with text that reads \"Impressive!\" in English",
+          "artBox": [
+            0.0,
+            0.0098,
+            1.0,
+            0.9805
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -3025,6 +4105,12 @@
             "turtle"
           ],
           "accessibilityText": "Sticker with text that reads \"Keep Growing!\" in English",
+          "artBox": [
+            0.0,
+            0.0469,
+            1.0,
+            0.9062
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         },
         {
@@ -3040,6 +4126,12 @@
             "star"
           ],
           "accessibilityText": "Sticker with text that reads \"Outstanding!\" in English",
+          "artBox": [
+            0.0,
+            0.0195,
+            1.0,
+            0.9609
+          ],
           "source": "Owner artwork (Encouragement/sheet-2.png)"
         }
       ]
@@ -3072,6 +4164,12 @@
             "day"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Mother's Day\" in English",
+          "artBox": [
+            0.0,
+            0.1074,
+            1.0,
+            0.7852
+          ],
           "source": "Owner artwork (Wishes/sheet-1.png)"
         },
         {
@@ -3090,6 +4188,12 @@
             "day"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Father's Day\" in English",
+          "artBox": [
+            0.0,
+            0.1133,
+            1.0,
+            0.7734
+          ],
           "source": "Owner artwork (Wishes/sheet-1.png)"
         },
         {
@@ -3108,6 +4212,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Mother's Day!\" in English",
+          "artBox": [
+            0.002,
+            0.0293,
+            0.9961,
+            0.9395
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3126,6 +4236,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Father's Day!\" in English",
+          "artBox": [
+            0.0078,
+            0.0039,
+            0.9805,
+            0.9941
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3143,6 +4259,12 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Valentine's Day!\" in English",
+          "artBox": [
+            0.0039,
+            0.084,
+            0.9922,
+            0.832
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3159,6 +4281,12 @@
             "teacher"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Teacher's Day!\" in English",
+          "artBox": [
+            0.002,
+            0.0703,
+            0.9941,
+            0.8594
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3175,6 +4303,12 @@
             "women"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Women's Day!\" in English",
+          "artBox": [
+            0.002,
+            0.041,
+            0.9941,
+            0.9121
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3191,6 +4325,12 @@
             "kids"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Children's Day!\" in English",
+          "artBox": [
+            0.002,
+            0.0938,
+            0.9941,
+            0.8105
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3207,6 +4347,12 @@
             "fireworks"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy New Year!\" in English",
+          "artBox": [
+            0.0039,
+            0.0293,
+            0.9922,
+            0.9375
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3223,6 +4369,12 @@
             "xmas"
           ],
           "accessibilityText": "Sticker with text that reads \"Merry Christmas!\" in English",
+          "artBox": [
+            0.002,
+            0.0664,
+            0.9941,
+            0.8613
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3239,6 +4391,12 @@
             "eggs"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Easter!\" in English",
+          "artBox": [
+            0.0039,
+            0.0078,
+            0.9961,
+            0.9863
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3255,6 +4413,12 @@
             "diya"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Diwali!\" in English",
+          "artBox": [
+            0.0469,
+            0.0039,
+            0.9062,
+            0.9922
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3270,6 +4434,12 @@
             "harvest"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Pongal!\" in English",
+          "artBox": [
+            0.0,
+            0.0137,
+            1.0,
+            0.9707
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3285,6 +4455,12 @@
             "eid"
           ],
           "accessibilityText": "Sticker with text that reads \"Eid Mubarak!\" in English",
+          "artBox": [
+            0.0,
+            0.0039,
+            0.998,
+            0.9922
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3300,6 +4476,12 @@
             "kerala"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Onam!\" in English",
+          "artBox": [
+            0.0,
+            0.0098,
+            0.9961,
+            0.9785
+          ],
           "source": "Owner artwork (Wishes/sheet-2.png)"
         },
         {
@@ -3316,6 +4498,12 @@
             "girl"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "artBox": [
+            0.0059,
+            0.002,
+            0.9863,
+            0.998
+          ],
           "source": "Owner artwork (Wishes/sheet-3.png)"
         },
         {
@@ -3331,6 +4519,12 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Anniversary!\" in English",
+          "artBox": [
+            0.0,
+            0.0586,
+            1.0,
+            0.8828
+          ],
           "source": "Owner artwork (Wishes/sheet-3.png)"
         },
         {
@@ -3348,6 +4542,12 @@
             "marriage"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Wedding Day!\" in English",
+          "artBox": [
+            0.0,
+            0.0391,
+            0.998,
+            0.9199
+          ],
           "source": "Owner artwork (Wishes/sheet-3.png)"
         },
         {
@@ -3363,6 +4563,12 @@
             "ring"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Engagement!\" in English",
+          "artBox": [
+            0.002,
+            0.0625,
+            0.998,
+            0.875
+          ],
           "source": "Owner artwork (Wishes/sheet-3.png)"
         },
         {
@@ -3379,6 +4585,12 @@
             "friends"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Friendship Day!\" in English",
+          "artBox": [
+            0.0,
+            0.0254,
+            1.0,
+            0.9473
+          ],
           "source": "Owner artwork (Wishes/sheet-3.png)"
         },
         {
@@ -3395,6 +4607,12 @@
             "xmas"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Christmas!\" in English",
+          "artBox": [
+            0.0,
+            0.1445,
+            1.0,
+            0.709
+          ],
           "source": "Owner artwork (GoodWishes/sheet-2.png)"
         },
         {
@@ -3411,6 +4629,12 @@
             "cake"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Birthday!\" in English",
+          "artBox": [
+            0.0,
+            0.0977,
+            1.0,
+            0.8027
+          ],
           "source": "Owner artwork (GoodWishes/sheet-2.png)"
         },
         {
@@ -3427,6 +4651,12 @@
             "friends"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Friendship Day!\" in English",
+          "artBox": [
+            0.002,
+            0.0547,
+            0.998,
+            0.8906
+          ],
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
@@ -3443,6 +4673,12 @@
             "autumn"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Thanksgiving!\" in English",
+          "artBox": [
+            0.002,
+            0.041,
+            0.998,
+            0.918
+          ],
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
@@ -3458,6 +4694,12 @@
             "graduate"
           ],
           "accessibilityText": "Sticker with text that reads \"Happy Graduation!\" in English",
+          "artBox": [
+            0.0273,
+            0.002,
+            0.9414,
+            0.998
+          ],
           "source": "Owner artwork (Wishes/sheet-3.png)"
         }
       ]
@@ -3488,6 +4730,12 @@
             "done"
           ],
           "accessibilityText": "Sticker with text that reads \"Congratulations!\" in English",
+          "artBox": [
+            0.0,
+            0.0918,
+            1.0,
+            0.8164
+          ],
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
@@ -3505,6 +4753,12 @@
             "thanks"
           ],
           "accessibilityText": "Sticker with text that reads \"Thank You So Much!\" in English",
+          "artBox": [
+            0.0,
+            0.0664,
+            1.0,
+            0.8672
+          ],
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
@@ -3523,6 +4777,12 @@
             "better"
           ],
           "accessibilityText": "Sticker with text that reads \"Get Well Soon!\" in English",
+          "artBox": [
+            0.0293,
+            0.0,
+            0.9434,
+            0.998
+          ],
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
@@ -3541,6 +4801,12 @@
             "goodbye"
           ],
           "accessibilityText": "Sticker with text that reads \"We Will Miss You!\" in English",
+          "artBox": [
+            0.002,
+            0.0293,
+            0.998,
+            0.9414
+          ],
           "source": "Owner artwork (GoodWishes/sheet-1.png)"
         },
         {
@@ -3556,6 +4822,12 @@
             "star"
           ],
           "accessibilityText": "Sticker with text that reads \"Congratulations!\" in English",
+          "artBox": [
+            0.0,
+            0.1992,
+            1.0,
+            0.5996
+          ],
           "source": "Owner artwork (GoodWishes/sheet-2.png)"
         },
         {
@@ -3571,6 +4843,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"Congrats!\" in English",
+          "artBox": [
+            0.0,
+            0.1738,
+            1.0,
+            0.6523
+          ],
           "source": "Owner artwork (GoodWishes/sheet-2.png)"
         },
         {
@@ -3588,6 +4866,12 @@
             "luck"
           ],
           "accessibilityText": "Sticker with text that reads \"All the Best!\" in English",
+          "artBox": [
+            0.0,
+            0.0156,
+            0.998,
+            0.9668
+          ],
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         },
         {
@@ -3605,6 +4889,12 @@
             "win"
           ],
           "accessibilityText": "Sticker with text that reads \"You Did It!\" in English",
+          "artBox": [
+            0.0176,
+            0.002,
+            0.9648,
+            0.9961
+          ],
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         },
         {
@@ -3619,6 +4909,12 @@
             "wishes"
           ],
           "accessibilityText": "Sticker with text that reads \"Best Wishes!\" in English",
+          "artBox": [
+            0.0,
+            0.0488,
+            0.998,
+            0.9023
+          ],
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         },
         {
@@ -3636,6 +4932,12 @@
             "done"
           ],
           "accessibilityText": "Sticker with text that reads \"Way to Go!\" in English",
+          "artBox": [
+            0.002,
+            0.043,
+            0.9961,
+            0.9121
+          ],
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         },
         {
@@ -3652,6 +4954,12 @@
             "crown"
           ],
           "accessibilityText": "Sticker with text that reads \"Bravo!\" in English",
+          "artBox": [
+            0.0,
+            0.043,
+            0.998,
+            0.9121
+          ],
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         },
         {
@@ -3669,6 +4977,12 @@
             "proud"
           ],
           "accessibilityText": "Sticker with text that reads \"So Proud of You!\" in English",
+          "artBox": [
+            0.0,
+            0.0273,
+            0.998,
+            0.9453
+          ],
           "source": "Owner artwork (GoodWishes/sheet-3.png)"
         }
       ]
@@ -3699,6 +5013,12 @@
             "together"
           ],
           "accessibilityText": "A couple sitting close, seen from behind, with hearts around them",
+          "artBox": [
+            0.002,
+            0.0469,
+            0.9961,
+            0.9062
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3716,6 +5036,12 @@
             "couple"
           ],
           "accessibilityText": "Sticker with text that reads \"happy Anniversary to us\" in English",
+          "artBox": [
+            0.002,
+            0.1426,
+            0.9961,
+            0.7148
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3734,6 +5060,12 @@
             "gift"
           ],
           "accessibilityText": "A bouquet of pink tulips wrapped in paper with a bow and a for you tag",
+          "artBox": [
+            0.0508,
+            0.0039,
+            0.8984,
+            0.9941
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3750,6 +5082,12 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"forever and always\" in English",
+          "artBox": [
+            0.002,
+            0.1133,
+            0.9961,
+            0.7715
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3768,6 +5106,12 @@
             "stamp"
           ],
           "accessibilityText": "Sticker with text that reads \"LOVE YOU MORE EVERYDAY\" in English",
+          "artBox": [
+            0.002,
+            0.1309,
+            0.9941,
+            0.7363
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3787,6 +5131,12 @@
             "anniversary"
           ],
           "accessibilityText": "Sticker with text that reads \"365 days countless memories endless love\" in English",
+          "artBox": [
+            0.0039,
+            0.1895,
+            0.9941,
+            0.6211
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3806,6 +5156,12 @@
             "love"
           ],
           "accessibilityText": "Sticker with text that reads \"thank you for being my person\" in English",
+          "artBox": [
+            0.002,
+            0.123,
+            0.9941,
+            0.7539
+          ],
           "source": "Owner artwork (Couples/sheet-1.png)"
         },
         {
@@ -3825,6 +5181,12 @@
             "couple"
           ],
           "accessibilityText": "Sticker with text that reads \"you + me\" in English",
+          "artBox": [
+            0.0,
+            0.0332,
+            1.0,
+            0.9336
+          ],
           "source": "Owner artwork (Couples/sheet-2.png)"
         },
         {
@@ -3843,6 +5205,12 @@
             "mugs"
           ],
           "accessibilityText": "Sticker with text that reads \"Better Together, Always Us\" in English",
+          "artBox": [
+            0.0,
+            0.1777,
+            1.0,
+            0.6445
+          ],
           "source": "Owner artwork (Couples/sheet-2.png)"
         },
         {
@@ -3861,6 +5229,12 @@
             "special"
           ],
           "accessibilityText": "Sticker with text that reads \"Every day with you is special\" in English",
+          "artBox": [
+            0.002,
+            0.041,
+            0.9961,
+            0.916
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3877,6 +5251,12 @@
             "love"
           ],
           "accessibilityText": "A couple kissing, with hearts and a bow",
+          "artBox": [
+            0.002,
+            0.0703,
+            0.9961,
+            0.8594
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3892,6 +5272,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"better together\" in English",
+          "artBox": [
+            0.0039,
+            0.0488,
+            0.9941,
+            0.9004
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3909,6 +5295,12 @@
             "world"
           ],
           "accessibilityText": "Sticker with text that reads \"It's us against the world\" in English",
+          "artBox": [
+            0.0234,
+            0.002,
+            0.9512,
+            0.9941
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3926,6 +5318,12 @@
             "thankful"
           ],
           "accessibilityText": "Sticker with text that reads \"so grateful for you\" in English",
+          "artBox": [
+            0.0039,
+            0.1172,
+            0.9922,
+            0.7656
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3945,6 +5343,12 @@
             "be"
           ],
           "accessibilityText": "Sticker with text that reads \"together is my favorite place to be\" in English",
+          "artBox": [
+            0.002,
+            0.0723,
+            0.9941,
+            0.8516
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3960,6 +5364,12 @@
             "hands"
           ],
           "accessibilityText": "Two hands holding a pinky promise, with hearts",
+          "artBox": [
+            0.0039,
+            0.1562,
+            0.9941,
+            0.6875
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3979,6 +5389,12 @@
             "forever"
           ],
           "accessibilityText": "Sticker with text that reads \"you are my: today, tomorrow, always, forever\" in English",
+          "artBox": [
+            0.0039,
+            0.0566,
+            0.9922,
+            0.8848
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -3996,6 +5412,12 @@
             "end"
           ],
           "accessibilityText": "Sticker with text that reads \"Some love stories never end\" in English",
+          "artBox": [
+            0.0039,
+            0.0273,
+            0.9922,
+            0.9453
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -4014,6 +5436,12 @@
             "hearts"
           ],
           "accessibilityText": "Sticker with text that reads \"you + me\" in English",
+          "artBox": [
+            0.0039,
+            0.0898,
+            0.9922,
+            0.8184
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -4031,6 +5459,12 @@
             "you"
           ],
           "accessibilityText": "Sticker with text that reads \"i love you\" in English",
+          "artBox": [
+            0.0391,
+            0.0039,
+            0.9258,
+            0.9902
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -4050,6 +5484,12 @@
             "back"
           ],
           "accessibilityText": "Sticker with text that reads \"love you to the moon and back\" in English",
+          "artBox": [
+            0.0,
+            0.0293,
+            0.9961,
+            0.9414
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -4071,6 +5511,12 @@
             "lights"
           ],
           "accessibilityText": "Sticker with text that reads \"all of me loves all of you\" in English",
+          "artBox": [
+            0.0625,
+            0.0039,
+            0.873,
+            0.9941
+          ],
           "source": "Owner artwork (Couples/sheet-3.png)"
         },
         {
@@ -4087,6 +5533,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"Love You\" in English",
+          "artBox": [
+            0.0039,
+            0.043,
+            0.9902,
+            0.9141
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4103,6 +5555,12 @@
             "couple"
           ],
           "accessibilityText": "Sticker with text that reads \"Hugs & Kisses\" in English",
+          "artBox": [
+            0.002,
+            0.0449,
+            0.9922,
+            0.9102
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4119,6 +5577,12 @@
             "coffee"
           ],
           "accessibilityText": "Sticker with text that reads \"Together\" in English",
+          "artBox": [
+            0.0039,
+            0.0586,
+            0.9922,
+            0.8848
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4136,6 +5600,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"My Favorite\" in English",
+          "artBox": [
+            0.002,
+            0.0625,
+            0.9941,
+            0.873
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4151,6 +5621,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"My Heart\" in English",
+          "artBox": [
+            0.0059,
+            0.041,
+            0.9902,
+            0.918
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4166,6 +5642,12 @@
             "couple"
           ],
           "accessibilityText": "Sticker with text that reads \"Memories\" in English",
+          "artBox": [
+            0.0039,
+            0.0859,
+            0.9902,
+            0.8223
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4184,6 +5666,12 @@
             "couple"
           ],
           "accessibilityText": "Sticker with text that reads \"We Are a Team\" in English",
+          "artBox": [
+            0.0039,
+            0.0273,
+            0.9922,
+            0.9453
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         }
       ]
@@ -4215,6 +5703,12 @@
             "boba"
           ],
           "accessibilityText": "Sticker with text that reads \"We Match\" in English",
+          "artBox": [
+            0.0117,
+            0.0039,
+            0.9766,
+            0.9922
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4230,6 +5724,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"Forever\" in English",
+          "artBox": [
+            0.0059,
+            0.0625,
+            0.9902,
+            0.873
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4246,6 +5746,12 @@
             "key"
           ],
           "accessibilityText": "Sticker with text that reads \"Locked\" in English",
+          "artBox": [
+            0.0039,
+            0.0469,
+            0.9922,
+            0.9062
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4261,6 +5767,12 @@
             "penguins"
           ],
           "accessibilityText": "Sticker with text that reads \"So Happy\" in English",
+          "artBox": [
+            0.0039,
+            0.0703,
+            0.9902,
+            0.8594
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4277,6 +5789,12 @@
             "clouds"
           ],
           "accessibilityText": "Sticker with text that reads \"Dream Team\" in English",
+          "artBox": [
+            0.0059,
+            0.1133,
+            0.9883,
+            0.7715
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4291,6 +5809,12 @@
             "cats"
           ],
           "accessibilityText": "Sticker with text that reads \"Sweethearts\" in English",
+          "artBox": [
+            0.002,
+            0.1074,
+            0.9961,
+            0.7832
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4306,6 +5830,12 @@
             "birds"
           ],
           "accessibilityText": "Sticker with text that reads \"True Love\" in English",
+          "artBox": [
+            0.0059,
+            0.0664,
+            0.9902,
+            0.8652
+          ],
           "source": "Owner artwork (Lovers/sheet-1.png)"
         },
         {
@@ -4322,6 +5852,12 @@
             "couple"
           ],
           "accessibilityText": "A couple cuddling cheek to cheek and winking, with hearts",
+          "artBox": [
+            0.002,
+            0.1016,
+            0.9961,
+            0.7969
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4337,6 +5873,12 @@
             "couple"
           ],
           "accessibilityText": "A boy kissing a happy girl on the cheek",
+          "artBox": [
+            0.0039,
+            0.0918,
+            0.9922,
+            0.8145
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4353,6 +5895,12 @@
             "love"
           ],
           "accessibilityText": "A couple making a heart with their hands",
+          "artBox": [
+            0.002,
+            0.1094,
+            0.9961,
+            0.7793
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4369,6 +5917,12 @@
             "couple"
           ],
           "accessibilityText": "A boy patting a smiling girl on the head",
+          "artBox": [
+            0.002,
+            0.1152,
+            0.9941,
+            0.7637
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4385,6 +5939,12 @@
             "peace"
           ],
           "accessibilityText": "A couple in sunglasses, pointing and making a peace sign",
+          "artBox": [
+            0.002,
+            0.1621,
+            0.9961,
+            0.6719
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4402,6 +5962,12 @@
             "night"
           ],
           "accessibilityText": "A couple sleeping together under a pink blanket",
+          "artBox": [
+            0.002,
+            0.1191,
+            0.9961,
+            0.7578
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4418,6 +5984,12 @@
             "couple"
           ],
           "accessibilityText": "A surprised couple holding their faces",
+          "artBox": [
+            0.0039,
+            0.1309,
+            0.9941,
+            0.7344
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4436,6 +6008,12 @@
             "flowers"
           ],
           "accessibilityText": "A boy on one knee giving a girl a bouquet of red roses",
+          "artBox": [
+            0.0039,
+            0.084,
+            0.9941,
+            0.8262
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4452,6 +6030,12 @@
             "together"
           ],
           "accessibilityText": "A couple seen from behind, making a heart with their arms",
+          "artBox": [
+            0.0039,
+            0.1172,
+            0.9941,
+            0.7617
+          ],
           "source": "Owner artwork (Lovers/sheet-2.png)"
         },
         {
@@ -4469,6 +6053,12 @@
             "hug"
           ],
           "accessibilityText": "A bunny and a bear hugging a pink heart",
+          "artBox": [
+            0.002,
+            0.0938,
+            0.9961,
+            0.8125
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4486,6 +6076,12 @@
             "heart"
           ],
           "accessibilityText": "Sticker with text that reads \"You Me & Forever\" in English",
+          "artBox": [
+            0.002,
+            0.125,
+            0.9941,
+            0.7461
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4503,6 +6099,12 @@
             "tea"
           ],
           "accessibilityText": "Sticker with text that reads \"Together Always\" in English",
+          "artBox": [
+            0.002,
+            0.0684,
+            0.9941,
+            0.8633
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4522,6 +6124,12 @@
             "bear"
           ],
           "accessibilityText": "A bunny and a bear sleeping under a pink blanket",
+          "artBox": [
+            0.002,
+            0.166,
+            0.9941,
+            0.666
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4538,6 +6146,12 @@
             "bunny"
           ],
           "accessibilityText": "Sticker with text that reads \"Kiss Kiss\" in English",
+          "artBox": [
+            0.0,
+            0.1758,
+            0.998,
+            0.6484
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4555,6 +6169,12 @@
             "smile"
           ],
           "accessibilityText": "Sticker with text that reads \"You make my heart smile\" in English",
+          "artBox": [
+            0.002,
+            0.123,
+            0.9941,
+            0.7539
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4572,6 +6192,12 @@
             "cup"
           ],
           "accessibilityText": "Sticker with text that reads \"My Person\" in English",
+          "artBox": [
+            0.002,
+            0.0781,
+            0.9961,
+            0.8379
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4590,6 +6216,12 @@
             "hug"
           ],
           "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "artBox": [
+            0.002,
+            0.1328,
+            0.9961,
+            0.7324
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         },
         {
@@ -4607,6 +6239,12 @@
             "bunny"
           ],
           "accessibilityText": "A bear and a bunny holding a big pink heart together",
+          "artBox": [
+            0.002,
+            0.1074,
+            0.9961,
+            0.7832
+          ],
           "source": "Owner artwork (Lovers/sheet-3.png)"
         }
       ]

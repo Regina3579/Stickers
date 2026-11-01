@@ -45,17 +45,30 @@ final class StickerImageLoader: @unchecked Sendable {
 struct StickerImageView: View {
     let sticker: Sticker
     var maxPixel = 360
-    /// Fills the frame instead of fitting in it; used for wide stickers in wide tiles.
-    var fill = false
+    /// Zooms in until the artwork (not the empty space around it) fits the frame; used in
+    /// wide tiles. The caller clips the frame.
+    var zoomToArt = false
 
     @State private var image: UIImage?
 
     var body: some View {
         Group {
             if let image = image ?? StickerImageLoader.shared.cachedImage(for: sticker, maxPixel: maxPixel) {
-                Image(uiImage: image)
-                    .resizable()
-                    .aspectRatio(contentMode: fill ? .fill : .fit)
+                if zoomToArt {
+                    GeometryReader { geo in
+                        let art = sticker.artRect
+                        let side = min(geo.size.width / art.width, geo.size.height / art.height)
+                        Image(uiImage: image)
+                            .resizable()
+                            .frame(width: side, height: side)
+                            .offset(x: geo.size.width / 2 - side * art.midX,
+                                    y: geo.size.height / 2 - side * art.midY)
+                    }
+                } else {
+                    Image(uiImage: image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
             } else {
                 Color.clear
             }

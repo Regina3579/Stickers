@@ -1244,6 +1244,11 @@ def main() -> None:
             images.append(img)
             box = img.getchannel("A").point(lambda v: 255 if v > 128 else 0).getbbox()
             aspects.append((box[2] - box[0]) / (box[3] - box[1]))
+            # The artwork's area (plus a small gap) as fractions of the canvas: the app zooms
+            # wide tiles to it, so no part of a taller sticker is cut off.
+            art = [max(0, box[0] - SHEET_MARGIN), max(0, box[1] - SHEET_MARGIN),
+                   min(STICKER_SIZE, box[2] + SHEET_MARGIN), min(STICKER_SIZE, box[3] + SHEET_MARGIN)]
+            art_box = [round(v / STICKER_SIZE, 4) for v in (art[0], art[1], art[2] - art[0], art[3] - art[1])]
             png_size = save_png(img, LIBRARY / "png" / f"{sticker_id}.png", MAX_PNG_BYTES)
             webp_size = save_webp(img, LIBRARY / "webp" / f"{sticker_id}.webp")
             label = spec["label"].replace("\n", " ") if spec.get("label") else None
@@ -1255,6 +1260,7 @@ def main() -> None:
                 "emojis": spec["emojis"][:3],
                 "keywords": spec["keywords"].split(),
                 "accessibilityText": accessibility[:125],
+                "artBox": art_box,
                 "source": source,
             })
             print(f"  {sticker_id:<34} png {png_size // 1024:>3} KB   webp {webp_size // 1024:>3} KB")

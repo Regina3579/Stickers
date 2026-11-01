@@ -9,6 +9,16 @@ struct Sticker: Decodable, Identifiable, Hashable, Sendable {
     let emojis: [String]
     let keywords: [String]
     let accessibilityText: String
+    /// Where the artwork sits in the square image, as fractions: [x, y, width, height].
+    let artBox: [Double]?
+
+    /// The artwork's area in unit coordinates (the whole image if unknown).
+    var artRect: CGRect {
+        guard let box = artBox, box.count == 4, box[2] > 0, box[3] > 0 else {
+            return CGRect(x: 0, y: 0, width: 1, height: 1)
+        }
+        return CGRect(x: box[0], y: box[1], width: box[2], height: box[3])
+    }
 
     var pngURL: URL? { StickerCatalog.libraryURL(for: "png/\(id).png") }
     var webpURL: URL? { StickerCatalog.libraryURL(for: "webp/\(id).webp") }
