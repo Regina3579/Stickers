@@ -7136,6 +7136,505 @@
           "source": "Owner artwork (Pip/sheet-3.png)"
         }
       ]
+    },
+    {
+      "id": "pippoppy",
+      "title": "Pip & Poppy",
+      "subtitle": "Two little penguins in love",
+      "banner": "Banner-pippoppy",
+      "colors": {
+        "tint": "#7B61D9",
+        "top": "#E8E6FF",
+        "bottom": "#FDF2FA"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "pippoppy-pip-and-poppy",
+          "name": "Pip & Poppy",
+          "emojis": [
+            "🐧",
+            "💕"
+          ],
+          "keywords": [
+            "pip",
+            "and",
+            "poppy",
+            "penguins",
+            "hug",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Pip & Poppy\" in English",
+          "artBox": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-1.png)"
+        },
+        {
+          "id": "pippoppy-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "❤️",
+            "🐧"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "heart",
+            "penguins"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "artBox": [
+            0.0,
+            0.002,
+            1.0,
+            0.9961
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-1.png)"
+        },
+        {
+          "id": "pippoppy-kisses",
+          "name": "Kisses",
+          "emojis": [
+            "😘",
+            "💋"
+          ],
+          "keywords": [
+            "kisses",
+            "kiss",
+            "penguins"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Kisses\" in English",
+          "artBox": [
+            0.0,
+            0.0215,
+            1.0,
+            0.957
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-1.png)"
+        },
+        {
+          "id": "pippoppy-hugs",
+          "name": "Hugs",
+          "emojis": [
+            "🤗",
+            "💕"
+          ],
+          "keywords": [
+            "hugs",
+            "hug",
+            "penguins"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hugs\" in English",
+          "artBox": [
+            0.0156,
+            0.0,
+            0.9668,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-1.png)"
+        },
+        {
+          "id": "pippoppy-miss-you",
+          "name": "Miss You",
+          "emojis": [
+            "💌",
+            "🥺"
+          ],
+          "keywords": [
+            "miss",
+            "you",
+            "letter",
+            "penguins"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Miss You\" in English",
+          "artBox": [
+            0.0,
+            0.0273,
+            1.0,
+            0.9453
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-1.png)"
+        },
+        {
+          "id": "pippoppy-heart-hands",
+          "name": "Heart Hands",
+          "emojis": [
+            "🫶",
+            "💗"
+          ],
+          "keywords": [
+            "heart",
+            "hands",
+            "penguins",
+            "love"
+          ],
+          "accessibilityText": "Pip and Poppy making a heart with their wings",
+          "artBox": [
+            0.0,
+            0.0391,
+            1.0,
+            0.9199
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-1.png)"
+        },
+        {
+          "id": "pippoppy-you-make-me-happy",
+          "name": "You Make Me Happy",
+          "emojis": [
+            "😊",
+            "💕"
+          ],
+          "keywords": [
+            "you",
+            "make",
+            "me",
+            "happy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Make Me Happy\" in English",
+          "artBox": [
+            0.002,
+            0.0059,
+            0.998,
+            0.9883
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-2.png)"
+        },
+        {
+          "id": "pippoppy-lucky-to-have-you",
+          "name": "Lucky to Have You",
+          "emojis": [
+            "🍀",
+            "💗"
+          ],
+          "keywords": [
+            "lucky",
+            "to",
+            "have",
+            "you",
+            "clover"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Lucky to Have You\" in English",
+          "artBox": [
+            0.002,
+            0.0234,
+            0.998,
+            0.9512
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-2.png)"
+        },
+        {
+          "id": "pippoppy-my-favorite-person",
+          "name": "My Favorite Person",
+          "emojis": [
+            "👑",
+            "💖"
+          ],
+          "keywords": [
+            "my",
+            "favorite",
+            "person",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Favorite Person\" in English",
+          "artBox": [
+            0.0352,
+            0.002,
+            0.9297,
+            0.9961
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-2.png)"
+        },
+        {
+          "id": "pippoppy-thinking-of-you",
+          "name": "Thinking of You",
+          "emojis": [
+            "💭",
+            "💗"
+          ],
+          "keywords": [
+            "thinking",
+            "of",
+            "you"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "artBox": [
+            0.002,
+            0.0117,
+            0.9961,
+            0.9746
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-2.png)"
+        },
+        {
+          "id": "pippoppy-never-let-go",
+          "name": "Never Let Go",
+          "emojis": [
+            "🤗",
+            "💕"
+          ],
+          "keywords": [
+            "never",
+            "let",
+            "go",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Never Let Go\" in English",
+          "artBox": [
+            0.041,
+            0.0,
+            0.918,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-3.png)"
+        },
+        {
+          "id": "pippoppy-my-happy-place",
+          "name": "My Happy Place",
+          "emojis": [
+            "🏡",
+            "💗"
+          ],
+          "keywords": [
+            "my",
+            "happy",
+            "place",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Happy Place\" in English",
+          "artBox": [
+            0.0645,
+            0.0,
+            0.8711,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-3.png)"
+        },
+        {
+          "id": "pippoppy-im-here-for-you",
+          "name": "I'm Here for You",
+          "emojis": [
+            "🫂",
+            "💙"
+          ],
+          "keywords": [
+            "im",
+            "here",
+            "for",
+            "you",
+            "comfort",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I'm Here for You\" in English",
+          "artBox": [
+            0.0293,
+            0.002,
+            0.9395,
+            0.998
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-3.png)"
+        },
+        {
+          "id": "pippoppy-made-for-each-other",
+          "name": "Made for Each Other",
+          "emojis": [
+            "💞",
+            "♾️"
+          ],
+          "keywords": [
+            "made",
+            "for",
+            "each",
+            "other"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Made for Each Other\" in English",
+          "artBox": [
+            0.002,
+            0.0117,
+            0.9961,
+            0.9785
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-3.png)"
+        },
+        {
+          "id": "pippoppy-sorry-my-love",
+          "name": "Sorry My Love",
+          "emojis": [
+            "🥺",
+            "🙏"
+          ],
+          "keywords": [
+            "sorry",
+            "my",
+            "love",
+            "apology"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sorry, My Love!\" in English",
+          "artBox": [
+            0.0059,
+            0.0,
+            0.9863,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-4.png)"
+        },
+        {
+          "id": "pippoppy-i-need-you",
+          "name": "I Need You",
+          "emojis": [
+            "🤗",
+            "❤️"
+          ],
+          "keywords": [
+            "i",
+            "need",
+            "you",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Need You\" in English",
+          "artBox": [
+            0.0156,
+            0.002,
+            0.9688,
+            0.9961
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-4.png)"
+        },
+        {
+          "id": "pippoppy-see-you-soon",
+          "name": "See You Soon",
+          "emojis": [
+            "👋",
+            "📅"
+          ],
+          "keywords": [
+            "see",
+            "you",
+            "soon",
+            "bye"
+          ],
+          "accessibilityText": "Sticker with text that reads \"See You Soon\" in English",
+          "artBox": [
+            0.0,
+            0.0254,
+            1.0,
+            0.9492
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-4.png)"
+        },
+        {
+          "id": "pippoppy-take-care-love",
+          "name": "Take Care Love",
+          "emojis": [
+            "💗",
+            "🧣"
+          ],
+          "keywords": [
+            "take",
+            "care",
+            "love"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Take Care Love\" in English",
+          "artBox": [
+            0.0273,
+            0.002,
+            0.9453,
+            0.9961
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-4.png)"
+        },
+        {
+          "id": "pippoppy-good-morning-love",
+          "name": "Good Morning Love",
+          "emojis": [
+            "☀️",
+            "☕"
+          ],
+          "keywords": [
+            "good",
+            "morning",
+            "love",
+            "coffee"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Morning, Love!\" in English",
+          "artBox": [
+            0.0215,
+            0.0,
+            0.957,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-5.png)"
+        },
+        {
+          "id": "pippoppy-good-night-baby",
+          "name": "Good Night Baby",
+          "emojis": [
+            "🌙",
+            "😴"
+          ],
+          "keywords": [
+            "good",
+            "night",
+            "baby",
+            "sleep"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Night, Baby!\" in English",
+          "artBox": [
+            0.002,
+            0.0,
+            0.9941,
+            0.998
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-5.png)"
+        },
+        {
+          "id": "pippoppy-love-you-more",
+          "name": "Love You More",
+          "emojis": [
+            "😘",
+            "💕"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "more",
+            "kiss"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Love You More\" in English",
+          "artBox": [
+            0.0195,
+            0.0,
+            0.9629,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-5.png)"
+        },
+        {
+          "id": "pippoppy-together-forever",
+          "name": "Together Forever",
+          "emojis": [
+            "💞",
+            "🎀"
+          ],
+          "keywords": [
+            "together",
+            "forever",
+            "hug"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Together Forever\" in English",
+          "artBox": [
+            0.002,
+            0.0098,
+            0.9961,
+            0.9805
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-5.png)"
+        }
+      ]
     }
   ]
 }
