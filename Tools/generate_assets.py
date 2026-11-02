@@ -89,11 +89,13 @@ def art(box, emojis, name, keywords=""):
     return {"kind": "art", "box": box, "emojis": emojis.split(), "name": name, "keywords": keywords}
 
 
-def png(file, emojis, name, keywords, label=None, description=None, index=None, count=None):
+def png(file, emojis, name, keywords, label=None, description=None, index=None, count=None, solid=None):
     """A sticker drawn on a transparent background, stored in Design/. For a transparent
     sheet holding several stickers, `index` picks one (reading order, 0-based) and `count`
-    says how many stickers the sheet holds, so stickers that touch can be told apart."""
-    return {"kind": "png", "file": file, "index": index, "count": count, "emojis": emojis.split(),
+    says how many stickers the sheet holds, so stickers that touch can be told apart.
+    `solid` (1...255) is for a file whose transparency is blurry: only pixels at least this
+    opaque count as sticker, holes inside are filled, and die_cut draws a clean border."""
+    return {"kind": "png", "file": file, "index": index, "count": count, "solid": solid, "emojis": emojis.split(),
             "name": name, "keywords": keywords, "label": label, "description": description}
 
 
@@ -702,6 +704,51 @@ PACKS = [
                 description="A bear and a bunny holding a big pink heart together"),
         ],
     },
+    {
+        "id": "poppy", "title": "Poppy", "subtitle": "A little penguin for every chat",
+        "tint": "#8E5CC9", "top": "#EFE4FB", "bottom": "#FAF5FF", "ink": ["#B58BE6", "#6E3FB0"],
+        "tray": "Penguin", "banner_sticker": 1,
+        "stickers": [
+            png("Poppy/01-thank-you.png", "🙏 💜", "Thank You", "thank you thanks penguin",
+                label="Thank You!"),
+            png("Poppy/sheet-1.png", "👋 💜", "Welcome", "welcome hi penguin", count=6, index=0,
+                label="Welcome"),
+            png("Poppy/sheet-1.png", "❤️ 🐧", "I Love You", "i love you heart penguin", count=6, index=1,
+                label="I Love You"),
+            png("Poppy/sheet-1.png", "☀️ ☕", "Good Morning", "good morning sun coffee penguin", count=6, index=2,
+                label="Good Morning"),
+            png("Poppy/sheet-1.png", "👋 😉", "Bye Bye", "bye bye goodbye wave penguin", count=6, index=3,
+                label="Bye Bye"),
+            png("Poppy/sheet-1.png", "🥺 💗", "I Miss You", "i miss you sad tissue penguin", count=6, index=4,
+                label="I Miss You"),
+            png("Poppy/sheet-1.png", "🤒 🌡️", "I Am Sick", "i am sick ill fever penguin", count=6, index=5,
+                label="I am Sick"),
+            png("Poppy/sheet-2.png", "😄 💕", "Happy", "happy joy penguin", count=6, index=0,
+                label="Happy"),
+            png("Poppy/sheet-2.png", "👋 😊", "Hello", "hello hi wave penguin", count=6, index=1,
+                label="Hello"),
+            png("Poppy/sheet-2.png", "👍 ✅", "Yes", "yes ok thumbs up penguin", count=6, index=2,
+                label="Yes"),
+            png("Poppy/sheet-2.png", "🙅 ❌", "No", "no nope penguin", count=6, index=3,
+                label="No"),
+            png("Poppy/sheet-2.png", "🙏 💗", "Grateful", "grateful thankful heart penguin", count=6, index=4,
+                label="Grateful"),
+            png("Poppy/sheet-2.png", "😴 🌙", "Sweet Dreams", "sweet dreams good night sleep penguin", count=6, index=5,
+                label="Sweet Dreams"),
+            png("Poppy/sheet-3.png", "😮 ✨", "Wow", "wow amazing surprised penguin", count=6, index=0, solid=250,
+                label="Wow!"),
+            png("Poppy/sheet-3.png", "🥺 🙏", "Please", "please pretty please penguin", count=6, index=1, solid=250,
+                label="Please"),
+            png("Poppy/sheet-3.png", "💪 ⭐", "I Can Do This", "i can do this strong hero penguin", count=6, index=2, solid=250,
+                label="I Can Do This!"),
+            png("Poppy/sheet-3.png", "🏆 👍", "Great Work", "great work well done trophy penguin", count=6, index=3, solid=250,
+                label="Great Work!"),
+            png("Poppy/sheet-3.png", "🤫 😉", "Shhh", "shh quiet secret penguin", count=6, index=4, solid=250,
+                label="Shhhhhh..."),
+            png("Poppy/sheet-3.png", "😢 💗", "Sorry", "sorry apology heart penguin", count=6, index=5, solid=250,
+                label="Sorry"),
+        ],
+    },
 ]
 
 
@@ -964,16 +1011,18 @@ def reading_order(boxes) -> list[int]:
 _png_cache: dict[tuple, tuple] = {}
 
 
-def _png_sheet(file: str, count: int | None, sheet: bool) -> tuple:
+def _png_sheet(file: str, count: int | None, sheet: bool, solid: int | None = None) -> tuple:
     """Loads a transparent PNG once and, for a sheet, works out which sticker owns each
     pixel. Returns (pixels, alpha, body, owner, ordered sticker ids)."""
-    key = (file, count, sheet)
+    key = (file, count, sheet, solid)
     if key in _png_cache:
         return _png_cache[key]
     img = Image.open(DESIGN / file).convert("RGBA")
     pixels = np.asarray(img).copy()
     if pixels[..., 3].min() == 255:
         pixels[..., 3] = painted_checkerboard_alpha(pixels[..., :3])
+    if solid is not None:
+        pixels[..., 3] = np.where(ndimage.binary_fill_holes(pixels[..., 3] >= solid), 255, 0)
     alpha = pixels[..., 3].copy()
     solid = alpha > 128
     labels, pieces = ndimage.label(solid)
@@ -995,7 +1044,9 @@ def _png_sheet(file: str, count: int | None, sheet: bool) -> tuple:
                 break
             shrink += 2
             seeds = ndimage.binary_erosion(body, iterations=shrink)
-        assert count is None or len(bodies) == count, f"{file}: found {len(bodies)} stickers, expected {count}"
+        assert count is None or len(bodies) >= count, f"{file}: found {len(bodies)} stickers, expected {count}"
+        # Extra small pieces (a sparkle that split off) are not stickers: keep the biggest.
+        bodies = sorted(bodies, key=lambda i: -seed_sizes[i - 1])[:count] if count else bodies
         slices = ndimage.find_objects(seed_labels)
         boxes = [(slices[i - 1][1].start, slices[i - 1][0].start, slices[i - 1][1].stop, slices[i - 1][0].stop)
                  for i in bodies]
@@ -1017,11 +1068,11 @@ def _png_sheet(file: str, count: int | None, sheet: bool) -> tuple:
     return _png_cache[key]
 
 
-def cut_png(file: str, index: int | None = None, count: int | None = None) -> Image.Image:
+def cut_png(file: str, index: int | None = None, count: int | None = None, solid: int | None = None) -> Image.Image:
     """Cleans a transparent sticker PNG: drops specks and the faint halo that background
     removal leaves around the edge, then crops to the sticker. With `index`, the file is a
     transparent sheet and only that sticker (reading order) is returned."""
-    pixels, alpha, body, owner, ordered = _png_sheet(file, count, index is not None)
+    pixels, alpha, body, owner, ordered = _png_sheet(file, count, index is not None, solid)
     pixels = pixels.copy()
     edge = ndimage.binary_dilation(body, iterations=3)
     if index is not None:
@@ -1229,7 +1280,7 @@ def main() -> None:
                 img = text_sticker(spec, pack)
                 source = "Text sticker, Fredoka font (OFL)"
             elif spec["kind"] == "png":
-                img = die_cut(cut_png(spec["file"], spec.get("index"), spec.get("count")), margin=SHEET_MARGIN)
+                img = die_cut(cut_png(spec["file"], spec.get("index"), spec.get("count"), spec.get("solid")), margin=SHEET_MARGIN)
                 source = f"Owner artwork ({spec['file']})"
             elif spec["kind"] == "grid":
                 img = die_cut(cut_grid(spec["file"], spec["rows"])[spec["index"]], margin=SHEET_MARGIN)

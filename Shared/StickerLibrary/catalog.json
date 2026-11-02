@@ -6248,6 +6248,450 @@
           "source": "Owner artwork (Lovers/sheet-3.png)"
         }
       ]
+    },
+    {
+      "id": "poppy",
+      "title": "Poppy",
+      "subtitle": "A little penguin for every chat",
+      "banner": "Banner-poppy",
+      "colors": {
+        "tint": "#8E5CC9",
+        "top": "#EFE4FB",
+        "bottom": "#FAF5FF"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "poppy-thank-you",
+          "name": "Thank You",
+          "emojis": [
+            "🙏",
+            "💜"
+          ],
+          "keywords": [
+            "thank",
+            "you",
+            "thanks",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thank You!\" in English",
+          "artBox": [
+            0.1016,
+            0.0,
+            0.7949,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/01-thank-you.png)"
+        },
+        {
+          "id": "poppy-welcome",
+          "name": "Welcome",
+          "emojis": [
+            "👋",
+            "💜"
+          ],
+          "keywords": [
+            "welcome",
+            "hi",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Welcome\" in English",
+          "artBox": [
+            0.0059,
+            0.002,
+            0.9863,
+            0.9961
+          ],
+          "source": "Owner artwork (Poppy/sheet-1.png)"
+        },
+        {
+          "id": "poppy-i-love-you",
+          "name": "I Love You",
+          "emojis": [
+            "❤️",
+            "🐧"
+          ],
+          "keywords": [
+            "i",
+            "love",
+            "you",
+            "heart",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Love You\" in English",
+          "artBox": [
+            0.0801,
+            0.0,
+            0.8398,
+            0.998
+          ],
+          "source": "Owner artwork (Poppy/sheet-1.png)"
+        },
+        {
+          "id": "poppy-good-morning",
+          "name": "Good Morning",
+          "emojis": [
+            "☀️",
+            "☕"
+          ],
+          "keywords": [
+            "good",
+            "morning",
+            "sun",
+            "coffee",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Morning\" in English",
+          "artBox": [
+            0.0215,
+            0.0039,
+            0.9551,
+            0.9941
+          ],
+          "source": "Owner artwork (Poppy/sheet-1.png)"
+        },
+        {
+          "id": "poppy-bye-bye",
+          "name": "Bye Bye",
+          "emojis": [
+            "👋",
+            "😉"
+          ],
+          "keywords": [
+            "bye",
+            "bye",
+            "goodbye",
+            "wave",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bye Bye\" in English",
+          "artBox": [
+            0.0176,
+            0.002,
+            0.9648,
+            0.998
+          ],
+          "source": "Owner artwork (Poppy/sheet-1.png)"
+        },
+        {
+          "id": "poppy-i-miss-you",
+          "name": "I Miss You",
+          "emojis": [
+            "🥺",
+            "💗"
+          ],
+          "keywords": [
+            "i",
+            "miss",
+            "you",
+            "sad",
+            "tissue",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Miss You\" in English",
+          "artBox": [
+            0.0039,
+            0.0039,
+            0.9941,
+            0.9922
+          ],
+          "source": "Owner artwork (Poppy/sheet-1.png)"
+        },
+        {
+          "id": "poppy-i-am-sick",
+          "name": "I Am Sick",
+          "emojis": [
+            "🤒",
+            "🌡️"
+          ],
+          "keywords": [
+            "i",
+            "am",
+            "sick",
+            "ill",
+            "fever",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I am Sick\" in English",
+          "artBox": [
+            0.002,
+            0.0137,
+            0.998,
+            0.9746
+          ],
+          "source": "Owner artwork (Poppy/sheet-1.png)"
+        },
+        {
+          "id": "poppy-happy",
+          "name": "Happy",
+          "emojis": [
+            "😄",
+            "💕"
+          ],
+          "keywords": [
+            "happy",
+            "joy",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Happy\" in English",
+          "artBox": [
+            0.0371,
+            0.0,
+            0.9258,
+            0.9961
+          ],
+          "source": "Owner artwork (Poppy/sheet-2.png)"
+        },
+        {
+          "id": "poppy-hello",
+          "name": "Hello",
+          "emojis": [
+            "👋",
+            "😊"
+          ],
+          "keywords": [
+            "hello",
+            "hi",
+            "wave",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hello\" in English",
+          "artBox": [
+            0.0566,
+            0.002,
+            0.8848,
+            0.9961
+          ],
+          "source": "Owner artwork (Poppy/sheet-2.png)"
+        },
+        {
+          "id": "poppy-yes",
+          "name": "Yes",
+          "emojis": [
+            "👍",
+            "✅"
+          ],
+          "keywords": [
+            "yes",
+            "ok",
+            "thumbs",
+            "up",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Yes\" in English",
+          "artBox": [
+            0.0566,
+            0.0,
+            0.8867,
+            0.9961
+          ],
+          "source": "Owner artwork (Poppy/sheet-2.png)"
+        },
+        {
+          "id": "poppy-no",
+          "name": "No",
+          "emojis": [
+            "🙅",
+            "❌"
+          ],
+          "keywords": [
+            "no",
+            "nope",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"No\" in English",
+          "artBox": [
+            0.1016,
+            0.002,
+            0.7949,
+            0.998
+          ],
+          "source": "Owner artwork (Poppy/sheet-2.png)"
+        },
+        {
+          "id": "poppy-grateful",
+          "name": "Grateful",
+          "emojis": [
+            "🙏",
+            "💗"
+          ],
+          "keywords": [
+            "grateful",
+            "thankful",
+            "heart",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Grateful\" in English",
+          "artBox": [
+            0.0488,
+            0.002,
+            0.9023,
+            0.9961
+          ],
+          "source": "Owner artwork (Poppy/sheet-2.png)"
+        },
+        {
+          "id": "poppy-sweet-dreams",
+          "name": "Sweet Dreams",
+          "emojis": [
+            "😴",
+            "🌙"
+          ],
+          "keywords": [
+            "sweet",
+            "dreams",
+            "good",
+            "night",
+            "sleep",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet Dreams\" in English",
+          "artBox": [
+            0.002,
+            0.0059,
+            0.9961,
+            0.9863
+          ],
+          "source": "Owner artwork (Poppy/sheet-2.png)"
+        },
+        {
+          "id": "poppy-wow",
+          "name": "Wow",
+          "emojis": [
+            "😮",
+            "✨"
+          ],
+          "keywords": [
+            "wow",
+            "amazing",
+            "surprised",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Wow!\" in English",
+          "artBox": [
+            0.0547,
+            0.0,
+            0.8906,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/sheet-3.png)"
+        },
+        {
+          "id": "poppy-please",
+          "name": "Please",
+          "emojis": [
+            "🥺",
+            "🙏"
+          ],
+          "keywords": [
+            "please",
+            "pretty",
+            "please",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Please\" in English",
+          "artBox": [
+            0.0605,
+            0.0,
+            0.8789,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/sheet-3.png)"
+        },
+        {
+          "id": "poppy-i-can-do-this",
+          "name": "I Can Do This",
+          "emojis": [
+            "💪",
+            "⭐"
+          ],
+          "keywords": [
+            "i",
+            "can",
+            "do",
+            "this",
+            "strong",
+            "hero",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I Can Do This!\" in English",
+          "artBox": [
+            0.0391,
+            0.0,
+            0.9199,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/sheet-3.png)"
+        },
+        {
+          "id": "poppy-great-work",
+          "name": "Great Work",
+          "emojis": [
+            "🏆",
+            "👍"
+          ],
+          "keywords": [
+            "great",
+            "work",
+            "well",
+            "done",
+            "trophy",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Great Work!\" in English",
+          "artBox": [
+            0.041,
+            0.0,
+            0.916,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/sheet-3.png)"
+        },
+        {
+          "id": "poppy-shhh",
+          "name": "Shhh",
+          "emojis": [
+            "🤫",
+            "😉"
+          ],
+          "keywords": [
+            "shh",
+            "quiet",
+            "secret",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Shhhhhh...\" in English",
+          "artBox": [
+            0.082,
+            0.0,
+            0.834,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/sheet-3.png)"
+        },
+        {
+          "id": "poppy-sorry",
+          "name": "Sorry",
+          "emojis": [
+            "😢",
+            "💗"
+          ],
+          "keywords": [
+            "sorry",
+            "apology",
+            "heart",
+            "penguin"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sorry\" in English",
+          "artBox": [
+            0.0586,
+            0.0,
+            0.8828,
+            1.0
+          ],
+          "source": "Owner artwork (Poppy/sheet-3.png)"
+        }
+      ]
     }
   ]
 }
