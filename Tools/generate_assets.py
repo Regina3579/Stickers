@@ -794,6 +794,51 @@ PACKS = [
                 label="Sorry"),
         ],
     },
+    {
+        "id": "pip", "title": "Pip", "subtitle": "A happy blue penguin for every chat",
+        "tint": "#2F80ED", "top": "#E1F0FF", "bottom": "#F4FAFF", "ink": ["#5AA0F2", "#1C5FC2"],
+        "tray": "Blue heart", "banner_sticker": 0,
+        "stickers": [
+            png("Pip/01-pip.jpg", "🐧 💙", "Pip", "pip penguin hello cool",
+                label="Pip"),
+            png("Pip/sheet-1.png", "👋 💙", "Welcome", "welcome hi penguin", count=6, index=0,
+                label="Welcome"),
+            png("Pip/sheet-1.png", "❤️ 🐧", "I Love You", "i love you heart penguin", count=6, index=1,
+                label="I Love You"),
+            png("Pip/sheet-1.png", "☀️ ☕", "Good Morning", "good morning sun coffee penguin", count=6, index=2,
+                label="Good Morning"),
+            png("Pip/sheet-1.png", "👋 😉", "Bye Bye", "bye bye goodbye wave penguin", count=6, index=3,
+                label="Bye Bye"),
+            png("Pip/sheet-1.png", "🥺 ❤️", "I Miss You", "i miss you sad tissue penguin", count=6, index=4,
+                label="I Miss You"),
+            png("Pip/sheet-1.png", "🤒 🌡️", "I Am Sick", "i am sick ill fever penguin", count=6, index=5,
+                label="I am Sick"),
+            png("Pip/sheet-2.png", "😄 💕", "Happy", "happy joy penguin", count=6, index=0,
+                label="Happy"),
+            png("Pip/sheet-2.png", "👋 😊", "Hello", "hello hi wave penguin", count=6, index=1,
+                label="Hello"),
+            png("Pip/sheet-2.png", "👍 ✅", "Yes", "yes ok thumbs up penguin", count=6, index=2,
+                label="Yes"),
+            png("Pip/sheet-2.png", "🙅 ❌", "No", "no nope penguin", count=6, index=3,
+                label="No"),
+            png("Pip/sheet-2.png", "🙏 💗", "Grateful", "grateful thankful heart penguin", count=6, index=4,
+                label="Grateful"),
+            png("Pip/sheet-2.png", "😴 🌙", "Sweet Dreams", "sweet dreams good night sleep penguin", count=6, index=5,
+                label="Sweet Dreams"),
+            png("Pip/sheet-3.png", "😮 ✨", "Wow", "wow amazing surprised penguin", count=6, index=0, solid=250,
+                label="Wow!"),
+            png("Pip/sheet-3.png", "🥺 🙏", "Please", "please pretty please penguin", count=6, index=1, solid=250,
+                label="Please"),
+            png("Pip/sheet-3.png", "💪 ⭐", "I Can Do This", "i can do this strong hero penguin", count=6, index=2, solid=250,
+                label="I Can Do This!"),
+            png("Pip/sheet-3.png", "🏆 👍", "Great Work", "great work well done trophy penguin", count=6, index=3, solid=250,
+                label="Great Work!"),
+            png("Pip/sheet-3.png", "🤫 😉", "Shhh", "shh quiet secret penguin", count=6, index=4, solid=250,
+                label="Shhhhhh..."),
+            png("Pip/sheet-3.png", "😢 ❤️", "Sorry", "sorry apology heart penguin", count=6, index=5, solid=250,
+                label="Sorry"),
+        ],
+    },
 ]
 
 
@@ -1020,13 +1065,20 @@ def painted_checkerboard_alpha(rgb: np.ndarray) -> np.ndarray:
     low, high = rgb.min(2), rgb.max(2)
     neutral = high - low < 14
     grey = neutral & (high >= 190) & (high < 243)               # checker grey, not black ink
-    # Checker square size: typical run length of grey/light along the top rows.
-    runs = []
-    for row in grey[:8]:
-        edges = np.flatnonzero(np.diff(row.astype(int))) + 1
-        runs += list(np.diff(edges))
-    square = int(np.median(runs)) if runs else 8
-    light = neutral & ~grey & ndimage.binary_dilation(grey, iterations=max(2, square))
+    border = np.concatenate([grey[0], grey[-1], grey[:, 0], grey[:, -1]])
+    if border.mean() < 0.05:
+        # No checkerboard: a plain white background (for example a JPEG export). White
+        # that touches the image edge is background; coloured outlines stop it.
+        grey = np.zeros_like(grey)
+        light = neutral & (low >= 235)
+    else:
+        # Checker square size: typical run length of grey/light along the top rows.
+        runs = []
+        for row in grey[:8]:
+            edges = np.flatnonzero(np.diff(row.astype(int))) + 1
+            runs += list(np.diff(edges))
+        square = int(np.median(runs)) if runs else 8
+        light = neutral & ~grey & ndimage.binary_dilation(grey, iterations=max(2, square))
     labels, _ = ndimage.label(grey | light)
     edge = np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))
     background = np.isin(labels, edge[edge > 0])
