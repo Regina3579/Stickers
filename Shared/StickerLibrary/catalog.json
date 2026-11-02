@@ -6694,10 +6694,10 @@
       ]
     },
     {
-      "id": "pip",
-      "title": "Pip",
+      "id": "povvo",
+      "title": "Povvo",
       "subtitle": "A cool little penguin for every chat",
-      "banner": "Banner-pip",
+      "banner": "Banner-povvo",
       "colors": {
         "tint": "#3B5BDB",
         "top": "#E3EAFD",
@@ -6706,7 +6706,7 @@
       "wideStickers": false,
       "stickers": [
         {
-          "id": "pip-thank-you",
+          "id": "povvo-thank-you",
           "name": "Thank You",
           "emojis": [
             "🙏",
@@ -6725,10 +6725,10 @@
             0.7715,
             1.0
           ],
-          "source": "Owner artwork (Pip/01-thank-you.png)"
+          "source": "Owner artwork (Povvo/01-thank-you.png)"
         },
         {
-          "id": "pip-welcome",
+          "id": "povvo-welcome",
           "name": "Welcome",
           "emojis": [
             "👋",
@@ -6746,10 +6746,10 @@
             0.957,
             1.0
           ],
-          "source": "Owner artwork (Pip/sheet-1.png)"
+          "source": "Owner artwork (Povvo/sheet-1.png)"
         },
         {
-          "id": "pip-i-love-you",
+          "id": "povvo-i-love-you",
           "name": "I Love You",
           "emojis": [
             "❤️",
@@ -6769,10 +6769,10 @@
             0.918,
             1.0
           ],
-          "source": "Owner artwork (Pip/sheet-1.png)"
+          "source": "Owner artwork (Povvo/sheet-1.png)"
         },
         {
-          "id": "pip-good-morning",
+          "id": "povvo-good-morning",
           "name": "Good Morning",
           "emojis": [
             "☀️",
@@ -6792,10 +6792,10 @@
             1.0,
             0.9961
           ],
-          "source": "Owner artwork (Pip/sheet-1.png)"
+          "source": "Owner artwork (Povvo/sheet-1.png)"
         },
         {
-          "id": "pip-bye-bye",
+          "id": "povvo-bye-bye",
           "name": "Bye Bye",
           "emojis": [
             "👋",
@@ -6815,10 +6815,10 @@
             0.9531,
             1.0
           ],
-          "source": "Owner artwork (Pip/sheet-1.png)"
+          "source": "Owner artwork (Povvo/sheet-1.png)"
         },
         {
-          "id": "pip-i-miss-you",
+          "id": "povvo-i-miss-you",
           "name": "I Miss You",
           "emojis": [
             "🥺",
@@ -6839,10 +6839,10 @@
             0.9883,
             1.0
           ],
-          "source": "Owner artwork (Pip/sheet-1.png)"
+          "source": "Owner artwork (Povvo/sheet-1.png)"
         },
         {
-          "id": "pip-i-am-sick",
+          "id": "povvo-i-am-sick",
           "name": "I Am Sick",
           "emojis": [
             "🤒",
@@ -6863,10 +6863,10 @@
             0.9785,
             1.0
           ],
-          "source": "Owner artwork (Pip/sheet-1.png)"
+          "source": "Owner artwork (Povvo/sheet-1.png)"
         },
         {
-          "id": "pip-happy",
+          "id": "povvo-happy",
           "name": "Happy",
           "emojis": [
             "😄",
@@ -6884,10 +6884,10 @@
             0.9512,
             0.998
           ],
-          "source": "Owner artwork (Pip/sheet-2.png)"
+          "source": "Owner artwork (Povvo/sheet-2.png)"
         },
         {
-          "id": "pip-hello",
+          "id": "povvo-hello",
           "name": "Hello",
           "emojis": [
             "👋",
@@ -6906,10 +6906,10 @@
             0.8711,
             0.998
           ],
-          "source": "Owner artwork (Pip/sheet-2.png)"
+          "source": "Owner artwork (Povvo/sheet-2.png)"
         },
         {
-          "id": "pip-yes",
+          "id": "povvo-yes",
           "name": "Yes",
           "emojis": [
             "👍",
@@ -6929,10 +6929,10 @@
             0.9043,
             0.998
           ],
-          "source": "Owner artwork (Pip/sheet-2.png)"
+          "source": "Owner artwork (Povvo/sheet-2.png)"
         },
         {
-          "id": "pip-no",
+          "id": "povvo-no",
           "name": "No",
           "emojis": [
             "🙅",
@@ -6950,10 +6950,10 @@
             0.8203,
             0.998
           ],
-          "source": "Owner artwork (Pip/sheet-2.png)"
+          "source": "Owner artwork (Povvo/sheet-2.png)"
         },
         {
-          "id": "pip-grateful",
+          "id": "povvo-grateful",
           "name": "Grateful",
           "emojis": [
             "🙏",
@@ -6972,10 +6972,10 @@
             0.9258,
             0.9961
           ],
-          "source": "Owner artwork (Pip/sheet-2.png)"
+          "source": "Owner artwork (Povvo/sheet-2.png)"
         },
         {
-          "id": "pip-sweet-dreams",
+          "id": "povvo-sweet-dreams",
           "name": "Sweet Dreams",
           "emojis": [
             "😴",
@@ -6996,10 +6996,10 @@
             0.9961,
             0.957
           ],
-          "source": "Owner artwork (Pip/sheet-2.png)"
+          "source": "Owner artwork (Povvo/sheet-2.png)"
         },
         {
-          "id": "pip-wow",
+          "id": "povvo-wow",
           "name": "Wow",
           "emojis": [
             "😮",
@@ -7018,10 +7018,10 @@
             0.9062,
             0.9961
           ],
-          "source": "Owner artwork (Pip/sheet-3.png)"
+          "source": "Owner artwork (Povvo/sheet-3.png)"
         },
         {
-          "id": "pip-please",
+          "id": "povvo-please",
           "name": "Please",
           "emojis": [
             "🥺",
@@ -7040,10 +7040,10 @@
             0.9258,
             0.9961
           ],
-          "source": "Owner artwork (Pip/sheet-3.png)"
+          "source": "Owner artwork (Povvo/sheet-3.png)"
         },
         {
-          "id": "pip-i-can-do-this",
+          "id": "povvo-i-can-do-this",
           "name": "I Can Do This",
           "emojis": [
             "💪",
@@ -7065,10 +7065,10 @@
             0.9961,
             0.9785
           ],
-          "source": "Owner artwork (Pip/sheet-3.png)"
+          "source": "Owner artwork (Povvo/sheet-3.png)"
         },
         {
-          "id": "pip-great-work",
+          "id": "povvo-great-work",
           "name": "Great Work",
           "emojis": [
             "🏆",
@@ -7089,10 +7089,10 @@
             0.9961,
             0.9863
           ],
-          "source": "Owner artwork (Pip/sheet-3.png)"
+          "source": "Owner artwork (Povvo/sheet-3.png)"
         },
         {
-          "id": "pip-shhh",
+          "id": "povvo-shhh",
           "name": "Shhh",
           "emojis": [
             "🤫",
@@ -7111,10 +7111,10 @@
             0.9082,
             0.9961
           ],
-          "source": "Owner artwork (Pip/sheet-3.png)"
+          "source": "Owner artwork (Povvo/sheet-3.png)"
         },
         {
-          "id": "pip-sorry",
+          "id": "povvo-sorry",
           "name": "Sorry",
           "emojis": [
             "😢",
@@ -7133,7 +7133,7 @@
             0.9043,
             0.998
           ],
-          "source": "Owner artwork (Pip/sheet-3.png)"
+          "source": "Owner artwork (Povvo/sheet-3.png)"
         }
       ]
     }

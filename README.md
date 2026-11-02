@@ -20,7 +20,7 @@ and other chat apps. The project also includes an iMessage sticker app and an
 | Couples | 29 (your own artwork) |
 | Lovers | 25 (your own artwork) |
 | Poppy | 19 (your own artwork) |
-| Pip | 19 (your own artwork) |
+| Povvo | 19 (your own artwork) |
 
 ---
 
@@ -132,6 +132,6 @@ WhatsApp warns that Xcode's PNG optimization can break its size limits.
   - Add the keyword `WAStickers` in App Store Connect, so WhatsApp can list your app.
   - Your bundle ID must not contain `WA.WAStickersThirdParty`.
 - **Artwork credits** are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md):
-  every sticker (20 Love, 21 Friendship, 21 Sisters, 21 Family, 26 Emotions, 28 Self-Care, 21 Birthday, 24 Encouragement, 25 Celebrations, 12 Wishes, 29 Couples, 25 Lovers, 19 Poppy and 19 Pip),
+  every sticker (20 Love, 21 Friendship, 21 Sisters, 21 Family, 26 Emotions, 28 Self-Care, 21 Birthday, 24 Encouragement, 25 Celebrations, 12 Wishes, 29 Couples, 25 Lovers, 19 Poppy and 19 Povvo),
   the landing page pictures and the app icon come from your own designs. Only the small WhatsApp
   tray icons use Microsoft Fluent Emoji (MIT).
