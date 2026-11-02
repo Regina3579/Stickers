@@ -32,6 +32,8 @@ struct HomeView: View {
             }
         }
         .scrollDismissesKeyboard(.interactively)
+        // The hero picture starts at the very top, behind the status bar.
+        .ignoresSafeArea(.container, edges: .top)
         .background(Theme.background.ignoresSafeArea())
         .toolbar(.hidden, for: .navigationBar)
     }
