@@ -26,6 +26,7 @@
 		D9872995C227E29EC3A40F4F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B4D4C62A25083A760A642 /* Theme.swift */; };
 		DC50F2A31B7A08223926868C /* IMessageHelpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99663437EE93160B028E1A8 /* IMessageHelpSheet.swift */; };
 		DF6ED71FB7FD4B571DABEBFA /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434EF39B91D72A94747DCE1 /* CategoryCard.swift */; };
+		0F4CE0C83003D70874EAA80A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B7F832338EA18F110456113D /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D43F4F349A1A03C784DCCD3D /* WhatsAppStickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppStickerService.swift; sourceTree = "<group>"; };
 		F6A518C0AD87BB5963812E1D /* StickerCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCatalog.swift; sourceTree = "<group>"; };
 		F99663437EE93160B028E1A8 /* IMessageHelpSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMessageHelpSheet.swift; sourceTree = "<group>"; };
+		B7F832338EA18F110456113D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				577120EED2506FB0C4E66A1A /* MessagesViewController.swift */,
 				67699DAEA70162B6D229AFD6 /* Assets.xcassets */,
 				34EA0C85A470DEC19ACFD79B /* Info.plist */,
+				B7F832338EA18F110456113D /* PrivacyInfo.xcprivacy */,
 			);
 			path = StickersMessages;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				79209D8639BE58D34EA38A16 /* Assets.xcassets in Resources */,
 				16612C001F864662E0032452 /* StickerLibrary in Resources */,
+				0F4CE0C83003D70874EAA80A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +384,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stickers/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Stickers;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -526,6 +531,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stickers/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Stickers;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
