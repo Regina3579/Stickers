@@ -7633,6 +7633,119 @@
             0.9805
           ],
           "source": "Owner artwork (PipPoppy/sheet-5.png)"
+        },
+        {
+          "id": "pippoppy-hmph",
+          "name": "Hmph",
+          "emojis": [
+            "😤",
+            "💨"
+          ],
+          "keywords": [
+            "hmph",
+            "sulking",
+            "upset"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Hmph!\" in English",
+          "artBox": [
+            0.0,
+            0.0996,
+            1.0,
+            0.7988
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-6.png)"
+        },
+        {
+          "id": "pippoppy-dont-talk-to-me",
+          "name": "Don't Talk to Me",
+          "emojis": [
+            "🙄",
+            "💬"
+          ],
+          "keywords": [
+            "dont",
+            "talk",
+            "to",
+            "me",
+            "upset",
+            "angry"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Don't Talk to Me!\" in English",
+          "artBox": [
+            0.002,
+            0.082,
+            0.9961,
+            0.832
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-6.png)"
+        },
+        {
+          "id": "pippoppy-im-mad-at-you",
+          "name": "I'm Mad at You",
+          "emojis": [
+            "😠",
+            "💢"
+          ],
+          "keywords": [
+            "im",
+            "mad",
+            "at",
+            "you",
+            "angry"
+          ],
+          "accessibilityText": "Sticker with text that reads \"I'm Mad at You!\" in English",
+          "artBox": [
+            0.002,
+            0.0,
+            0.9961,
+            1.0
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-6.png)"
+        },
+        {
+          "id": "pippoppy-not-fair",
+          "name": "Not Fair",
+          "emojis": [
+            "😾",
+            "⚡"
+          ],
+          "keywords": [
+            "not",
+            "fair",
+            "angry"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Not Fair!\" in English",
+          "artBox": [
+            0.0,
+            0.0176,
+            1.0,
+            0.9648
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-6.png)"
+        },
+        {
+          "id": "pippoppy-still-love-you",
+          "name": "Still Love You",
+          "emojis": [
+            "🤗",
+            "💕"
+          ],
+          "keywords": [
+            "still",
+            "love",
+            "you",
+            "hug",
+            "make",
+            "up"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Still Love You!\" in English",
+          "artBox": [
+            0.002,
+            0.0059,
+            0.998,
+            0.9883
+          ],
+          "source": "Owner artwork (PipPoppy/sheet-6.png)"
         }
       ]
     },
