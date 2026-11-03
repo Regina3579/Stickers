@@ -8224,6 +8224,553 @@
           "source": "Owner artwork (Hearts/sheet-3.png)"
         }
       ]
+    },
+    {
+      "id": "inspire",
+      "title": "Inspire",
+      "subtitle": "Kind words to lift every day",
+      "banner": "Banner-inspire",
+      "colors": {
+        "tint": "#9B59B6",
+        "top": "#F3E6FA",
+        "bottom": "#FFFBEA"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "inspire-youve-got-this",
+          "name": "You've Got This",
+          "emojis": [
+            "💪",
+            "✨"
+          ],
+          "keywords": [
+            "youve",
+            "got",
+            "this",
+            "you",
+            "can",
+            "do",
+            "it"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You've Got This!\" in English",
+          "artBox": [
+            0.002,
+            0.0254,
+            0.998,
+            0.9531
+          ],
+          "source": "Owner artwork (Inspire/sheet-1.png)"
+        },
+        {
+          "id": "inspire-stay-positive",
+          "name": "Stay Positive",
+          "emojis": [
+            "🌸",
+            "💗"
+          ],
+          "keywords": [
+            "stay",
+            "positive"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Stay Positive\" in English",
+          "artBox": [
+            0.0,
+            0.0391,
+            1.0,
+            0.9258
+          ],
+          "source": "Owner artwork (Inspire/sheet-1.png)"
+        },
+        {
+          "id": "inspire-you-matter",
+          "name": "You Matter",
+          "emojis": [
+            "🌈",
+            "💗"
+          ],
+          "keywords": [
+            "you",
+            "matter"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Matter\" in English",
+          "artBox": [
+            0.002,
+            0.0488,
+            0.998,
+            0.9043
+          ],
+          "source": "Owner artwork (Inspire/sheet-1.png)"
+        },
+        {
+          "id": "inspire-you-are-a-blessing",
+          "name": "You Are a Blessing",
+          "emojis": [
+            "⭐",
+            "💙"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "a",
+            "blessing"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Are a Blessing\" in English",
+          "artBox": [
+            0.0098,
+            0.002,
+            0.9824,
+            0.998
+          ],
+          "source": "Owner artwork (Inspire/sheet-1.png)"
+        },
+        {
+          "id": "inspire-be-kind-to-yourself",
+          "name": "Be Kind to Yourself",
+          "emojis": [
+            "🧸",
+            "💗"
+          ],
+          "keywords": [
+            "be",
+            "kind",
+            "to",
+            "yourself",
+            "bear"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Kind to Yourself\" in English",
+          "artBox": [
+            0.002,
+            0.0,
+            0.998,
+            0.998
+          ],
+          "source": "Owner artwork (Inspire/sheet-1.png)"
+        },
+        {
+          "id": "inspire-there-is-hope",
+          "name": "There Is Hope",
+          "emojis": [
+            "🌈",
+            "☀️"
+          ],
+          "keywords": [
+            "there",
+            "is",
+            "hope",
+            "rainbow"
+          ],
+          "accessibilityText": "Sticker with text that reads \"There is Hope\" in English",
+          "artBox": [
+            0.0,
+            0.0488,
+            1.0,
+            0.9043
+          ],
+          "source": "Owner artwork (Inspire/sheet-1.png)"
+        },
+        {
+          "id": "inspire-be-a-light",
+          "name": "Be a Light",
+          "emojis": [
+            "🏮",
+            "💡"
+          ],
+          "keywords": [
+            "be",
+            "a",
+            "light",
+            "lantern"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be a Light\" in English",
+          "artBox": [
+            0.002,
+            0.043,
+            0.9961,
+            0.9121
+          ],
+          "source": "Owner artwork (Inspire/sheet-2.png)"
+        },
+        {
+          "id": "inspire-believe-in-your-dreams",
+          "name": "Believe in Your Dreams",
+          "emojis": [
+            "🌙",
+            "⭐"
+          ],
+          "keywords": [
+            "believe",
+            "in",
+            "your",
+            "dreams"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Believe in Your Dreams\" in English",
+          "artBox": [
+            0.002,
+            0.0137,
+            0.9961,
+            0.9688
+          ],
+          "source": "Owner artwork (Inspire/sheet-2.png)"
+        },
+        {
+          "id": "inspire-gratitude-changes-everything",
+          "name": "Gratitude Changes Everything",
+          "emojis": [
+            "🙏",
+            "🌈"
+          ],
+          "keywords": [
+            "gratitude",
+            "changes",
+            "everything",
+            "thankful"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Gratitude Changes Everything\" in English",
+          "artBox": [
+            0.002,
+            0.0703,
+            0.9961,
+            0.8594
+          ],
+          "source": "Owner artwork (Inspire/sheet-2.png)"
+        },
+        {
+          "id": "inspire-make-yourself-proud",
+          "name": "Make Yourself Proud",
+          "emojis": [
+            "🏆",
+            "⭐"
+          ],
+          "keywords": [
+            "make",
+            "yourself",
+            "proud",
+            "trophy"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Make Yourself Proud\" in English",
+          "artBox": [
+            0.0137,
+            0.002,
+            0.9727,
+            0.9961
+          ],
+          "source": "Owner artwork (Inspire/sheet-2.png)"
+        },
+        {
+          "id": "inspire-keep-going",
+          "name": "Keep Going",
+          "emojis": [
+            "🪧",
+            "💗"
+          ],
+          "keywords": [
+            "keep",
+            "going",
+            "sign"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Keep Going\" in English",
+          "artBox": [
+            0.0371,
+            0.002,
+            0.9238,
+            0.9961
+          ],
+          "source": "Owner artwork (Inspire/sheet-2.png)"
+        },
+        {
+          "id": "inspire-never-stop-learning",
+          "name": "Never Stop Learning",
+          "emojis": [
+            "📚",
+            "🎓"
+          ],
+          "keywords": [
+            "never",
+            "stop",
+            "learning",
+            "books",
+            "study"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Never Stop Learning\" in English",
+          "artBox": [
+            0.002,
+            0.0195,
+            0.9961,
+            0.957
+          ],
+          "source": "Owner artwork (Inspire/sheet-2.png)"
+        },
+        {
+          "id": "inspire-you-are-enough",
+          "name": "You Are Enough",
+          "emojis": [
+            "👑",
+            "💗"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "enough"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You Are Enough\" in English",
+          "artBox": [
+            0.002,
+            0.0098,
+            0.998,
+            0.9824
+          ],
+          "source": "Owner artwork (Inspire/sheet-3.png)"
+        },
+        {
+          "id": "inspire-grow-with-grace",
+          "name": "Grow with Grace",
+          "emojis": [
+            "🌱",
+            "💚"
+          ],
+          "keywords": [
+            "grow",
+            "with",
+            "grace",
+            "plant"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Grow with Grace\" in English",
+          "artBox": [
+            0.002,
+            0.0137,
+            0.998,
+            0.9746
+          ],
+          "source": "Owner artwork (Inspire/sheet-3.png)"
+        },
+        {
+          "id": "inspire-enjoy-little-things",
+          "name": "Enjoy Little Things",
+          "emojis": [
+            "☕",
+            "🦋"
+          ],
+          "keywords": [
+            "enjoy",
+            "little",
+            "things",
+            "tea"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Enjoy Little Things\" in English",
+          "artBox": [
+            0.002,
+            0.0547,
+            0.998,
+            0.8945
+          ],
+          "source": "Owner artwork (Inspire/sheet-3.png)"
+        },
+        {
+          "id": "inspire-focus-the-good",
+          "name": "Focus the Good",
+          "emojis": [
+            "📷",
+            "🌻"
+          ],
+          "keywords": [
+            "focus",
+            "the",
+            "good",
+            "camera"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Focus the Good\" in English",
+          "artBox": [
+            0.0117,
+            0.002,
+            0.9785,
+            0.998
+          ],
+          "source": "Owner artwork (Inspire/sheet-3.png)"
+        },
+        {
+          "id": "inspire-always-choose-love",
+          "name": "Always Choose Love",
+          "emojis": [
+            "💕",
+            "🌹"
+          ],
+          "keywords": [
+            "always",
+            "choose",
+            "love",
+            "hearts"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Always Choose Love\" in English",
+          "artBox": [
+            0.0137,
+            0.0,
+            0.9746,
+            1.0
+          ],
+          "source": "Owner artwork (Inspire/sheet-3.png)"
+        },
+        {
+          "id": "inspire-embrace-the-journey",
+          "name": "Embrace the Journey",
+          "emojis": [
+            "🛤️",
+            "☀️"
+          ],
+          "keywords": [
+            "embrace",
+            "the",
+            "journey",
+            "path"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Embrace the Journey\" in English",
+          "artBox": [
+            0.002,
+            0.0176,
+            0.998,
+            0.9688
+          ],
+          "source": "Owner artwork (Inspire/sheet-3.png)"
+        },
+        {
+          "id": "inspire-bloom-at-your-own-pace",
+          "name": "Bloom at Your Own Pace",
+          "emojis": [
+            "🌸",
+            "🦋"
+          ],
+          "keywords": [
+            "bloom",
+            "at",
+            "your",
+            "own",
+            "pace",
+            "flowers"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Bloom at Your Own Pace\" in English",
+          "artBox": [
+            0.002,
+            0.0273,
+            0.998,
+            0.9473
+          ],
+          "source": "Owner artwork (Inspire/sheet-4.png)"
+        },
+        {
+          "id": "inspire-trust-your-magic",
+          "name": "Trust Your Magic",
+          "emojis": [
+            "🪄",
+            "⭐"
+          ],
+          "keywords": [
+            "trust",
+            "your",
+            "magic",
+            "wand"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Trust Your Magic\" in English",
+          "artBox": [
+            0.002,
+            0.0059,
+            0.998,
+            0.9902
+          ],
+          "source": "Owner artwork (Inspire/sheet-4.png)"
+        },
+        {
+          "id": "inspire-good-vibes-only",
+          "name": "Good Vibes Only",
+          "emojis": [
+            "🌈",
+            "😊"
+          ],
+          "keywords": [
+            "good",
+            "vibes",
+            "only"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Good Vibes Only\" in English",
+          "artBox": [
+            0.002,
+            0.0488,
+            0.998,
+            0.9043
+          ],
+          "source": "Owner artwork (Inspire/sheet-4.png)"
+        },
+        {
+          "id": "inspire-be-proud-of-how-far-youve-come",
+          "name": "Be Proud of How Far You've Come",
+          "emojis": [
+            "🏆",
+            "📜"
+          ],
+          "keywords": [
+            "be",
+            "proud",
+            "of",
+            "how",
+            "far",
+            "youve",
+            "come"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Be Proud of How Far You've Come\" in English",
+          "artBox": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "source": "Owner artwork (Inspire/sheet-4.png)"
+        },
+        {
+          "id": "inspire-better-days-are-coming",
+          "name": "Better Days Are Coming",
+          "emojis": [
+            "☀️",
+            "🌿"
+          ],
+          "keywords": [
+            "better",
+            "days",
+            "are",
+            "coming",
+            "sun"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Better Days Are Coming\" in English",
+          "artBox": [
+            0.0371,
+            0.002,
+            0.9258,
+            0.998
+          ],
+          "source": "Owner artwork (Inspire/sheet-4.png)"
+        },
+        {
+          "id": "inspire-let-your-light-shine",
+          "name": "Let Your Light Shine",
+          "emojis": [
+            "🏮",
+            "🌻"
+          ],
+          "keywords": [
+            "let",
+            "your",
+            "light",
+            "shine",
+            "lantern"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Let Your Light Shine\" in English",
+          "artBox": [
+            0.0059,
+            0.0,
+            0.9883,
+            1.0
+          ],
+          "source": "Owner artwork (Inspire/sheet-4.png)"
+        }
+      ]
     }
   ]
 }
