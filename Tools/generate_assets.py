@@ -845,6 +845,55 @@ PACKS = [
                 label="Together Forever"),
         ],
     },
+    {
+        "id": "hearts", "title": "Hearts", "subtitle": "Cute hearts for every feeling",
+        "tint": "#E0457B", "top": "#FFE3EE", "bottom": "#FFF6FA", "ink": ["#F27BA4", "#B8285C"],
+        "tray": "Heart with ribbon", "banner_sticker": 6,
+        "stickers": [
+            png("Hearts/sheet-1.png", "👑 💗", "You're Special", "youre special crown heart", count=6, index=0,
+                label="You're Special"),
+            png("Hearts/sheet-1.png", "🌙 ✨", "Dream Big", "dream big stars heart", count=6, index=1,
+                label="Dream Big"),
+            png("Hearts/sheet-1.png", "💌 💚", "Thinking of You", "thinking of you letter heart", count=6, index=2,
+                label="Thinking of You"),
+            png("Hearts/sheet-1.png", "🎧 💛", "Stay Awesome", "stay awesome music heart", count=6, index=3,
+                label="Stay Awesome"),
+            png("Hearts/sheet-1.png", "🦋 💙", "Keep Smiling", "keep smiling butterfly heart", count=6, index=4,
+                label="Keep Smiling"),
+            png("Hearts/sheet-1.png", "🌈 💖", "Always Be Happy", "always be happy rainbow heart", count=6, index=5,
+                label="Always Be Happy"),
+            png("Hearts/sheet-2.png", "❤️ 👑", "Love You", "love you heart", count=6, index=0,
+                label="LOVE YOU"),
+            png("Hearts/sheet-2.png", "💜 🎀", "XOXO", "xoxo hugs kisses heart", count=6, index=1,
+                label="XOXO"),
+            png("Hearts/sheet-2.png", "🤗 💙", "Big Hugs", "big hugs heart", count=6, index=2,
+                label="BIG HUGS"),
+            png("Hearts/sheet-2.png", "⭐ 💛", "You Shine", "you shine star heart", count=6, index=3,
+                label="YOU SHINE"),
+            png("Hearts/sheet-2.png", "🌸 💚", "Be Happy", "be happy flowers heart", count=6, index=4,
+                label="BE HAPPY"),
+            png("Hearts/sheet-2.png", "💗 🎀", "You Are Loved", "you are loved heart", count=6, index=5,
+                label="YOU ARE LOVED"),
+            png("Hearts/sheet-3.png", "❤️ 👼", "My Heart", "my heart wings", count=9, index=0,
+                label="My Heart"),
+            png("Hearts/sheet-3.png", "💜 😉", "For You", "for you wink heart", count=9, index=1,
+                label="For You"),
+            png("Hearts/sheet-3.png", "🎧 🎵", "Music Mood", "music mood headphones heart", count=9, index=2,
+                label="Music Mood"),
+            png("Hearts/sheet-3.png", "😄 💛", "So Happy", "so happy heart", count=9, index=3,
+                label="So Happy"),
+            png("Hearts/sheet-3.png", "💕 🍾", "With Love", "with love bottle heart", count=9, index=4,
+                label="With Love"),
+            png("Hearts/sheet-3.png", "😴 🌙", "Sweet Dreams", "sweet dreams sleep heart", count=9, index=5,
+                label="Sweet Dreams"),
+            png("Hearts/sheet-3.png", "🌈 ⭐", "Stay Positive", "stay positive rainbow heart", count=9, index=6,
+                label="Stay Positive"),
+            png("Hearts/sheet-3.png", "🌸 🎀", "Lots of Love", "lots of love flowers heart", count=9, index=7,
+                label="Lots of Love"),
+            png("Hearts/sheet-3.png", "💎 💙", "Special for You", "special for you diamond heart", count=9, index=8,
+                label="Special for You"),
+        ],
+    },
 ]
 
 
@@ -1072,7 +1121,13 @@ def painted_checkerboard_alpha(rgb: np.ndarray) -> np.ndarray:
     neutral = high - low < 14
     grey = neutral & (high >= 190) & (high < 243)               # checker grey, not black ink
     border = np.concatenate([grey[0], grey[-1], grey[:, 0], grey[:, -1]])
-    if border.mean() < 0.05:
+    dark = neutral & (high < 48)
+    if border.mean() < 0.05 and np.concatenate([dark[0], dark[-1], dark[:, 0], dark[:, -1]]).mean() > 0.5:
+        # No checkerboard but a black edge: a plain black background. Black that touches
+        # the image edge is background; the stickers' white borders stop it.
+        grey = np.zeros_like(grey)
+        light = dark
+    elif border.mean() < 0.05:
         # No checkerboard: a plain white background (for example a JPEG export). White
         # that touches the image edge is background; coloured outlines stop it.
         grey = np.zeros_like(grey)

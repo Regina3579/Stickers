@@ -7635,6 +7635,482 @@
           "source": "Owner artwork (PipPoppy/sheet-5.png)"
         }
       ]
+    },
+    {
+      "id": "hearts",
+      "title": "Hearts",
+      "subtitle": "Cute hearts for every feeling",
+      "banner": "Banner-hearts",
+      "colors": {
+        "tint": "#E0457B",
+        "top": "#FFE3EE",
+        "bottom": "#FFF6FA"
+      },
+      "wideStickers": false,
+      "stickers": [
+        {
+          "id": "hearts-youre-special",
+          "name": "You're Special",
+          "emojis": [
+            "👑",
+            "💗"
+          ],
+          "keywords": [
+            "youre",
+            "special",
+            "crown",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"You're Special\" in English",
+          "artBox": [
+            0.1172,
+            0.002,
+            0.7637,
+            0.9961
+          ],
+          "source": "Owner artwork (Hearts/sheet-1.png)"
+        },
+        {
+          "id": "hearts-dream-big",
+          "name": "Dream Big",
+          "emojis": [
+            "🌙",
+            "✨"
+          ],
+          "keywords": [
+            "dream",
+            "big",
+            "stars",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Dream Big\" in English",
+          "artBox": [
+            0.1133,
+            0.002,
+            0.7715,
+            0.9961
+          ],
+          "source": "Owner artwork (Hearts/sheet-1.png)"
+        },
+        {
+          "id": "hearts-thinking-of-you",
+          "name": "Thinking of You",
+          "emojis": [
+            "💌",
+            "💚"
+          ],
+          "keywords": [
+            "thinking",
+            "of",
+            "you",
+            "letter",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Thinking of You\" in English",
+          "artBox": [
+            0.1035,
+            0.002,
+            0.793,
+            0.9961
+          ],
+          "source": "Owner artwork (Hearts/sheet-1.png)"
+        },
+        {
+          "id": "hearts-stay-awesome",
+          "name": "Stay Awesome",
+          "emojis": [
+            "🎧",
+            "💛"
+          ],
+          "keywords": [
+            "stay",
+            "awesome",
+            "music",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Stay Awesome\" in English",
+          "artBox": [
+            0.1191,
+            0.0,
+            0.7617,
+            0.998
+          ],
+          "source": "Owner artwork (Hearts/sheet-1.png)"
+        },
+        {
+          "id": "hearts-keep-smiling",
+          "name": "Keep Smiling",
+          "emojis": [
+            "🦋",
+            "💙"
+          ],
+          "keywords": [
+            "keep",
+            "smiling",
+            "butterfly",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Keep Smiling\" in English",
+          "artBox": [
+            0.1387,
+            0.0,
+            0.7227,
+            1.0
+          ],
+          "source": "Owner artwork (Hearts/sheet-1.png)"
+        },
+        {
+          "id": "hearts-always-be-happy",
+          "name": "Always Be Happy",
+          "emojis": [
+            "🌈",
+            "💖"
+          ],
+          "keywords": [
+            "always",
+            "be",
+            "happy",
+            "rainbow",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Always Be Happy\" in English",
+          "artBox": [
+            0.1074,
+            0.0,
+            0.7871,
+            1.0
+          ],
+          "source": "Owner artwork (Hearts/sheet-1.png)"
+        },
+        {
+          "id": "hearts-love-you",
+          "name": "Love You",
+          "emojis": [
+            "❤️",
+            "👑"
+          ],
+          "keywords": [
+            "love",
+            "you",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"LOVE YOU\" in English",
+          "artBox": [
+            0.0,
+            0.002,
+            1.0,
+            0.9961
+          ],
+          "source": "Owner artwork (Hearts/sheet-2.png)"
+        },
+        {
+          "id": "hearts-xoxo",
+          "name": "XOXO",
+          "emojis": [
+            "💜",
+            "🎀"
+          ],
+          "keywords": [
+            "xoxo",
+            "hugs",
+            "kisses",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"XOXO\" in English",
+          "artBox": [
+            0.0,
+            0.002,
+            1.0,
+            0.9941
+          ],
+          "source": "Owner artwork (Hearts/sheet-2.png)"
+        },
+        {
+          "id": "hearts-big-hugs",
+          "name": "Big Hugs",
+          "emojis": [
+            "🤗",
+            "💙"
+          ],
+          "keywords": [
+            "big",
+            "hugs",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BIG HUGS\" in English",
+          "artBox": [
+            0.0,
+            0.0156,
+            1.0,
+            0.9688
+          ],
+          "source": "Owner artwork (Hearts/sheet-2.png)"
+        },
+        {
+          "id": "hearts-you-shine",
+          "name": "You Shine",
+          "emojis": [
+            "⭐",
+            "💛"
+          ],
+          "keywords": [
+            "you",
+            "shine",
+            "star",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"YOU SHINE\" in English",
+          "artBox": [
+            0.0,
+            0.002,
+            1.0,
+            0.9961
+          ],
+          "source": "Owner artwork (Hearts/sheet-2.png)"
+        },
+        {
+          "id": "hearts-be-happy",
+          "name": "Be Happy",
+          "emojis": [
+            "🌸",
+            "💚"
+          ],
+          "keywords": [
+            "be",
+            "happy",
+            "flowers",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"BE HAPPY\" in English",
+          "artBox": [
+            0.0117,
+            0.0,
+            0.9746,
+            1.0
+          ],
+          "source": "Owner artwork (Hearts/sheet-2.png)"
+        },
+        {
+          "id": "hearts-you-are-loved",
+          "name": "You Are Loved",
+          "emojis": [
+            "💗",
+            "🎀"
+          ],
+          "keywords": [
+            "you",
+            "are",
+            "loved",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"YOU ARE LOVED\" in English",
+          "artBox": [
+            0.0,
+            0.0273,
+            1.0,
+            0.9453
+          ],
+          "source": "Owner artwork (Hearts/sheet-2.png)"
+        },
+        {
+          "id": "hearts-my-heart",
+          "name": "My Heart",
+          "emojis": [
+            "❤️",
+            "👼"
+          ],
+          "keywords": [
+            "my",
+            "heart",
+            "wings"
+          ],
+          "accessibilityText": "Sticker with text that reads \"My Heart\" in English",
+          "artBox": [
+            0.002,
+            0.0,
+            0.998,
+            0.998
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-for-you",
+          "name": "For You",
+          "emojis": [
+            "💜",
+            "😉"
+          ],
+          "keywords": [
+            "for",
+            "you",
+            "wink",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"For You\" in English",
+          "artBox": [
+            0.0488,
+            0.002,
+            0.9062,
+            0.998
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-music-mood",
+          "name": "Music Mood",
+          "emojis": [
+            "🎧",
+            "🎵"
+          ],
+          "keywords": [
+            "music",
+            "mood",
+            "headphones",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Music Mood\" in English",
+          "artBox": [
+            0.002,
+            0.0,
+            0.9961,
+            1.0
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-so-happy",
+          "name": "So Happy",
+          "emojis": [
+            "😄",
+            "💛"
+          ],
+          "keywords": [
+            "so",
+            "happy",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"So Happy\" in English",
+          "artBox": [
+            0.0039,
+            0.0,
+            0.9961,
+            1.0
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-with-love",
+          "name": "With Love",
+          "emojis": [
+            "💕",
+            "🍾"
+          ],
+          "keywords": [
+            "with",
+            "love",
+            "bottle",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"With Love\" in English",
+          "artBox": [
+            0.0137,
+            0.0,
+            0.9746,
+            1.0
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-sweet-dreams",
+          "name": "Sweet Dreams",
+          "emojis": [
+            "😴",
+            "🌙"
+          ],
+          "keywords": [
+            "sweet",
+            "dreams",
+            "sleep",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Sweet Dreams\" in English",
+          "artBox": [
+            0.002,
+            0.043,
+            0.998,
+            0.916
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-stay-positive",
+          "name": "Stay Positive",
+          "emojis": [
+            "🌈",
+            "⭐"
+          ],
+          "keywords": [
+            "stay",
+            "positive",
+            "rainbow",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Stay Positive\" in English",
+          "artBox": [
+            0.0273,
+            0.002,
+            0.9473,
+            0.998
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-lots-of-love",
+          "name": "Lots of Love",
+          "emojis": [
+            "🌸",
+            "🎀"
+          ],
+          "keywords": [
+            "lots",
+            "of",
+            "love",
+            "flowers",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Lots of Love\" in English",
+          "artBox": [
+            0.002,
+            0.0117,
+            0.998,
+            0.9824
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        },
+        {
+          "id": "hearts-special-for-you",
+          "name": "Special for You",
+          "emojis": [
+            "💎",
+            "💙"
+          ],
+          "keywords": [
+            "special",
+            "for",
+            "you",
+            "diamond",
+            "heart"
+          ],
+          "accessibilityText": "Sticker with text that reads \"Special for You\" in English",
+          "artBox": [
+            0.0215,
+            0.002,
+            0.9629,
+            0.998
+          ],
+          "source": "Owner artwork (Hearts/sheet-3.png)"
+        }
+      ]
     }
   ]
 }
