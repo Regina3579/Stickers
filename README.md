@@ -8,22 +8,22 @@ and other chat apps. The project also includes an iMessage sticker app and an
 | Category | Stickers |
 |---|---|
 | Love | 20 (from your two Love sticker sheets) |
-| Friendship | 21 (your own artwork) |
-| Sisters | 21 (your own artwork) |
-| Family | 21 (your own artwork) |
-| Emotions | 26 (your own artwork) |
-| Self-Love & Self-Care | 28 (your own artwork) |
-| Birthday | 21 (your own artwork) |
-| Encouragement | 24 (your own artwork) |
-| Celebrations | 25 (your own artwork) |
-| Wishes | 12 (your own artwork) |
-| Couples | 29 (your own artwork) |
 | Lovers | 25 (your own artwork) |
 | Poppy | 19 (your own artwork) |
 | Pip | 19 (your own artwork) |
 | Pip & Poppy | 27 (your own artwork) |
+| Couples | 29 (your own artwork) |
+| Family | 21 (your own artwork) |
+| Birthday | 21 (your own artwork) |
+| Sisters | 21 (your own artwork) |
+| Friendship | 21 (your own artwork) |
+| Celebrations | 25 (your own artwork) |
+| Wishes | 12 (your own artwork) |
+| Emotions | 26 (your own artwork) |
 | Hearts | 21 (your own artwork) |
+| Encouragement | 24 (your own artwork) |
 | Inspire | 24 (your own artwork) |
+| Self-Love & Self-Care | 28 (your own artwork) |
 
 ---
 
